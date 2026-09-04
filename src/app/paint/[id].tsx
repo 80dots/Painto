@@ -4,6 +4,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { Alert, KeyboardAvoidingView, Platform, Pressable, ScrollView, View } from 'react-native';
 
 import { PhotoPicker } from '@/components/photo-picker';
+import { ActionSheet, type ActionSheetItem } from '@/components/ui/action-sheet';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
@@ -13,7 +14,6 @@ import { Stepper } from '@/components/ui/stepper';
 import { Text } from '@/components/ui/text';
 import { PAINT_FINISHES, PAINT_TYPES, type PaintFinish, type PaintType } from '@/db/schema';
 import { BarcodeScannerModal } from '@/features/paints/components/barcode-scanner-modal';
-import { ColorSwatch } from '@/features/paints/components/color-swatch';
 import {
   createPaint,
   deletePaint,
@@ -105,6 +105,7 @@ export default function PaintDetailScreen() {
   const [scannerOpen, setScannerOpen] = useState(false);
   /** 자주 안 쓰는 항목은 접어 둔다 */
   const [showMore, setShowMore] = useState(false);
+  const [brandOpen, setBrandOpen] = useState(false);
   const initialized = useRef(isNew);
   /** 저장 시 지워야 할 예전 사진 경로 */
   const savedPhotoUri = useRef<string | null>(null);
@@ -137,15 +138,45 @@ export default function PaintDetailScreen() {
     });
   }, [paint]);
 
-  const brandOptions = useMemo<ChipOption<number | null>[]>(
+  const brands = useMemo(
+    () =>
+      (brandRows ?? []).map((brand) => ({
+        id: brand.id,
+        name: brand.name,
+        line: brand.line,
+      })),
+    [brandRows],
+  );
+
+  const brandLabel = useMemo(() => {
+    const brand = brands.find((item) => item.id === form.brandId);
+    if (!brand) return null;
+    return brand.line ? `${brand.name} ${brand.line}` : brand.name;
+  }, [brands, form.brandId]);
+
+  const brandItems = useMemo<ActionSheetItem[]>(
     () => [
-      { value: null, label: '없음' },
-      ...(brandRows ?? []).map((brand) => ({
-        value: brand.id,
-        label: brand.line ? `${brand.name} ${brand.line}` : brand.name,
+      {
+        key: 'none',
+        label: '브랜드 없음',
+        selected: form.brandId === null,
+        onPress: () => {
+          update('brandId', null);
+          setBrandOpen(false);
+        },
+      },
+      ...brands.map((brand) => ({
+        key: String(brand.id),
+        label: brand.name,
+        description: brand.line ?? undefined,
+        selected: brand.id === form.brandId,
+        onPress: () => {
+          update('brandId', brand.id);
+          setBrandOpen(false);
+        },
       })),
     ],
-    [brandRows],
+    [brands, form.brandId],
   );
 
   const update = <K extends keyof PaintForm>(key: K, value: PaintForm[K]) =>
@@ -258,45 +289,54 @@ export default function PaintDetailScreen() {
         contentContainerClassName="gap-5 p-4 pb-10"
         keyboardShouldPersistTaps="handled"
       >
-        <Field label="도료 사진">
-          <PhotoPicker uri={form.photoUri} onChange={(uri) => update('photoUri', uri)} />
-        </Field>
-
-        <Field label="이름" required>
-          <Input
-            value={form.name}
-            onChangeText={(value) => update('name', value)}
-            placeholder="예: 무광 블랙"
+        {/* 사진 · 브랜드 · 이름 */}
+        <View className="flex-row gap-3">
+          <PhotoPicker
+            uri={form.photoUri}
+            onChange={(uri) => update('photoUri', uri)}
+            size={104}
+            title="도료 사진"
           />
-        </Field>
 
-        <Field label="품번">
-          <Input
-            value={form.code}
-            onChangeText={(value) => update('code', value)}
-            placeholder="예: C-2, XF-1"
-            autoCapitalize="characters"
-          />
+          <View className="flex-1 justify-center gap-2">
+            <Pressable
+              onPress={() => setBrandOpen(true)}
+              accessibilityRole="button"
+              accessibilityLabel="브랜드 선택"
+              className="h-10 flex-row items-center gap-2 rounded-lg border border-input bg-card px-3 active:bg-muted"
+            >
+              <Text
+                className={
+                  brandLabel
+                    ? 'flex-1 text-sm text-foreground'
+                    : 'flex-1 text-sm text-muted-foreground'
+                }
+                numberOfLines={1}
+              >
+                {brandLabel ?? '브랜드 선택'}
+              </Text>
+              <ChevronDown size={16} color={colors.mutedForeground} />
+            </Pressable>
+
+            <Input
+              value={form.name}
+              onChangeText={(value) => update('name', value)}
+              placeholder="도료 이름"
+              className="h-14 text-2xl font-semibold"
+            />
+          </View>
+        </View>
+
+        <Field label="종류">
+          <ChipGroup options={TYPE_OPTIONS} value={form.type} onChange={(v) => update('type', v)} />
         </Field>
 
         <Field label="색상" hint="#RRGGBB 형식으로 입력하면 목록에 색이 표시됩니다.">
-          <View className="flex-row items-center gap-3">
-            <ColorSwatch color={normalizeHex(form.colorHex)} fallbackText={form.code} />
-            <Input
-              value={form.colorHex}
-              onChangeText={(value) => update('colorHex', value)}
-              placeholder="#1A1A1A"
-              autoCapitalize="characters"
-              className="flex-1"
-            />
-          </View>
-        </Field>
-
-        <Field label="브랜드">
-          <ChipGroup
-            options={brandOptions}
-            value={form.brandId}
-            onChange={(v) => update('brandId', v)}
+          <Input
+            value={form.colorHex}
+            onChangeText={(value) => update('colorHex', value)}
+            placeholder="#1A1A1A"
+            autoCapitalize="characters"
           />
         </Field>
 
@@ -342,6 +382,15 @@ export default function PaintDetailScreen() {
 
         {showMore ? (
           <>
+            <Field label="품번">
+              <Input
+                value={form.code}
+                onChangeText={(value) => update('code', value)}
+                placeholder="예: C-2, XF-1"
+                autoCapitalize="characters"
+              />
+            </Field>
+
             <Field
               label="적정 보유 수량"
               hint="보유 수량이 이 값 아래로 내려가면 부족으로 표시합니다."
@@ -351,14 +400,6 @@ export default function PaintDetailScreen() {
                 onChange={(v) => update('minQuantity', v)}
                 step={1}
                 suffix="병"
-              />
-            </Field>
-
-            <Field label="종류">
-              <ChipGroup
-                options={TYPE_OPTIONS}
-                value={form.type}
-                onChange={(v) => update('type', v)}
               />
             </Field>
 
@@ -454,6 +495,13 @@ export default function PaintDetailScreen() {
           </>
         ) : null}
       </ScrollView>
+
+      <ActionSheet
+        visible={brandOpen}
+        title="브랜드"
+        items={brandItems}
+        onClose={() => setBrandOpen(false)}
+      />
 
       <BarcodeScannerModal
         visible={scannerOpen}
