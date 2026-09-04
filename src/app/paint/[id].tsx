@@ -358,14 +358,31 @@ export default function PaintDetailScreen() {
           />
         </Field>
 
-        <Field label="보유 수량">
-          <Stepper
-            value={form.quantity}
-            onChange={(v) => update('quantity', v)}
-            step={1}
-            suffix="병"
-          />
-        </Field>
+        <View className="gap-2">
+          <View className="flex-row items-stretch gap-3">
+            <Field label="보유 수량" className="flex-1">
+              <Stepper
+                value={form.quantity}
+                onChange={(v) => update('quantity', v)}
+                step={1}
+                suffix="병"
+              />
+            </Field>
+
+            <View className="w-px self-stretch bg-border" />
+
+            <Field label="적정 보유 수량" className="flex-1">
+              <Stepper
+                value={form.minQuantity}
+                onChange={(v) => update('minQuantity', v)}
+                step={1}
+                suffix="병"
+              />
+            </Field>
+          </View>
+
+          <Text variant="small">보유 수량이 적정 보유 수량보다 적으면 부족으로 표시합니다.</Text>
+        </View>
 
         <Button
           variant="ghost"
@@ -388,18 +405,6 @@ export default function PaintDetailScreen() {
                 onChangeText={(value) => update('code', value)}
                 placeholder="예: C-2, XF-1"
                 autoCapitalize="characters"
-              />
-            </Field>
-
-            <Field
-              label="적정 보유 수량"
-              hint="보유 수량이 이 값 아래로 내려가면 부족으로 표시합니다."
-            >
-              <Stepper
-                value={form.minQuantity}
-                onChange={(v) => update('minQuantity', v)}
-                step={1}
-                suffix="병"
               />
             </Field>
 

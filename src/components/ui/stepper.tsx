@@ -30,7 +30,7 @@ export function Stepper({
   const clamp = (next: number) => Math.min(max, Math.max(min, Math.round(next * 10) / 10));
 
   return (
-    <View className={cn('flex-row items-center gap-3', className)}>
+    <View className={cn('flex-row items-center gap-2', className)}>
       <Pressable
         accessibilityRole="button"
         accessibilityLabel="수량 감소"
@@ -44,7 +44,7 @@ export function Stepper({
         <Minus size={18} color={colors.foreground} />
       </Pressable>
 
-      <View className="min-w-16 flex-row items-baseline justify-center gap-1">
+      <View className="min-w-12 flex-row items-baseline justify-center gap-1">
         <Text className="text-lg font-semibold text-foreground">{formatQuantity(value)}</Text>
         {suffix ? <Text variant="small">{suffix}</Text> : null}
       </View>
