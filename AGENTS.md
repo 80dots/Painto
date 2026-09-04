@@ -1,0 +1,38 @@
+# Painto 작업 규칙
+
+프라모델 도료·소모품 재고 관리 앱. Android 우선, 같은 코드로 iOS 배포.
+Expo SDK 57 / React Native 0.86 / expo-router / NativeWind 4 / expo-sqlite + Drizzle.
+
+Expo API 는 버전마다 달라진다. 코드를 쓰기 전에
+https://docs.expo.dev/versions/v57.0.0/ 의 해당 버전 문서를 확인할 것.
+
+## 코드 규칙
+
+- 스타일은 `className`(NativeWind) 으로. `StyleSheet.create` 는 동적 색상 등 불가피할 때만.
+- 색상은 `bg-background`, `text-muted-foreground` 같은 토큰만 사용한다.
+  토큰 정의는 `src/global.css`(CSS 변수) + `tailwind.config.js`,
+  JS 에서 필요한 같은 값은 `src/constants/theme.ts` 에 있다. 두 곳을 함께 고친다.
+- 데이터 접근은 화면에서 직접 하지 않고 `src/features/<도메인>/queries.ts` 를 거친다.
+  목록 조회는 `useLiveQuery` 를 써서 DB 변경 시 자동 갱신되게 한다.
+- 사용자에게 보이는 문자열은 한국어. enum → 한글 라벨 매핑은 `src/lib/labels.ts`.
+- 새 화면은 `src/app/` 아래 파일로 만들고, 스택 화면이면 `src/app/_layout.tsx` 에 등록한다.
+- 추가/편집 화면은 `[id].tsx` 하나로 처리한다 (`id === 'new'` 면 추가 모드).
+
+## 스키마 변경
+
+`src/db/schema.ts` 수정 → `npm run db:generate` → 생성된 `drizzle/*.sql` 커밋.
+마이그레이션은 앱 시작 시 `src/db/provider.tsx` 가 적용한다.
+
+## 크로스 플랫폼
+
+- Android 전용 패키지를 넣지 않는다. Expo SDK 지원 여부를 먼저 확인한다.
+- 안전영역은 `Screen` 컴포넌트로만 처리한다.
+- 변경 후 두 플랫폼 모두 번들되는지 확인:
+  `npx expo export --platform android` / `--platform ios`
+
+## 확인 명령
+
+```bash
+npm run typecheck
+npm run lint
+```
