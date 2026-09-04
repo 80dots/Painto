@@ -1,3 +1,4 @@
+import { useRouter } from 'expo-router';
 import { Check, LayoutGrid, Pencil, Plus } from 'lucide-react-native';
 import { useState } from 'react';
 import { Modal, Pressable, ScrollView, View } from 'react-native';
@@ -8,13 +9,14 @@ import { Card } from '@/components/ui/card';
 import { EmptyState } from '@/components/ui/empty-state';
 import { Screen } from '@/components/ui/screen';
 import { Text } from '@/components/ui/text';
-import { CardShell } from '@/features/dashboard/components/card-shell';
+import { DashboardGrid } from '@/features/dashboard/components/dashboard-grid';
 import { useDashboardLayout, type ResolvedCard } from '@/features/dashboard/use-dashboard-layout';
 import { useTheme } from '@/hooks/use-theme';
 
 export default function DashboardScreen() {
+  const router = useRouter();
   const { colors } = useTheme();
-  const { visible, hidden, addCard, removeCard, moveCard } = useDashboardLayout();
+  const { visible, hidden, addCard, removeCard, moveCardTo, toggleCardSize } = useDashboardLayout();
 
   const [editing, setEditing] = useState(false);
   const [pickerOpen, setPickerOpen] = useState(false);
@@ -24,7 +26,7 @@ export default function DashboardScreen() {
       <ScrollView contentContainerClassName="gap-4 pb-10">
         <ScreenHeader
           title="Painto"
-          subtitle={editing ? '카드를 옮기거나 지울 수 있습니다' : '프라모델 작업실 현황'}
+          subtitle={editing ? '길게 눌러 옮기고, 버튼으로 크기를 바꿉니다' : '프라모델 작업실 현황'}
           right={
             <Pressable
               onPress={() => setEditing((value) => !value)}
@@ -50,18 +52,17 @@ export default function DashboardScreen() {
               onAction={() => setPickerOpen(true)}
             />
           ) : (
-            visible.map((item, index) => (
-              <CardShell
-                key={item.card.id}
-                definition={item.card}
-                editing={editing}
-                canMoveUp={index > 0}
-                canMoveDown={index < visible.length - 1}
-                onMoveUp={() => moveCard(item.card.id, -1)}
-                onMoveDown={() => moveCard(item.card.id, 1)}
-                onRemove={() => removeCard(item.card.id)}
-              />
-            ))
+            <DashboardGrid
+              items={visible}
+              editing={editing}
+              onLift={() => setEditing(true)}
+              onMove={moveCardTo}
+              onOpen={(item) => {
+                if (item.card.href) router.push(item.card.href);
+              }}
+              onToggleSize={toggleCardSize}
+              onRemove={removeCard}
+            />
           )}
 
           {editing || visible.length === 0 ? (

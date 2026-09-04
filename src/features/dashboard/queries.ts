@@ -2,15 +2,16 @@ import { asc } from 'drizzle-orm';
 import { useLiveQuery } from 'drizzle-orm/expo-sqlite';
 
 import { db } from '@/db/client';
-import { dashboardCards } from '@/db/schema';
+import { dashboardCards, type DashboardCardSize } from '@/db/schema';
 
 export type DashboardCardState = {
   cardId: string;
   isVisible: boolean;
   sortOrder: number;
+  size: DashboardCardSize;
 };
 
-/** 카드 표시 여부·순서에 대한 사용자 설정. 행이 없는 카드는 registry 기본값을 따른다. */
+/** 카드 표시 여부·순서·크기에 대한 사용자 설정. 행이 없는 카드는 registry 기본값을 따른다. */
 export function useDashboardSettings() {
   return useLiveQuery(db.select().from(dashboardCards).orderBy(asc(dashboardCards.sortOrder)));
 }
@@ -25,7 +26,12 @@ export async function saveDashboardLayout(states: DashboardCardState[]) {
       .values({ ...state, updatedAt: now })
       .onConflictDoUpdate({
         target: dashboardCards.cardId,
-        set: { isVisible: state.isVisible, sortOrder: state.sortOrder, updatedAt: now },
+        set: {
+          isVisible: state.isVisible,
+          sortOrder: state.sortOrder,
+          size: state.size,
+          updatedAt: now,
+        },
       });
   }
 }

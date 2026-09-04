@@ -1,0 +1,1 @@
+ALTER TABLE `dashboard_cards` ADD `size` text DEFAULT 'large' NOT NULL;

@@ -22,6 +22,13 @@
       "when": 1788527800183,
       "tag": "0002_kits_masking_supplies",
       "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1788528992986,
+      "tag": "0003_dashboard_card_size",
+      "breakpoints": true
     }
   ]
 }

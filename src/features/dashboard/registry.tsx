@@ -10,6 +10,8 @@ import {
 } from 'lucide-react-native';
 import { type ComponentType } from 'react';
 
+import type { DashboardCardSize } from '@/db/schema';
+
 import { PaintsCard } from '@/features/dashboard/cards/paints-card';
 import {
   LowStockCard,
@@ -18,6 +20,9 @@ import {
   ShoppingCard,
   SuppliesCard,
 } from '@/features/dashboard/cards/secondary-cards';
+
+/** 카드 본문은 크기를 받아 작은 카드에서는 요약만 그린다. */
+export type DashboardCardContentProps = { size: DashboardCardSize };
 
 export type DashboardCardDefinition = {
   /** DB(dashboard_cards.card_id) 에 저장되는 식별자. 한 번 정하면 바꾸지 않는다. */
@@ -31,7 +36,8 @@ export type DashboardCardDefinition = {
   /** 사용자가 설정을 바꾸기 전의 기본 노출 여부 */
   defaultVisible: boolean;
   defaultOrder: number;
-  Content: ComponentType;
+  defaultSize: DashboardCardSize;
+  Content: ComponentType<DashboardCardContentProps>;
 };
 
 /**
@@ -47,6 +53,7 @@ export const DASHBOARD_CARDS: DashboardCardDefinition[] = [
     href: '/paints',
     defaultVisible: true,
     defaultOrder: 0,
+    defaultSize: 'large',
     Content: PaintsCard,
   },
   {
@@ -57,6 +64,7 @@ export const DASHBOARD_CARDS: DashboardCardDefinition[] = [
     href: '/projects',
     defaultVisible: true,
     defaultOrder: 1,
+    defaultSize: 'large',
     Content: ProjectsCard,
   },
   {
@@ -67,6 +75,7 @@ export const DASHBOARD_CARDS: DashboardCardDefinition[] = [
     href: '/masking',
     defaultVisible: true,
     defaultOrder: 2,
+    defaultSize: 'small',
     Content: MaskingCard,
   },
   {
@@ -77,6 +86,7 @@ export const DASHBOARD_CARDS: DashboardCardDefinition[] = [
     href: '/supplies',
     defaultVisible: true,
     defaultOrder: 3,
+    defaultSize: 'small',
     Content: SuppliesCard,
   },
   {
@@ -86,6 +96,7 @@ export const DASHBOARD_CARDS: DashboardCardDefinition[] = [
     icon: AlertTriangle,
     defaultVisible: false,
     defaultOrder: 4,
+    defaultSize: 'large',
     Content: LowStockCard,
   },
   {
@@ -96,6 +107,7 @@ export const DASHBOARD_CARDS: DashboardCardDefinition[] = [
     href: '/shopping',
     defaultVisible: false,
     defaultOrder: 5,
+    defaultSize: 'small',
     Content: ShoppingCard,
   },
 ];

@@ -1,5 +1,6 @@
 import { useCallback, useMemo } from 'react';
 
+import type { DashboardCardSize } from '@/db/schema';
 import {
   resetDashboardLayout,
   saveDashboardLayout,
@@ -12,6 +13,7 @@ export type ResolvedCard = {
   card: DashboardCardDefinition;
   isVisible: boolean;
   sortOrder: number;
+  size: DashboardCardSize;
 };
 
 /**
@@ -30,6 +32,7 @@ export function useDashboardLayout() {
         card,
         isVisible: saved?.isVisible ?? card.defaultVisible,
         sortOrder: saved?.sortOrder ?? card.defaultOrder,
+        size: saved?.size ?? card.defaultSize,
       };
     });
   }, [data]);
@@ -51,11 +54,13 @@ export function useDashboardLayout() {
         cardId: item.card.id,
         isVisible: true,
         sortOrder: index,
+        size: item.size,
       })),
       ...nextHidden.map((item, index) => ({
         cardId: item.card.id,
         isVisible: false,
         sortOrder: nextVisible.length + index,
+        size: item.size,
       })),
     ];
     return saveDashboardLayout(states);
@@ -85,18 +90,48 @@ export function useDashboardLayout() {
     [hidden, persist, visible],
   );
 
-  const moveCard = useCallback(
-    (cardId: string, direction: -1 | 1) => {
-      const index = visible.findIndex((item) => item.card.id === cardId);
-      const nextIndex = index + direction;
-      if (index < 0 || nextIndex < 0 || nextIndex >= visible.length) return Promise.resolve();
+  /** 드래그해서 놓은 자리로 카드를 옮긴다. */
+  const moveCardTo = useCallback(
+    (cardId: string, toIndex: number) => {
+      const fromIndex = visible.findIndex((item) => item.card.id === cardId);
+      if (fromIndex < 0) return Promise.resolve();
+
+      const bounded = Math.max(0, Math.min(visible.length - 1, toIndex));
+      if (bounded === fromIndex) return Promise.resolve();
 
       const next = [...visible];
-      [next[index], next[nextIndex]] = [next[nextIndex], next[index]];
+      const [moved] = next.splice(fromIndex, 1);
+      next.splice(bounded, 0, moved);
       return persist(next, hidden);
     },
     [hidden, persist, visible],
   );
 
-  return { visible, hidden, addCard, removeCard, moveCard, reset: resetDashboardLayout };
+  const setCardSize = useCallback(
+    (cardId: string, size: DashboardCardSize) => {
+      const next = visible.map((item) => (item.card.id === cardId ? { ...item, size } : item));
+      return persist(next, hidden);
+    },
+    [hidden, persist, visible],
+  );
+
+  const toggleCardSize = useCallback(
+    (cardId: string) => {
+      const target = visible.find((item) => item.card.id === cardId);
+      if (!target) return Promise.resolve();
+      return setCardSize(cardId, target.size === 'large' ? 'small' : 'large');
+    },
+    [setCardSize, visible],
+  );
+
+  return {
+    visible,
+    hidden,
+    addCard,
+    removeCard,
+    moveCardTo,
+    setCardSize,
+    toggleCardSize,
+    reset: resetDashboardLayout,
+  };
 }

@@ -23,7 +23,13 @@ https://docs.expo.dev/versions/v57.0.0/ 의 해당 버전 문서를 확인할 �
 첫 화면은 카드 목록이다. 새 기능을 만들면
 `src/features/dashboard/registry.tsx` 의 `DASHBOARD_CARDS` 에 항목을 추가한다.
 카드 본문 컴포넌트는 `Card` 컨테이너 없이 내용만 그린다 (껍데기는 `CardShell` 담당).
-표시 여부·순서는 `dashboard_cards` 테이블에 저장되므로 `id` 는 한 번 정하면 바꾸지 않는다.
+표시 여부·순서·크기는 `dashboard_cards` 테이블에 저장되므로 `id` 는 한 번 정하면 바꾸지 않는다.
+카드 본문은 `size`('large' | 'small')를 받아 작은 카드에서는 요약만 그린다.
+
+**드래그 중에는 절대 React 상태를 바꾸지 않는다.** GestureDetector 안쪽이 다시 렌더되면
+카드가 네비게이션 컨텍스트를 잃고 "Couldn't find a navigation context" 로 깨진다.
+들린 카드의 위치와 드롭 위치 표시는 Reanimated 공유값으로만 처리하고,
+순서 변경·편집 모드 전환은 손가락을 뗀 뒤(onEnd)에 한다.
 
 ## 도메인 구분
 

@@ -243,16 +243,21 @@ export const shoppingItems = sqliteTable('shopping_items', {
   ...timestamps,
 });
 
+/** 대시보드 카드 크기 — large 는 한 줄 전체, small 은 한 줄에 두 개 */
+export const DASHBOARD_CARD_SIZES = ['large', 'small'] as const;
+export type DashboardCardSize = (typeof DASHBOARD_CARD_SIZES)[number];
+
 /**
- * 대시보드에 어떤 카드를 어떤 순서로 보여줄지에 대한 사용자 설정.
+ * 대시보드에 어떤 카드를 어떤 순서·크기로 보여줄지에 대한 사용자 설정.
  * 카드의 내용 자체는 코드(src/features/dashboard/registry.tsx)에 있고,
- * 이 테이블은 표시 여부와 순서만 저장한다. 행이 없는 카드는 기본값을 따른다.
+ * 이 테이블은 표시 여부·순서·크기만 저장한다. 행이 없는 카드는 기본값을 따른다.
  */
 export const dashboardCards = sqliteTable('dashboard_cards', {
   /** registry 에 정의된 카드 식별자 */
   cardId: text('card_id').primaryKey(),
   isVisible: integer('is_visible', { mode: 'boolean' }).notNull().default(true),
   sortOrder: integer('sort_order').notNull().default(0),
+  size: text('size').$type<DashboardCardSize>().notNull().default('large'),
   updatedAt: integer('updated_at', { mode: 'timestamp_ms' })
     .notNull()
     .default(sql`(unixepoch() * 1000)`),

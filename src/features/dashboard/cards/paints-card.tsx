@@ -5,12 +5,13 @@ import { Pressable, View } from 'react-native';
 import { Button } from '@/components/ui/button';
 import { Text } from '@/components/ui/text';
 import { ColorSwatch } from '@/features/paints/components/color-swatch';
+import type { DashboardCardContentProps } from '@/features/dashboard/registry';
 import { adjustPaintQuantity, usePaintList, usePaintSummary } from '@/features/paints/queries';
 import { useTheme } from '@/hooks/use-theme';
 import { formatQuantity } from '@/lib/utils';
 
 /** 대시보드 첫 카드 — 보유 도료 요약과 최근 도료 재고 조절 */
-export function PaintsCard() {
+export function PaintsCard({ size }: DashboardCardContentProps) {
   const router = useRouter();
   const { colors } = useTheme();
 
@@ -19,6 +20,26 @@ export function PaintsCard() {
 
   const summary = summaryRows?.[0];
   const paints = recent ?? [];
+
+  if (size === 'small') {
+    return (
+      <View className="gap-3">
+        <View className="flex-row gap-2">
+          <Stat label="보유" value={`${summary?.total ?? 0}종`} />
+          <Stat
+            label="부족"
+            value={`${summary?.lowStock ?? 0}종`}
+            highlight={!!summary?.lowStock}
+          />
+        </View>
+        <Button size="sm" onPress={() => router.push('/paint/scan')}>
+          <ScanBarcode size={16} color={colors.primaryForeground} />
+          <Text className="text-sm font-semibold text-primary-foreground">스캔</Text>
+        </Button>
+      </View>
+    );
+  }
+
   const preview = paints.slice(0, 4);
 
   return (
