@@ -1,5 +1,5 @@
 import { Tabs } from 'expo-router/js-tabs';
-import { Boxes, Home, Palette, Settings, Wrench } from 'lucide-react-native';
+import { Home, Palette, Settings } from 'lucide-react-native';
 
 import { useTheme } from '@/hooks/use-theme';
 
@@ -34,22 +34,6 @@ export default function TabsLayout() {
           title: '도료',
           headerShown: false,
           tabBarIcon: ({ color, size }) => <Palette color={color} size={size} />,
-        }}
-      />
-      <Tabs.Screen
-        name="supplies"
-        options={{
-          title: '소모품',
-          headerShown: false,
-          tabBarIcon: ({ color, size }) => <Wrench color={color} size={size} />,
-        }}
-      />
-      <Tabs.Screen
-        name="projects"
-        options={{
-          title: '킷',
-          headerShown: false,
-          tabBarIcon: ({ color, size }) => <Boxes color={color} size={size} />,
         }}
       />
       <Tabs.Screen

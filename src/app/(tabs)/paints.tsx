@@ -1,5 +1,5 @@
 import { useRouter } from 'expo-router';
-import { Palette, Plus } from 'lucide-react-native';
+import { Palette, Plus, ScanBarcode } from 'lucide-react-native';
 import { useState } from 'react';
 import { FlatList, Pressable, View } from 'react-native';
 
@@ -54,13 +54,22 @@ export default function PaintsScreen() {
         title="도료"
         subtitle={`${paints.length}종`}
         right={
-          <Pressable
-            onPress={() => router.push('/paint/new')}
-            accessibilityLabel="도료 추가"
-            className="h-10 w-10 items-center justify-center rounded-lg bg-primary active:opacity-90"
-          >
-            <Plus size={20} color={colors.primaryForeground} />
-          </Pressable>
+          <View className="flex-row items-center gap-2">
+            <Pressable
+              onPress={() => router.push('/paint/scan')}
+              accessibilityLabel="바코드 스캔"
+              className="h-10 w-10 items-center justify-center rounded-lg border border-border active:bg-muted"
+            >
+              <ScanBarcode size={20} color={colors.foreground} />
+            </Pressable>
+            <Pressable
+              onPress={() => router.push('/paint/new')}
+              accessibilityLabel="도료 추가"
+              className="h-10 w-10 items-center justify-center rounded-lg bg-primary active:opacity-90"
+            >
+              <Plus size={20} color={colors.primaryForeground} />
+            </Pressable>
+          </View>
         }
       />
 

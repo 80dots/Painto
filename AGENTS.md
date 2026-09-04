@@ -18,6 +18,13 @@ https://docs.expo.dev/versions/v57.0.0/ 의 해당 버전 문서를 확인할 �
 - 새 화면은 `src/app/` 아래 파일로 만들고, 스택 화면이면 `src/app/_layout.tsx` 에 등록한다.
 - 추가/편집 화면은 `[id].tsx` 하나로 처리한다 (`id === 'new'` 면 추가 모드).
 
+## 대시보드 카드
+
+첫 화면은 카드 목록이다. 새 기능을 만들면
+`src/features/dashboard/registry.tsx` 의 `DASHBOARD_CARDS` 에 항목을 추가한다.
+카드 본문 컴포넌트는 `Card` 컨테이너 없이 내용만 그린다 (껍데기는 `CardShell` 담당).
+표시 여부·순서는 `dashboard_cards` 테이블에 저장되므로 `id` 는 한 번 정하면 바꾸지 않는다.
+
 ## 스키마 변경
 
 `src/db/schema.ts` 수정 → `npm run db:generate` → 생성된 `drizzle/*.sql` 커밋.

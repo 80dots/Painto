@@ -25,18 +25,25 @@ npm start          # QR 코드 → Expo Go 앱으로 열기
 npm run android    # 연결된 안드로이드 기기/에뮬레이터로 실행
 ```
 
-쓰는 네이티브 모듈(expo-sqlite, react-native-svg)이 모두 Expo Go 에 포함되어 있어
-개발 단계에서는 별도 네이티브 빌드 없이 Expo Go 만으로 확인할 수 있습니다.
+쓰는 네이티브 모듈(expo-sqlite, expo-camera, expo-image-picker, react-native-svg)이
+모두 Expo Go 에 포함되어 있어 개발 단계에서는 별도 네이티브 빌드 없이
+Expo Go 만으로 바코드 스캔까지 확인할 수 있습니다. (에뮬레이터에서는 카메라가
+제한적이므로 바코드 스캔은 실기기에서 확인하세요.)
 
 ## 폴더 구조
 
 ```
 src/
   app/                    expo-router 라우트 (파일 = 화면)
-    (tabs)/               홈 · 도료 · 소모품 · 킷 · 설정 탭
-    paint/[id].tsx        도료 추가/편집 (id 가 'new' 면 추가)
+    (tabs)/index.tsx      대시보드 (첫 화면)
+    (tabs)/paints.tsx     도료 목록
+    (tabs)/settings.tsx   설정
+    paint/[id].tsx        도료 등록/편집 (id 가 'new' 면 등록)
+    paint/scan.tsx        바코드 스캔
     supply/[id].tsx       소모품 추가/편집
     project/[id].tsx      킷 편집 + 사용 도료 팔레트
+    supplies.tsx          소모품 목록 (대시보드 카드에서 진입)
+    projects.tsx          킷 목록 (대시보드 카드에서 진입)
     shopping.tsx          구매 목록
   components/ui/          Button, Card, Input, Badge 등 공용 UI
   db/
@@ -44,15 +51,40 @@ src/
     client.ts             SQLite 핸들 + drizzle 인스턴스
     provider.tsx          앱 시작 시 마이그레이션·기본 데이터 적용
     seed.ts               기본 브랜드 목록, 샘플 데이터
+  features/dashboard/     카드 registry + 카드별 컴포넌트 + 배치 저장
   features/<도메인>/       queries.ts(데이터 접근) + components/
-  lib/                    labels(한글 라벨), utils(cn, 색상 변환 등)
+  lib/                    labels(한글 라벨), utils, photos(사진 저장)
 drizzle/                  생성된 마이그레이션 SQL (커밋 대상)
 ```
+
+## 대시보드 카드
+
+첫 화면은 카드로 구성되고, 사용자가 카드를 추가·삭제·정렬할 수 있습니다.
+
+- 카드 정의는 `src/features/dashboard/registry.tsx` 의 `DASHBOARD_CARDS` 배열 하나뿐입니다.
+  **새 기능을 만들면 이 배열에 항목을 추가**하면 대시보드에 바로 나타납니다.
+- 표시 여부와 순서는 `dashboard_cards` 테이블에 저장됩니다. 설정이 없는 카드는
+  registry 의 `defaultVisible` / `defaultOrder` 를 따릅니다.
+- 현재 기본으로 켜져 있는 카드는 **도료 관리** 하나이고,
+  재고 부족 · 구매 목록 · 소모품 · 킷 카드는 편집 모드의 "카드 추가"로 켤 수 있습니다.
+
+## 도료 등록과 바코드
+
+- **도료 추가**: 대시보드 카드 또는 도료 탭의 `+` → 이름을 직접 입력해 등록
+- **바코드 스캔**(`/paint/scan`)
+  - 이미 등록된 바코드 → 재고가 자동으로 +1 되고 이력에 "바코드 스캔"으로 남습니다
+  - 처음 보는 바코드 → 그 바코드가 채워진 등록 화면으로 이동합니다
+- **도료 등록 화면**에서 바코드, 사진, 이름, 색상, 광택(무광/반광/유광 등), 용량,
+  희석비(도료:신너)를 입력합니다. 사진은 앱 문서 폴더로 복사해 보관합니다
+  (`src/lib/photos.ts`).
+- 재고는 대시보드 카드·도료 목록의 `−` / `+` 버튼으로 바로 조절하며,
+  모든 증감은 `stock_logs` 에 남습니다.
 
 ## 데이터 모델 요약
 
 - `brands` — 도료 제조사·라인업 (Mr.COLOR, 타미야 에나멜 …)
-- `paints` — 보유 도료. 품번/색상/종류/마감/보유 병 수/개봉 병 잔량/보관 위치
+- `paints` — 보유 도료. 품번/색상/종류/광택/용량/희석비/바코드/사진/보유 병 수/잔량/보관 위치
+- `dashboard_cards` — 대시보드 카드의 표시 여부와 순서
 - `supplies` — 사포·접착제·마스킹 등 소모품. 수량 + 단위 + 부족 기준
 - `projects` / `project_paints` — 제작 중인 킷과 킷별 사용 도료(조색비 포함)
 - `stock_logs` — 재고 증감 이력 (구매/사용/조정/폐기)
@@ -97,7 +129,6 @@ eas build --platform ios --profile production
 
 ## 다음에 붙일 만한 기능
 
-- 바코드 스캔으로 도료 등록 (`expo-camera`)
-- 도료 사진 첨부 (`expo-image-picker`)
 - 재고 부족 알림 (`expo-notifications`)
+- 바코드로 온라인 도료 정보 자동 채우기
 - 데이터 백업/복원 (JSON 내보내기 → 클라우드 동기화)

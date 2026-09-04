@@ -71,9 +71,13 @@ export const paints = sqliteTable(
     remainingPct: integer('remaining_pct').notNull().default(100),
     /** 이 수량 이하로 떨어지면 부족으로 표시 */
     minQuantity: real('min_quantity').notNull().default(1),
+    /** 희석비 "도료:신너" (1:2, 1:1.5 …) */
+    thinnerRatio: text('thinner_ratio'),
     /** 보관 위치 (A박스 2번칸 …) */
     location: text('location'),
+    /** 병에 붙은 바코드. 스캔으로 같은 도료를 찾아 재고를 올린다. */
     barcode: text('barcode'),
+    /** 앱 문서 폴더에 복사해 둔 도료 사진 경로 */
     photoUri: text('photo_uri'),
     notes: text('notes'),
     isFavorite: integer('is_favorite', { mode: 'boolean' }).notNull().default(false),
@@ -85,6 +89,7 @@ export const paints = sqliteTable(
     index('paints_brand_idx').on(t.brandId),
     index('paints_name_idx').on(t.name),
     index('paints_code_idx').on(t.code),
+    index('paints_barcode_idx').on(t.barcode),
   ],
 );
 
@@ -220,6 +225,21 @@ export const shoppingItems = sqliteTable('shopping_items', {
   ...timestamps,
 });
 
+/**
+ * 대시보드에 어떤 카드를 어떤 순서로 보여줄지에 대한 사용자 설정.
+ * 카드의 내용 자체는 코드(src/features/dashboard/registry.tsx)에 있고,
+ * 이 테이블은 표시 여부와 순서만 저장한다. 행이 없는 카드는 기본값을 따른다.
+ */
+export const dashboardCards = sqliteTable('dashboard_cards', {
+  /** registry 에 정의된 카드 식별자 */
+  cardId: text('card_id').primaryKey(),
+  isVisible: integer('is_visible', { mode: 'boolean' }).notNull().default(true),
+  sortOrder: integer('sort_order').notNull().default(0),
+  updatedAt: integer('updated_at', { mode: 'timestamp_ms' })
+    .notNull()
+    .default(sql`(unixepoch() * 1000)`),
+});
+
 export const brandsRelations = relations(brands, ({ many }) => ({
   paints: many(paints),
 }));
@@ -249,3 +269,4 @@ export type NewProject = typeof projects.$inferInsert;
 export type ProjectPaint = typeof projectPaints.$inferSelect;
 export type StockLog = typeof stockLogs.$inferSelect;
 export type ShoppingItem = typeof shoppingItems.$inferSelect;
+export type DashboardCardSetting = typeof dashboardCards.$inferSelect;

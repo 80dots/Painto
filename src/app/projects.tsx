@@ -1,9 +1,8 @@
-import { useRouter } from 'expo-router';
+import { Stack, useRouter } from 'expo-router';
 import { Boxes, Plus } from 'lucide-react-native';
 import { useState } from 'react';
 import { FlatList, Pressable, View } from 'react-native';
 
-import { ScreenHeader } from '@/components/screen-header';
 import { Badge } from '@/components/ui/badge';
 import { Card } from '@/components/ui/card';
 import { ChipGroup, type ChipOption } from '@/components/ui/chip-group';
@@ -30,19 +29,20 @@ export default function ProjectsScreen() {
   const projects = data ?? [];
 
   return (
-    <Screen>
-      <ScreenHeader
-        title="킷"
-        subtitle={`${projects.length}개`}
-        right={
-          <Pressable
-            onPress={() => router.push('/project/new')}
-            accessibilityLabel="킷 추가"
-            className="h-10 w-10 items-center justify-center rounded-lg bg-primary active:opacity-90"
-          >
-            <Plus size={20} color={colors.primaryForeground} />
-          </Pressable>
-        }
+    <Screen edges={[]}>
+      <Stack.Screen
+        options={{
+          title: `킷 ${projects.length}개`,
+          headerRight: () => (
+            <Pressable
+              onPress={() => router.push('/project/new')}
+              accessibilityLabel="킷 추가"
+              hitSlop={8}
+            >
+              <Plus size={22} color={colors.primary} />
+            </Pressable>
+          ),
+        }}
       />
 
       <View className="px-4 pb-3">

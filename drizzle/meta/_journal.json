@@ -8,6 +8,13 @@
       "when": 1788512269964,
       "tag": "0000_init",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1788526085490,
+      "tag": "0001_add_paint_barcode_and_dashboard",
+      "breakpoints": true
     }
   ]
 }

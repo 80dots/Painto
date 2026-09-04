@@ -1,8 +1,9 @@
 import { Stack, useLocalSearchParams, useRouter } from 'expo-router';
-import { Star, Trash2 } from 'lucide-react-native';
+import { ScanBarcode, Star, Trash2 } from 'lucide-react-native';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { Alert, KeyboardAvoidingView, Platform, Pressable, ScrollView, View } from 'react-native';
 
+import { PhotoPicker } from '@/components/photo-picker';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
@@ -11,10 +12,12 @@ import { Field, Input } from '@/components/ui/input';
 import { Stepper } from '@/components/ui/stepper';
 import { Text } from '@/components/ui/text';
 import { PAINT_FINISHES, PAINT_TYPES, type PaintFinish, type PaintType } from '@/db/schema';
+import { BarcodeScannerModal } from '@/features/paints/components/barcode-scanner-modal';
 import { ColorSwatch } from '@/features/paints/components/color-swatch';
 import {
   createPaint,
   deletePaint,
+  findPaintByBarcode,
   updatePaint,
   useBrandOptions,
   usePaint,
@@ -22,16 +25,23 @@ import {
 } from '@/features/paints/queries';
 import { useTheme } from '@/hooks/use-theme';
 import { PAINT_FINISH_LABELS, PAINT_TYPE_LABELS, STOCK_REASON_LABELS } from '@/lib/labels';
+import { deletePhoto } from '@/lib/photos';
 import { formatDate, formatQuantity, normalizeHex, toNumber } from '@/lib/utils';
 
 type PaintForm = {
   name: string;
   code: string;
+  barcode: string;
+  photoUri: string | null;
   brandId: number | null;
   type: PaintType;
   finish: PaintFinish;
   colorHex: string;
   volumeMl: string;
+  /** 희석비 도료 쪽 값 */
+  thinnerPaint: string;
+  /** 희석비 신너 쪽 값 */
+  thinnerSolvent: string;
   quantity: number;
   remainingPct: number;
   minQuantity: string;
@@ -43,11 +53,15 @@ type PaintForm = {
 const EMPTY_FORM: PaintForm = {
   name: '',
   code: '',
+  barcode: '',
+  photoUri: null,
   brandId: null,
   type: 'lacquer',
   finish: 'none',
   colorHex: '',
   volumeMl: '',
+  thinnerPaint: '',
+  thinnerSolvent: '',
   quantity: 1,
   remainingPct: 100,
   minQuantity: '1',
@@ -71,8 +85,14 @@ const REMAINING_OPTIONS: ChipOption<number>[] = [100, 75, 50, 25, 10].map((value
   label: `${value}%`,
 }));
 
+/** "1:2" → { paint: '1', solvent: '2' } */
+function splitRatio(ratio?: string | null) {
+  const [paint = '', solvent = ''] = (ratio ?? '').split(':');
+  return { paint: paint.trim(), solvent: solvent.trim() };
+}
+
 export default function PaintDetailScreen() {
-  const { id } = useLocalSearchParams<{ id: string }>();
+  const { id, barcode: barcodeParam } = useLocalSearchParams<{ id: string; barcode?: string }>();
   const router = useRouter();
   const { colors } = useTheme();
 
@@ -83,23 +103,36 @@ export default function PaintDetailScreen() {
   const { data: brandRows } = useBrandOptions();
   const { data: logs } = usePaintStockLogs(paintId);
 
-  const [form, setForm] = useState<PaintForm>(EMPTY_FORM);
+  const [form, setForm] = useState<PaintForm>({
+    ...EMPTY_FORM,
+    barcode: barcodeParam ?? '',
+  });
   const [saving, setSaving] = useState(false);
+  const [scannerOpen, setScannerOpen] = useState(false);
   const initialized = useRef(isNew);
+  /** 저장 시 지워야 할 예전 사진 경로 */
+  const savedPhotoUri = useRef<string | null>(null);
 
   const paint = paintRows?.[0];
 
   useEffect(() => {
     if (initialized.current || !paint) return;
     initialized.current = true;
+    savedPhotoUri.current = paint.photoUri;
+
+    const ratio = splitRatio(paint.thinnerRatio);
     setForm({
       name: paint.name,
       code: paint.code ?? '',
+      barcode: paint.barcode ?? '',
+      photoUri: paint.photoUri,
       brandId: paint.brandId,
       type: paint.type,
       finish: paint.finish,
       colorHex: paint.colorHex ?? '',
       volumeMl: paint.volumeMl ? String(paint.volumeMl) : '',
+      thinnerPaint: ratio.paint,
+      thinnerSolvent: ratio.solvent,
       quantity: paint.quantity,
       remainingPct: paint.remainingPct,
       minQuantity: String(paint.minQuantity),
@@ -123,6 +156,23 @@ export default function PaintDetailScreen() {
   const update = <K extends keyof PaintForm>(key: K, value: PaintForm[K]) =>
     setForm((prev) => ({ ...prev, [key]: value }));
 
+  const handleScanned = async (scanned: string) => {
+    update('barcode', scanned);
+
+    // 이미 등록된 바코드를 새 도료에 붙이려 하면 알려 준다.
+    const existing = await findPaintByBarcode(scanned);
+    if (existing && existing.id !== paintId) {
+      Alert.alert(
+        '이미 등록된 바코드입니다',
+        `'${existing.name}' 에 등록된 바코드입니다. 그 도료를 열까요?`,
+        [
+          { text: '아니요', style: 'cancel' },
+          { text: '열기', onPress: () => router.replace(`/paint/${existing.id}`) },
+        ],
+      );
+    }
+  };
+
   const handleSave = async () => {
     if (!form.name.trim()) {
       Alert.alert('이름을 입력해 주세요');
@@ -130,14 +180,22 @@ export default function PaintDetailScreen() {
     }
     setSaving(true);
     try {
+      const thinnerRatio =
+        form.thinnerPaint.trim() && form.thinnerSolvent.trim()
+          ? `${form.thinnerPaint.trim()}:${form.thinnerSolvent.trim()}`
+          : null;
+
       const values = {
         name: form.name.trim(),
         code: form.code.trim() || null,
+        barcode: form.barcode.trim() || null,
+        photoUri: form.photoUri,
         brandId: form.brandId,
         type: form.type,
         finish: form.finish,
         colorHex: normalizeHex(form.colorHex),
         volumeMl: form.volumeMl ? toNumber(form.volumeMl) : null,
+        thinnerRatio,
         quantity: form.quantity,
         remainingPct: form.remainingPct,
         minQuantity: toNumber(form.minQuantity, 1),
@@ -150,6 +208,11 @@ export default function PaintDetailScreen() {
         await createPaint(values);
       } else if (paintId) {
         await updatePaint(paintId, values);
+      }
+
+      // 사진을 바꿨다면 예전 파일을 정리한다.
+      if (savedPhotoUri.current && savedPhotoUri.current !== form.photoUri) {
+        deletePhoto(savedPhotoUri.current);
       }
       router.back();
     } finally {
@@ -179,7 +242,7 @@ export default function PaintDetailScreen() {
     >
       <Stack.Screen
         options={{
-          title: isNew ? '도료 추가' : '도료 편집',
+          title: isNew ? '도료 등록' : '도료 편집',
           headerRight: () => (
             <Pressable
               onPress={() => update('isFavorite', !form.isFavorite)}
@@ -218,6 +281,32 @@ export default function PaintDetailScreen() {
           </View>
         </View>
 
+        <Field
+          label="바코드"
+          hint="도료 병의 바코드를 등록해 두면 스캔만으로 재고를 올릴 수 있습니다."
+        >
+          <View className="flex-row gap-2">
+            <Input
+              value={form.barcode}
+              onChangeText={(value) => update('barcode', value)}
+              placeholder="8801234567890"
+              keyboardType="number-pad"
+              className="flex-1"
+            />
+            <Pressable
+              onPress={() => setScannerOpen(true)}
+              accessibilityLabel="바코드 스캔"
+              className="h-11 w-11 items-center justify-center rounded-lg border border-border bg-card active:bg-muted"
+            >
+              <ScanBarcode size={18} color={colors.foreground} />
+            </Pressable>
+          </View>
+        </Field>
+
+        <Field label="도료 사진">
+          <PhotoPicker uri={form.photoUri} onChange={(uri) => update('photoUri', uri)} />
+        </Field>
+
         <Field label="색상" hint="#RRGGBB 형식으로 입력하면 목록에 색이 표시됩니다.">
           <Input
             value={form.colorHex}
@@ -239,13 +328,44 @@ export default function PaintDetailScreen() {
           <ChipGroup options={TYPE_OPTIONS} value={form.type} onChange={(v) => update('type', v)} />
         </Field>
 
-        <Field label="마감">
+        <Field label="광택">
           <ChipGroup
             options={FINISH_OPTIONS}
             value={form.finish}
             onChange={(v) => update('finish', v)}
           />
         </Field>
+
+        <View className="flex-row gap-3">
+          <Field label="용량 (ml)" className="w-28">
+            <Input
+              value={form.volumeMl}
+              onChangeText={(value) => update('volumeMl', value)}
+              keyboardType="decimal-pad"
+              placeholder="10"
+            />
+          </Field>
+
+          <Field label="희석비 (도료 : 신너)" className="flex-1">
+            <View className="flex-row items-center gap-2">
+              <Input
+                value={form.thinnerPaint}
+                onChangeText={(value) => update('thinnerPaint', value)}
+                keyboardType="decimal-pad"
+                placeholder="1"
+                className="flex-1 text-center"
+              />
+              <Text variant="label">:</Text>
+              <Input
+                value={form.thinnerSolvent}
+                onChangeText={(value) => update('thinnerSolvent', value)}
+                keyboardType="decimal-pad"
+                placeholder="2"
+                className="flex-1 text-center"
+              />
+            </View>
+          </Field>
+        </View>
 
         <View className="flex-row gap-3">
           <Field label="보유 수량" className="flex-1">
@@ -274,23 +394,13 @@ export default function PaintDetailScreen() {
           />
         </Field>
 
-        <View className="flex-row gap-3">
-          <Field label="용량 (ml)" className="w-28">
-            <Input
-              value={form.volumeMl}
-              onChangeText={(value) => update('volumeMl', value)}
-              keyboardType="decimal-pad"
-              placeholder="10"
-            />
-          </Field>
-          <Field label="보관 위치" className="flex-1">
-            <Input
-              value={form.location}
-              onChangeText={(value) => update('location', value)}
-              placeholder="A박스 1칸"
-            />
-          </Field>
-        </View>
+        <Field label="보관 위치">
+          <Input
+            value={form.location}
+            onChangeText={(value) => update('location', value)}
+            placeholder="A박스 1칸"
+          />
+        </Field>
 
         <Field label="메모">
           <Input
@@ -332,6 +442,12 @@ export default function PaintDetailScreen() {
           </>
         ) : null}
       </ScrollView>
+
+      <BarcodeScannerModal
+        visible={scannerOpen}
+        onClose={() => setScannerOpen(false)}
+        onScanned={handleScanned}
+      />
     </KeyboardAvoidingView>
   );
 }

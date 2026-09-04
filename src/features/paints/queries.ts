@@ -11,6 +11,7 @@ import {
   type PaintType,
   type StockReason,
 } from '@/db/schema';
+import { deletePhoto } from '@/lib/photos';
 
 export type PaintSort = 'recent' | 'name' | 'brand' | 'quantity';
 
@@ -34,6 +35,9 @@ const paintListColumns = {
   remainingPct: paints.remainingPct,
   minQuantity: paints.minQuantity,
   location: paints.location,
+  thinnerRatio: paints.thinnerRatio,
+  barcode: paints.barcode,
+  photoUri: paints.photoUri,
   isFavorite: paints.isFavorite,
   brandId: paints.brandId,
   brandName: brands.name,
@@ -52,6 +56,9 @@ export type PaintListItem = {
   remainingPct: number;
   minQuantity: number;
   location: string | null;
+  thinnerRatio: string | null;
+  barcode: string | null;
+  photoUri: string | null;
   isFavorite: boolean;
   brandId: number | null;
   brandName: string | null;
@@ -107,7 +114,7 @@ export function usePaintList(filters: PaintFilters = {}) {
 export function usePaint(id: number | null) {
   return useLiveQuery(
     db
-      .select({ ...paintListColumns, barcode: paints.barcode, notes: paints.notes })
+      .select({ ...paintListColumns, notes: paints.notes })
       .from(paints)
       .leftJoin(brands, eq(paints.brandId, brands.id))
       .where(eq(paints.id, id ?? -1))
@@ -151,7 +158,43 @@ export async function updatePaint(id: number, values: Partial<NewPaint>) {
 }
 
 export async function deletePaint(id: number) {
+  const [row] = await db
+    .select({ photoUri: paints.photoUri })
+    .from(paints)
+    .where(eq(paints.id, id))
+    .limit(1);
+
   await db.delete(paints).where(eq(paints.id, id));
+  // stock_logs 는 itemType + itemId 로만 연결돼 있어 외래키 cascade 가 걸리지 않는다.
+  await db.delete(stockLogs).where(and(eq(stockLogs.itemType, 'paint'), eq(stockLogs.itemId, id)));
+  deletePhoto(row?.photoUri);
+}
+
+/** 바코드로 이미 등록된 도료를 찾는다. */
+export async function findPaintByBarcode(barcode: string) {
+  const trimmed = barcode.trim();
+  if (!trimmed) return null;
+
+  const [row] = await db
+    .select(paintListColumns)
+    .from(paints)
+    .leftJoin(brands, eq(paints.brandId, brands.id))
+    .where(eq(paints.barcode, trimmed))
+    .limit(1);
+
+  return row ?? null;
+}
+
+/**
+ * 스캔한 바코드가 이미 등록된 도료면 재고를 1 늘리고 그 도료를 돌려준다.
+ * 등록된 적이 없으면 null — 호출한 쪽에서 등록 화면으로 보낸다.
+ */
+export async function incrementPaintByBarcode(barcode: string) {
+  const found = await findPaintByBarcode(barcode);
+  if (!found) return null;
+
+  await adjustPaintQuantity(found.id, 1, 'purchase', '바코드 스캔');
+  return { ...found, quantity: found.quantity + 1 };
 }
 
 export async function toggleFavorite(id: number, next: boolean) {
