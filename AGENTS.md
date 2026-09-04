@@ -25,10 +25,22 @@ https://docs.expo.dev/versions/v57.0.0/ 의 해당 버전 문서를 확인할 �
 카드 본문 컴포넌트는 `Card` 컨테이너 없이 내용만 그린다 (껍데기는 `CardShell` 담당).
 표시 여부·순서는 `dashboard_cards` 테이블에 저장되므로 `id` 는 한 번 정하면 바꾸지 않는다.
 
+## 도메인 구분
+
+- 마스킹 테이프와 모델링 용품은 같은 `supplies` 테이블을 쓰고 `category` 로 나눈다.
+  마스킹은 `category = 'masking'` + `widthMm`, 화면은 `/masking`.
+  나머지 용품 목록(`/supplies`)은 항상 `excludeCategory: MASKING_CATEGORY` 로 조회한다.
+- `projects` 는 "제작 중인 킷"이 아니라 **보유 프라모델 전체**다.
+  기본 상태는 `unbuilt`(미조립)이고, 조립~마감 상태는 `IN_PROGRESS_STATUSES` 로 판별한다.
+
 ## 스키마 변경
 
 `src/db/schema.ts` 수정 → `npm run db:generate` → 생성된 `drizzle/*.sql` 커밋.
 마이그레이션은 앱 시작 시 `src/db/provider.tsx` 가 적용한다.
+
+**생성된 SQL 은 반드시 눈으로 확인한다.** 기존 테이블을 다시 만드는 마이그레이션에서
+drizzle 이 `INSERT ... SELECT` 에 새 칼럼까지 넣어 버리는 경우가 있는데,
+그대로 두면 기기에서 "no such column" 으로 실패한다. 새 칼럼 자리는 기본값으로 바꿔 준다.
 
 ## 크로스 플랫폼
 

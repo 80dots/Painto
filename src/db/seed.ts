@@ -139,14 +139,47 @@ export async function insertSampleData() {
       location: '공구함',
     },
     {
-      name: '마스킹 테이프',
+      name: '마스킹 테이프 6mm',
       category: 'masking',
       brand: '타미야',
-      spec: '6mm',
+      spec: '길이 18m',
+      widthMm: 6,
       quantity: 0,
       unit: '롤',
       minQuantity: 1,
       location: '도색 부스',
+    },
+    {
+      name: '마스킹 테이프 10mm',
+      category: 'masking',
+      brand: '타미야',
+      spec: '길이 18m',
+      widthMm: 10,
+      quantity: 2,
+      unit: '롤',
+      minQuantity: 1,
+      location: '도색 부스',
+    },
+    {
+      name: '마스킹 테이프 18mm',
+      category: 'masking',
+      brand: '3M',
+      spec: '길이 18m',
+      widthMm: 18,
+      quantity: 1,
+      unit: '롤',
+      minQuantity: 1,
+      location: '도색 부스',
+    },
+    {
+      name: '에폭시 퍼티',
+      category: 'putty',
+      brand: '타미야',
+      spec: '고속경화',
+      quantity: 1,
+      unit: '개',
+      minQuantity: 1,
+      location: '공구함',
     },
     {
       name: '락카 신너',
@@ -167,10 +200,36 @@ export async function insertSampleData() {
       maker: '반다이',
       scale: '1/144',
       status: 'painting',
+      quantity: 1,
+      price: 42000,
+      location: '작업대',
+      purchasedAt: new Date(),
       startedAt: new Date(),
       notes: '전체 도색 + 데칼',
     })
     .returning({ id: projects.id });
+
+  await db.insert(projects).values([
+    {
+      name: 'MG 건담 Ver.Ka',
+      maker: '반다이',
+      scale: 'MG 1/100',
+      status: 'unbuilt',
+      quantity: 1,
+      price: 68000,
+      location: '창고 3번 선반',
+      purchasedAt: new Date(),
+    },
+    {
+      name: '타미야 1/35 티거 I',
+      maker: '타미야',
+      scale: '1/35',
+      status: 'unbuilt',
+      quantity: 2,
+      price: 35000,
+      location: '창고 2번 선반',
+    },
+  ]);
 
   if (project && insertedPaints.length > 0) {
     await db.insert(projectPaints).values([

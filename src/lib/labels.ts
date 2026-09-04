@@ -41,13 +41,17 @@ export const SUPPLY_CATEGORY_LABELS: Record<SupplyCategory, string> = {
 };
 
 export const PROJECT_STATUS_LABELS: Record<ProjectStatus, string> = {
-  planned: '계획',
+  unbuilt: '미조립',
   building: '조립 중',
   painting: '도색 중',
   finishing: '마감 중',
   done: '완성',
   shelved: '보류',
+  planned: '구입 예정',
 };
+
+/** 마스킹 테이프에서 자주 쓰는 폭(mm) */
+export const MASKING_WIDTH_PRESETS = [1, 2, 3, 5, 6, 10, 12, 15, 18, 20, 40] as const;
 
 export const STOCK_REASON_LABELS: Record<StockReason, string> = {
   purchase: '구매',

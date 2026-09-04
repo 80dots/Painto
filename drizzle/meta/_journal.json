@@ -15,6 +15,13 @@
       "when": 1788526085490,
       "tag": "0001_add_paint_barcode_and_dashboard",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1788527800183,
+      "tag": "0002_kits_masking_supplies",
+      "breakpoints": true
     }
   ]
 }

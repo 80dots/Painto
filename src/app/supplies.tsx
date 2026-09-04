@@ -10,14 +10,15 @@ import { Screen } from '@/components/ui/screen';
 import { Text } from '@/components/ui/text';
 import { SUPPLY_CATEGORIES, type SupplyCategory } from '@/db/schema';
 import { SupplyRow } from '@/features/supplies/components/supply-row';
-import { adjustSupplyQuantity, useSupplyList } from '@/features/supplies/queries';
+import { adjustSupplyQuantity, MASKING_CATEGORY, useSupplyList } from '@/features/supplies/queries';
 import { useTheme } from '@/hooks/use-theme';
 import { SUPPLY_CATEGORY_LABELS } from '@/lib/labels';
 import { cn } from '@/lib/utils';
 
+// 마스킹 테이프는 전용 화면에서 폭별로 관리하므로 여기서는 뺀다.
 const CATEGORY_OPTIONS: ChipOption<SupplyCategory | null>[] = [
   { value: null, label: '전체' },
-  ...SUPPLY_CATEGORIES.map((category) => ({
+  ...SUPPLY_CATEGORIES.filter((category) => category !== MASKING_CATEGORY).map((category) => ({
     value: category,
     label: SUPPLY_CATEGORY_LABELS[category],
   })),
@@ -31,18 +32,23 @@ export default function SuppliesScreen() {
   const [category, setCategory] = useState<SupplyCategory | null>(null);
   const [onlyLowStock, setOnlyLowStock] = useState(false);
 
-  const { data } = useSupplyList({ search, category, onlyLowStock });
+  const { data } = useSupplyList({
+    search,
+    category,
+    onlyLowStock,
+    excludeCategory: MASKING_CATEGORY,
+  });
   const supplies = data ?? [];
 
   return (
     <Screen edges={[]}>
       <Stack.Screen
         options={{
-          title: `소모품 ${supplies.length}종`,
+          title: `모델링 용품 ${supplies.length}종`,
           headerRight: () => (
             <Pressable
               onPress={() => router.push('/supply/new')}
-              accessibilityLabel="소모품 추가"
+              accessibilityLabel="모델링 용품 추가"
               hitSlop={8}
             >
               <Plus size={22} color={colors.primary} />
@@ -99,11 +105,11 @@ export default function SuppliesScreen() {
             icon={Wrench}
             title={
               search || category || onlyLowStock
-                ? '조건에 맞는 소모품이 없습니다'
-                : '등록된 소모품이 없습니다'
+                ? '조건에 맞는 용품이 없습니다'
+                : '등록된 모델링 용품이 없습니다'
             }
-            description="사포, 접착제, 마스킹 테이프 같은 소모품을 등록해 두면 떨어지기 전에 알 수 있습니다."
-            actionLabel="소모품 추가"
+            description="사포, 접착제, 퍼티, 공구처럼 계속 쓰는 용품을 등록해 두면 떨어지기 전에 알 수 있습니다."
+            actionLabel="용품 추가"
             onAction={() => router.push('/supply/new')}
           />
         }

@@ -1,4 +1,4 @@
-import { and, asc, desc, eq, like, lte, or, sql, type SQL } from 'drizzle-orm';
+import { and, asc, desc, eq, like, lte, ne, or, sql, type SQL } from 'drizzle-orm';
 import { useLiveQuery } from 'drizzle-orm/expo-sqlite';
 
 import { db } from '@/db/client';
@@ -10,13 +10,26 @@ import {
   type SupplyCategory,
 } from '@/db/schema';
 
+/** 마스킹 테이프는 폭 단위로 관리해야 해서 별도 화면으로 분리돼 있다. */
+export const MASKING_CATEGORY: SupplyCategory = 'masking';
+
 export type SupplyFilters = {
   search?: string;
   category?: SupplyCategory | null;
   onlyLowStock?: boolean;
+  /** 이 분류만 본다 (마스킹 테이프 화면) */
+  onlyCategory?: SupplyCategory | null;
+  /** 이 분류는 뺀다 (모델링 용품 화면에서 마스킹 제외) */
+  excludeCategory?: SupplyCategory | null;
 };
 
-function buildSupplyWhere({ search, category, onlyLowStock }: SupplyFilters) {
+function buildSupplyWhere({
+  search,
+  category,
+  onlyLowStock,
+  onlyCategory,
+  excludeCategory,
+}: SupplyFilters) {
   const conditions: (SQL | undefined)[] = [eq(supplies.isArchived, false)];
 
   const keyword = search?.trim();
@@ -27,13 +40,15 @@ function buildSupplyWhere({ search, category, onlyLowStock }: SupplyFilters) {
     );
   }
   if (category) conditions.push(eq(supplies.category, category));
+  if (onlyCategory) conditions.push(eq(supplies.category, onlyCategory));
+  if (excludeCategory) conditions.push(ne(supplies.category, excludeCategory));
   if (onlyLowStock) conditions.push(lte(supplies.quantity, supplies.minQuantity));
 
   return and(...conditions);
 }
 
 export function useSupplyList(filters: SupplyFilters = {}) {
-  const { search, category, onlyLowStock } = filters;
+  const { search, category, onlyLowStock, onlyCategory, excludeCategory } = filters;
 
   return useLiveQuery(
     db
@@ -41,7 +56,19 @@ export function useSupplyList(filters: SupplyFilters = {}) {
       .from(supplies)
       .where(buildSupplyWhere(filters))
       .orderBy(asc(supplies.category), asc(supplies.name)),
-    [search, category, onlyLowStock],
+    [search, category, onlyLowStock, onlyCategory, excludeCategory],
+  );
+}
+
+/** 마스킹 테이프 목록 — 폭이 좁은 것부터 */
+export function useMaskingTapes(search?: string) {
+  return useLiveQuery(
+    db
+      .select()
+      .from(supplies)
+      .where(buildSupplyWhere({ search, onlyCategory: MASKING_CATEGORY }))
+      .orderBy(asc(supplies.widthMm), asc(supplies.name)),
+    [search],
   );
 }
 
@@ -56,15 +83,28 @@ export function useSupply(id: number | null) {
   );
 }
 
-export function useSupplySummary() {
+/**
+ * 소모품 재고 요약.
+ * scope: 'all' 전체 / 'masking' 마스킹 테이프만 / 'others' 마스킹 제외
+ */
+export function useSupplySummary(scope: 'all' | 'masking' | 'others' = 'all') {
+  const scopeCondition =
+    scope === 'masking'
+      ? eq(supplies.category, MASKING_CATEGORY)
+      : scope === 'others'
+        ? ne(supplies.category, MASKING_CATEGORY)
+        : undefined;
+
   return useLiveQuery(
     db
       .select({
         total: sql<number>`count(*)`,
         lowStock: sql<number>`sum(case when ${supplies.quantity} <= ${supplies.minQuantity} then 1 else 0 end)`,
+        units: sql<number>`coalesce(sum(${supplies.quantity}), 0)`,
       })
       .from(supplies)
-      .where(eq(supplies.isArchived, false)),
+      .where(and(eq(supplies.isArchived, false), scopeCondition)),
+    [scope],
   );
 }
 

@@ -9,9 +9,15 @@ import { Field, Input } from '@/components/ui/input';
 import { Stepper } from '@/components/ui/stepper';
 import { Text } from '@/components/ui/text';
 import { SUPPLY_CATEGORIES, type SupplyCategory } from '@/db/schema';
-import { createSupply, deleteSupply, updateSupply, useSupply } from '@/features/supplies/queries';
+import {
+  createSupply,
+  deleteSupply,
+  MASKING_CATEGORY,
+  updateSupply,
+  useSupply,
+} from '@/features/supplies/queries';
 import { useTheme } from '@/hooks/use-theme';
-import { SUPPLY_CATEGORY_LABELS, SUPPLY_UNITS } from '@/lib/labels';
+import { MASKING_WIDTH_PRESETS, SUPPLY_CATEGORY_LABELS, SUPPLY_UNITS } from '@/lib/labels';
 import { toNumber } from '@/lib/utils';
 
 type SupplyForm = {
@@ -19,6 +25,8 @@ type SupplyForm = {
   category: SupplyCategory;
   brand: string;
   spec: string;
+  /** 마스킹 테이프 폭(mm) */
+  widthMm: string;
   quantity: number;
   unit: string;
   minQuantity: string;
@@ -31,6 +39,7 @@ const EMPTY_FORM: SupplyForm = {
   category: 'etc',
   brand: '',
   spec: '',
+  widthMm: '',
   quantity: 1,
   unit: '개',
   minQuantity: '1',
@@ -48,8 +57,16 @@ const UNIT_OPTIONS: ChipOption<string>[] = SUPPLY_UNITS.map((unit) => ({
   label: unit,
 }));
 
+const WIDTH_OPTIONS: ChipOption<string>[] = MASKING_WIDTH_PRESETS.map((width) => ({
+  value: String(width),
+  label: `${width}mm`,
+}));
+
 export default function SupplyDetailScreen() {
-  const { id } = useLocalSearchParams<{ id: string }>();
+  const { id, category: categoryParam } = useLocalSearchParams<{
+    id: string;
+    category?: SupplyCategory;
+  }>();
   const router = useRouter();
   const { colors } = useTheme();
 
@@ -59,7 +76,13 @@ export default function SupplyDetailScreen() {
   const { data } = useSupply(supplyId);
   const supply = data?.[0];
 
-  const [form, setForm] = useState<SupplyForm>(EMPTY_FORM);
+  const [form, setForm] = useState<SupplyForm>(() =>
+    categoryParam === MASKING_CATEGORY
+      ? { ...EMPTY_FORM, category: MASKING_CATEGORY, unit: '롤', name: '마스킹 테이프' }
+      : categoryParam
+        ? { ...EMPTY_FORM, category: categoryParam }
+        : EMPTY_FORM,
+  );
   const [saving, setSaving] = useState(false);
   const initialized = useRef(isNew);
 
@@ -71,6 +94,7 @@ export default function SupplyDetailScreen() {
       category: supply.category,
       brand: supply.brand ?? '',
       spec: supply.spec ?? '',
+      widthMm: supply.widthMm ? String(supply.widthMm) : '',
       quantity: supply.quantity,
       unit: supply.unit,
       minQuantity: String(supply.minQuantity),
@@ -94,6 +118,7 @@ export default function SupplyDetailScreen() {
         category: form.category,
         brand: form.brand.trim() || null,
         spec: form.spec.trim() || null,
+        widthMm: form.widthMm ? toNumber(form.widthMm) : null,
         quantity: form.quantity,
         unit: form.unit,
         minQuantity: toNumber(form.minQuantity, 1),
@@ -155,6 +180,24 @@ export default function SupplyDetailScreen() {
           />
         </Field>
 
+        {form.category === MASKING_CATEGORY ? (
+          <Field label="폭 (mm)" hint="폭별로 남은 롤 수를 관리합니다.">
+            <View className="gap-2">
+              <ChipGroup
+                options={WIDTH_OPTIONS}
+                value={form.widthMm}
+                onChange={(v) => update('widthMm', v)}
+              />
+              <Input
+                value={form.widthMm}
+                onChangeText={(value) => update('widthMm', value)}
+                keyboardType="decimal-pad"
+                placeholder="직접 입력 (예: 8)"
+              />
+            </View>
+          </Field>
+        ) : null}
+
         <View className="flex-row gap-3">
           <Field label="브랜드" className="flex-1">
             <Input
@@ -167,7 +210,7 @@ export default function SupplyDetailScreen() {
             <Input
               value={form.spec}
               onChangeText={(value) => update('spec', value)}
-              placeholder="6mm / #400"
+              placeholder={form.category === MASKING_CATEGORY ? '길이 18m' : '#400'}
             />
           </Field>
         </View>

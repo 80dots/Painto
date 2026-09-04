@@ -1,4 +1,4 @@
-import { asc, desc, eq, sql } from 'drizzle-orm';
+import { and, asc, desc, eq, like, or, sql, type SQL } from 'drizzle-orm';
 import { useLiveQuery } from 'drizzle-orm/expo-sqlite';
 
 import { db } from '@/db/client';
@@ -11,9 +11,34 @@ import {
   type ProjectStatus,
 } from '@/db/schema';
 
-const ACTIVE_STATUSES: ProjectStatus[] = ['planned', 'building', 'painting', 'finishing'];
+export type ProjectFilters = {
+  status?: ProjectStatus | null;
+  search?: string;
+};
 
-export function useProjectList(status?: ProjectStatus | null) {
+function buildProjectWhere({ status, search }: ProjectFilters) {
+  const conditions: (SQL | undefined)[] = [];
+
+  if (status) conditions.push(eq(projects.status, status));
+
+  const keyword = search?.trim();
+  if (keyword) {
+    const pattern = `%${keyword}%`;
+    conditions.push(
+      or(
+        like(projects.name, pattern),
+        like(projects.maker, pattern),
+        like(projects.scale, pattern),
+      ),
+    );
+  }
+
+  return conditions.length > 0 ? and(...conditions) : undefined;
+}
+
+export function useProjectList(filters: ProjectFilters = {}) {
+  const { status, search } = filters;
+
   return useLiveQuery(
     db
       .select({
@@ -22,6 +47,10 @@ export function useProjectList(status?: ProjectStatus | null) {
         maker: projects.maker,
         scale: projects.scale,
         status: projects.status,
+        quantity: projects.quantity,
+        price: projects.price,
+        location: projects.location,
+        purchasedAt: projects.purchasedAt,
         coverUri: projects.coverUri,
         startedAt: projects.startedAt,
         finishedAt: projects.finishedAt,
@@ -30,9 +59,9 @@ export function useProjectList(status?: ProjectStatus | null) {
         )`,
       })
       .from(projects)
-      .where(status ? eq(projects.status, status) : undefined)
+      .where(buildProjectWhere(filters))
       .orderBy(desc(projects.updatedAt)),
-    [status],
+    [status, search],
   );
 }
 
@@ -76,8 +105,11 @@ export function useProjectSummary() {
     db
       .select({
         total: sql<number>`count(*)`,
-        active: sql<number>`sum(case when ${projects.status} in ('planned','building','painting','finishing') then 1 else 0 end)`,
+        unbuilt: sql<number>`sum(case when ${projects.status} = 'unbuilt' then 1 else 0 end)`,
+        inProgress: sql<number>`sum(case when ${projects.status} in ('building','painting','finishing') then 1 else 0 end)`,
         done: sql<number>`sum(case when ${projects.status} = 'done' then 1 else 0 end)`,
+        kits: sql<number>`coalesce(sum(${projects.quantity}), 0)`,
+        spent: sql<number>`coalesce(sum(${projects.price} * ${projects.quantity}), 0)`,
       })
       .from(projects),
   );
@@ -112,5 +144,3 @@ export async function addPaintToProject(projectId: number, paintId: number, part
 export async function removePaintFromProject(projectPaintId: number) {
   await db.delete(projectPaints).where(eq(projectPaints.id, projectPaintId));
 }
-
-export { ACTIVE_STATUSES };

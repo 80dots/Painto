@@ -12,14 +12,16 @@ import {
   View,
 } from 'react-native';
 
+import { PhotoPicker } from '@/components/photo-picker';
 import { SearchBar } from '@/components/search-bar';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { ChipGroup, type ChipOption } from '@/components/ui/chip-group';
 import { Field, Input } from '@/components/ui/input';
 import { Screen } from '@/components/ui/screen';
+import { Stepper } from '@/components/ui/stepper';
 import { Text } from '@/components/ui/text';
-import { PROJECT_STATUSES, type ProjectStatus } from '@/db/schema';
+import { IN_PROGRESS_STATUSES, PROJECT_STATUSES, type ProjectStatus } from '@/db/schema';
 import { ColorSwatch } from '@/features/paints/components/color-swatch';
 import { usePaintList } from '@/features/paints/queries';
 import {
@@ -33,12 +35,19 @@ import {
 } from '@/features/projects/queries';
 import { useTheme } from '@/hooks/use-theme';
 import { PROJECT_STATUS_LABELS } from '@/lib/labels';
+import { deletePhoto } from '@/lib/photos';
+import { formatDate, toNumber } from '@/lib/utils';
 
 type ProjectForm = {
   name: string;
   maker: string;
   scale: string;
   status: ProjectStatus;
+  quantity: number;
+  price: string;
+  location: string;
+  purchasedAt: Date | null;
+  coverUri: string | null;
   notes: string;
 };
 
@@ -46,7 +55,12 @@ const EMPTY_FORM: ProjectForm = {
   name: '',
   maker: '',
   scale: '',
-  status: 'planned',
+  status: 'unbuilt',
+  quantity: 1,
+  price: '',
+  location: '',
+  purchasedAt: null,
+  coverUri: null,
   notes: '',
 };
 
@@ -71,15 +85,23 @@ export default function ProjectDetailScreen() {
   const [saving, setSaving] = useState(false);
   const [pickerOpen, setPickerOpen] = useState(false);
   const initialized = useRef(isNew);
+  /** 저장 시 지워야 할 예전 박스아트 */
+  const savedCoverUri = useRef<string | null>(null);
 
   useEffect(() => {
     if (initialized.current || !project) return;
     initialized.current = true;
+    savedCoverUri.current = project.coverUri;
     setForm({
       name: project.name,
       maker: project.maker ?? '',
       scale: project.scale ?? '',
       status: project.status,
+      quantity: project.quantity,
+      price: project.price ? String(project.price) : '',
+      location: project.location ?? '',
+      purchasedAt: project.purchasedAt,
+      coverUri: project.coverUri,
       notes: project.notes ?? '',
     });
   }, [project]);
@@ -94,16 +116,20 @@ export default function ProjectDetailScreen() {
     }
     setSaving(true);
     try {
+      const startedNow = IN_PROGRESS_STATUSES.includes(form.status) && !project?.startedAt;
+
       const values = {
         name: form.name.trim(),
         maker: form.maker.trim() || null,
         scale: form.scale.trim() || null,
         status: form.status,
+        quantity: form.quantity,
+        price: form.price ? toNumber(form.price) : null,
+        location: form.location.trim() || null,
+        purchasedAt: form.purchasedAt,
+        coverUri: form.coverUri,
         notes: form.notes.trim() || null,
-        startedAt:
-          form.status !== 'planned' && !project?.startedAt
-            ? new Date()
-            : (project?.startedAt ?? null),
+        startedAt: startedNow ? new Date() : (project?.startedAt ?? null),
         finishedAt: form.status === 'done' ? (project?.finishedAt ?? new Date()) : null,
       };
 
@@ -112,6 +138,9 @@ export default function ProjectDetailScreen() {
         router.replace(`/project/${newId}`);
       } else if (projectId) {
         await updateProject(projectId, values);
+        if (savedCoverUri.current && savedCoverUri.current !== form.coverUri) {
+          deletePhoto(savedCoverUri.current);
+        }
         router.back();
       }
     } finally {
@@ -179,11 +208,64 @@ export default function ProjectDetailScreen() {
           />
         </Field>
 
+        <Field label="박스아트 사진">
+          <PhotoPicker uri={form.coverUri} onChange={(uri) => update('coverUri', uri)} />
+        </Field>
+
+        <View className="flex-row gap-3">
+          <Field label="보유 수량" className="flex-1">
+            <Stepper
+              value={form.quantity}
+              onChange={(v) => update('quantity', v)}
+              min={1}
+              suffix="개"
+            />
+          </Field>
+          <Field label="구입가 (원)" className="w-36">
+            <Input
+              value={form.price}
+              onChangeText={(value) => update('price', value)}
+              keyboardType="number-pad"
+              placeholder="35000"
+            />
+          </Field>
+        </View>
+
+        <Field label="구입일">
+          <View className="flex-row items-center gap-2">
+            <View className="h-11 flex-1 justify-center rounded-lg border border-input bg-card px-3">
+              <Text
+                className={
+                  form.purchasedAt ? 'text-base text-foreground' : 'text-base text-muted-foreground'
+                }
+              >
+                {form.purchasedAt ? formatDate(form.purchasedAt) : '기록 없음'}
+              </Text>
+            </View>
+            <Button variant="outline" size="sm" onPress={() => update('purchasedAt', new Date())}>
+              오늘
+            </Button>
+            {form.purchasedAt ? (
+              <Button variant="ghost" size="sm" onPress={() => update('purchasedAt', null)}>
+                지우기
+              </Button>
+            ) : null}
+          </View>
+        </Field>
+
+        <Field label="보관 위치">
+          <Input
+            value={form.location}
+            onChangeText={(value) => update('location', value)}
+            placeholder="창고 3번 선반"
+          />
+        </Field>
+
         <Field label="메모">
           <Input
             value={form.notes}
             onChangeText={(value) => update('notes', value)}
-            placeholder="개조 계획, 데칼 순서 등"
+            placeholder="개조 계획, 데칼 순서, 구입처 등"
             multiline
             textAlignVertical="top"
           />

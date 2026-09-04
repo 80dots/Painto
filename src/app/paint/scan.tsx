@@ -130,7 +130,10 @@ export default function PaintScanScreen() {
               <Button
                 className="flex-1"
                 onPress={() =>
-                  router.replace({ pathname: '/paint/new', params: { barcode: result.barcode } })
+                  router.replace({
+                    pathname: '/paint/[id]',
+                    params: { id: 'new', barcode: result.barcode },
+                  })
                 }
               >
                 이 바코드로 등록

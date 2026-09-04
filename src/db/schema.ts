@@ -116,8 +116,10 @@ export const supplies = sqliteTable(
     name: text('name').notNull(),
     category: text('category').$type<SupplyCategory>().notNull().default('etc'),
     brand: text('brand'),
-    /** 규격 (#400, 3mm, 0.3mm 노즐 …) */
+    /** 규격 (#400, 18m, 0.3mm 노즐 …) */
     spec: text('spec'),
+    /** 마스킹 테이프 폭(mm). 폭별로 관리해야 해서 별도 칼럼으로 둔다. */
+    widthMm: real('width_mm'),
     quantity: real('quantity').notNull().default(0),
     /** 단위 (개, m, ml, 장 …) */
     unit: text('unit').notNull().default('개'),
@@ -132,32 +134,48 @@ export const supplies = sqliteTable(
   (t) => [index('supplies_category_idx').on(t.category), index('supplies_name_idx').on(t.name)],
 );
 
-/** 제작 상태 */
+/** 프라모델 보유·제작 상태 */
 export const PROJECT_STATUSES = [
-  'planned', // 적프라 (계획)
+  'unbuilt', // 미조립 (적프라)
   'building', // 조립 중
   'painting', // 도색 중
   'finishing', // 마감/데칼
   'done', // 완성
   'shelved', // 보류
+  'planned', // 구입 예정
 ] as const;
 export type ProjectStatus = (typeof PROJECT_STATUSES)[number];
 
-/** 제작 중인 킷 */
-export const projects = sqliteTable('projects', {
-  id: integer('id').primaryKey({ autoIncrement: true }),
-  name: text('name').notNull(),
-  /** 킷 제조사 (반다이, 타미야 …) */
-  maker: text('maker'),
-  /** 스케일 (1/144, 1/35 …) */
-  scale: text('scale'),
-  status: text('status').$type<ProjectStatus>().notNull().default('planned'),
-  startedAt: integer('started_at', { mode: 'timestamp_ms' }),
-  finishedAt: integer('finished_at', { mode: 'timestamp_ms' }),
-  coverUri: text('cover_uri'),
-  notes: text('notes'),
-  ...timestamps,
-});
+/** 조립대에 올라가 있는 상태 (진행 중으로 집계) */
+export const IN_PROGRESS_STATUSES: ProjectStatus[] = ['building', 'painting', 'finishing'];
+
+/** 보유 중인 프라모델 한 종 */
+export const projects = sqliteTable(
+  'projects',
+  {
+    id: integer('id').primaryKey({ autoIncrement: true }),
+    name: text('name').notNull(),
+    /** 킷 제조사 (반다이, 타미야 …) */
+    maker: text('maker'),
+    /** 스케일·등급 (1/144, MG, 1/35 …) */
+    scale: text('scale'),
+    status: text('status').$type<ProjectStatus>().notNull().default('unbuilt'),
+    /** 같은 킷을 여러 개 쌓아 뒀을 때 */
+    quantity: real('quantity').notNull().default(1),
+    purchasedAt: integer('purchased_at', { mode: 'timestamp_ms' }),
+    /** 구입가 (원) */
+    price: real('price'),
+    /** 보관 위치 (창고 3번 선반 …) */
+    location: text('location'),
+    startedAt: integer('started_at', { mode: 'timestamp_ms' }),
+    finishedAt: integer('finished_at', { mode: 'timestamp_ms' }),
+    /** 박스아트 사진 */
+    coverUri: text('cover_uri'),
+    notes: text('notes'),
+    ...timestamps,
+  },
+  (t) => [index('projects_status_idx').on(t.status), index('projects_name_idx').on(t.name)],
+);
 
 /** 킷별 사용 도료 팔레트 (레시피) */
 export const projectPaints = sqliteTable(

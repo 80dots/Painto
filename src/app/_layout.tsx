@@ -34,10 +34,11 @@ export default function RootLayout() {
               <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
               <Stack.Screen name="paint/[id]" options={{ title: '도료' }} />
               <Stack.Screen name="paint/scan" options={{ title: '바코드 스캔' }} />
-              <Stack.Screen name="supplies" options={{ title: '소모품' }} />
-              <Stack.Screen name="projects" options={{ title: '킷' }} />
-              <Stack.Screen name="supply/[id]" options={{ title: '소모품' }} />
-              <Stack.Screen name="project/[id]" options={{ title: '킷' }} />
+              <Stack.Screen name="supplies" options={{ title: '모델링 용품' }} />
+              <Stack.Screen name="masking" options={{ title: '마스킹 테이프' }} />
+              <Stack.Screen name="projects" options={{ title: '프라모델' }} />
+              <Stack.Screen name="supply/[id]" options={{ title: '용품' }} />
+              <Stack.Screen name="project/[id]" options={{ title: '프라모델' }} />
               <Stack.Screen name="shopping" options={{ title: '구매 목록' }} />
             </Stack>
           </DatabaseProvider>
