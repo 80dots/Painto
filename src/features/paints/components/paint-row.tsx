@@ -60,9 +60,6 @@ export function PaintRow({ item, onPress, onAdjust }: PaintRowProps) {
           <Text className="text-base font-semibold text-foreground">
             {formatQuantity(item.quantity)}
           </Text>
-          {item.quantity > 0 && item.remainingPct < 100 ? (
-            <Text variant="small">{item.remainingPct}%</Text>
-          ) : null}
         </View>
         <Pressable
           onPress={() => onAdjust(1)}

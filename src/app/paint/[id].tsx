@@ -1,5 +1,5 @@
 import { Stack, useLocalSearchParams, useRouter } from 'expo-router';
-import { ScanBarcode, Star, Trash2 } from 'lucide-react-native';
+import { ChevronDown, ChevronUp, ScanBarcode, Star, Trash2 } from 'lucide-react-native';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { Alert, KeyboardAvoidingView, Platform, Pressable, ScrollView, View } from 'react-native';
 
@@ -43,8 +43,8 @@ type PaintForm = {
   /** 희석비 신너 쪽 값 */
   thinnerSolvent: string;
   quantity: number;
-  remainingPct: number;
-  minQuantity: string;
+  /** 적정 보유 수량 — 보유량이 이 아래로 내려가면 부족으로 표시 */
+  minQuantity: number;
   location: string;
   notes: string;
   isFavorite: boolean;
@@ -63,8 +63,7 @@ const EMPTY_FORM: PaintForm = {
   thinnerPaint: '',
   thinnerSolvent: '',
   quantity: 1,
-  remainingPct: 100,
-  minQuantity: '1',
+  minQuantity: 1,
   location: '',
   notes: '',
   isFavorite: false,
@@ -78,11 +77,6 @@ const TYPE_OPTIONS: ChipOption<PaintType>[] = PAINT_TYPES.map((type) => ({
 const FINISH_OPTIONS: ChipOption<PaintFinish>[] = PAINT_FINISHES.map((finish) => ({
   value: finish,
   label: PAINT_FINISH_LABELS[finish],
-}));
-
-const REMAINING_OPTIONS: ChipOption<number>[] = [100, 75, 50, 25, 10].map((value) => ({
-  value,
-  label: `${value}%`,
 }));
 
 /** "1:2" → { paint: '1', solvent: '2' } */
@@ -109,6 +103,8 @@ export default function PaintDetailScreen() {
   });
   const [saving, setSaving] = useState(false);
   const [scannerOpen, setScannerOpen] = useState(false);
+  /** 자주 안 쓰는 항목은 접어 둔다 */
+  const [showMore, setShowMore] = useState(false);
   const initialized = useRef(isNew);
   /** 저장 시 지워야 할 예전 사진 경로 */
   const savedPhotoUri = useRef<string | null>(null);
@@ -134,8 +130,7 @@ export default function PaintDetailScreen() {
       thinnerPaint: ratio.paint,
       thinnerSolvent: ratio.solvent,
       quantity: paint.quantity,
-      remainingPct: paint.remainingPct,
-      minQuantity: String(paint.minQuantity),
+      minQuantity: paint.minQuantity,
       location: paint.location ?? '',
       notes: paint.notes ?? '',
       isFavorite: paint.isFavorite,
@@ -197,8 +192,7 @@ export default function PaintDetailScreen() {
         volumeMl: form.volumeMl ? toNumber(form.volumeMl) : null,
         thinnerRatio,
         quantity: form.quantity,
-        remainingPct: form.remainingPct,
-        minQuantity: toNumber(form.minQuantity, 1),
+        minQuantity: form.minQuantity,
         location: form.location.trim() || null,
         notes: form.notes.trim() || null,
         isFavorite: form.isFavorite,
@@ -264,56 +258,38 @@ export default function PaintDetailScreen() {
         contentContainerClassName="gap-5 p-4 pb-10"
         keyboardShouldPersistTaps="handled"
       >
-        <View className="flex-row items-center gap-3">
-          <ColorSwatch color={normalizeHex(form.colorHex)} fallbackText={form.code} size="lg" />
-          <View className="flex-1 gap-2">
-            <Input
-              value={form.name}
-              onChangeText={(value) => update('name', value)}
-              placeholder="도료 이름 (예: 무광 블랙)"
-            />
-            <Input
-              value={form.code}
-              onChangeText={(value) => update('code', value)}
-              placeholder="품번 (예: C-2, XF-1)"
-              autoCapitalize="characters"
-            />
-          </View>
-        </View>
-
-        <Field
-          label="바코드"
-          hint="도료 병의 바코드를 등록해 두면 스캔만으로 재고를 올릴 수 있습니다."
-        >
-          <View className="flex-row gap-2">
-            <Input
-              value={form.barcode}
-              onChangeText={(value) => update('barcode', value)}
-              placeholder="8801234567890"
-              keyboardType="number-pad"
-              className="flex-1"
-            />
-            <Pressable
-              onPress={() => setScannerOpen(true)}
-              accessibilityLabel="바코드 스캔"
-              className="h-11 w-11 items-center justify-center rounded-lg border border-border bg-card active:bg-muted"
-            >
-              <ScanBarcode size={18} color={colors.foreground} />
-            </Pressable>
-          </View>
-        </Field>
-
         <Field label="도료 사진">
           <PhotoPicker uri={form.photoUri} onChange={(uri) => update('photoUri', uri)} />
         </Field>
 
-        <Field label="색상" hint="#RRGGBB 형식으로 입력하면 목록에 색이 표시됩니다.">
+        <Field label="이름" required>
           <Input
-            value={form.colorHex}
-            onChangeText={(value) => update('colorHex', value)}
-            placeholder="#1A1A1A"
+            value={form.name}
+            onChangeText={(value) => update('name', value)}
+            placeholder="예: 무광 블랙"
+          />
+        </Field>
+
+        <Field label="품번">
+          <Input
+            value={form.code}
+            onChangeText={(value) => update('code', value)}
+            placeholder="예: C-2, XF-1"
             autoCapitalize="characters"
           />
+        </Field>
+
+        <Field label="색상" hint="#RRGGBB 형식으로 입력하면 목록에 색이 표시됩니다.">
+          <View className="flex-row items-center gap-3">
+            <ColorSwatch color={normalizeHex(form.colorHex)} fallbackText={form.code} />
+            <Input
+              value={form.colorHex}
+              onChangeText={(value) => update('colorHex', value)}
+              placeholder="#1A1A1A"
+              autoCapitalize="characters"
+              className="flex-1"
+            />
+          </View>
         </Field>
 
         <Field label="브랜드">
@@ -324,10 +300,6 @@ export default function PaintDetailScreen() {
           />
         </Field>
 
-        <Field label="종류">
-          <ChipGroup options={TYPE_OPTIONS} value={form.type} onChange={(v) => update('type', v)} />
-        </Field>
-
         <Field label="광택">
           <ChipGroup
             options={FINISH_OPTIONS}
@@ -336,81 +308,121 @@ export default function PaintDetailScreen() {
           />
         </Field>
 
-        <View className="flex-row gap-3">
-          <Field label="용량 (ml)" className="w-28">
-            <Input
-              value={form.volumeMl}
-              onChangeText={(value) => update('volumeMl', value)}
-              keyboardType="decimal-pad"
-              placeholder="10"
-            />
-          </Field>
-
-          <Field label="희석비 (도료 : 신너)" className="flex-1">
-            <View className="flex-row items-center gap-2">
-              <Input
-                value={form.thinnerPaint}
-                onChangeText={(value) => update('thinnerPaint', value)}
-                keyboardType="decimal-pad"
-                placeholder="1"
-                className="flex-1 text-center"
-              />
-              <Text variant="label">:</Text>
-              <Input
-                value={form.thinnerSolvent}
-                onChangeText={(value) => update('thinnerSolvent', value)}
-                keyboardType="decimal-pad"
-                placeholder="2"
-                className="flex-1 text-center"
-              />
-            </View>
-          </Field>
-        </View>
-
-        <View className="flex-row gap-3">
-          <Field label="보유 수량" className="flex-1">
-            <Stepper
-              value={form.quantity}
-              onChange={(v) => update('quantity', v)}
-              step={1}
-              suffix="병"
-            />
-          </Field>
-          <Field label="부족 기준" className="w-28">
-            <Input
-              value={form.minQuantity}
-              onChangeText={(value) => update('minQuantity', value)}
-              keyboardType="decimal-pad"
-              placeholder="1"
-            />
-          </Field>
-        </View>
-
-        <Field label="개봉한 병 잔량">
-          <ChipGroup
-            options={REMAINING_OPTIONS}
-            value={form.remainingPct}
-            onChange={(v) => update('remainingPct', v)}
-          />
-        </Field>
-
-        <Field label="보관 위치">
+        <Field label="용량 (ml)">
           <Input
-            value={form.location}
-            onChangeText={(value) => update('location', value)}
-            placeholder="A박스 1칸"
+            value={form.volumeMl}
+            onChangeText={(value) => update('volumeMl', value)}
+            keyboardType="decimal-pad"
+            placeholder="10"
+            className="w-32"
           />
         </Field>
 
-        <Field label="메모">
-          <Input
-            value={form.notes}
-            onChangeText={(value) => update('notes', value)}
-            placeholder="조색비, 사용처 등"
-            multiline
-            textAlignVertical="top"
+        <Field label="보유 수량">
+          <Stepper
+            value={form.quantity}
+            onChange={(v) => update('quantity', v)}
+            step={1}
+            suffix="병"
           />
         </Field>
+
+        <Button
+          variant="ghost"
+          onPress={() => setShowMore((value) => !value)}
+          accessibilityState={{ expanded: showMore }}
+        >
+          {showMore ? (
+            <ChevronUp size={16} color={colors.mutedForeground} />
+          ) : (
+            <ChevronDown size={16} color={colors.mutedForeground} />
+          )}
+          <Text variant="label">{showMore ? '접기' : '더보기'}</Text>
+        </Button>
+
+        {showMore ? (
+          <>
+            <Field
+              label="적정 보유 수량"
+              hint="보유 수량이 이 값 아래로 내려가면 부족으로 표시합니다."
+            >
+              <Stepper
+                value={form.minQuantity}
+                onChange={(v) => update('minQuantity', v)}
+                step={1}
+                suffix="병"
+              />
+            </Field>
+
+            <Field label="종류">
+              <ChipGroup
+                options={TYPE_OPTIONS}
+                value={form.type}
+                onChange={(v) => update('type', v)}
+              />
+            </Field>
+
+            <Field
+              label="바코드"
+              hint="도료 병의 바코드를 등록해 두면 스캔만으로 재고를 올릴 수 있습니다."
+            >
+              <View className="flex-row gap-2">
+                <Input
+                  value={form.barcode}
+                  onChangeText={(value) => update('barcode', value)}
+                  placeholder="8801234567890"
+                  keyboardType="number-pad"
+                  className="flex-1"
+                />
+                <Pressable
+                  onPress={() => setScannerOpen(true)}
+                  accessibilityLabel="바코드 스캔"
+                  className="h-11 w-11 items-center justify-center rounded-lg border border-border bg-card active:bg-muted"
+                >
+                  <ScanBarcode size={18} color={colors.foreground} />
+                </Pressable>
+              </View>
+            </Field>
+
+            <Field label="희석비 (도료 : 신너)">
+              <View className="flex-row items-center gap-2">
+                <Input
+                  value={form.thinnerPaint}
+                  onChangeText={(value) => update('thinnerPaint', value)}
+                  keyboardType="decimal-pad"
+                  placeholder="1"
+                  className="flex-1 text-center"
+                />
+                <Text variant="label">:</Text>
+                <Input
+                  value={form.thinnerSolvent}
+                  onChangeText={(value) => update('thinnerSolvent', value)}
+                  keyboardType="decimal-pad"
+                  placeholder="2"
+                  className="flex-1 text-center"
+                />
+              </View>
+            </Field>
+
+            <Field label="보관 위치">
+              <Input
+                value={form.location}
+                onChangeText={(value) => update('location', value)}
+                placeholder="A박스 1칸"
+              />
+            </Field>
+
+            <Field label="메모">
+              <Input
+                value={form.notes}
+                onChangeText={(value) => update('notes', value)}
+                placeholder="조색비, 사용처 등"
+                multiline
+                textAlignVertical="top"
+              />
+            </Field>
+          </>
+        ) : null}
 
         <Button onPress={handleSave} loading={saving} size="lg">
           {isNew ? '등록' : '저장'}

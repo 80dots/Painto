@@ -1,0 +1,1 @@
+ALTER TABLE `paints` DROP COLUMN `remaining_pct`;

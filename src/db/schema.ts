@@ -67,9 +67,7 @@ export const paints = sqliteTable(
     volumeMl: real('volume_ml'),
     /** 보유 병 수 */
     quantity: real('quantity').notNull().default(0),
-    /** 개봉한 병의 잔량 (%) — 대략적인 소진 상태 파악용 */
-    remainingPct: integer('remaining_pct').notNull().default(100),
-    /** 이 수량 이하로 떨어지면 부족으로 표시 */
+    /** 적정 보유 수량 — 보유량이 이 아래로 내려가면 부족으로 표시 */
     minQuantity: real('min_quantity').notNull().default(1),
     /** 희석비 "도료:신너" (1:2, 1:1.5 …) */
     thinnerRatio: text('thinner_ratio'),

@@ -32,7 +32,6 @@ const paintListColumns = {
   finish: paints.finish,
   volumeMl: paints.volumeMl,
   quantity: paints.quantity,
-  remainingPct: paints.remainingPct,
   minQuantity: paints.minQuantity,
   location: paints.location,
   thinnerRatio: paints.thinnerRatio,
@@ -53,7 +52,6 @@ export type PaintListItem = {
   finish: PaintFinish;
   volumeMl: number | null;
   quantity: number;
-  remainingPct: number;
   minQuantity: number;
   location: string | null;
   thinnerRatio: string | null;
