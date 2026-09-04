@@ -331,15 +331,6 @@ export default function PaintDetailScreen() {
           <ChipGroup options={TYPE_OPTIONS} value={form.type} onChange={(v) => update('type', v)} />
         </Field>
 
-        <Field label="색상" hint="#RRGGBB 형식으로 입력하면 목록에 색이 표시됩니다.">
-          <Input
-            value={form.colorHex}
-            onChangeText={(value) => update('colorHex', value)}
-            placeholder="#1A1A1A"
-            autoCapitalize="characters"
-          />
-        </Field>
-
         <Field label="광택">
           <ChipGroup
             options={FINISH_OPTIONS}
@@ -404,6 +395,15 @@ export default function PaintDetailScreen() {
                 value={form.code}
                 onChangeText={(value) => update('code', value)}
                 placeholder="예: C-2, XF-1"
+                autoCapitalize="characters"
+              />
+            </Field>
+
+            <Field label="색상" hint="#RRGGBB 형식으로 입력하면 목록에 색이 표시됩니다.">
+              <Input
+                value={form.colorHex}
+                onChangeText={(value) => update('colorHex', value)}
+                placeholder="#1A1A1A"
                 autoCapitalize="characters"
               />
             </Field>
