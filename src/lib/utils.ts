@@ -37,6 +37,13 @@ export function hexToRgb(hex?: string | null) {
   };
 }
 
+/** #RRGGBB 색에 투명도를 입혀 rgba 문자열로 만든다 */
+export function withAlpha(hex: string, alpha: number) {
+  const rgb = hexToRgb(hex);
+  if (!rgb) return hex;
+  return `rgba(${rgb.r}, ${rgb.g}, ${rgb.b}, ${alpha})`;
+}
+
 /** 입력값을 #RRGGBB 형태로 보정. 유효하지 않으면 null */
 export function normalizeHex(input?: string | null) {
   const rgb = hexToRgb(input);
