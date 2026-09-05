@@ -13,9 +13,11 @@ export type PaintRowProps = {
   item: PaintListItem;
   onPress: () => void;
   onAdjust: (delta: number) => void;
+  /** 브랜드별로 묶어 놓은 목록에서는 줄마다 브랜드를 다시 쓰지 않는다 */
+  showBrand?: boolean;
 };
 
-export function PaintRow({ item, onPress, onAdjust }: PaintRowProps) {
+export function PaintRow({ item, onPress, onAdjust, showBrand = true }: PaintRowProps) {
   const { colors } = useTheme();
   const isOut = item.quantity <= 0;
   const isLow = !isOut && item.quantity <= item.minQuantity;
@@ -39,7 +41,7 @@ export function PaintRow({ item, onPress, onAdjust }: PaintRowProps) {
         </View>
 
         <View className="flex-row flex-wrap items-center gap-1.5">
-          {brandLabel ? <Text variant="small">{brandLabel}</Text> : null}
+          {showBrand && brandLabel ? <Text variant="small">{brandLabel}</Text> : null}
           <Badge label={PAINT_TYPE_LABELS[item.type]} />
           {item.finish !== 'none' ? <Badge label={PAINT_FINISH_LABELS[item.finish]} /> : null}
           {isOut ? <Badge label="품절" variant="destructive" /> : null}

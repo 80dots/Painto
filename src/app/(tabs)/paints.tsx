@@ -1,7 +1,7 @@
 import { useRouter } from 'expo-router';
 import { Palette, Plus, ScanBarcode } from 'lucide-react-native';
-import { useState } from 'react';
-import { FlatList, Pressable, View } from 'react-native';
+import { useMemo, useState } from 'react';
+import { Pressable, SectionList, View } from 'react-native';
 
 import { ScreenHeader } from '@/components/screen-header';
 import { SearchBar } from '@/components/search-bar';
@@ -11,7 +11,12 @@ import { Screen } from '@/components/ui/screen';
 import { Text } from '@/components/ui/text';
 import { PAINT_TYPES, type PaintType } from '@/db/schema';
 import { PaintRow } from '@/features/paints/components/paint-row';
-import { adjustPaintQuantity, usePaintList, type PaintSort } from '@/features/paints/queries';
+import {
+  adjustPaintQuantity,
+  usePaintList,
+  type PaintListItem,
+  type PaintSort,
+} from '@/features/paints/queries';
 import { useTheme } from '@/hooks/use-theme';
 import { PAINT_TYPE_LABELS } from '@/lib/labels';
 import { cn } from '@/lib/utils';
@@ -28,7 +33,42 @@ const SORT_LABELS: Record<PaintSort, string> = {
   quantity: '재고 적은 순',
 };
 
-const SORT_CYCLE: PaintSort[] = ['recent', 'name', 'brand', 'quantity'];
+/** 브랜드로 묶어서 보여 주므로 정렬은 그룹 안에서만 쓴다 */
+const SORT_CYCLE: PaintSort[] = ['recent', 'name', 'quantity'];
+
+type BrandSection = {
+  key: string;
+  title: string;
+  line: string | null;
+  data: PaintListItem[];
+};
+
+/** 목록을 브랜드별로 묶는다. 브랜드가 없는 도료는 맨 뒤로 보낸다. */
+function groupByBrand(paints: PaintListItem[]): BrandSection[] {
+  const sections = new Map<string, BrandSection>();
+
+  for (const paint of paints) {
+    const key = paint.brandId === null ? 'none' : String(paint.brandId);
+    let section = sections.get(key);
+    if (!section) {
+      section = {
+        key,
+        title: paint.brandName ?? '브랜드 없음',
+        line: paint.brandLine,
+        data: [],
+      };
+      sections.set(key, section);
+    }
+    section.data.push(paint);
+  }
+
+  return [...sections.values()].sort((a, b) => {
+    if (a.key === 'none') return 1;
+    if (b.key === 'none') return -1;
+    const byName = a.title.localeCompare(b.title, 'ko');
+    return byName !== 0 ? byName : (a.line ?? '').localeCompare(b.line ?? '', 'ko');
+  });
+}
 
 export default function PaintsScreen() {
   const router = useRouter();
@@ -41,7 +81,8 @@ export default function PaintsScreen() {
   const [sort, setSort] = useState<PaintSort>('recent');
 
   const { data } = usePaintList({ search, type, onlyLowStock, onlyFavorite, sort });
-  const paints = data ?? [];
+  const paints = useMemo(() => data ?? [], [data]);
+  const sections = useMemo(() => groupByBrand(paints), [paints]);
 
   const cycleSort = () => {
     const index = SORT_CYCLE.indexOf(sort);
@@ -52,7 +93,7 @@ export default function PaintsScreen() {
     <Screen>
       <ScreenHeader
         title="도료"
-        subtitle={`${paints.length}종`}
+        subtitle={`${paints.length}종 · 브랜드 ${sections.length}곳`}
         right={
           <View className="flex-row items-center gap-2">
             <Pressable
@@ -99,14 +140,24 @@ export default function PaintsScreen() {
         </View>
       </View>
 
-      <FlatList
-        data={paints}
+      <SectionList
+        sections={sections}
         keyExtractor={(item) => String(item.id)}
         keyboardShouldPersistTaps="handled"
         contentContainerStyle={{ paddingBottom: 24 }}
+        stickySectionHeadersEnabled
+        renderSectionHeader={({ section }) => (
+          <View className="flex-row items-center gap-2 border-b border-border bg-muted px-4 py-2">
+            <Text className="text-sm font-semibold text-foreground">{section.title}</Text>
+            {section.line ? <Text variant="small">{section.line}</Text> : null}
+            <View className="flex-1" />
+            <Text variant="small">{section.data.length}종</Text>
+          </View>
+        )}
         renderItem={({ item }) => (
           <PaintRow
             item={item}
+            showBrand={false}
             onPress={() => router.push(`/paint/${item.id}`)}
             onAdjust={(delta) =>
               adjustPaintQuantity(item.id, delta, delta > 0 ? 'purchase' : 'use')
