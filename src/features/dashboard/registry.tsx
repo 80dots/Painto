@@ -1,15 +1,8 @@
 import { type Href } from 'expo-router';
-import {
-  AlertTriangle,
-  Blocks,
-  Disc3,
-  Palette,
-  ShoppingCart,
-  Wrench,
-  type LucideIcon,
-} from 'lucide-react-native';
+import { AlertTriangle, Blocks, Disc3, ShoppingCart, Wrench } from 'lucide-react-native';
 import { type ComponentType } from 'react';
 
+import { PaintBottle, type IconProps } from '@/components/icons/paint-bottle';
 import type { DashboardCardSize } from '@/db/schema';
 
 import { PaintsCard } from '@/features/dashboard/cards/paints-card';
@@ -30,7 +23,7 @@ export type DashboardCardDefinition = {
   title: string;
   /** 카드 추가 목록에서 보여줄 설명 */
   description: string;
-  icon: LucideIcon;
+  icon: ComponentType<IconProps>;
   /** 카드 제목을 눌렀을 때 이동할 화면 */
   href?: Href;
   /** 사용자가 설정을 바꾸기 전의 기본 노출 여부 */
@@ -49,7 +42,7 @@ export const DASHBOARD_CARDS: DashboardCardDefinition[] = [
     id: 'paints',
     title: '도료 관리',
     description: '보유 도료 재고를 보고 바로 늘리거나 줄입니다.',
-    icon: Palette,
+    icon: PaintBottle,
     href: '/paints',
     defaultVisible: true,
     defaultOrder: 0,

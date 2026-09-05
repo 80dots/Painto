@@ -1,5 +1,7 @@
 import { Tabs } from 'expo-router/js-tabs';
-import { Home, Palette, Settings } from 'lucide-react-native';
+import { Home, Settings } from 'lucide-react-native';
+
+import { PaintBottle } from '@/components/icons/paint-bottle';
 
 import { useTheme } from '@/hooks/use-theme';
 
@@ -33,7 +35,7 @@ export default function TabsLayout() {
         options={{
           title: '도료',
           headerShown: false,
-          tabBarIcon: ({ color, size }) => <Palette color={color} size={size} />,
+          tabBarIcon: ({ color, size }) => <PaintBottle color={color} size={size} />,
         }}
       />
       <Tabs.Screen

@@ -1,12 +1,13 @@
-import { type LucideIcon } from 'lucide-react-native';
+import { type ComponentType } from 'react';
 import { View } from 'react-native';
 
+import { type IconProps } from '@/components/icons/paint-bottle';
 import { Button } from '@/components/ui/button';
 import { Text } from '@/components/ui/text';
 import { useTheme } from '@/hooks/use-theme';
 
 export type EmptyStateProps = {
-  icon?: LucideIcon;
+  icon?: ComponentType<IconProps>;
   title: string;
   description?: string;
   actionLabel?: string;

@@ -248,6 +248,20 @@ export function usePaintStockLogs(paintId: number | null, limit = 20) {
   );
 }
 
+/**
+ * 실제로 등록된 도료의 종류 목록.
+ * 필터 칩을 보유 중인 종류로만 좁히는 데 쓴다 (검색·필터와 무관하게 전체 기준).
+ */
+export function usePaintTypesInUse() {
+  return useLiveQuery(
+    db
+      .select({ type: paints.type, count: sql<number>`count(*)` })
+      .from(paints)
+      .where(eq(paints.isArchived, false))
+      .groupBy(paints.type),
+  );
+}
+
 /** 도료 등록 폼에서 쓰는 브랜드 목록 */
 export function useBrandOptions() {
   return useLiveQuery(db.select().from(brands).orderBy(asc(brands.name), asc(brands.line)));

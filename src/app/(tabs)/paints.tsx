@@ -1,8 +1,9 @@
 import { useRouter } from 'expo-router';
-import { Palette, Plus, ScanBarcode } from 'lucide-react-native';
+import { Plus, ScanBarcode } from 'lucide-react-native';
 import { useMemo, useState } from 'react';
 import { Pressable, SectionList, View } from 'react-native';
 
+import { PaintBottle } from '@/components/icons/paint-bottle';
 import { ScreenHeader } from '@/components/screen-header';
 import { SearchBar } from '@/components/search-bar';
 import { ChipGroup, type ChipOption } from '@/components/ui/chip-group';
@@ -14,17 +15,13 @@ import { PaintRow } from '@/features/paints/components/paint-row';
 import {
   adjustPaintQuantity,
   usePaintList,
+  usePaintTypesInUse,
   type PaintListItem,
   type PaintSort,
 } from '@/features/paints/queries';
 import { useTheme } from '@/hooks/use-theme';
 import { PAINT_TYPE_LABELS } from '@/lib/labels';
 import { cn } from '@/lib/utils';
-
-const TYPE_OPTIONS: ChipOption<PaintType | null>[] = [
-  { value: null, label: '전체' },
-  ...PAINT_TYPES.map((type) => ({ value: type, label: PAINT_TYPE_LABELS[type] })),
-];
 
 const SORT_LABELS: Record<PaintSort, string> = {
   recent: '최근 수정',
@@ -80,7 +77,24 @@ export default function PaintsScreen() {
   const [onlyFavorite, setOnlyFavorite] = useState(false);
   const [sort, setSort] = useState<PaintSort>('recent');
 
-  const { data } = usePaintList({ search, type, onlyLowStock, onlyFavorite, sort });
+  const { data: typeRows } = usePaintTypesInUse();
+
+  // 등록된 종류만 칩으로 보여 준다 (하나도 없는 종류는 고를 이유가 없다)
+  const typeOptions = useMemo<ChipOption<PaintType | null>[]>(() => {
+    const inUse = new Set((typeRows ?? []).map((row) => row.type));
+    return [
+      { value: null, label: '전체' },
+      ...PAINT_TYPES.filter((item) => inUse.has(item)).map((item) => ({
+        value: item,
+        label: PAINT_TYPE_LABELS[item],
+      })),
+    ];
+  }, [typeRows]);
+
+  // 고르고 있던 종류의 도료가 모두 사라졌다면 그 필터는 없는 것으로 친다
+  const activeType = typeOptions.some((option) => option.value === type) ? type : null;
+
+  const { data } = usePaintList({ search, type: activeType, onlyLowStock, onlyFavorite, sort });
   const paints = useMemo(() => data ?? [], [data]);
   const sections = useMemo(() => groupByBrand(paints), [paints]);
 
@@ -120,7 +134,9 @@ export default function PaintsScreen() {
           onChangeText={setSearch}
           placeholder="이름 · 품번 · 브랜드 검색"
         />
-        <ChipGroup options={TYPE_OPTIONS} value={type} onChange={setType} />
+        {typeOptions.length > 1 ? (
+          <ChipGroup options={typeOptions} value={activeType} onChange={setType} />
+        ) : null}
 
         <View className="flex-row items-center gap-2">
           <FilterToggle
@@ -166,9 +182,9 @@ export default function PaintsScreen() {
         )}
         ListEmptyComponent={
           <EmptyState
-            icon={Palette}
+            icon={PaintBottle}
             title={
-              search || type || onlyLowStock
+              search || activeType || onlyLowStock
                 ? '조건에 맞는 도료가 없습니다'
                 : '등록된 도료가 없습니다'
             }

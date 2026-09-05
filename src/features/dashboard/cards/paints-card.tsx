@@ -106,21 +106,10 @@ export function PaintsCard({ size }: DashboardCardContentProps) {
         </View>
       )}
 
-      <View className="flex-row gap-2">
-        <Button size="sm" className="flex-1" onPress={() => router.push('/paint/scan')}>
-          <ScanBarcode size={16} color={colors.primaryForeground} />
-          <Text className="text-sm font-semibold text-primary-foreground">바코드 스캔</Text>
-        </Button>
-        <Button
-          variant="outline"
-          size="sm"
-          className="flex-1"
-          onPress={() => router.push('/paint/new')}
-        >
-          <Plus size={16} color={colors.foreground} />
-          <Text className="text-sm font-semibold text-foreground">도료 추가</Text>
-        </Button>
-      </View>
+      <Button size="sm" onPress={() => router.push('/paint/scan')}>
+        <ScanBarcode size={16} color={colors.primaryForeground} />
+        <Text className="text-sm font-semibold text-primary-foreground">바코드 스캔</Text>
+      </Button>
     </View>
   );
 }
