@@ -1,14 +1,10 @@
-import { useColorScheme } from 'nativewind';
-
-import { themeColors, type AppColorScheme } from '@/constants/theme';
+import { useAppSettingsContext } from '@/features/settings/provider';
 
 /**
- * NativeWind 의 색상 스킴과 JS 팔레트를 함께 돌려준다.
- * className 으로 처리할 수 없는 곳(아이콘, 상태바 등)에서 colors 를 쓴다.
+ * className 으로 처리할 수 없는 곳(아이콘 color, 상태바 등)에서 쓰는 팔레트.
+ * 색 자체는 CSS 변수로도 주입되므로 화면 코드는 되도록 토큰 클래스를 쓴다.
  */
 export function useTheme() {
-  const { colorScheme, setColorScheme } = useColorScheme();
-  const scheme: AppColorScheme = colorScheme === 'dark' ? 'dark' : 'light';
-
-  return { scheme, colors: themeColors[scheme], setColorScheme };
+  const { palette, themeId, setThemeId } = useAppSettingsContext();
+  return { colors: palette, palette, themeId, setThemeId };
 }

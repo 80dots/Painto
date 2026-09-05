@@ -14,11 +14,13 @@ import {
   toggleShoppingItem,
   useShoppingList,
 } from '@/features/shopping/queries';
+import { useT } from '@/features/settings/provider';
 import { useTheme } from '@/hooks/use-theme';
 import { cn, formatQuantity } from '@/lib/utils';
 
 export default function ShoppingScreen() {
   const { colors } = useTheme();
+  const t = useT();
   const [draft, setDraft] = useState('');
 
   const { data } = useShoppingList();
@@ -38,14 +40,14 @@ export default function ShoppingScreen() {
         <Input
           value={draft}
           onChangeText={setDraft}
-          placeholder="살 것을 입력하세요"
+          placeholder={t('shopping.inputPlaceholder')}
           onSubmitEditing={handleAdd}
           returnKeyType="done"
           className="flex-1"
         />
         <Pressable
           onPress={handleAdd}
-          accessibilityLabel="추가"
+          accessibilityLabel={t('common.add')}
           className="h-11 w-11 items-center justify-center rounded-lg bg-primary active:opacity-90"
         >
           <Plus size={20} color={colors.primaryForeground} />
@@ -85,9 +87,13 @@ export default function ShoppingScreen() {
               <View className="flex-row items-center gap-1.5">
                 {item.brand ? <Text variant="small">{item.brand}</Text> : null}
                 {item.code ? <Text variant="small">{item.code}</Text> : null}
-                <Badge label={item.itemType === 'paint' ? '도료' : '소모품'} />
+                <Badge
+                  label={item.itemType === 'paint' ? t('shopping.paint') : t('shopping.supply')}
+                />
                 {item.quantity !== 1 ? (
-                  <Text variant="small">{formatQuantity(item.quantity)}개</Text>
+                  <Text variant="small">
+                    {t('count.items', { count: formatQuantity(item.quantity) })}
+                  </Text>
                 ) : null}
               </View>
             </View>
@@ -95,7 +101,7 @@ export default function ShoppingScreen() {
             <Pressable
               onPress={() => deleteShoppingItem(item.id)}
               hitSlop={8}
-              accessibilityLabel="삭제"
+              accessibilityLabel={t('common.delete')}
             >
               <Trash2 size={16} color={colors.mutedForeground} />
             </Pressable>
@@ -104,15 +110,15 @@ export default function ShoppingScreen() {
         ListEmptyComponent={
           <EmptyState
             icon={ShoppingCart}
-            title="구매 목록이 비어 있습니다"
-            description="홈 화면에서 부족한 재고를 한 번에 담을 수 있습니다."
+            title={t('shopping.empty')}
+            description={t('shopping.emptyDescription')}
           />
         }
         ListFooterComponent={
           purchasedCount > 0 ? (
             <View className="p-4">
               <Button variant="outline" size="sm" onPress={clearPurchasedItems}>
-                {`구매 완료 ${purchasedCount}개 지우기`}
+                {t('shopping.clearPurchased', { count: purchasedCount })}
               </Button>
             </View>
           ) : null

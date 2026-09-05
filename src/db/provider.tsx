@@ -7,6 +7,7 @@ import { db } from './client';
 import { seedBuiltInBrands } from './seed';
 
 import { Text } from '@/components/ui/text';
+import { standaloneT } from '@/features/settings/provider';
 
 /**
  * 앱 시작 시 마이그레이션을 적용하고 기본 데이터를 채운 뒤 화면을 그린다.
@@ -29,7 +30,7 @@ export function DatabaseProvider({ children }: { children: ReactNode }) {
   if (failure) {
     return (
       <View className="flex-1 items-center justify-center gap-2 bg-background p-8">
-        <Text variant="subtitle">데이터베이스를 열지 못했습니다</Text>
+        <Text variant="subtitle">{standaloneT('db.openFailed')}</Text>
         <Text variant="muted" className="text-center">
           {failure.message}
         </Text>

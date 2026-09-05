@@ -6,6 +6,7 @@ import { ActivityIndicator, Alert, Pressable, View } from 'react-native';
 
 import { ActionSheet, type ActionSheetItem } from '@/components/ui/action-sheet';
 import { Text } from '@/components/ui/text';
+import { useT } from '@/features/settings/provider';
 import { useTheme } from '@/hooks/use-theme';
 import { persistPhoto } from '@/lib/photos';
 
@@ -22,8 +23,10 @@ export type PhotoPickerProps = {
  * 사진 썸네일. 누르면 촬영/앨범 선택 시트가 열린다.
  * 고른 사진은 앱 문서 폴더로 복사한 뒤 경로를 돌려준다.
  */
-export function PhotoPicker({ uri, onChange, size = 96, title = '사진' }: PhotoPickerProps) {
+export function PhotoPicker({ uri, onChange, size = 96, title }: PhotoPickerProps) {
   const { colors } = useTheme();
+  const t = useT();
+  const sheetTitle = title ?? t('photo.title');
   const [working, setWorking] = useState(false);
   const [sheetOpen, setSheetOpen] = useState(false);
 
@@ -38,10 +41,8 @@ export function PhotoPicker({ uri, onChange, size = 96, title = '사진' }: Phot
 
       if (!permission.granted) {
         Alert.alert(
-          '권한이 필요합니다',
-          source === 'camera'
-            ? '사진을 찍으려면 카메라 권한을 허용해 주세요.'
-            : '앨범에서 사진을 가져오려면 사진 접근 권한을 허용해 주세요.',
+          t('photo.permissionTitle'),
+          source === 'camera' ? t('photo.permissionCamera') : t('photo.permissionLibrary'),
         );
         return;
       }
@@ -60,21 +61,21 @@ export function PhotoPicker({ uri, onChange, size = 96, title = '사진' }: Phot
       if (result.canceled || !result.assets[0]) return;
       onChange(await persistPhoto(result.assets[0].uri));
     } catch (error) {
-      Alert.alert('사진을 저장하지 못했습니다', String(error));
+      Alert.alert(t('photo.saveFailed'), String(error));
     } finally {
       setWorking(false);
     }
   };
 
   const items: ActionSheetItem[] = [
-    { key: 'camera', label: '촬영', onPress: () => pick('camera') },
-    { key: 'library', label: '앨범에서 선택', onPress: () => pick('library') },
+    { key: 'camera', label: t('photo.take'), onPress: () => pick('camera') },
+    { key: 'library', label: t('photo.pick'), onPress: () => pick('library') },
   ];
 
   if (uri) {
     items.push({
       key: 'remove',
-      label: '사진 삭제',
+      label: t('photo.remove'),
       destructive: true,
       onPress: () => {
         setSheetOpen(false);
@@ -88,7 +89,11 @@ export function PhotoPicker({ uri, onChange, size = 96, title = '사진' }: Phot
       <Pressable
         onPress={() => setSheetOpen(true)}
         accessibilityRole="button"
-        accessibilityLabel={uri ? `${title} 변경` : `${title} 추가`}
+        accessibilityLabel={
+          uri
+            ? t('photo.change', { title: sheetTitle })
+            : t('photo.addPhoto', { title: sheetTitle })
+        }
         className="overflow-hidden rounded-lg active:opacity-70"
         style={{ width: size, height: size }}
       >
@@ -101,7 +106,7 @@ export function PhotoPicker({ uri, onChange, size = 96, title = '사진' }: Phot
             ) : (
               <>
                 <Camera size={20} color={colors.mutedForeground} />
-                <Text variant="small">사진</Text>
+                <Text variant="small">{t('photo.placeholder')}</Text>
               </>
             )}
           </View>
@@ -116,7 +121,7 @@ export function PhotoPicker({ uri, onChange, size = 96, title = '사진' }: Phot
 
       <ActionSheet
         visible={sheetOpen}
-        title={title}
+        title={sheetTitle}
         items={items}
         onClose={() => setSheetOpen(false)}
       />

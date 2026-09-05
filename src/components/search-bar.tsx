@@ -1,6 +1,7 @@
 import { Search, X } from 'lucide-react-native';
 import { Pressable, TextInput, View } from 'react-native';
 
+import { useT } from '@/features/settings/provider';
 import { useTheme } from '@/hooks/use-theme';
 import { cn } from '@/lib/utils';
 
@@ -13,6 +14,7 @@ export type SearchBarProps = {
 
 export function SearchBar({ value, onChangeText, placeholder, className }: SearchBarProps) {
   const { colors } = useTheme();
+  const t = useT();
 
   return (
     <View
@@ -31,7 +33,11 @@ export function SearchBar({ value, onChangeText, placeholder, className }: Searc
         className="flex-1 text-base text-foreground"
       />
       {value.length > 0 ? (
-        <Pressable onPress={() => onChangeText('')} accessibilityLabel="검색어 지우기" hitSlop={8}>
+        <Pressable
+          onPress={() => onChangeText('')}
+          accessibilityLabel={t('a11y.clearSearch')}
+          hitSlop={8}
+        >
           <X size={18} color={colors.mutedForeground} />
         </Pressable>
       ) : null}

@@ -5,8 +5,8 @@ import { Badge } from '@/components/ui/badge';
 import { Text } from '@/components/ui/text';
 import { ColorSwatch } from '@/features/paints/components/color-swatch';
 import type { PaintListItem } from '@/features/paints/queries';
+import { useT } from '@/features/settings/provider';
 import { useTheme } from '@/hooks/use-theme';
-import { PAINT_FINISH_LABELS, PAINT_TYPE_LABELS } from '@/lib/labels';
 import { formatQuantity } from '@/lib/utils';
 
 export type PaintRowProps = {
@@ -19,6 +19,7 @@ export type PaintRowProps = {
 
 export function PaintRow({ item, onPress, onAdjust, showBrand = true }: PaintRowProps) {
   const { colors } = useTheme();
+  const t = useT();
   const isOut = item.quantity <= 0;
   const isLow = !isOut && item.quantity <= item.minQuantity;
 
@@ -42,10 +43,10 @@ export function PaintRow({ item, onPress, onAdjust, showBrand = true }: PaintRow
 
         <View className="flex-row flex-wrap items-center gap-1.5">
           {showBrand && brandLabel ? <Text variant="small">{brandLabel}</Text> : null}
-          <Badge label={PAINT_TYPE_LABELS[item.type]} />
-          {item.finish !== 'none' ? <Badge label={PAINT_FINISH_LABELS[item.finish]} /> : null}
-          {isOut ? <Badge label="품절" variant="destructive" /> : null}
-          {isLow ? <Badge label="부족" variant="warning" /> : null}
+          <Badge label={t(`paintType.${item.type}`)} />
+          {item.finish !== 'none' ? <Badge label={t(`paintFinish.${item.finish}`)} /> : null}
+          {isOut ? <Badge label={t('common.outOfStock')} variant="destructive" /> : null}
+          {isLow ? <Badge label={t('common.lowStock')} variant="warning" /> : null}
         </View>
       </View>
 
@@ -53,7 +54,7 @@ export function PaintRow({ item, onPress, onAdjust, showBrand = true }: PaintRow
         <Pressable
           onPress={() => onAdjust(-1)}
           hitSlop={6}
-          accessibilityLabel="재고 1 줄이기"
+          accessibilityLabel={t('a11y.decreaseStock')}
           className="h-8 w-8 items-center justify-center rounded-md border border-border active:bg-muted"
         >
           <Minus size={14} color={colors.foreground} />
@@ -66,7 +67,7 @@ export function PaintRow({ item, onPress, onAdjust, showBrand = true }: PaintRow
         <Pressable
           onPress={() => onAdjust(1)}
           hitSlop={6}
-          accessibilityLabel="재고 1 늘리기"
+          accessibilityLabel={t('a11y.increaseStock')}
           className="h-8 w-8 items-center justify-center rounded-md border border-border active:bg-muted"
         >
           <Plus size={14} color={colors.foreground} />

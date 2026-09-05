@@ -2,6 +2,7 @@ import { Check } from 'lucide-react-native';
 import { Modal, Pressable, ScrollView, View } from 'react-native';
 
 import { Text } from '@/components/ui/text';
+import { useT } from '@/features/settings/provider';
 import { useTheme } from '@/hooks/use-theme';
 import { cn } from '@/lib/utils';
 
@@ -29,6 +30,7 @@ export type ActionSheetProps = {
  */
 export function ActionSheet({ visible, title, items, onClose }: ActionSheetProps) {
   const { colors } = useTheme();
+  const t = useT();
 
   return (
     <Modal visible={visible} animationType="slide" transparent onRequestClose={onClose}>
@@ -74,7 +76,7 @@ export function ActionSheet({ visible, title, items, onClose }: ActionSheetProps
             accessibilityRole="button"
             className="mt-2 items-center rounded-lg border border-border py-3 active:bg-muted"
           >
-            <Text variant="label">취소</Text>
+            <Text variant="label">{t('common.cancel')}</Text>
           </Pressable>
         </Pressable>
       </Pressable>

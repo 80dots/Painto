@@ -15,6 +15,7 @@ import {
   MASKING_CATEGORY,
   useMaskingTapes,
 } from '@/features/supplies/queries';
+import { useT } from '@/features/settings/provider';
 import { useTheme } from '@/hooks/use-theme';
 import { MASKING_WIDTH_PRESETS } from '@/lib/labels';
 import { formatQuantity } from '@/lib/utils';
@@ -26,6 +27,7 @@ export default function MaskingScreen() {
   const router = useRouter();
   const { colors } = useTheme();
   const [search, setSearch] = useState('');
+  const t = useT();
 
   const { data } = useMaskingTapes(search);
   const tapes = data ?? [];
@@ -36,11 +38,11 @@ export default function MaskingScreen() {
 
   const quickAdd = async (widthMm: number) => {
     await createSupply({
-      name: `마스킹 테이프 ${widthMm}mm`,
+      name: t('masking.defaultName', { width: widthMm }),
       category: MASKING_CATEGORY,
       widthMm,
       quantity: 1,
-      unit: '롤',
+      unit: t('units.roll'),
       minQuantity: 1,
     });
   };
@@ -49,11 +51,11 @@ export default function MaskingScreen() {
     <Screen edges={[]}>
       <Stack.Screen
         options={{
-          title: `마스킹 테이프 ${tapes.length}종`,
+          title: t('masking.title', { count: tapes.length }),
           headerRight: () => (
             <Pressable
               onPress={() => router.push('/supply/new?category=masking')}
-              accessibilityLabel="마스킹 테이프 추가"
+              accessibilityLabel={t('masking.add')}
               hitSlop={8}
             >
               <Plus size={22} color={colors.primary} />
@@ -66,9 +68,11 @@ export default function MaskingScreen() {
         <SearchBar
           value={search}
           onChangeText={setSearch}
-          placeholder="이름 · 브랜드 · 규격 검색"
+          placeholder={t('masking.searchPlaceholder')}
         />
-        {tapes.length > 0 ? <Text variant="muted">보유 {formatQuantity(rolls)}롤</Text> : null}
+        {tapes.length > 0 ? (
+          <Text variant="muted">{t('masking.owned', { count: formatQuantity(rolls) })}</Text>
+        ) : null}
       </View>
 
       <FlatList
@@ -88,7 +92,7 @@ export default function MaskingScreen() {
         ListFooterComponent={
           missingWidths.length > 0 && !search ? (
             <View className="gap-2 px-4 pt-4">
-              <Text variant="small">자주 쓰는 폭 빠르게 추가</Text>
+              <Text variant="small">{t('masking.quickAdd')}</Text>
               <View className="flex-row flex-wrap gap-2">
                 {missingWidths.map((width) => (
                   <Pressable
@@ -107,9 +111,11 @@ export default function MaskingScreen() {
         ListEmptyComponent={
           <EmptyState
             icon={Disc3}
-            title={search ? '조건에 맞는 테이프가 없습니다' : '등록된 마스킹 테이프가 없습니다'}
-            description={`폭(mm)별로 남은 롤 수를 관리합니다. 자주 쓰는 폭은 ${MASKING_WIDTH_PRESETS.slice(0, 5).join('·')}mm 입니다.`}
-            actionLabel="직접 추가"
+            title={search ? t('masking.emptyFiltered') : t('masking.empty')}
+            description={t('masking.emptyDescription', {
+              widths: MASKING_WIDTH_PRESETS.slice(0, 5).join('·'),
+            })}
+            actionLabel={t('masking.addManually')}
             onAction={() => router.push('/supply/new?category=masking')}
           />
         }
@@ -128,6 +134,7 @@ function MaskingRow({
   onAdjust: (delta: number) => void;
 }) {
   const { colors } = useTheme();
+  const t = useT();
   const isOut = item.quantity <= 0;
   const isLow = !isOut && item.quantity <= item.minQuantity;
 
@@ -149,8 +156,8 @@ function MaskingRow({
         <View className="flex-row flex-wrap items-center gap-1.5">
           {item.brand ? <Text variant="small">{item.brand}</Text> : null}
           {item.spec ? <Text variant="small">{item.spec}</Text> : null}
-          {isOut ? <Badge label="품절" variant="destructive" /> : null}
-          {isLow ? <Badge label="부족" variant="warning" /> : null}
+          {isOut ? <Badge label={t('common.outOfStock')} variant="destructive" /> : null}
+          {isLow ? <Badge label={t('common.lowStock')} variant="warning" /> : null}
         </View>
       </View>
 
@@ -158,7 +165,7 @@ function MaskingRow({
         <Pressable
           onPress={() => onAdjust(-1)}
           hitSlop={6}
-          accessibilityLabel="재고 1 줄이기"
+          accessibilityLabel={t('a11y.decreaseStock')}
           className="h-8 w-8 items-center justify-center rounded-md border border-border active:bg-muted"
         >
           <Minus size={14} color={colors.foreground} />
@@ -172,7 +179,7 @@ function MaskingRow({
         <Pressable
           onPress={() => onAdjust(1)}
           hitSlop={6}
-          accessibilityLabel="재고 1 늘리기"
+          accessibilityLabel={t('a11y.increaseStock')}
           className="h-8 w-8 items-center justify-center rounded-md border border-border active:bg-muted"
         >
           <Plus size={14} color={colors.foreground} />

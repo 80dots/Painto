@@ -10,50 +10,29 @@
       Segoe UI Symbol, Noto Color Emoji;
     --font-mono:
       ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
-    --font-rounded: 'SF Pro Rounded', 'Hiragino Maru Gothic ProN', Meiryo, 'MS PGothic', sans-serif;
-    --font-serif: Georgia, 'Times New Roman', serif;
 
-    /* 라이트 테마 토큰 (shadcn 스타일 HSL 값) */
-    --background: 0 0% 100%;
-    --foreground: 20 14.3% 4.1%;
-    --card: 0 0% 100%;
-    --card-foreground: 20 14.3% 4.1%;
-    --muted: 60 4.8% 95.9%;
-    --muted-foreground: 25 5.3% 44.7%;
-    --border: 20 5.9% 90%;
-    --input: 20 5.9% 90%;
-    --ring: 24.6 95% 53.1%;
-    --primary: 24.6 95% 53.1%;
-    --primary-foreground: 60 9.1% 97.8%;
-    --secondary: 60 4.8% 95.9%;
-    --secondary-foreground: 24 9.8% 10%;
-    --accent: 60 4.8% 95.9%;
-    --accent-foreground: 24 9.8% 10%;
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 60 9.1% 97.8%;
-    --success: 142 71% 45%;
-    --warning: 38 92% 50%;
-  }
-
-  .dark:root {
-    --background: 20 14.3% 4.1%;
-    --foreground: 60 9.1% 97.8%;
-    --card: 24 9% 10%;
-    --card-foreground: 60 9.1% 97.8%;
-    --muted: 12 6.5% 15.1%;
-    --muted-foreground: 24 5.4% 63.9%;
-    --border: 12 6.5% 20%;
-    --input: 12 6.5% 20%;
-    --ring: 20.5 90.2% 48.2%;
-    --primary: 20.5 90.2% 48.2%;
-    --primary-foreground: 60 9.1% 97.8%;
-    --secondary: 12 6.5% 15.1%;
-    --secondary-foreground: 60 9.1% 97.8%;
-    --accent: 12 6.5% 15.1%;
-    --accent-foreground: 60 9.1% 97.8%;
-    --destructive: 0 72% 51%;
-    --destructive-foreground: 60 9.1% 97.8%;
-    --success: 142 69% 58%;
-    --warning: 38 92% 50%;
+    /*
+     * 기본값은 '건담 (연방)' 테마.
+     * 실제 값은 AppSettingsProvider 가 vars() 로 덮어쓴다 (src/constants/themes.ts).
+     */
+    --background: #f6f8fc;
+    --foreground: #0f172a;
+    --card: #ffffff;
+    --card-foreground: #0f172a;
+    --muted: #e7edf6;
+    --muted-foreground: #5a6678;
+    --border: #d3ddeb;
+    --input: #d3ddeb;
+    --ring: #1e4fa3;
+    --primary: #1e4fa3;
+    --primary-foreground: #ffffff;
+    --secondary: #e7edf6;
+    --secondary-foreground: #0f172a;
+    --accent: #e7edf6;
+    --accent-foreground: #0f172a;
+    --destructive: #c8102e;
+    --destructive-foreground: #ffffff;
+    --success: #178a4c;
+    --warning: #e9b317;
   }
 }

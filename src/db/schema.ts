@@ -119,8 +119,8 @@ export const supplies = sqliteTable(
     /** 마스킹 테이프 폭(mm). 폭별로 관리해야 해서 별도 칼럼으로 둔다. */
     widthMm: real('width_mm'),
     quantity: real('quantity').notNull().default(0),
-    /** 단위 (개, m, ml, 장 …) */
-    unit: text('unit').notNull().default('개'),
+    /** 단위 (개, m, ml, 장 …). 실제 값은 등록 화면에서 언어에 맞게 채운다. */
+    unit: text('unit').notNull().default('ea'),
     minQuantity: real('min_quantity').notNull().default(1),
     location: text('location'),
     barcode: text('barcode'),
@@ -241,6 +241,15 @@ export const shoppingItems = sqliteTable('shopping_items', {
   ...timestamps,
 });
 
+/** 앱 전역 설정 (언어 등) 을 담는 키-값 저장소 */
+export const appSettings = sqliteTable('app_settings', {
+  key: text('key').primaryKey(),
+  value: text('value').notNull(),
+  updatedAt: integer('updated_at', { mode: 'timestamp_ms' })
+    .notNull()
+    .default(sql`(unixepoch() * 1000)`),
+});
+
 /** 대시보드 카드 크기 — large 는 한 줄 전체, small 은 한 줄에 두 개 */
 export const DASHBOARD_CARD_SIZES = ['large', 'small'] as const;
 export type DashboardCardSize = (typeof DASHBOARD_CARD_SIZES)[number];
@@ -291,3 +300,4 @@ export type ProjectPaint = typeof projectPaints.$inferSelect;
 export type StockLog = typeof stockLogs.$inferSelect;
 export type ShoppingItem = typeof shoppingItems.$inferSelect;
 export type DashboardCardSetting = typeof dashboardCards.$inferSelect;
+export type AppSetting = typeof appSettings.$inferSelect;

@@ -1,7 +1,7 @@
 import { Image } from 'expo-image';
 import { Stack, useRouter } from 'expo-router';
 import { Blocks, Plus } from 'lucide-react-native';
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import { FlatList, Pressable, View } from 'react-native';
 
 import { SearchBar } from '@/components/search-bar';
@@ -12,21 +12,25 @@ import { Screen } from '@/components/ui/screen';
 import { Text } from '@/components/ui/text';
 import { PROJECT_STATUSES, type ProjectStatus } from '@/db/schema';
 import { useProjectList, useProjectSummary } from '@/features/projects/queries';
+import { useT } from '@/features/settings/provider';
 import { useTheme } from '@/hooks/use-theme';
-import { PROJECT_STATUS_LABELS } from '@/lib/labels';
 import { formatDate, formatQuantity } from '@/lib/utils';
-
-const STATUS_OPTIONS: ChipOption<ProjectStatus | null>[] = [
-  { value: null, label: '전체' },
-  ...PROJECT_STATUSES.map((status) => ({ value: status, label: PROJECT_STATUS_LABELS[status] })),
-];
 
 export default function ProjectsScreen() {
   const router = useRouter();
   const { colors } = useTheme();
+  const t = useT();
 
   const [status, setStatus] = useState<ProjectStatus | null>(null);
   const [search, setSearch] = useState('');
+
+  const statusOptions = useMemo<ChipOption<ProjectStatus | null>[]>(
+    () => [
+      { value: null, label: t('common.all') },
+      ...PROJECT_STATUSES.map((item) => ({ value: item, label: t(`projectStatus.${item}`) })),
+    ],
+    [t],
+  );
 
   const { data } = useProjectList({ status, search });
   const { data: summaryRows } = useProjectSummary();
@@ -38,11 +42,11 @@ export default function ProjectsScreen() {
     <Screen edges={[]}>
       <Stack.Screen
         options={{
-          title: `프라모델 ${projects.length}종`,
+          title: t('projects.title', { count: projects.length }),
           headerRight: () => (
             <Pressable
               onPress={() => router.push('/project/new')}
-              accessibilityLabel="프라모델 추가"
+              accessibilityLabel={t('projects.add')}
               hitSlop={8}
             >
               <Plus size={22} color={colors.primary} />
@@ -55,16 +59,16 @@ export default function ProjectsScreen() {
         <SearchBar
           value={search}
           onChangeText={setSearch}
-          placeholder="이름 · 제조사 · 스케일 검색"
+          placeholder={t('projects.searchPlaceholder')}
         />
 
         <View className="flex-row gap-2">
-          <Stat label="미조립" value={`${summary?.unbuilt ?? 0}`} />
-          <Stat label="진행 중" value={`${summary?.inProgress ?? 0}`} />
-          <Stat label="완성" value={`${summary?.done ?? 0}`} />
+          <Stat label={t('projects.unbuilt')} value={`${summary?.unbuilt ?? 0}`} />
+          <Stat label={t('projects.inProgress')} value={`${summary?.inProgress ?? 0}`} />
+          <Stat label={t('projects.done')} value={`${summary?.done ?? 0}`} />
         </View>
 
-        <ChipGroup options={STATUS_OPTIONS} value={status} onChange={setStatus} />
+        <ChipGroup options={statusOptions} value={status} onChange={setStatus} />
       </View>
 
       <FlatList
@@ -94,16 +98,21 @@ export default function ProjectsScreen() {
                 {item.name}
               </Text>
               <Text variant="small" numberOfLines={1}>
-                {[item.maker, item.scale, item.location].filter(Boolean).join(' · ') || '정보 없음'}
+                {[item.maker, item.scale, item.location].filter(Boolean).join(' · ') ||
+                  t('common.noInfo')}
               </Text>
               <View className="flex-row flex-wrap items-center gap-1.5">
                 <Badge
-                  label={PROJECT_STATUS_LABELS[item.status]}
+                  label={t(`projectStatus.${item.status}`)}
                   variant={item.status === 'done' ? 'success' : 'primary'}
                 />
-                {item.paintCount > 0 ? <Badge label={`도료 ${item.paintCount}`} /> : null}
+                {item.paintCount > 0 ? (
+                  <Badge label={t('projects.paintCount', { count: item.paintCount })} />
+                ) : null}
                 {item.purchasedAt ? (
-                  <Text variant="small">구입 {formatDate(item.purchasedAt)}</Text>
+                  <Text variant="small">
+                    {t('projects.purchasedAt', { date: formatDate(item.purchasedAt) })}
+                  </Text>
                 ) : null}
               </View>
             </View>
@@ -118,9 +127,9 @@ export default function ProjectsScreen() {
         ListEmptyComponent={
           <EmptyState
             icon={Blocks}
-            title={search || status ? '조건에 맞는 킷이 없습니다' : '등록된 프라모델이 없습니다'}
-            description="쌓아 둔 미조립 킷부터 등록해 두면 중복 구매를 막을 수 있습니다."
-            actionLabel="프라모델 추가"
+            title={search || status ? t('projects.emptyFiltered') : t('projects.empty')}
+            description={t('projects.emptyDescription')}
+            actionLabel={t('projects.add')}
             onAction={() => router.push('/project/new')}
           />
         }

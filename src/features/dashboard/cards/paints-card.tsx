@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/button';
 import { Text } from '@/components/ui/text';
 import type { DashboardCardContentProps } from '@/features/dashboard/registry';
 import { usePaintSummary } from '@/features/paints/queries';
+import { useT } from '@/features/settings/provider';
 import { useTheme } from '@/hooks/use-theme';
 import { formatQuantity } from '@/lib/utils';
 
@@ -13,6 +14,7 @@ import { formatQuantity } from '@/lib/utils';
 export function PaintsCard({ size }: DashboardCardContentProps) {
   const router = useRouter();
   const { colors } = useTheme();
+  const t = useT();
 
   const { data: summaryRows } = usePaintSummary();
   const summary = summaryRows?.[0];
@@ -22,17 +24,27 @@ export function PaintsCard({ size }: DashboardCardContentProps) {
   return (
     <View className="gap-3">
       <View className="flex-row gap-2">
-        <Stat label="보유" value={`${summary?.total ?? 0}종`} />
+        <Stat
+          label={t('paintsCard.total')}
+          value={t('count.kinds', { count: summary?.total ?? 0 })}
+        />
         {isSmall ? null : (
-          <Stat label="총 재고" value={`${formatQuantity(summary?.bottles ?? 0)}병`} />
+          <Stat
+            label={t('paintsCard.stock')}
+            value={t('count.bottles', { count: formatQuantity(summary?.bottles ?? 0) })}
+          />
         )}
-        <Stat label="부족" value={`${summary?.lowStock ?? 0}종`} highlight={!!summary?.lowStock} />
+        <Stat
+          label={t('paintsCard.low')}
+          value={t('count.kinds', { count: summary?.lowStock ?? 0 })}
+          highlight={!!summary?.lowStock}
+        />
       </View>
 
       <Button size="sm" onPress={() => router.push('/paint/scan')}>
         <ScanBarcode size={16} color={colors.primaryForeground} />
         <Text className="text-sm font-semibold text-primary-foreground">
-          {isSmall ? '스캔' : '바코드 스캔'}
+          {isSmall ? t('paintsCard.scanShort') : t('paintsCard.scan')}
         </Text>
       </Button>
     </View>

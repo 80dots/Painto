@@ -1,6 +1,6 @@
 import { Stack, useLocalSearchParams, useRouter } from 'expo-router';
 import { Trash2 } from 'lucide-react-native';
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { Alert, KeyboardAvoidingView, Platform, ScrollView, View } from 'react-native';
 
 import { Button } from '@/components/ui/button';
@@ -16,8 +16,9 @@ import {
   updateSupply,
   useSupply,
 } from '@/features/supplies/queries';
+import { useAppSettingsContext } from '@/features/settings/provider';
 import { useTheme } from '@/hooks/use-theme';
-import { MASKING_WIDTH_PRESETS, SUPPLY_CATEGORY_LABELS, SUPPLY_UNITS } from '@/lib/labels';
+import { MASKING_WIDTH_PRESETS } from '@/lib/labels';
 import { toNumber } from '@/lib/utils';
 
 type SupplyForm = {
@@ -41,21 +42,11 @@ const EMPTY_FORM: SupplyForm = {
   spec: '',
   widthMm: '',
   quantity: 1,
-  unit: '개',
+  unit: '',
   minQuantity: '1',
   location: '',
   notes: '',
 };
-
-const CATEGORY_OPTIONS: ChipOption<SupplyCategory>[] = SUPPLY_CATEGORIES.map((category) => ({
-  value: category,
-  label: SUPPLY_CATEGORY_LABELS[category],
-}));
-
-const UNIT_OPTIONS: ChipOption<string>[] = SUPPLY_UNITS.map((unit) => ({
-  value: unit,
-  label: unit,
-}));
 
 const WIDTH_OPTIONS: ChipOption<string>[] = MASKING_WIDTH_PRESETS.map((width) => ({
   value: String(width),
@@ -69,6 +60,7 @@ export default function SupplyDetailScreen() {
   }>();
   const router = useRouter();
   const { colors } = useTheme();
+  const { t, catalog } = useAppSettingsContext();
 
   const isNew = id === 'new';
   const supplyId = isNew ? null : Number(id);
@@ -78,12 +70,27 @@ export default function SupplyDetailScreen() {
 
   const [form, setForm] = useState<SupplyForm>(() =>
     categoryParam === MASKING_CATEGORY
-      ? { ...EMPTY_FORM, category: MASKING_CATEGORY, unit: '롤', name: '마스킹 테이프' }
+      ? {
+          ...EMPTY_FORM,
+          category: MASKING_CATEGORY,
+          unit: t('units.roll'),
+          name: t('supplyForm.maskingDefaultName'),
+        }
       : categoryParam
-        ? { ...EMPTY_FORM, category: categoryParam }
-        : EMPTY_FORM,
+        ? { ...EMPTY_FORM, category: categoryParam, unit: t('units.item') }
+        : { ...EMPTY_FORM, unit: t('units.item') },
   );
   const [saving, setSaving] = useState(false);
+
+  const categoryOptions = useMemo<ChipOption<SupplyCategory>[]>(
+    () => SUPPLY_CATEGORIES.map((item) => ({ value: item, label: t(`supplyCategory.${item}`) })),
+    [t],
+  );
+
+  const unitOptions = useMemo<ChipOption<string>[]>(
+    () => catalog.units.presets.map((unit) => ({ value: unit, label: unit })),
+    [catalog],
+  );
   const initialized = useRef(isNew);
 
   useEffect(() => {
@@ -108,7 +115,7 @@ export default function SupplyDetailScreen() {
 
   const handleSave = async () => {
     if (!form.name.trim()) {
-      Alert.alert('이름을 입력해 주세요');
+      Alert.alert(t('supplyForm.nameRequired'));
       return;
     }
     setSaving(true);
@@ -139,10 +146,10 @@ export default function SupplyDetailScreen() {
 
   const handleDelete = () => {
     if (!supplyId) return;
-    Alert.alert('소모품 삭제', `'${form.name}' 을(를) 삭제할까요?`, [
-      { text: '취소', style: 'cancel' },
+    Alert.alert(t('supplyForm.deleteTitle'), t('supplyForm.deleteMessage', { name: form.name }), [
+      { text: t('common.cancel'), style: 'cancel' },
       {
-        text: '삭제',
+        text: t('common.delete'),
         style: 'destructive',
         onPress: async () => {
           await deleteSupply(supplyId);
@@ -157,31 +164,33 @@ export default function SupplyDetailScreen() {
       behavior={Platform.OS === 'ios' ? 'padding' : undefined}
       className="flex-1 bg-background"
     >
-      <Stack.Screen options={{ title: isNew ? '소모품 추가' : '소모품 편집' }} />
+      <Stack.Screen
+        options={{ title: isNew ? t('supplyForm.titleNew') : t('supplyForm.titleEdit') }}
+      />
 
       <ScrollView
         className="flex-1"
         contentContainerClassName="gap-5 p-4 pb-10"
         keyboardShouldPersistTaps="handled"
       >
-        <Field label="이름" required>
+        <Field label={t('supplyForm.name')} required>
           <Input
             value={form.name}
             onChangeText={(value) => update('name', value)}
-            placeholder="예: 마스킹 테이프"
+            placeholder={t('supplyForm.namePlaceholder')}
           />
         </Field>
 
-        <Field label="분류">
+        <Field label={t('supplyForm.category')}>
           <ChipGroup
-            options={CATEGORY_OPTIONS}
+            options={categoryOptions}
             value={form.category}
             onChange={(v) => update('category', v)}
           />
         </Field>
 
         {form.category === MASKING_CATEGORY ? (
-          <Field label="폭 (mm)" hint="폭별로 남은 롤 수를 관리합니다.">
+          <Field label={t('supplyForm.width')} hint={t('supplyForm.widthHint')}>
             <View className="gap-2">
               <ChipGroup
                 options={WIDTH_OPTIONS}
@@ -192,38 +201,42 @@ export default function SupplyDetailScreen() {
                 value={form.widthMm}
                 onChangeText={(value) => update('widthMm', value)}
                 keyboardType="decimal-pad"
-                placeholder="직접 입력 (예: 8)"
+                placeholder={t('supplyForm.widthPlaceholder')}
               />
             </View>
           </Field>
         ) : null}
 
         <View className="flex-row gap-3">
-          <Field label="브랜드" className="flex-1">
+          <Field label={t('supplyForm.brand')} className="flex-1">
             <Input
               value={form.brand}
               onChangeText={(value) => update('brand', value)}
-              placeholder="타미야"
+              placeholder={t('supplyForm.brandPlaceholder')}
             />
           </Field>
-          <Field label="규격" className="flex-1">
+          <Field label={t('supplyForm.spec')} className="flex-1">
             <Input
               value={form.spec}
               onChangeText={(value) => update('spec', value)}
-              placeholder={form.category === MASKING_CATEGORY ? '길이 18m' : '#400'}
+              placeholder={
+                form.category === MASKING_CATEGORY
+                  ? t('supplyForm.specMasking')
+                  : t('supplyForm.specDefault')
+              }
             />
           </Field>
         </View>
 
         <View className="flex-row gap-3">
-          <Field label="보유 수량" className="flex-1">
+          <Field label={t('supplyForm.quantity')} className="flex-1">
             <Stepper
               value={form.quantity}
               onChange={(v) => update('quantity', v)}
               suffix={form.unit}
             />
           </Field>
-          <Field label="부족 기준" className="w-28">
+          <Field label={t('supplyForm.minQuantity')} className="w-28">
             <Input
               value={form.minQuantity}
               onChangeText={(value) => update('minQuantity', value)}
@@ -233,36 +246,36 @@ export default function SupplyDetailScreen() {
           </Field>
         </View>
 
-        <Field label="단위">
-          <ChipGroup options={UNIT_OPTIONS} value={form.unit} onChange={(v) => update('unit', v)} />
+        <Field label={t('supplyForm.unit')}>
+          <ChipGroup options={unitOptions} value={form.unit} onChange={(v) => update('unit', v)} />
         </Field>
 
-        <Field label="보관 위치">
+        <Field label={t('supplyForm.location')}>
           <Input
             value={form.location}
             onChangeText={(value) => update('location', value)}
-            placeholder="공구함"
+            placeholder={t('supplyForm.locationPlaceholder')}
           />
         </Field>
 
-        <Field label="메모">
+        <Field label={t('supplyForm.notes')}>
           <Input
             value={form.notes}
             onChangeText={(value) => update('notes', value)}
-            placeholder="구매처, 사용 팁 등"
+            placeholder={t('supplyForm.notesPlaceholder')}
             multiline
             textAlignVertical="top"
           />
         </Field>
 
         <Button onPress={handleSave} loading={saving} size="lg">
-          {isNew ? '등록' : '저장'}
+          {isNew ? t('common.register') : t('common.save')}
         </Button>
 
         {!isNew ? (
           <Button variant="outline" onPress={handleDelete}>
             <Trash2 size={16} color={colors.destructive} />
-            <Text className="text-base font-semibold text-destructive">삭제</Text>
+            <Text className="text-base font-semibold text-destructive">{t('common.delete')}</Text>
           </Button>
         ) : null}
       </ScrollView>

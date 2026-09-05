@@ -10,12 +10,14 @@ import { EmptyState } from '@/components/ui/empty-state';
 import { Screen } from '@/components/ui/screen';
 import { Text } from '@/components/ui/text';
 import { DashboardGrid } from '@/features/dashboard/components/dashboard-grid';
+import { useT } from '@/features/settings/provider';
 import { useDashboardLayout, type ResolvedCard } from '@/features/dashboard/use-dashboard-layout';
 import { useTheme } from '@/hooks/use-theme';
 
 export default function DashboardScreen() {
   const router = useRouter();
   const { colors } = useTheme();
+  const t = useT();
   const { visible, hidden, addCard, removeCard, moveCardTo, toggleCardSize } = useDashboardLayout();
 
   const [editing, setEditing] = useState(false);
@@ -26,11 +28,11 @@ export default function DashboardScreen() {
       <ScrollView contentContainerClassName="gap-4 pb-10">
         <ScreenHeader
           title="Painto"
-          subtitle={editing ? '길게 눌러 옮기고, 버튼으로 크기를 바꿉니다' : '프라모델 작업실 현황'}
+          subtitle={editing ? t('dashboard.editHint') : t('dashboard.subtitle')}
           right={
             <Pressable
               onPress={() => setEditing((value) => !value)}
-              accessibilityLabel={editing ? '편집 완료' : '대시보드 편집'}
+              accessibilityLabel={editing ? t('dashboard.editDone') : t('dashboard.edit')}
               className="h-10 w-10 items-center justify-center rounded-lg border border-border active:bg-muted"
             >
               {editing ? (
@@ -46,9 +48,9 @@ export default function DashboardScreen() {
           {visible.length === 0 ? (
             <EmptyState
               icon={LayoutGrid}
-              title="표시할 카드가 없습니다"
-              description="아래 버튼으로 보고 싶은 카드를 추가하세요."
-              actionLabel="카드 추가"
+              title={t('dashboard.emptyTitle')}
+              description={t('dashboard.emptyDescription')}
+              actionLabel={t('dashboard.addCard')}
               onAction={() => setPickerOpen(true)}
             />
           ) : (
@@ -68,7 +70,9 @@ export default function DashboardScreen() {
           {editing || visible.length === 0 ? (
             <Button variant="outline" onPress={() => setPickerOpen(true)}>
               <Plus size={16} color={colors.foreground} />
-              <Text className="text-base font-semibold text-foreground">카드 추가</Text>
+              <Text className="text-base font-semibold text-foreground">
+                {t('dashboard.addCard')}
+              </Text>
             </Button>
           ) : null}
         </View>
@@ -99,21 +103,22 @@ function AddCardModal({
   onSelect: (cardId: string) => void;
 }) {
   const { colors } = useTheme();
+  const t = useT();
 
   return (
     <Modal visible={visible} animationType="slide" transparent onRequestClose={onClose}>
       <Pressable className="flex-1 justify-end bg-black/40" onPress={onClose}>
         <Pressable className="max-h-[70%] rounded-t-xl bg-background p-4 pb-8" onPress={() => {}}>
           <View className="mb-3 flex-row items-center justify-between">
-            <Text variant="subtitle">카드 추가</Text>
-            <Pressable onPress={onClose} hitSlop={8} accessibilityLabel="닫기">
-              <Text variant="label">닫기</Text>
+            <Text variant="subtitle">{t('dashboard.addCard')}</Text>
+            <Pressable onPress={onClose} hitSlop={8} accessibilityLabel={t('common.close')}>
+              <Text variant="label">{t('common.close')}</Text>
             </Pressable>
           </View>
 
           <ScrollView contentContainerClassName="gap-2">
             {cards.length === 0 ? (
-              <Text variant="muted">추가할 수 있는 카드를 모두 사용 중입니다.</Text>
+              <Text variant="muted">{t('dashboard.allCardsUsed')}</Text>
             ) : (
               cards.map(({ card }) => {
                 const Icon = card.icon;
@@ -127,8 +132,8 @@ function AddCardModal({
                       <Icon size={18} color={colors.primary} />
                     </View>
                     <View className="flex-1">
-                      <Text variant="subtitle">{card.title}</Text>
-                      <Text variant="small">{card.description}</Text>
+                      <Text variant="subtitle">{t(card.titleKey)}</Text>
+                      <Text variant="small">{t(card.descriptionKey)}</Text>
                     </View>
                     <Plus size={18} color={colors.mutedForeground} />
                   </Card>

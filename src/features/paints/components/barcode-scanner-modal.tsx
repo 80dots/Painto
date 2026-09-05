@@ -4,6 +4,7 @@ import { Modal, Pressable, StyleSheet, View } from 'react-native';
 
 import { Button } from '@/components/ui/button';
 import { Text } from '@/components/ui/text';
+import { useT } from '@/features/settings/provider';
 
 const BARCODE_TYPES = [
   'ean13',
@@ -26,6 +27,7 @@ export type BarcodeScannerModalProps = {
 
 /** 도료 등록 화면에서 바코드 칸을 채우기 위한 간단한 스캐너 */
 export function BarcodeScannerModal({ visible, onClose, onScanned }: BarcodeScannerModalProps) {
+  const t = useT();
   const [permission, requestPermission] = useCameraPermissions();
   const busy = useRef(false);
 
@@ -56,21 +58,19 @@ export function BarcodeScannerModal({ visible, onClose, onScanned }: BarcodeScan
           {permission?.granted ? (
             <>
               <View className="h-40 w-72 rounded-xl border-2 border-white/80" />
-              <Text className="text-sm text-white">바코드를 사각형 안에 맞춰 주세요</Text>
+              <Text className="text-sm text-white">{t('scan.guideShort')}</Text>
             </>
           ) : (
             <>
-              <Text className="text-center text-base text-white">
-                바코드를 찍으려면 카메라 권한이 필요합니다
-              </Text>
-              <Button onPress={requestPermission}>카메라 권한 허용</Button>
+              <Text className="text-center text-base text-white">{t('scan.permissionTitle')}</Text>
+              <Button onPress={requestPermission}>{t('scan.allowCamera')}</Button>
             </>
           )}
         </View>
 
         <View className="bg-background p-4 pb-8">
           <Pressable onPress={onClose} accessibilityRole="button" className="items-center py-2">
-            <Text variant="label">닫기</Text>
+            <Text variant="label">{t('common.close')}</Text>
           </Pressable>
         </View>
       </View>

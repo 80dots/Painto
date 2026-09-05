@@ -1,6 +1,6 @@
 import { Stack, useRouter } from 'expo-router';
 import { Plus, Wrench } from 'lucide-react-native';
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import { FlatList, Pressable, View } from 'react-native';
 
 import { SearchBar } from '@/components/search-bar';
@@ -11,26 +11,31 @@ import { Text } from '@/components/ui/text';
 import { SUPPLY_CATEGORIES, type SupplyCategory } from '@/db/schema';
 import { SupplyRow } from '@/features/supplies/components/supply-row';
 import { adjustSupplyQuantity, MASKING_CATEGORY, useSupplyList } from '@/features/supplies/queries';
+import { useT } from '@/features/settings/provider';
 import { useTheme } from '@/hooks/use-theme';
-import { SUPPLY_CATEGORY_LABELS } from '@/lib/labels';
 import { cn } from '@/lib/utils';
 
 // 마스킹 테이프는 전용 화면에서 폭별로 관리하므로 여기서는 뺀다.
-const CATEGORY_OPTIONS: ChipOption<SupplyCategory | null>[] = [
-  { value: null, label: '전체' },
-  ...SUPPLY_CATEGORIES.filter((category) => category !== MASKING_CATEGORY).map((category) => ({
-    value: category,
-    label: SUPPLY_CATEGORY_LABELS[category],
-  })),
-];
-
 export default function SuppliesScreen() {
   const router = useRouter();
   const { colors } = useTheme();
+  const t = useT();
 
   const [search, setSearch] = useState('');
   const [category, setCategory] = useState<SupplyCategory | null>(null);
   const [onlyLowStock, setOnlyLowStock] = useState(false);
+
+  // 마스킹 테이프는 전용 화면에서 폭별로 관리하므로 여기서는 뺀다.
+  const categoryOptions = useMemo<ChipOption<SupplyCategory | null>[]>(
+    () => [
+      { value: null, label: t('common.all') },
+      ...SUPPLY_CATEGORIES.filter((item) => item !== MASKING_CATEGORY).map((item) => ({
+        value: item,
+        label: t(`supplyCategory.${item}`),
+      })),
+    ],
+    [t],
+  );
 
   const { data } = useSupplyList({
     search,
@@ -44,11 +49,11 @@ export default function SuppliesScreen() {
     <Screen edges={[]}>
       <Stack.Screen
         options={{
-          title: `모델링 용품 ${supplies.length}종`,
+          title: t('supplies.title', { count: supplies.length }),
           headerRight: () => (
             <Pressable
               onPress={() => router.push('/supply/new')}
-              accessibilityLabel="모델링 용품 추가"
+              accessibilityLabel={t('supplies.add')}
               hitSlop={8}
             >
               <Plus size={22} color={colors.primary} />
@@ -61,9 +66,9 @@ export default function SuppliesScreen() {
         <SearchBar
           value={search}
           onChangeText={setSearch}
-          placeholder="이름 · 브랜드 · 규격 검색"
+          placeholder={t('supplies.searchPlaceholder')}
         />
-        <ChipGroup options={CATEGORY_OPTIONS} value={category} onChange={setCategory} />
+        <ChipGroup options={categoryOptions} value={category} onChange={setCategory} />
         <View className="flex-row items-center gap-2">
           <Pressable
             onPress={() => setOnlyLowStock((v) => !v)}
@@ -80,7 +85,7 @@ export default function SuppliesScreen() {
                 onlyLowStock ? 'text-primary-foreground' : 'text-muted-foreground',
               )}
             >
-              부족만
+              {t('supplies.onlyLow')}
             </Text>
           </Pressable>
         </View>
@@ -104,12 +109,10 @@ export default function SuppliesScreen() {
           <EmptyState
             icon={Wrench}
             title={
-              search || category || onlyLowStock
-                ? '조건에 맞는 용품이 없습니다'
-                : '등록된 모델링 용품이 없습니다'
+              search || category || onlyLowStock ? t('supplies.emptyFiltered') : t('supplies.empty')
             }
-            description="사포, 접착제, 퍼티, 공구처럼 계속 쓰는 용품을 등록해 두면 떨어지기 전에 알 수 있습니다."
-            actionLabel="용품 추가"
+            description={t('supplies.emptyDescription')}
+            actionLabel={t('supplies.addShort')}
             onAction={() => router.push('/supply/new')}
           />
         }

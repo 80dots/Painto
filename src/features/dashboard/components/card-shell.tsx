@@ -6,6 +6,7 @@ import { Card } from '@/components/ui/card';
 import { Text } from '@/components/ui/text';
 import type { DashboardCardSize } from '@/db/schema';
 import { type DashboardCardDefinition } from '@/features/dashboard/registry';
+import { useT } from '@/features/settings/provider';
 import { useTheme } from '@/hooks/use-theme';
 
 export type CardShellProps = {
@@ -28,7 +29,9 @@ export function CardShell({
   onRemove,
 }: CardShellProps) {
   const { colors } = useTheme();
+  const t = useT();
   const { icon: Icon, Content } = definition;
+  const title = t(definition.titleKey);
 
   const isSmall = size === 'small';
 
@@ -40,12 +43,12 @@ export function CardShell({
 
         {editing || !onOpen ? (
           <Text variant={isSmall ? 'label' : 'subtitle'} className="flex-1" numberOfLines={1}>
-            {definition.title}
+            {title}
           </Text>
         ) : (
           <Pressable onPress={onOpen} className="flex-1 flex-row items-center gap-1">
             <Text variant={isSmall ? 'label' : 'subtitle'} numberOfLines={1}>
-              {definition.title}
+              {title}
             </Text>
             <ChevronRight size={14} color={colors.mutedForeground} />
           </Pressable>
@@ -54,7 +57,7 @@ export function CardShell({
         {editing ? (
           <View className="flex-row items-center gap-1">
             <IconButton
-              label={isSmall ? '크게 보기' : '작게 보기'}
+              label={isSmall ? t('dashboard.sizeLarger') : t('dashboard.sizeSmaller')}
               onPress={onToggleSize}
               icon={
                 isSmall ? (
@@ -65,7 +68,7 @@ export function CardShell({
               }
             />
             <IconButton
-              label="카드 삭제"
+              label={t('dashboard.removeCard')}
               onPress={onRemove}
               icon={<X size={14} color={colors.destructive} />}
             />

@@ -4,8 +4,8 @@ import { Pressable, View } from 'react-native';
 import { Badge } from '@/components/ui/badge';
 import { Text } from '@/components/ui/text';
 import type { Supply } from '@/db/schema';
+import { useT } from '@/features/settings/provider';
 import { useTheme } from '@/hooks/use-theme';
-import { SUPPLY_CATEGORY_LABELS } from '@/lib/labels';
 import { formatQuantity } from '@/lib/utils';
 
 export type SupplyRowProps = {
@@ -16,6 +16,7 @@ export type SupplyRowProps = {
 
 export function SupplyRow({ item, onPress, onAdjust }: SupplyRowProps) {
   const { colors } = useTheme();
+  const t = useT();
   const isOut = item.quantity <= 0;
   const isLow = !isOut && item.quantity <= item.minQuantity;
 
@@ -31,9 +32,9 @@ export function SupplyRow({ item, onPress, onAdjust }: SupplyRowProps) {
         </Text>
         <View className="flex-row flex-wrap items-center gap-1.5">
           {item.brand ? <Text variant="small">{item.brand}</Text> : null}
-          <Badge label={SUPPLY_CATEGORY_LABELS[item.category]} />
-          {isOut ? <Badge label="품절" variant="destructive" /> : null}
-          {isLow ? <Badge label="부족" variant="warning" /> : null}
+          <Badge label={t(`supplyCategory.${item.category}`)} />
+          {isOut ? <Badge label={t('common.outOfStock')} variant="destructive" /> : null}
+          {isLow ? <Badge label={t('common.lowStock')} variant="warning" /> : null}
         </View>
       </View>
 
@@ -41,7 +42,7 @@ export function SupplyRow({ item, onPress, onAdjust }: SupplyRowProps) {
         <Pressable
           onPress={() => onAdjust(-1)}
           hitSlop={6}
-          accessibilityLabel="재고 1 줄이기"
+          accessibilityLabel={t('a11y.decreaseStock')}
           className="h-8 w-8 items-center justify-center rounded-md border border-border active:bg-muted"
         >
           <Minus size={14} color={colors.foreground} />
@@ -55,7 +56,7 @@ export function SupplyRow({ item, onPress, onAdjust }: SupplyRowProps) {
         <Pressable
           onPress={() => onAdjust(1)}
           hitSlop={6}
-          accessibilityLabel="재고 1 늘리기"
+          accessibilityLabel={t('a11y.increaseStock')}
           className="h-8 w-8 items-center justify-center rounded-md border border-border active:bg-muted"
         >
           <Plus size={14} color={colors.foreground} />

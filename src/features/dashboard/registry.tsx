@@ -2,6 +2,8 @@ import { type Href } from 'expo-router';
 import { AlertTriangle, Blocks, Disc3, ShoppingCart, Wrench } from 'lucide-react-native';
 import { type ComponentType } from 'react';
 
+import type { TranslationKey } from '@/features/settings/provider';
+
 import { PaintBottle, type IconProps } from '@/components/icons/paint-bottle';
 import type { DashboardCardSize } from '@/db/schema';
 
@@ -20,9 +22,10 @@ export type DashboardCardContentProps = { size: DashboardCardSize };
 export type DashboardCardDefinition = {
   /** DB(dashboard_cards.card_id) 에 저장되는 식별자. 한 번 정하면 바꾸지 않는다. */
   id: string;
-  title: string;
-  /** 카드 추가 목록에서 보여줄 설명 */
-  description: string;
+  /** 제목 번역 키 */
+  titleKey: TranslationKey;
+  /** 카드 추가 목록에서 보여줄 설명의 번역 키 */
+  descriptionKey: TranslationKey;
   icon: ComponentType<IconProps>;
   /** 카드 제목을 눌렀을 때 이동할 화면 */
   href?: Href;
@@ -40,8 +43,8 @@ export type DashboardCardDefinition = {
 export const DASHBOARD_CARDS: DashboardCardDefinition[] = [
   {
     id: 'paints',
-    title: '도료 관리',
-    description: '보유 도료 재고를 보고 바로 늘리거나 줄입니다.',
+    titleKey: 'cards.paintsTitle',
+    descriptionKey: 'cards.paintsDescription',
     icon: PaintBottle,
     href: '/paints',
     defaultVisible: true,
@@ -51,8 +54,8 @@ export const DASHBOARD_CARDS: DashboardCardDefinition[] = [
   },
   {
     id: 'projects',
-    title: '프라모델 관리',
-    description: '미조립 킷과 제작 중인 킷을 관리합니다.',
+    titleKey: 'cards.projectsTitle',
+    descriptionKey: 'cards.projectsDescription',
     icon: Blocks,
     href: '/projects',
     defaultVisible: true,
@@ -62,8 +65,8 @@ export const DASHBOARD_CARDS: DashboardCardDefinition[] = [
   },
   {
     id: 'masking',
-    title: '마스킹 테이프',
-    description: '폭(mm)별로 남은 롤 수를 관리합니다.',
+    titleKey: 'cards.maskingTitle',
+    descriptionKey: 'cards.maskingDescription',
     icon: Disc3,
     href: '/masking',
     defaultVisible: true,
@@ -73,8 +76,8 @@ export const DASHBOARD_CARDS: DashboardCardDefinition[] = [
   },
   {
     id: 'supplies',
-    title: '모델링 용품',
-    description: '사포·접착제·퍼티·공구 등 나머지 용품 재고입니다.',
+    titleKey: 'cards.suppliesTitle',
+    descriptionKey: 'cards.suppliesDescription',
     icon: Wrench,
     href: '/supplies',
     defaultVisible: true,
@@ -84,8 +87,8 @@ export const DASHBOARD_CARDS: DashboardCardDefinition[] = [
   },
   {
     id: 'lowStock',
-    title: '재고 부족',
-    description: '기준치 이하로 떨어진 도료와 용품을 모아 봅니다.',
+    titleKey: 'cards.lowStockTitle',
+    descriptionKey: 'cards.lowStockDescription',
     icon: AlertTriangle,
     defaultVisible: false,
     defaultOrder: 4,
@@ -94,8 +97,8 @@ export const DASHBOARD_CARDS: DashboardCardDefinition[] = [
   },
   {
     id: 'shopping',
-    title: '구매 목록',
-    description: '사야 할 도료와 용품 목록입니다.',
+    titleKey: 'cards.shoppingTitle',
+    descriptionKey: 'cards.shoppingDescription',
     icon: ShoppingCart,
     href: '/shopping',
     defaultVisible: false,

@@ -2,6 +2,7 @@ import { Minus, Plus } from 'lucide-react-native';
 import { Pressable, View } from 'react-native';
 
 import { Text } from '@/components/ui/text';
+import { useT } from '@/features/settings/provider';
 import { useTheme } from '@/hooks/use-theme';
 import { cn, formatQuantity } from '@/lib/utils';
 
@@ -26,6 +27,7 @@ export function Stepper({
   className,
 }: StepperProps) {
   const { colors } = useTheme();
+  const t = useT();
 
   const clamp = (next: number) => Math.min(max, Math.max(min, Math.round(next * 10) / 10));
 
@@ -33,7 +35,7 @@ export function Stepper({
     <View className={cn('flex-row items-center gap-2', className)}>
       <Pressable
         accessibilityRole="button"
-        accessibilityLabel="수량 감소"
+        accessibilityLabel={t('a11y.decrease')}
         onPress={() => onChange(clamp(value - step))}
         disabled={value <= min}
         className={cn(
@@ -51,7 +53,7 @@ export function Stepper({
 
       <Pressable
         accessibilityRole="button"
-        accessibilityLabel="수량 증가"
+        accessibilityLabel={t('a11y.increase')}
         onPress={() => onChange(clamp(value + step))}
         disabled={value >= max}
         className={cn(

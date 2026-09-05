@@ -36,6 +36,20 @@
       "when": 1788564890419,
       "tag": "0004_drop_remaining_pct",
       "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "6",
+      "when": 1788611001693,
+      "tag": "0005_app_settings",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "6",
+      "when": 1788612161015,
+      "tag": "0006_supply_unit_default",
+      "breakpoints": true
     }
   ]
 }

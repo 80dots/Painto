@@ -11,8 +11,8 @@ import { usePaintList } from '@/features/paints/queries';
 import { useProjectList, useProjectSummary } from '@/features/projects/queries';
 import { addLowStockToShoppingList, useShoppingList } from '@/features/shopping/queries';
 import { useMaskingTapes, useSupplyList, useSupplySummary } from '@/features/supplies/queries';
+import { useT } from '@/features/settings/provider';
 import { useTheme } from '@/hooks/use-theme';
-import { PROJECT_STATUS_LABELS, SUPPLY_CATEGORY_LABELS } from '@/lib/labels';
 import { formatQuantity } from '@/lib/utils';
 
 /**
@@ -25,6 +25,7 @@ import { formatQuantity } from '@/lib/utils';
 export function ProjectsCard({ size }: DashboardCardContentProps) {
   const router = useRouter();
   const { colors } = useTheme();
+  const t = useT();
 
   const { data: summaryRows } = useProjectSummary();
   const { data: list } = useProjectList();
@@ -34,8 +35,14 @@ export function ProjectsCard({ size }: DashboardCardContentProps) {
   if (size === 'small') {
     return (
       <View className="flex-row gap-2">
-        <Stat label="미조립" value={`${summary?.unbuilt ?? 0}종`} />
-        <Stat label="진행 중" value={`${summary?.inProgress ?? 0}종`} />
+        <Stat
+          label={t('projectsCard.unbuilt')}
+          value={t('count.kinds', { count: summary?.unbuilt ?? 0 })}
+        />
+        <Stat
+          label={t('projectsCard.inProgress')}
+          value={t('count.kinds', { count: summary?.inProgress ?? 0 })}
+        />
       </View>
     );
   }
@@ -47,9 +54,18 @@ export function ProjectsCard({ size }: DashboardCardContentProps) {
   return (
     <View className="gap-3">
       <View className="flex-row gap-2">
-        <Stat label="미조립" value={`${summary?.unbuilt ?? 0}종`} />
-        <Stat label="진행 중" value={`${summary?.inProgress ?? 0}종`} />
-        <Stat label="완성" value={`${summary?.done ?? 0}종`} />
+        <Stat
+          label={t('projectsCard.unbuilt')}
+          value={t('count.kinds', { count: summary?.unbuilt ?? 0 })}
+        />
+        <Stat
+          label={t('projectsCard.inProgress')}
+          value={t('count.kinds', { count: summary?.inProgress ?? 0 })}
+        />
+        <Stat
+          label={t('projectsCard.done')}
+          value={t('count.kinds', { count: summary?.done ?? 0 })}
+        />
       </View>
 
       {inProgress.length > 0 ? (
@@ -63,17 +79,17 @@ export function ProjectsCard({ size }: DashboardCardContentProps) {
               <Text className="flex-1 text-sm text-foreground" numberOfLines={1}>
                 {project.name}
               </Text>
-              <Badge label={PROJECT_STATUS_LABELS[project.status]} />
+              <Badge label={t(`projectStatus.${project.status}`)} />
             </Pressable>
           ))}
         </View>
       ) : (
-        <Text variant="muted">쌓아 둔 킷을 등록해 두면 중복 구매를 막을 수 있습니다.</Text>
+        <Text variant="muted">{t('projectsCard.empty')}</Text>
       )}
 
       <Button variant="outline" size="sm" onPress={() => router.push('/project/new')}>
         <Plus size={16} color={colors.foreground} />
-        <Text className="text-sm font-semibold text-foreground">프라모델 추가</Text>
+        <Text className="text-sm font-semibold text-foreground">{t('projectsCard.add')}</Text>
       </Button>
     </View>
   );
@@ -83,6 +99,7 @@ export function ProjectsCard({ size }: DashboardCardContentProps) {
 export function MaskingCard({ size }: DashboardCardContentProps) {
   const router = useRouter();
   const { colors } = useTheme();
+  const t = useT();
   const { data } = useMaskingTapes();
 
   const tapes = data ?? [];
@@ -94,9 +111,7 @@ export function MaskingCard({ size }: DashboardCardContentProps) {
     return (
       <View className="gap-3">
         <Text variant="muted">
-          {isSmall
-            ? '자주 쓰는 폭부터 등록해 보세요.'
-            : '자주 쓰는 폭(3·6·10·18mm)부터 등록해 두면 남은 롤 수를 바로 확인할 수 있습니다.'}
+          {isSmall ? t('maskingCard.emptyShort') : t('maskingCard.emptyLong')}
         </Text>
         <Button
           variant="outline"
@@ -104,7 +119,7 @@ export function MaskingCard({ size }: DashboardCardContentProps) {
           onPress={() => router.push('/supply/new?category=masking')}
         >
           <Plus size={16} color={colors.foreground} />
-          <Text className="text-sm font-semibold text-foreground">테이프 추가</Text>
+          <Text className="text-sm font-semibold text-foreground">{t('maskingCard.add')}</Text>
         </Button>
       </View>
     );
@@ -113,9 +128,18 @@ export function MaskingCard({ size }: DashboardCardContentProps) {
   return (
     <View className="gap-3">
       <View className="flex-row gap-2">
-        <Stat label="보유 폭" value={`${tapes.length}종`} />
-        {isSmall ? null : <Stat label="총 롤" value={`${formatQuantity(rolls)}롤`} />}
-        <Stat label="부족" value={`${low.length}종`} highlight={low.length > 0} />
+        <Stat label={t('maskingCard.widths')} value={t('count.kinds', { count: tapes.length })} />
+        {isSmall ? null : (
+          <Stat
+            label={t('maskingCard.rolls')}
+            value={t('count.rolls', { count: formatQuantity(rolls) })}
+          />
+        )}
+        <Stat
+          label={t('maskingCard.low')}
+          value={t('count.kinds', { count: low.length })}
+          highlight={low.length > 0}
+        />
       </View>
 
       <View className="flex-row flex-wrap gap-2">
@@ -148,7 +172,7 @@ export function MaskingCard({ size }: DashboardCardContentProps) {
           onPress={() => router.push('/supply/new?category=masking')}
         >
           <Plus size={16} color={colors.foreground} />
-          <Text className="text-sm font-semibold text-foreground">테이프 추가</Text>
+          <Text className="text-sm font-semibold text-foreground">{t('maskingCard.add')}</Text>
         </Button>
       )}
     </View>
@@ -158,6 +182,7 @@ export function MaskingCard({ size }: DashboardCardContentProps) {
 /** 모델링 용품 — 사포·접착제·퍼티·공구 등 (마스킹 테이프 제외) */
 export function SuppliesCard({ size }: DashboardCardContentProps) {
   const router = useRouter();
+  const t = useT();
   const { data: summaryRows } = useSupplySummary('others');
   const { data: list } = useSupplyList({ excludeCategory: 'masking' });
 
@@ -167,8 +192,15 @@ export function SuppliesCard({ size }: DashboardCardContentProps) {
 
   const stats = (
     <View className="flex-row gap-2">
-      <Stat label="보유" value={`${summary?.total ?? 0}종`} />
-      <Stat label="부족" value={`${summary?.lowStock ?? 0}종`} highlight={!!summary?.lowStock} />
+      <Stat
+        label={t('suppliesCard.total')}
+        value={t('count.kinds', { count: summary?.total ?? 0 })}
+      />
+      <Stat
+        label={t('suppliesCard.low')}
+        value={t('count.kinds', { count: summary?.lowStock ?? 0 })}
+        highlight={!!summary?.lowStock}
+      />
     </View>
   );
 
@@ -189,18 +221,20 @@ export function SuppliesCard({ size }: DashboardCardContentProps) {
               <Text className="flex-1 text-sm text-foreground" numberOfLines={1}>
                 {item.name}
               </Text>
-              <Badge label={SUPPLY_CATEGORY_LABELS[item.category]} />
+              <Badge label={t(`supplyCategory.${item.category}`)} />
               <Badge
-                label={item.quantity <= 0 ? '품절' : `${formatQuantity(item.quantity)}${item.unit}`}
+                label={
+                  item.quantity <= 0
+                    ? t('common.outOfStock')
+                    : `${formatQuantity(item.quantity)}${item.unit}`
+                }
                 variant={item.quantity <= 0 ? 'destructive' : 'warning'}
               />
             </Pressable>
           ))}
         </View>
       ) : (
-        <Text variant="muted">
-          사포·접착제·퍼티·공구처럼 계속 쓰는 용품을 등록해 두면 떨어지기 전에 알 수 있습니다.
-        </Text>
+        <Text variant="muted">{t('suppliesCard.empty')}</Text>
       )}
     </View>
   );
@@ -209,6 +243,7 @@ export function SuppliesCard({ size }: DashboardCardContentProps) {
 /** 재고 부족 — 도료·마스킹·용품을 한 번에 */
 export function LowStockCard({ size }: DashboardCardContentProps) {
   const router = useRouter();
+  const t = useT();
   const { data: lowPaints } = usePaintList({ onlyLowStock: true, sort: 'quantity' });
   const { data: lowSupplies } = useSupplyList({ onlyLowStock: true });
 
@@ -217,7 +252,7 @@ export function LowStockCard({ size }: DashboardCardContentProps) {
   const total = paints.length + supplies.length;
 
   if (total === 0) {
-    return <Text variant="muted">부족한 재고가 없습니다. 도색 준비 완료!</Text>;
+    return <Text variant="muted">{t('lowStockCard.none')}</Text>;
   }
 
   const isSmall = size === 'small';
@@ -227,8 +262,16 @@ export function LowStockCard({ size }: DashboardCardContentProps) {
     <View className="gap-2">
       {isSmall ? (
         <View className="flex-row gap-2">
-          <Stat label="도료" value={`${paints.length}종`} highlight={paints.length > 0} />
-          <Stat label="용품" value={`${supplies.length}종`} highlight={supplies.length > 0} />
+          <Stat
+            label={t('lowStockCard.paints')}
+            value={t('count.kinds', { count: paints.length })}
+            highlight={paints.length > 0}
+          />
+          <Stat
+            label={t('lowStockCard.supplies')}
+            value={t('count.kinds', { count: supplies.length })}
+            highlight={supplies.length > 0}
+          />
         </View>
       ) : null}
 
@@ -245,7 +288,11 @@ export function LowStockCard({ size }: DashboardCardContentProps) {
             {paint.name}
           </Text>
           <Badge
-            label={paint.quantity <= 0 ? '품절' : `${formatQuantity(paint.quantity)}병`}
+            label={
+              paint.quantity <= 0
+                ? t('common.outOfStock')
+                : t('count.bottles', { count: formatQuantity(paint.quantity) })
+            }
             variant={paint.quantity <= 0 ? 'destructive' : 'warning'}
           />
         </Pressable>
@@ -259,7 +306,7 @@ export function LowStockCard({ size }: DashboardCardContentProps) {
         >
           {isSmall ? null : (
             <View className="h-8 w-8 items-center justify-center rounded-md bg-muted">
-              <Text variant="small">용품</Text>
+              <Text variant="small">{t('lowStockCard.supplies')}</Text>
             </View>
           )}
           <Text className="flex-1 text-sm text-foreground" numberOfLines={1}>
@@ -267,7 +314,9 @@ export function LowStockCard({ size }: DashboardCardContentProps) {
           </Text>
           <Badge
             label={
-              supply.quantity <= 0 ? '품절' : `${formatQuantity(supply.quantity)}${supply.unit}`
+              supply.quantity <= 0
+                ? t('common.outOfStock')
+                : `${formatQuantity(supply.quantity)}${supply.unit}`
             }
             variant={supply.quantity <= 0 ? 'destructive' : 'warning'}
           />
@@ -276,7 +325,7 @@ export function LowStockCard({ size }: DashboardCardContentProps) {
 
       {isSmall ? null : (
         <Button variant="outline" size="sm" onPress={() => addLowStockToShoppingList()}>
-          구매 목록에 담기
+          {t('lowStockCard.addToShopping')}
         </Button>
       )}
     </View>
@@ -285,12 +334,13 @@ export function LowStockCard({ size }: DashboardCardContentProps) {
 
 /** 구매 목록 미리보기 */
 export function ShoppingCard({ size }: DashboardCardContentProps) {
+  const t = useT();
   const { data } = useShoppingList();
   const items = data ?? [];
   const pending = items.filter((item) => !item.isPurchased);
 
   if (pending.length === 0) {
-    return <Text variant="muted">담아 둔 항목이 없습니다.</Text>;
+    return <Text variant="muted">{t('shoppingCard.empty')}</Text>;
   }
 
   const limit = size === 'small' ? 3 : 5;
@@ -302,10 +352,14 @@ export function ShoppingCard({ size }: DashboardCardContentProps) {
           <Text className="flex-1 text-sm text-foreground" numberOfLines={1}>
             {item.name}
           </Text>
-          <Text variant="small">{item.itemType === 'paint' ? '도료' : '용품'}</Text>
+          <Text variant="small">
+            {item.itemType === 'paint' ? t('shoppingCard.paint') : t('shoppingCard.supply')}
+          </Text>
         </View>
       ))}
-      {pending.length > limit ? <Text variant="small">외 {pending.length - limit}건</Text> : null}
+      {pending.length > limit ? (
+        <Text variant="small">{t('shoppingCard.andMore', { count: pending.length - limit })}</Text>
+      ) : null}
     </View>
   );
 }

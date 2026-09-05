@@ -23,8 +23,8 @@ import {
   usePaint,
   usePaintStockLogs,
 } from '@/features/paints/queries';
+import { useT } from '@/features/settings/provider';
 import { useTheme } from '@/hooks/use-theme';
-import { PAINT_FINISH_LABELS, PAINT_TYPE_LABELS, STOCK_REASON_LABELS } from '@/lib/labels';
 import { deletePhoto } from '@/lib/photos';
 import { formatDate, formatQuantity, normalizeHex, toNumber } from '@/lib/utils';
 
@@ -69,16 +69,6 @@ const EMPTY_FORM: PaintForm = {
   isFavorite: false,
 };
 
-const TYPE_OPTIONS: ChipOption<PaintType>[] = PAINT_TYPES.map((type) => ({
-  value: type,
-  label: PAINT_TYPE_LABELS[type],
-}));
-
-const FINISH_OPTIONS: ChipOption<PaintFinish>[] = PAINT_FINISHES.map((finish) => ({
-  value: finish,
-  label: PAINT_FINISH_LABELS[finish],
-}));
-
 /** "1:2" → { paint: '1', solvent: '2' } */
 function splitRatio(ratio?: string | null) {
   const [paint = '', solvent = ''] = (ratio ?? '').split(':');
@@ -89,6 +79,7 @@ export default function PaintDetailScreen() {
   const { id, barcode: barcodeParam } = useLocalSearchParams<{ id: string; barcode?: string }>();
   const router = useRouter();
   const { colors } = useTheme();
+  const t = useT();
 
   const isNew = id === 'new';
   const paintId = isNew ? null : Number(id);
@@ -106,6 +97,16 @@ export default function PaintDetailScreen() {
   /** 자주 안 쓰는 항목은 접어 둔다 */
   const [showMore, setShowMore] = useState(false);
   const [brandOpen, setBrandOpen] = useState(false);
+
+  const typeOptions = useMemo<ChipOption<PaintType>[]>(
+    () => PAINT_TYPES.map((item) => ({ value: item, label: t(`paintType.${item}`) })),
+    [t],
+  );
+
+  const finishOptions = useMemo<ChipOption<PaintFinish>[]>(
+    () => PAINT_FINISHES.map((item) => ({ value: item, label: t(`paintFinish.${item}`) })),
+    [t],
+  );
   const initialized = useRef(isNew);
   /** 저장 시 지워야 할 예전 사진 경로 */
   const savedPhotoUri = useRef<string | null>(null);
@@ -158,7 +159,7 @@ export default function PaintDetailScreen() {
     () => [
       {
         key: 'none',
-        label: '브랜드 없음',
+        label: t('paintForm.noBrand'),
         selected: form.brandId === null,
         onPress: () => {
           update('brandId', null);
@@ -176,7 +177,7 @@ export default function PaintDetailScreen() {
         },
       })),
     ],
-    [brands, form.brandId],
+    [brands, form.brandId, t],
   );
 
   const update = <K extends keyof PaintForm>(key: K, value: PaintForm[K]) =>
@@ -189,11 +190,11 @@ export default function PaintDetailScreen() {
     const existing = await findPaintByBarcode(scanned);
     if (existing && existing.id !== paintId) {
       Alert.alert(
-        '이미 등록된 바코드입니다',
-        `'${existing.name}' 에 등록된 바코드입니다. 그 도료를 열까요?`,
+        t('paintForm.duplicateBarcodeTitle'),
+        t('paintForm.duplicateBarcodeMessage', { name: existing.name }),
         [
-          { text: '아니요', style: 'cancel' },
-          { text: '열기', onPress: () => router.replace(`/paint/${existing.id}`) },
+          { text: t('common.no'), style: 'cancel' },
+          { text: t('common.open'), onPress: () => router.replace(`/paint/${existing.id}`) },
         ],
       );
     }
@@ -201,7 +202,7 @@ export default function PaintDetailScreen() {
 
   const handleSave = async () => {
     if (!form.name.trim()) {
-      Alert.alert('이름을 입력해 주세요');
+      Alert.alert(t('paintForm.nameRequired'));
       return;
     }
     setSaving(true);
@@ -247,10 +248,10 @@ export default function PaintDetailScreen() {
 
   const handleDelete = () => {
     if (!paintId) return;
-    Alert.alert('도료 삭제', `'${form.name}' 을(를) 삭제할까요?`, [
-      { text: '취소', style: 'cancel' },
+    Alert.alert(t('paintForm.deleteTitle'), t('paintForm.deleteMessage', { name: form.name }), [
+      { text: t('common.cancel'), style: 'cancel' },
       {
-        text: '삭제',
+        text: t('common.delete'),
         style: 'destructive',
         onPress: async () => {
           await deletePaint(paintId);
@@ -267,12 +268,12 @@ export default function PaintDetailScreen() {
     >
       <Stack.Screen
         options={{
-          title: isNew ? '도료 등록' : '도료 편집',
+          title: isNew ? t('paintForm.titleNew') : t('paintForm.titleEdit'),
           headerRight: () => (
             <Pressable
               onPress={() => update('isFavorite', !form.isFavorite)}
               hitSlop={8}
-              accessibilityLabel="즐겨찾기"
+              accessibilityLabel={t('paintForm.favorite')}
             >
               <Star
                 size={20}
@@ -295,14 +296,14 @@ export default function PaintDetailScreen() {
             uri={form.photoUri}
             onChange={(uri) => update('photoUri', uri)}
             size={104}
-            title="도료 사진"
+            title={t('paintForm.photo')}
           />
 
           <View className="flex-1 justify-center gap-2">
             <Pressable
               onPress={() => setBrandOpen(true)}
               accessibilityRole="button"
-              accessibilityLabel="브랜드 선택"
+              accessibilityLabel={t('paintForm.brandSelect')}
               className="h-10 flex-row items-center gap-2 rounded-lg border border-input bg-card px-3 active:bg-muted"
             >
               <Text
@@ -313,7 +314,7 @@ export default function PaintDetailScreen() {
                 }
                 numberOfLines={1}
               >
-                {brandLabel ?? '브랜드 선택'}
+                {brandLabel ?? t('paintForm.brandSelect')}
               </Text>
               <ChevronDown size={16} color={colors.mutedForeground} />
             </Pressable>
@@ -321,25 +322,25 @@ export default function PaintDetailScreen() {
             <Input
               value={form.name}
               onChangeText={(value) => update('name', value)}
-              placeholder="도료 이름"
+              placeholder={t('paintForm.namePlaceholder')}
               className="h-14 text-2xl font-semibold"
             />
           </View>
         </View>
 
-        <Field label="종류">
-          <ChipGroup options={TYPE_OPTIONS} value={form.type} onChange={(v) => update('type', v)} />
+        <Field label={t('paintForm.type')}>
+          <ChipGroup options={typeOptions} value={form.type} onChange={(v) => update('type', v)} />
         </Field>
 
-        <Field label="광택">
+        <Field label={t('paintForm.finish')}>
           <ChipGroup
-            options={FINISH_OPTIONS}
+            options={finishOptions}
             value={form.finish}
             onChange={(v) => update('finish', v)}
           />
         </Field>
 
-        <Field label="용량 (ml)">
+        <Field label={t('paintForm.volume')}>
           <Input
             value={form.volumeMl}
             onChangeText={(value) => update('volumeMl', value)}
@@ -351,28 +352,28 @@ export default function PaintDetailScreen() {
 
         <View className="gap-2">
           <View className="flex-row items-stretch gap-3">
-            <Field label="보유 수량" className="flex-1">
+            <Field label={t('paintForm.quantity')} className="flex-1">
               <Stepper
                 value={form.quantity}
                 onChange={(v) => update('quantity', v)}
                 step={1}
-                suffix="병"
+                suffix={t('units.bottle')}
               />
             </Field>
 
             <View className="w-px self-stretch bg-border" />
 
-            <Field label="적정 보유 수량" className="flex-1">
+            <Field label={t('paintForm.minQuantity')} className="flex-1">
               <Stepper
                 value={form.minQuantity}
                 onChange={(v) => update('minQuantity', v)}
                 step={1}
-                suffix="병"
+                suffix={t('units.bottle')}
               />
             </Field>
           </View>
 
-          <Text variant="small">보유 수량이 적정 보유 수량보다 적으면 부족으로 표시합니다.</Text>
+          <Text variant="small">{t('paintForm.minQuantityHint')}</Text>
         </View>
 
         <Button
@@ -385,21 +386,21 @@ export default function PaintDetailScreen() {
           ) : (
             <ChevronDown size={16} color={colors.mutedForeground} />
           )}
-          <Text variant="label">{showMore ? '접기' : '더보기'}</Text>
+          <Text variant="label">{showMore ? t('common.collapse') : t('common.more')}</Text>
         </Button>
 
         {showMore ? (
           <>
-            <Field label="품번">
+            <Field label={t('paintForm.code')}>
               <Input
                 value={form.code}
                 onChangeText={(value) => update('code', value)}
-                placeholder="예: C-2, XF-1"
+                placeholder={t('paintForm.codePlaceholder')}
                 autoCapitalize="characters"
               />
             </Field>
 
-            <Field label="색상" hint="#RRGGBB 형식으로 입력하면 목록에 색이 표시됩니다.">
+            <Field label={t('paintForm.color')} hint={t('paintForm.colorHint')}>
               <Input
                 value={form.colorHex}
                 onChangeText={(value) => update('colorHex', value)}
@@ -408,10 +409,7 @@ export default function PaintDetailScreen() {
               />
             </Field>
 
-            <Field
-              label="바코드"
-              hint="도료 병의 바코드를 등록해 두면 스캔만으로 재고를 올릴 수 있습니다."
-            >
+            <Field label={t('paintForm.barcode')} hint={t('paintForm.barcodeHint')}>
               <View className="flex-row gap-2">
                 <Input
                   value={form.barcode}
@@ -422,7 +420,7 @@ export default function PaintDetailScreen() {
                 />
                 <Pressable
                   onPress={() => setScannerOpen(true)}
-                  accessibilityLabel="바코드 스캔"
+                  accessibilityLabel={t('a11y.scanBarcode')}
                   className="h-11 w-11 items-center justify-center rounded-lg border border-border bg-card active:bg-muted"
                 >
                   <ScanBarcode size={18} color={colors.foreground} />
@@ -430,7 +428,7 @@ export default function PaintDetailScreen() {
               </View>
             </Field>
 
-            <Field label="희석비 (도료 : 신너)">
+            <Field label={t('paintForm.thinner')}>
               <View className="flex-row items-center gap-2">
                 <Input
                   value={form.thinnerPaint}
@@ -450,19 +448,19 @@ export default function PaintDetailScreen() {
               </View>
             </Field>
 
-            <Field label="보관 위치">
+            <Field label={t('paintForm.location')}>
               <Input
                 value={form.location}
                 onChangeText={(value) => update('location', value)}
-                placeholder="A박스 1칸"
+                placeholder={t('paintForm.locationPlaceholder')}
               />
             </Field>
 
-            <Field label="메모">
+            <Field label={t('paintForm.notes')}>
               <Input
                 value={form.notes}
                 onChangeText={(value) => update('notes', value)}
-                placeholder="조색비, 사용처 등"
+                placeholder={t('paintForm.notesPlaceholder')}
                 multiline
                 textAlignVertical="top"
               />
@@ -471,22 +469,22 @@ export default function PaintDetailScreen() {
         ) : null}
 
         <Button onPress={handleSave} loading={saving} size="lg">
-          {isNew ? '등록' : '저장'}
+          {isNew ? t('common.register') : t('common.save')}
         </Button>
 
         {!isNew ? (
           <>
             <Button variant="outline" onPress={handleDelete}>
               <Trash2 size={16} color={colors.destructive} />
-              <Text className="text-base font-semibold text-destructive">삭제</Text>
+              <Text className="text-base font-semibold text-destructive">{t('common.delete')}</Text>
             </Button>
 
             {logs && logs.length > 0 ? (
               <Card className="gap-3">
-                <Text variant="subtitle">재고 이력</Text>
+                <Text variant="subtitle">{t('paintForm.stockHistory')}</Text>
                 {logs.map((log) => (
                   <View key={log.id} className="flex-row items-center gap-2">
-                    <Badge label={STOCK_REASON_LABELS[log.reason]} />
+                    <Badge label={t(`stockReason.${log.reason}`)} />
                     <Text className="flex-1 text-sm text-foreground">
                       {log.delta > 0 ? '+' : ''}
                       {formatQuantity(log.delta)}
@@ -503,7 +501,7 @@ export default function PaintDetailScreen() {
 
       <ActionSheet
         visible={brandOpen}
-        title="브랜드"
+        title={t('paintForm.brand')}
         items={brandItems}
         onClose={() => setBrandOpen(false)}
       />
