@@ -13,7 +13,6 @@ export const PAINT_TYPE_LABELS: Record<PaintType, string> = {
   water: '수성',
   primer: '프라이머',
   clear: '클리어',
-  topcoat: '마감제',
   weathering: '웨더링',
   other: '기타',
 };

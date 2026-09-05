@@ -32,8 +32,7 @@ export const PAINT_TYPES = [
   'acrylic', // 아크릴
   'water', // 수성
   'primer', // 프라이머/서페이서
-  'clear', // 클리어 (투명·클리어 컬러)
-  'topcoat', // 마감제 (탑코트)
+  'clear', // 클리어/탑코트
   'weathering', // 웨더링 (피그먼트, 워싱)
   'other',
 ] as const;
