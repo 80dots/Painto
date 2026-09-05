@@ -29,7 +29,7 @@ export function PaintRow({ item, onPress, onAdjust, showBrand = true }: PaintRow
       onPress={onPress}
       className="flex-row items-center gap-3 border-b border-border px-4 py-3 active:bg-muted"
     >
-      <ColorSwatch color={item.colorHex} fallbackText={item.code} />
+      <ColorSwatch color={item.colorHex} photoUri={item.photoUri} fallbackText={item.code} />
 
       <View className="flex-1 gap-1">
         <View className="flex-row items-center gap-1.5">
