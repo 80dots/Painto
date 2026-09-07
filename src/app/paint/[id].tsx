@@ -505,7 +505,6 @@ export default function PaintDetailScreen() {
                 <Input
                   value={form.barcode}
                   onChangeText={(value) => update('barcode', value)}
-                  placeholder="8801234567890"
                   keyboardType="number-pad"
                   className="flex-1"
                 />
@@ -543,7 +542,6 @@ export default function PaintDetailScreen() {
               <Input
                 value={form.location}
                 onChangeText={(value) => update('location', value)}
-                placeholder={t('paintForm.locationPlaceholder')}
               />
             </Field>
 
@@ -551,7 +549,6 @@ export default function PaintDetailScreen() {
               <Input
                 value={form.notes}
                 onChangeText={(value) => update('notes', value)}
-                placeholder={t('paintForm.notesPlaceholder')}
                 multiline
               />
             </Field>
