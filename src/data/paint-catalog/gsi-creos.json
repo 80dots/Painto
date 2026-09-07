@@ -1,0 +1,7947 @@
+{
+  "brand": "GSI Creos",
+  "brandEn": "GSI Creos",
+  "brandAliases": [
+    "군제",
+    "GSI Creos",
+    "Mr.COLOR",
+    "Mr.カラー",
+    "クレオス",
+    "ミスターカラー",
+    "gunze"
+  ],
+  "country": "JP",
+  "updatedAt": "2026-09-07",
+  "sources": [
+    "https://www.scalemates.com/colors/mr-color--657",
+    "https://www.scalemates.com/colors/mrcolor-lascivus--1053",
+    "https://tsurumai-hobby.jp/category/paint---gsicreos"
+  ],
+  "notes": "품번·영문 색이름·색상값·마감·용량은 scalemates 의 Mr Color 목록에서, JAN 바코드와 일본어 색이름·시리즈는 ツルマイ模型 상품 목록에서 품번으로 맞춰 왔다. Mr.COLOR 계열(락카)만 담았다. 수성 호비컬러(H)·아크리시온(N)·웨더링 컬러(WC)·신너·컬러 세트는 뺐다. 색상값은 참고용 근사값이다.",
+  "paints": [
+    {
+      "code": "C1",
+      "name": "White",
+      "nameEn": "White",
+      "aliases": [
+        "ホワイト(白"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#FFFFFF",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716009"
+    },
+    {
+      "code": "C2",
+      "name": "Black",
+      "nameEn": "Black",
+      "aliases": [
+        "ブラック(黒"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#000000",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716016"
+    },
+    {
+      "code": "C3",
+      "name": "Red",
+      "nameEn": "Red",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#FF0000",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "C4",
+      "name": "Yellow",
+      "nameEn": "Yellow",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#FFFF00",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "C5",
+      "name": "Blue",
+      "nameEn": "Blue",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#0000FF",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "C6",
+      "name": "Green",
+      "nameEn": "Green",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#006734",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "C7",
+      "name": "Brown",
+      "nameEn": "Brown",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#CA3929",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "C8",
+      "name": "Silver",
+      "nameEn": "Silver",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": "#DCDCDD",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "C9",
+      "name": "Gold",
+      "nameEn": "Gold",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": "#CBA30D",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "C10",
+      "name": "Copper",
+      "nameEn": "Copper",
+      "aliases": [
+        "カッパー(銅"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": "#CE722A",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716092"
+    },
+    {
+      "code": "C11",
+      "name": "Light Gull Gray",
+      "nameEn": "Light Gull Gray",
+      "aliases": [
+        "ガルグレー"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#BDC3C4",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716108"
+    },
+    {
+      "code": "C12",
+      "name": "Olive Drab 1",
+      "nameEn": "Olive Drab 1",
+      "aliases": [
+        "オリーブドラブ(1"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#685932",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716115"
+    },
+    {
+      "code": "C13",
+      "name": "Neutral Gray",
+      "nameEn": "Neutral Gray",
+      "aliases": [
+        "ニュートラルグレー"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#5B6B78",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716122"
+    },
+    {
+      "code": "C14",
+      "name": "Navy Blue",
+      "nameEn": "Navy Blue",
+      "aliases": [
+        "ネービーブルー"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#004652",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716139"
+    },
+    {
+      "code": "C15",
+      "name": "IJN Green (Nakajima)",
+      "nameEn": "IJN Green (Nakajima)",
+      "aliases": [
+        "暗緑色(中島系)(濃緑色1"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#013920",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716146"
+    },
+    {
+      "code": "C16",
+      "name": "IJA Green",
+      "nameEn": "IJA Green",
+      "aliases": [
+        "濃緑色"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#165B3F",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028535754"
+    },
+    {
+      "code": "C17",
+      "name": "RLM71 Dark Green",
+      "nameEn": "RLM71 Dark Green",
+      "aliases": [
+        "RLM71ダークグリーン"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#373C1E",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716160"
+    },
+    {
+      "code": "C18",
+      "name": "RLM70 Black Green",
+      "nameEn": "RLM70 Black Green",
+      "aliases": [
+        "RLM70ブラックグリーン"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#2F3529",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716177"
+    },
+    {
+      "code": "C19",
+      "name": "Sandy Brown",
+      "nameEn": "Sandy Brown",
+      "aliases": [
+        "サンディブラウン"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#96823B",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716184"
+    },
+    {
+      "code": "C20",
+      "name": "Light Blue",
+      "nameEn": "Light Blue",
+      "aliases": [
+        "ライトブルー"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#57BDA7",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028535792"
+    },
+    {
+      "code": "C21",
+      "name": "Middle Stone",
+      "nameEn": "Middle Stone",
+      "aliases": [
+        "ミドルストーン"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#B39242",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716207"
+    },
+    {
+      "code": "C22",
+      "name": "Dark Earth",
+      "nameEn": "Dark Earth",
+      "aliases": [
+        "ダークアース"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#84754C",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716214"
+    },
+    {
+      "code": "C23",
+      "name": "Dark Green (2)",
+      "nameEn": "Dark Green (2)",
+      "aliases": [
+        "ダークグリーン (2"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#4B604D",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028535822"
+    },
+    {
+      "code": "C25",
+      "name": "Dark Seagray",
+      "nameEn": "Dark Seagray",
+      "aliases": [
+        "ダークシーグレー"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#6D7E6E",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028535839"
+    },
+    {
+      "code": "C26",
+      "name": "Duck Egg Green",
+      "nameEn": "Duck Egg Green",
+      "aliases": [
+        "ダックエッググリーン"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#D6E0AC",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716245"
+    },
+    {
+      "code": "C27",
+      "name": "Interior Green",
+      "nameEn": "Interior Green",
+      "aliases": [
+        "機体内部色"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#B3A334",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716252"
+    },
+    {
+      "code": "C28",
+      "name": "Steel",
+      "nameEn": "Steel",
+      "aliases": [
+        "黒鉄色"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": "#201C1D",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716269"
+    },
+    {
+      "code": "C29",
+      "name": "Hull Red",
+      "nameEn": "Hull Red",
+      "aliases": [
+        "艦底色"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#603336",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716276"
+    },
+    {
+      "code": "C30",
+      "name": "Flat Base",
+      "nameEn": "Flat Base",
+      "aliases": [
+        "フラットベース"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "clear",
+      "finish": "flat",
+      "colorHex": null,
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716283"
+    },
+    {
+      "code": "C31",
+      "name": "Dark Gray (1)",
+      "nameEn": "Dark Gray (1)",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#939391",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "C32",
+      "name": "Dark Gray (2)",
+      "nameEn": "Dark Gray (2)",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#6D6D6B",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "C33",
+      "name": "Flat Black",
+      "nameEn": "Flat Black",
+      "aliases": [
+        "つや消しブラック"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#000000",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716313"
+    },
+    {
+      "code": "C34",
+      "name": "Sky Blue",
+      "nameEn": "Sky Blue",
+      "aliases": [
+        "スカイブルー"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#0195D9",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716320"
+    },
+    {
+      "code": "C35",
+      "name": "IJN Gray (Mitsubishi)",
+      "nameEn": "IJN Gray (Mitsubishi)",
+      "aliases": [
+        "明灰白色1"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#759586",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716337"
+    },
+    {
+      "code": "C36",
+      "name": "RLM 74 Gray Green",
+      "nameEn": "RLM 74 Gray Green",
+      "aliases": [
+        "RLM74グレーグリーン"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#4C574F",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028535945"
+    },
+    {
+      "code": "C37",
+      "name": "RLM 75 Gray Violet",
+      "nameEn": "RLM 75 Gray Violet",
+      "aliases": [
+        "RLM75グレーバイオレット"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#475D57",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716351"
+    },
+    {
+      "code": "C38",
+      "name": "Olive Drab 2",
+      "nameEn": "Olive Drab 2",
+      "aliases": [
+        "オリーブドラブ (2"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#3B3521",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716368"
+    },
+    {
+      "code": "C39",
+      "name": "Dark Yellow (Sandy Yellow)",
+      "nameEn": "Dark Yellow (Sandy Yellow)",
+      "aliases": [
+        "ダークイエロー"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#B79764",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716375"
+    },
+    {
+      "code": "C41",
+      "name": "Red Brown",
+      "nameEn": "Red Brown",
+      "aliases": [
+        "レッドブラウン"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#4A2F32",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716399"
+    },
+    {
+      "code": "C42",
+      "name": "Mahogany",
+      "nameEn": "Mahogany",
+      "aliases": [
+        "マホガニー"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#4B3538",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716405"
+    },
+    {
+      "code": "C43",
+      "name": "Wood Brown",
+      "nameEn": "Wood Brown",
+      "aliases": [
+        "ウッドブラウン"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#71533B",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716412"
+    },
+    {
+      "code": "C44",
+      "name": "Tan",
+      "nameEn": "Tan",
+      "aliases": [
+        "タン"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#C3A26D",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716429"
+    },
+    {
+      "code": "C45",
+      "name": "Sail Color",
+      "nameEn": "Sail Color",
+      "aliases": [
+        "セールカラー"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#B8AF84",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716436"
+    },
+    {
+      "code": "C46",
+      "name": "Clear",
+      "nameEn": "Clear",
+      "aliases": [
+        "クリアー（透明"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "clear",
+      "finish": "gloss",
+      "colorHex": null,
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716443"
+    },
+    {
+      "code": "C47",
+      "name": "Clear Red",
+      "nameEn": "Clear Red",
+      "aliases": [
+        "クリアーレッド"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "clear",
+      "finish": "gloss",
+      "colorHex": "#E60012",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716450"
+    },
+    {
+      "code": "C48",
+      "name": "Clear Yellow",
+      "nameEn": "Clear Yellow",
+      "aliases": [
+        "クリアーイエロー"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "clear",
+      "finish": "none",
+      "colorHex": "#FFD900",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716467"
+    },
+    {
+      "code": "C49",
+      "name": "Clear Orange",
+      "nameEn": "Clear Orange",
+      "aliases": [
+        "クリアーオレンジ"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "clear",
+      "finish": "gloss",
+      "colorHex": "#EB6100",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716474"
+    },
+    {
+      "code": "C50",
+      "name": "Clear Blue",
+      "nameEn": "Clear Blue",
+      "aliases": [
+        "クリアーブルー"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "clear",
+      "finish": "gloss",
+      "colorHex": "#00A0E9",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716481"
+    },
+    {
+      "code": "C51",
+      "name": "Flesh",
+      "nameEn": "Flesh",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#E6B378",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "C52",
+      "name": "Field Gray 2",
+      "nameEn": "Field Gray 2",
+      "aliases": [
+        "フィールドグレー (2"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#2A4E49",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716504"
+    },
+    {
+      "code": "C54",
+      "name": "Khaki Green",
+      "nameEn": "Khaki Green",
+      "aliases": [
+        "カーキグリーン"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#21423A",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716511"
+    },
+    {
+      "code": "C55",
+      "name": "Khaki",
+      "nameEn": "Khaki",
+      "aliases": [
+        "カーキ"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#4D5035",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716528"
+    },
+    {
+      "code": "C56",
+      "name": "IJN Gray Green (Nakajima)",
+      "nameEn": "IJN Gray Green (Nakajima)",
+      "aliases": [
+        "明灰緑色 (中島系"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#70A19A",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028635133"
+    },
+    {
+      "code": "C57",
+      "name": "Metallic Blue Green",
+      "nameEn": "Metallic Blue Green",
+      "aliases": [
+        "青竹色"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": "#00756A",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716542"
+    },
+    {
+      "code": "C58",
+      "name": "Orange Yellow (IJA/IJN Aircraft)",
+      "nameEn": "Orange Yellow (IJA/IJN Aircraft)",
+      "aliases": [
+        "黄橙色"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#FAAA00",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716559"
+    },
+    {
+      "code": "C59",
+      "name": "Orange",
+      "nameEn": "Orange",
+      "aliases": [
+        "オレンジ（橙"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#F03E24",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716566"
+    },
+    {
+      "code": "C60",
+      "name": "RLM 02 Gray",
+      "nameEn": "RLM 02 Gray",
+      "aliases": [
+        "RLM02グレー"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#80806C",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716573"
+    },
+    {
+      "code": "C61",
+      "name": "Burnt Iron",
+      "nameEn": "Burnt Iron",
+      "aliases": [
+        "焼鉄色"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": "#4E4D51",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716580"
+    },
+    {
+      "code": "C62",
+      "name": "Flat White",
+      "nameEn": "Flat White",
+      "aliases": [
+        "つや消しホワイト"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#FFFFFF",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716597"
+    },
+    {
+      "code": "C63",
+      "name": "Pink",
+      "nameEn": "Pink",
+      "aliases": [
+        "ピンク（桃"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#EB6D94",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716603"
+    },
+    {
+      "code": "C64",
+      "name": "Yellow Green",
+      "nameEn": "Yellow Green",
+      "aliases": [
+        "ルマングリーン (黄緑"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#00A33B",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028930757"
+    },
+    {
+      "code": "C65",
+      "name": "Bright Blue",
+      "nameEn": "Bright Blue",
+      "aliases": [
+        "インディーブルー"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#004098",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716627"
+    },
+    {
+      "code": "C66",
+      "name": "Bright Green",
+      "nameEn": "Bright Green",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#009944",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "C67",
+      "name": "Purple",
+      "nameEn": "Purple",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#3C2280",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "C68",
+      "name": "Madder Red",
+      "nameEn": "Madder Red",
+      "aliases": [
+        "モンザレッド"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#D80C18",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716658"
+    },
+    {
+      "code": "C69",
+      "name": "Off White",
+      "nameEn": "Off White",
+      "aliases": [
+        "グランプリホワイト"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#F9F8F4",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716665"
+    },
+    {
+      "code": "C70",
+      "name": "Dark Green",
+      "nameEn": "Dark Green",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#21423A",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "C71",
+      "name": "Midnight Blue",
+      "nameEn": "Midnight Blue",
+      "aliases": [
+        "ミッドナイトブルー"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#1F4247",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716689"
+    },
+    {
+      "code": "C72",
+      "name": "Intermediate Blue",
+      "nameEn": "Intermediate Blue",
+      "aliases": [
+        "ミディアムブルー"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#6F7C8A",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716696"
+    },
+    {
+      "code": "C73",
+      "name": "Aircraft Gray",
+      "nameEn": "Aircraft Gray",
+      "aliases": [
+        "エアクラフトグレー"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#729A96",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716702"
+    },
+    {
+      "code": "C74",
+      "name": "Air Superiority Blue",
+      "nameEn": "Air Superiority Blue",
+      "aliases": [
+        "エアスペリオリティーブルー"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#2F5F83",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716719"
+    },
+    {
+      "code": "C75",
+      "name": "Metallic Red",
+      "nameEn": "Metallic Red",
+      "aliases": [
+        "メタリックレッド"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": "#B01F1E",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716726"
+    },
+    {
+      "code": "C76",
+      "name": "Metallic Blue",
+      "nameEn": "Metallic Blue",
+      "aliases": [
+        "メタリックブルー"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": "#004EA2",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716733"
+    },
+    {
+      "code": "C77",
+      "name": "Metallic Green",
+      "nameEn": "Metallic Green",
+      "aliases": [
+        "メタリックグリーン"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": "#00894F",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028635348"
+    },
+    {
+      "code": "C78",
+      "name": "Metallic Black",
+      "nameEn": "Metallic Black",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": "#231815",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "C79",
+      "name": "Shine Red",
+      "nameEn": "Shine Red",
+      "aliases": [
+        "シャインレッド"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#E60012",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716764"
+    },
+    {
+      "code": "C80",
+      "name": "Cobalt Blue",
+      "nameEn": "Cobalt Blue",
+      "aliases": [
+        "コバルトブルー"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#1D2088",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716771"
+    },
+    {
+      "code": "C81",
+      "name": "Russet",
+      "nameEn": "Russet",
+      "aliases": [
+        "あずき色"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#772A31",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716788"
+    },
+    {
+      "code": "C90",
+      "name": "Shine Silver",
+      "nameEn": "Shine Silver",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": "#D3D3D4",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "C92",
+      "name": "Semi-Gloss Black",
+      "nameEn": "Semi-Gloss Black",
+      "aliases": [
+        "セミグロスブラック"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#000000",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716801"
+    },
+    {
+      "code": "C97",
+      "name": "Light Gray",
+      "nameEn": "Light Gray",
+      "aliases": [
+        "灰色9号"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#B2BEB2",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028635416"
+    },
+    {
+      "code": "C100",
+      "name": "Wine Red",
+      "nameEn": "Wine Red",
+      "aliases": [
+        "マルーン"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#AF1E32",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716825"
+    },
+    {
+      "code": "C101",
+      "name": "Smoke Gray",
+      "nameEn": "Smoke Gray",
+      "aliases": [
+        "スモークグレー"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "clear",
+      "finish": "gloss",
+      "colorHex": "#E6E6E6",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716832"
+    },
+    {
+      "code": "C104",
+      "name": "Gun Chrome",
+      "nameEn": "Gun Chrome",
+      "aliases": [
+        "ガンクローム"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": "#B1BFC4",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716849"
+    },
+    {
+      "code": "C107",
+      "name": "Character White",
+      "nameEn": "Character White",
+      "aliases": [
+        "キャラクターホワイト"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#F5F6F4",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716856"
+    },
+    {
+      "code": "C108",
+      "name": "Character Red",
+      "nameEn": "Character Red",
+      "aliases": [
+        "キャラクターレッド"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#C8161E",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716863"
+    },
+    {
+      "code": "C109",
+      "name": "Character Yellow",
+      "nameEn": "Character Yellow",
+      "aliases": [
+        "キャラクターイエロー"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#F08300",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716870"
+    },
+    {
+      "code": "C110",
+      "name": "Character Blue",
+      "nameEn": "Character Blue",
+      "aliases": [
+        "キャラクターブルー"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#004098",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716887"
+    },
+    {
+      "code": "C111",
+      "name": "Character Flesh 1",
+      "nameEn": "Character Flesh 1",
+      "aliases": [
+        "キャラクターフレッシュ（1"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#FCE4D6",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716894"
+    },
+    {
+      "code": "C112",
+      "name": "Character Flesh 2",
+      "nameEn": "Character Flesh 2",
+      "aliases": [
+        "キャラクターフレッシュ (2"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#F6BCB8",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716900"
+    },
+    {
+      "code": "C113",
+      "name": "RLM04 Yellow",
+      "nameEn": "RLM04 Yellow",
+      "aliases": [
+        "RLM04イエロー"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#FDBE1B",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716917"
+    },
+    {
+      "code": "C114",
+      "name": "RLM 23 Red",
+      "nameEn": "RLM 23 Red",
+      "aliases": [
+        "RLM23レッド"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#C8234A",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716924"
+    },
+    {
+      "code": "C115",
+      "name": "RLM65 Light Blue",
+      "nameEn": "RLM65 Light Blue",
+      "aliases": [
+        "RLM65ライトブルー"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#8AA2A6",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716931"
+    },
+    {
+      "code": "C116",
+      "name": "RLM 66 Black Gray",
+      "nameEn": "RLM 66 Black Gray",
+      "aliases": [
+        "RLM66ブラックグレー"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#373434",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716948"
+    },
+    {
+      "code": "C117",
+      "name": "RLM76 Light blue",
+      "nameEn": "RLM76 Light blue",
+      "aliases": [
+        "RLM76ライトブルー"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#BFD5D4",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716955"
+    },
+    {
+      "code": "C118",
+      "name": "RLM 78 Light Blue",
+      "nameEn": "RLM 78 Light Blue",
+      "aliases": [
+        "RLM78ライトブルー"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#80A6B6",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716962"
+    },
+    {
+      "code": "C119",
+      "name": "RLM 79 Sand Yellow",
+      "nameEn": "RLM 79 Sand Yellow",
+      "aliases": [
+        "RLM79サンドイエロー"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#B98241",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716979"
+    },
+    {
+      "code": "C120",
+      "name": "RLM 80 Olive Green",
+      "nameEn": "RLM 80 Olive Green",
+      "aliases": [
+        "RLM80オリーブグリーン"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#373C1E",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716986"
+    },
+    {
+      "code": "C121",
+      "name": "RLM 81 Brown Violet",
+      "nameEn": "RLM 81 Brown Violet",
+      "aliases": [
+        "RLM81ブラウンバイオレット"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#595A4E",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028716993"
+    },
+    {
+      "code": "C122",
+      "name": "RLM 82 Light Green",
+      "nameEn": "RLM 82 Light Green",
+      "aliases": [
+        "RLM82ライトグリーン"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#5C8352",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717006"
+    },
+    {
+      "code": "C123",
+      "name": "RLM 83 Dark Green",
+      "nameEn": "RLM 83 Dark Green",
+      "aliases": [
+        "RLM83ダークグリーン"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#25554B",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717013"
+    },
+    {
+      "code": "C124",
+      "name": "Dark Green (Mitsubishi)",
+      "nameEn": "Dark Green (Mitsubishi)",
+      "aliases": [
+        "暗緑色（三菱系"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#004D20",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717020"
+    },
+    {
+      "code": "C125",
+      "name": "Cowling Color",
+      "nameEn": "Cowling Color",
+      "aliases": [
+        "カウリング色"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#000000",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717037"
+    },
+    {
+      "code": "C126",
+      "name": "Cockpit Color (Mitsubishi)",
+      "nameEn": "Cockpit Color (Mitsubishi)",
+      "aliases": [
+        "コクピット色 (三菱系"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#456441",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717044"
+    },
+    {
+      "code": "C127",
+      "name": "Cockpit Color (Nakajima)",
+      "nameEn": "Cockpit Color (Nakajima)",
+      "aliases": [
+        "コクピット色 (中島系"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#A9B779",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717051"
+    },
+    {
+      "code": "C128",
+      "name": "Gray green",
+      "nameEn": "Gray green",
+      "aliases": [
+        "灰緑色"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#B1B6A7",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717068"
+    },
+    {
+      "code": "C129",
+      "name": "Dark Green (Nakajima)",
+      "nameEn": "Dark Green (Nakajima)",
+      "aliases": [
+        "濃緑色 (中島系) Mr.カラー"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#1A2A0E",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717075"
+    },
+    {
+      "code": "C130",
+      "name": "Dark Green (Kawasaki)",
+      "nameEn": "Dark Green (Kawasaki)",
+      "aliases": [
+        "濃緑色 (川崎系"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#495D40",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028635683"
+    },
+    {
+      "code": "C131",
+      "name": "Propeller Color",
+      "nameEn": "Propeller Color",
+      "aliases": [
+        "赤褐色"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#4D1D0F",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717099"
+    },
+    {
+      "code": "C132",
+      "name": "Earth Green",
+      "nameEn": "Earth Green",
+      "aliases": [
+        "土草色"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#685A32",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717105"
+    },
+    {
+      "code": "C133",
+      "name": "Earth",
+      "nameEn": "Earth",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": null,
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "C135",
+      "name": "Russian Green 1",
+      "nameEn": "Russian Green 1",
+      "aliases": [
+        "ロシアングリーン (1"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#21944A",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717112"
+    },
+    {
+      "code": "C136",
+      "name": "Russian Green 2",
+      "nameEn": "Russian Green 2",
+      "aliases": [
+        "ロシアングリーン (2"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#225A42",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028635744"
+    },
+    {
+      "code": "C137",
+      "name": "Tire Black",
+      "nameEn": "Tire Black",
+      "aliases": [
+        "タイヤブラック"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#191919",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717136"
+    },
+    {
+      "code": "C138",
+      "name": "Clear Green",
+      "nameEn": "Clear Green",
+      "aliases": [
+        "クリアーグリーン"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "clear",
+      "finish": "gloss",
+      "colorHex": "#009944",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717143"
+    },
+    {
+      "code": "C151",
+      "name": "White Pearl",
+      "nameEn": "White Pearl",
+      "aliases": [
+        "ホワイトパール"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "pearl",
+      "colorHex": "#FFFFFF",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717150"
+    },
+    {
+      "code": "C155",
+      "name": "Super Clear",
+      "nameEn": "Super Clear",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "clear",
+      "finish": "gloss",
+      "colorHex": null,
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "C156",
+      "name": "Super White IV",
+      "nameEn": "Super White IV",
+      "aliases": [
+        "スーパーホワイト"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#FFFFFF",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717167"
+    },
+    {
+      "code": "C158",
+      "name": "Super Italian Red",
+      "nameEn": "Super Italian Red",
+      "aliases": [
+        "スーパーイタリアンレッド"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#D70D19",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717174"
+    },
+    {
+      "code": "C159",
+      "name": "Super Silver",
+      "nameEn": "Super Silver",
+      "aliases": [
+        "スーパーシルバー"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": "#CCCDCF",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717181"
+    },
+    {
+      "code": "C171",
+      "name": "Fluorescent Red",
+      "nameEn": "Fluorescent Red",
+      "aliases": [
+        "蛍光レッド"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#E60013",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028635805"
+    },
+    {
+      "code": "C172",
+      "name": "Fluorescent Yellow",
+      "nameEn": "Fluorescent Yellow",
+      "aliases": [
+        "蛍光イエロー"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#FFF100",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717204"
+    },
+    {
+      "code": "C173",
+      "name": "Fluorescent Orange",
+      "nameEn": "Fluorescent Orange",
+      "aliases": [
+        "蛍光オレンジ"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#FB4201",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717211"
+    },
+    {
+      "code": "C174",
+      "name": "Fluorescent Pink",
+      "nameEn": "Fluorescent Pink",
+      "aliases": [
+        "蛍光ピンク"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#E5006A",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717228"
+    },
+    {
+      "code": "C175",
+      "name": "Fluoroscent Green",
+      "nameEn": "Fluoroscent Green",
+      "aliases": [
+        "蛍光グリーン"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#009944",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717235"
+    },
+    {
+      "code": "C181",
+      "name": "Semi-Gloss Super Clear",
+      "nameEn": "Semi-Gloss Super Clear",
+      "aliases": [
+        "スーパークリアー半光沢"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "clear",
+      "finish": "semi_gloss",
+      "colorHex": null,
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717242"
+    },
+    {
+      "code": "C182",
+      "name": "Flat Clear",
+      "nameEn": "Flat Clear",
+      "aliases": [
+        "スーパークリア(つや消し"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "clear",
+      "finish": "flat",
+      "colorHex": null,
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028635867"
+    },
+    {
+      "code": "C183",
+      "name": "Super Clear Gray Tone",
+      "nameEn": "Super Clear Gray Tone",
+      "aliases": [
+        "スーパークリアーグレートーン"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "clear",
+      "finish": "flat",
+      "colorHex": "#F4F5F6",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717266"
+    },
+    {
+      "code": "C188",
+      "name": "Flat Base Rough",
+      "nameEn": "Flat Base Rough",
+      "aliases": [
+        "フラットベース「あらめ・ラフ」"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "clear",
+      "finish": "flat",
+      "colorHex": null,
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028735789"
+    },
+    {
+      "code": "C189",
+      "name": "Flat Base Smooth",
+      "nameEn": "Flat Base Smooth",
+      "aliases": [
+        "フラットベース「なめらか・スムース」"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "clear",
+      "finish": "flat",
+      "colorHex": null,
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717280"
+    },
+    {
+      "code": "C207",
+      "name": "Fluorescent Green, Primary",
+      "nameEn": "Fluorescent Green, Primary",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#29E64D",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "211",
+      "name": "MR.METAL COLOR Chrome Silver",
+      "nameEn": "MR.METAL COLOR Chrome Silver",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#A4A4A6",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "212",
+      "name": "MR.METAL COLOR Iron",
+      "nameEn": "MR.METAL COLOR Iron",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#1A3F45",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "213",
+      "name": "MR.METAL COLOR Stainless",
+      "nameEn": "MR.METAL COLOR Stainless",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#000000",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "214",
+      "name": "MR.METAL COLOR Dark Iron",
+      "nameEn": "MR.METAL COLOR Dark Iron",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#000000",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "218",
+      "name": "Mr Metal Color Aluminium",
+      "nameEn": "Mr Metal Color Aluminium",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": null,
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "C301",
+      "name": "Gray FS36081",
+      "nameEn": "Gray FS36081",
+      "aliases": [
+        "グレーFS36081"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#343B44",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028635874"
+    },
+    {
+      "code": "C302",
+      "name": "Green - FS34092",
+      "nameEn": "Green - FS34092",
+      "aliases": [
+        "グリーンFS34092"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#53645A",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717303"
+    },
+    {
+      "code": "C303",
+      "name": "Green FS34102",
+      "nameEn": "Green FS34102",
+      "aliases": [
+        "グリーンFS34102"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#49594F",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717310"
+    },
+    {
+      "code": "C304",
+      "name": "Olive Drab FS34087",
+      "nameEn": "Olive Drab FS34087",
+      "aliases": [
+        "オリーブドラブFS34087"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#373C35",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717327"
+    },
+    {
+      "code": "C305",
+      "name": "Gray FS36118",
+      "nameEn": "Gray FS36118",
+      "aliases": [
+        "グレーFS36118"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#676C73",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717334"
+    },
+    {
+      "code": "C306",
+      "name": "Gray FS36270",
+      "nameEn": "Gray FS36270",
+      "aliases": [
+        "グレーFS36270"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#688887",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717341"
+    },
+    {
+      "code": "C307",
+      "name": "Gray FS36320",
+      "nameEn": "Gray FS36320",
+      "aliases": [
+        "グレーFS36320"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#818B8D",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028931495"
+    },
+    {
+      "code": "C308",
+      "name": "Gray FS36375",
+      "nameEn": "Gray FS36375",
+      "aliases": [
+        "グレーFS36375"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#709194",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717365"
+    },
+    {
+      "code": "C309",
+      "name": "Green FS34079",
+      "nameEn": "Green FS34079",
+      "aliases": [
+        "グリーンFS34079"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#345250",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028635959"
+    },
+    {
+      "code": "C310",
+      "name": "FS 30219 Brown",
+      "nameEn": "FS 30219 Brown",
+      "aliases": [
+        "ブラウンFS30219"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#6D5C4E",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717389"
+    },
+    {
+      "code": "C311",
+      "name": "Gray FS36622",
+      "nameEn": "Gray FS36622",
+      "aliases": [
+        "グレーFS36622"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#E1E0C7",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717396"
+    },
+    {
+      "code": "C312",
+      "name": "Green FS34227",
+      "nameEn": "Green FS34227",
+      "aliases": [
+        "グリーンFS34227"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#29845D",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717402"
+    },
+    {
+      "code": "C313",
+      "name": "Yellow FS33531",
+      "nameEn": "Yellow FS33531",
+      "aliases": [
+        "イエローFS33531"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#E8C589",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028635997"
+    },
+    {
+      "code": "C314",
+      "name": "Blue FS35622 (Israeli Kfir, C2, etc.)",
+      "nameEn": "Blue FS35622 (Israeli Kfir, C2, etc.)",
+      "aliases": [
+        "ブルーFS35622"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#DDF0E3",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028735000"
+    },
+    {
+      "code": "C315",
+      "name": "Gray FS16440 (Light Gull Gray)",
+      "nameEn": "Gray FS16440 (Light Gull Gray)",
+      "aliases": [
+        "グレーFS16440"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#B4B4AB",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717433"
+    },
+    {
+      "code": "C316",
+      "name": "WHITE FS17875",
+      "nameEn": "WHITE FS17875",
+      "aliases": [
+        "ホワイトFS17875"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#FFFFFF",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717440"
+    },
+    {
+      "code": "C317",
+      "name": "Gray FS36231",
+      "nameEn": "Gray FS36231",
+      "aliases": [
+        "グレーFS36231"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#6D786A",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717457"
+    },
+    {
+      "code": "C318",
+      "name": "Radome",
+      "nameEn": "Radome",
+      "aliases": [
+        "レドーム"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#FCD68C",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717464"
+    },
+    {
+      "code": "C319",
+      "name": "Light Green (JASDF F-1)",
+      "nameEn": "Light Green (JASDF F-1)",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#0F6D58",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "C320",
+      "name": "Dark Green (JASDF F-1)",
+      "nameEn": "Dark Green (JASDF F-1)",
+      "aliases": [
+        "濃松葉色"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#3A5645",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717488"
+    },
+    {
+      "code": "C321",
+      "name": "Light Brown",
+      "nameEn": "Light Brown",
+      "aliases": [
+        "黄土色"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#B4926A",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717495"
+    },
+    {
+      "code": "C322",
+      "name": "Phthalo Cyanne Blue (JASDF Blue Impulse)",
+      "nameEn": "Phthalo Cyanne Blue (JASDF Blue Impulse)",
+      "aliases": [
+        "フタロシアニンブルー"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#173551",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028931648"
+    },
+    {
+      "code": "C323",
+      "name": "Light Blue (JASDF Blue Impulse)",
+      "nameEn": "Light Blue (JASDF Blue Impulse)",
+      "aliases": [
+        "ライトブルー"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#00B0EC",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717518"
+    },
+    {
+      "code": "C324",
+      "name": "Light Gray (JASDF Cockpit)",
+      "nameEn": "Light Gray (JASDF Cockpit)",
+      "aliases": [
+        "ライトグレー"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#8CA9A3",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717525"
+    },
+    {
+      "code": "C325",
+      "name": "Gray FS26440",
+      "nameEn": "Gray FS26440",
+      "aliases": [
+        "グレーFS26440"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#A6B1A4",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717532"
+    },
+    {
+      "code": "C326",
+      "name": "Blue FS15044 (USAF Thunderbirds Blue)",
+      "nameEn": "Blue FS15044 (USAF Thunderbirds Blue)",
+      "aliases": [
+        "ブルーFS15044"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#1E3046",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028931686"
+    },
+    {
+      "code": "C327",
+      "name": "Red FS11136 (USAF Thunderbirds)",
+      "nameEn": "Red FS11136 (USAF Thunderbirds)",
+      "aliases": [
+        "レッドFS11136"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#9E2428",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717556"
+    },
+    {
+      "code": "C328",
+      "name": "Blue FS15050 (US Navy Blue Angels)",
+      "nameEn": "Blue FS15050 (US Navy Blue Angels)",
+      "aliases": [
+        "ブルーFS15050"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#173551",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717563"
+    },
+    {
+      "code": "C329",
+      "name": "Yellow FS13538 (US Navy Blue Angels)",
+      "nameEn": "Yellow FS13538 (US Navy Blue Angels)",
+      "aliases": [
+        "イエローFS13538"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#F5A100",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717570"
+    },
+    {
+      "code": "C330",
+      "name": "Dark Green BSC381C/641 (RAF Harrier, Jaguar)",
+      "nameEn": "Dark Green BSC381C/641 (RAF Harrier, Jaguar)",
+      "aliases": [
+        "ダークグリーンFS381C/641"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#2F4848",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717587"
+    },
+    {
+      "code": "C331",
+      "name": "Dark Seagray BS381C/638 (RAF Harrier, Jaguar)",
+      "nameEn": "Dark Seagray BS381C/638 (RAF Harrier, Jaguar)",
+      "aliases": [
+        "ダークシーグレーBS381C/638"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#4A575A",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717594"
+    },
+    {
+      "code": "C332",
+      "name": "Light Aircraft Gray BS381C/627 (RAF Harrier, Jaguar)",
+      "nameEn": "Light Aircraft Gray BS381C/627 (RAF Harrier, Jaguar)",
+      "aliases": [
+        "ライトエアクラフトグレーBS381C/627"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#9CA398",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717600"
+    },
+    {
+      "code": "C333",
+      "name": "Extra Dark Sea Gray BS381C/640 (Royal Navy Sea Harrier)",
+      "nameEn": "Extra Dark Sea Gray BS381C/640 (Royal Navy Sea Harrier)",
+      "aliases": [
+        "エクストラダークシーグレーBS381C/640"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#1A4752",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717617"
+    },
+    {
+      "code": "C334",
+      "name": "Barley Gray BS4800/18B21 (RAF F-4)",
+      "nameEn": "Barley Gray BS4800/18B21 (RAF F-4)",
+      "aliases": [
+        "バーリーグレーBS4800/18B21"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#829693",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717624"
+    },
+    {
+      "code": "C335",
+      "name": "Medium Seagray BSC381C/637 (RAF Balkan)",
+      "nameEn": "Medium Seagray BSC381C/637 (RAF Balkan)",
+      "aliases": [
+        "ミディアムシーグレーBS381C/637"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#5E7678",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717631"
+    },
+    {
+      "code": "C336",
+      "name": "Hemp BS4800/10B21 (RAF Nimrod) rgb(104, 142, 107)",
+      "nameEn": "Hemp BS4800/10B21 (RAF Nimrod) rgb(104, 142, 107)",
+      "aliases": [
+        "ヘンプBS4800/10B21"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#688E6B",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028735222"
+    },
+    {
+      "code": "C337",
+      "name": "Grayish Blue FS35237 (US NAVY F-14, F-4)",
+      "nameEn": "Grayish Blue FS35237 (US NAVY F-14, F-4)",
+      "aliases": [
+        "グレイッシュブルーFS35237"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#317179",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717655"
+    },
+    {
+      "code": "C338",
+      "name": "Light Gray FS36495 (US MARINE F-18)",
+      "nameEn": "Light Gray FS36495 (US MARINE F-18)",
+      "aliases": [
+        "ライトグレーFS36495"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#BDC3C4",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717662"
+    },
+    {
+      "code": "C339",
+      "name": "Engine Gray FS16081 (US NAVY SEA SPRITE)",
+      "nameEn": "Engine Gray FS16081 (US NAVY SEA SPRITE)",
+      "aliases": [
+        "エンジングレーFS16081"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#4B4C4F",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717679"
+    },
+    {
+      "code": "C340",
+      "name": "Field Green FS34097 (US MARINE Cobra)",
+      "nameEn": "Field Green FS34097 (US MARINE Cobra)",
+      "aliases": [
+        "フィールドグリーンFS34097"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#26553D",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028735260"
+    },
+    {
+      "code": "C351",
+      "name": "Zinc-Chromate Type1 FS34151",
+      "nameEn": "Zinc-Chromate Type1 FS34151",
+      "aliases": [
+        "ジンク・クロメイト タイプI FS34151"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#787745",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717693"
+    },
+    {
+      "code": "C352",
+      "name": "Chromate Yellow Primer FS33481",
+      "nameEn": "Chromate Yellow Primer FS33481",
+      "aliases": [
+        "クロメイトイエロープライマー FS33481"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "primer",
+      "finish": "flat",
+      "colorHex": "#BAA210",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717709"
+    },
+    {
+      "code": "C361",
+      "name": "Dark Green BS641",
+      "nameEn": "Dark Green BS641",
+      "aliases": [
+        "ダークグリーンBS641"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#3A3E33",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717716"
+    },
+    {
+      "code": "C362",
+      "name": "Ocean Gray",
+      "nameEn": "Ocean Gray",
+      "aliases": [
+        "オーシャングレー"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#819399",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717723"
+    },
+    {
+      "code": "C363",
+      "name": "Medium Seagray BS637",
+      "nameEn": "Medium Seagray BS637",
+      "aliases": [
+        "ミディアムシーグレー BS637"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#81939A",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717730"
+    },
+    {
+      "code": "C364",
+      "name": "Aircraft Grey Green BS283",
+      "nameEn": "Aircraft Grey Green BS283",
+      "aliases": [
+        "エアクラフトグレーグリーンBS283"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#66825D",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717747"
+    },
+    {
+      "code": "C365",
+      "name": "Gloss Sea Blue FS15042",
+      "nameEn": "Gloss Sea Blue FS15042",
+      "aliases": [
+        "グロスシーブルーFS15042"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#00001E",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717754"
+    },
+    {
+      "code": "C366",
+      "name": "Intermediate Blue FS35164",
+      "nameEn": "Intermediate Blue FS35164",
+      "aliases": [
+        "インターミディエートブルーFS35164"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#5D778B",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717761"
+    },
+    {
+      "code": "C367",
+      "name": "Blue Gray FS35189",
+      "nameEn": "Blue Gray FS35189",
+      "aliases": [
+        "ブルーグレーFS35189"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#719299",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717778"
+    },
+    {
+      "code": "C368",
+      "name": "Sky BS381C/210",
+      "nameEn": "Sky BS381C/210",
+      "aliases": [
+        "スカイ BS381C/210"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#AABD98",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717785"
+    },
+    {
+      "code": "C369",
+      "name": "Dark Earth BS381C/450",
+      "nameEn": "Dark Earth BS381C/450",
+      "aliases": [
+        "ダークアース BS381C/450"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#605133",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717792"
+    },
+    {
+      "code": "C370",
+      "name": "Azure Blue",
+      "nameEn": "Azure Blue",
+      "aliases": [
+        "エイザーブルー"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#5685B2",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717808"
+    },
+    {
+      "code": "C374",
+      "name": "Shallow Ocean Blue",
+      "nameEn": "Shallow Ocean Blue",
+      "aliases": [
+        "シャロウオーシャンブルー"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#4E80A9",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717815"
+    },
+    {
+      "code": "C375",
+      "name": "Deep Ocean Blue",
+      "nameEn": "Deep Ocean Blue",
+      "aliases": [
+        "ディープオーシャンブルー"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#242B45",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717822"
+    },
+    {
+      "code": "C376",
+      "name": "Radome Gray",
+      "nameEn": "Radome Gray",
+      "aliases": [
+        "レドームグレー"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#BFC9C5",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717839"
+    },
+    {
+      "code": "C377",
+      "name": "Aluminized Silver FS17178",
+      "nameEn": "Aluminized Silver FS17178",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": "#D8D5DC",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "C378",
+      "name": "JASDF Landing Gear White",
+      "nameEn": "JASDF Landing Gear White",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#EDEBEA",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "C379",
+      "name": "JASDF Cockpit Dark Gull Gray",
+      "nameEn": "JASDF Cockpit Dark Gull Gray",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#959194",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "C380",
+      "name": "Blue FS15180",
+      "nameEn": "Blue FS15180",
+      "aliases": [
+        "15180 青"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#243F90",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028721133"
+    },
+    {
+      "code": "C381",
+      "name": "Insignia White FS17925",
+      "nameEn": "Insignia White FS17925",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#F1EFF2",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "C382",
+      "name": "Light Gull Gray FS36440",
+      "nameEn": "Light Gull Gray FS36440",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#8D8C9E",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "C383",
+      "name": "Dark Green (Kawanishi)",
+      "nameEn": "Dark Green (Kawanishi)",
+      "aliases": [
+        "暗緑色(川西系"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#06473C",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717846"
+    },
+    {
+      "code": "C384",
+      "name": "Cockpit Color (Kawanishi)",
+      "nameEn": "Cockpit Color (Kawanishi)",
+      "aliases": [
+        "コクピット色（川西系"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#7B7E3E",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717853"
+    },
+    {
+      "code": "C385",
+      "name": "Red (IJN Marking)",
+      "nameEn": "Red (IJN Marking)",
+      "aliases": [
+        "紅色(日本海軍機用"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#B6000E",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717860"
+    },
+    {
+      "code": "C391",
+      "name": "Interior Turquoise Green/Soviet",
+      "nameEn": "Interior Turquoise Green/Soviet",
+      "aliases": [
+        "機体内部色ターコイズグリーン(ソビエト"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#00A38A",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717877"
+    },
+    {
+      "code": "C392",
+      "name": "Interior Blue/Soviet",
+      "nameEn": "Interior Blue/Soviet",
+      "aliases": [
+        "機体内部色ブルー(ソビエト"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#009BBD",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717884"
+    },
+    {
+      "code": "C393",
+      "name": "Russian Aircraft Blue II",
+      "nameEn": "Russian Aircraft Blue II",
+      "aliases": [
+        "ロシアンエアクラフトブルー(2"
+      ],
+      "line": "Mr.カラー 飛行機模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": null,
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717891"
+    },
+    {
+      "code": "C411",
+      "name": "Classic Silver",
+      "nameEn": "Classic Silver",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": "#DCDCDC",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "C412",
+      "name": "Brass",
+      "nameEn": "Brass",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": null,
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "C511",
+      "name": "Russian Green &quot;4BO”",
+      "nameEn": "Russian Green &quot;4BO”",
+      "aliases": [
+        "ロシアングリーン 4BO"
+      ],
+      "line": "Mr.カラー AFV・戦車模型用特色",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#435C35",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717907"
+    },
+    {
+      "code": "C512",
+      "name": "Russian Green &quot;4BO” 1947-",
+      "nameEn": "Russian Green &quot;4BO” 1947-",
+      "aliases": [
+        "ロシアングリーン 4BO 1947-"
+      ],
+      "line": "Mr.カラー AFV・戦車模型用特色",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#575F35",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717914"
+    },
+    {
+      "code": "C513",
+      "name": "Dark Grey DunkelGrau",
+      "nameEn": "Dark Grey DunkelGrau",
+      "aliases": [
+        "ジャーマングレー ドゥンケルグラウ"
+      ],
+      "line": "Mr.カラー AFV・戦車模型用特色",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#3D4F5D",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717921"
+    },
+    {
+      "code": "C514",
+      "name": "Gray ”Grau”",
+      "nameEn": "Gray ”Grau”",
+      "aliases": [
+        "ジャーマングレー グラウ"
+      ],
+      "line": "Mr.カラー AFV・戦車模型用特色",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#4B6F7A",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717938"
+    },
+    {
+      "code": "C515",
+      "name": "Faded Gray ”Blassgrau”",
+      "nameEn": "Faded Gray ”Blassgrau”",
+      "aliases": [
+        "ジャーマングレー グラウ(退色時"
+      ],
+      "line": "Mr.カラー AFV・戦車模型用特色",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#597980",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717945"
+    },
+    {
+      "code": "C516",
+      "name": "Dark Green 3414",
+      "nameEn": "Dark Green 3414",
+      "aliases": [
+        "濃緑色3414"
+      ],
+      "line": "Mr.カラー AFV・戦車模型用特色",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#41493A",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717952"
+    },
+    {
+      "code": "C517",
+      "name": "Brown 3606",
+      "nameEn": "Brown 3606",
+      "aliases": [
+        "茶色3606"
+      ],
+      "line": "Mr.カラー AFV・戦車模型用特色",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#4F3C2D",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717969"
+    },
+    {
+      "code": "C518",
+      "name": "Olive Drab 2314",
+      "nameEn": "Olive Drab 2314",
+      "aliases": [
+        "OD色2314"
+      ],
+      "line": "Mr.カラー AFV・戦車模型用特色",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#3B3521",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717976"
+    },
+    {
+      "code": "C519",
+      "name": "Bronzegrun",
+      "nameEn": "Bronzegrun",
+      "aliases": [
+        "ブロンセグリュンRAL6031"
+      ],
+      "line": "Mr.カラー AFV・戦車模型用特色",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#3B4D3A",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717983"
+    },
+    {
+      "code": "C520",
+      "name": "Lederbraun",
+      "nameEn": "Lederbraun",
+      "aliases": [
+        "レーダァブラオンRAL8027"
+      ],
+      "line": "Mr.カラー AFV・戦車模型用特色",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#543B28",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028717990"
+    },
+    {
+      "code": "C521",
+      "name": "Teerschwarz - RAL9021 (NATO Black)",
+      "nameEn": "Teerschwarz - RAL9021 (NATO Black)",
+      "aliases": [
+        "テーアシュバルツRAL9021"
+      ],
+      "line": "Mr.カラー AFV・戦車模型用特色",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#252C2C",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028718003"
+    },
+    {
+      "code": "C522",
+      "name": "Ground Color",
+      "nameEn": "Ground Color",
+      "aliases": [
+        "土地色"
+      ],
+      "line": "Mr.カラー AFV・戦車模型用特色",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#4D4A48",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028718010"
+    },
+    {
+      "code": "C523",
+      "name": "Grass Color",
+      "nameEn": "Grass Color",
+      "aliases": [
+        "草色"
+      ],
+      "line": "Mr.カラー AFV・戦車模型用特色",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#4B5C49",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028718027"
+    },
+    {
+      "code": "C524",
+      "name": "Hay Color",
+      "nameEn": "Hay Color",
+      "aliases": [
+        "枯草色"
+      ],
+      "line": "Mr.カラー AFV・戦車模型用特色",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#827741",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028736618"
+    },
+    {
+      "code": "C525",
+      "name": "Green (Japanese Green)",
+      "nameEn": "Green (Japanese Green)",
+      "aliases": [
+        "緑色"
+      ],
+      "line": "Mr.カラー AFV・戦車模型用特色",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#1B4A3A",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028718041"
+    },
+    {
+      "code": "C526",
+      "name": "Brown (Japanese Brown)",
+      "nameEn": "Brown (Japanese Brown)",
+      "aliases": [
+        "茶色"
+      ],
+      "line": "Mr.カラー AFV・戦車模型用特色",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#84644C",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028718058"
+    },
+    {
+      "code": "C527",
+      "name": "Khaki (Japanese Khaki)",
+      "nameEn": "Khaki (Japanese Khaki)",
+      "aliases": [
+        "陸軍カーキ"
+      ],
+      "line": "Mr.カラー AFV・戦車模型用特色",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#9D7B52",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028718065"
+    },
+    {
+      "code": "C528",
+      "name": "IDF Gray 1 (-1981 Sinai)",
+      "nameEn": "IDF Gray 1 (-1981 Sinai)",
+      "aliases": [
+        "IDFグレー1(-1981シナイ半島"
+      ],
+      "line": "Mr.カラー AFV・戦車模型用特色",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#C6AE82",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028718072"
+    },
+    {
+      "code": "C529",
+      "name": "IDF Gray 2 (-1981 Golan)",
+      "nameEn": "IDF Gray 2 (-1981 Golan)",
+      "aliases": [
+        "IDFグレー2(-1981ゴラン高原"
+      ],
+      "line": "Mr.カラー AFV・戦車模型用特色",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#857C69",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028718089"
+    },
+    {
+      "code": "C530",
+      "name": "IDF Gray 3 (Modern)",
+      "nameEn": "IDF Gray 3 (Modern)",
+      "aliases": [
+        "IDFグレー3(現用"
+      ],
+      "line": "Mr.カラー AFV・戦車模型用特色",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#7A7259",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028718096"
+    },
+    {
+      "code": "C601",
+      "name": "IJN Hull Color/Kure",
+      "nameEn": "IJN Hull Color/Kure",
+      "aliases": [
+        "呉海軍工廠標準色"
+      ],
+      "line": "Mr.カラー 艦船模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#898C91",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028718102"
+    },
+    {
+      "code": "C602",
+      "name": "IJN Hull Color/Sasebo",
+      "nameEn": "IJN Hull Color/Sasebo",
+      "aliases": [
+        "佐世保海軍工廠標準色"
+      ],
+      "line": "Mr.カラー 艦船模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#6C716B",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028718119"
+    },
+    {
+      "code": "C603",
+      "name": "IJN Hull Color/Maizuru",
+      "nameEn": "IJN Hull Color/Maizuru",
+      "aliases": [
+        "舞鶴海軍工廠標準色"
+      ],
+      "line": "Mr.カラー 艦船模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#9FA1AD",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028718126"
+    },
+    {
+      "code": "C604",
+      "name": "IJN Type 21 Camouflage Color",
+      "nameEn": "IJN Type 21 Camouflage Color",
+      "aliases": [
+        "外舷21号色"
+      ],
+      "line": "Mr.カラー 艦船模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#577A40",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028718133"
+    },
+    {
+      "code": "C605",
+      "name": "IJN Type 22 Camouflage Color",
+      "nameEn": "IJN Type 22 Camouflage Color",
+      "aliases": [
+        "外舷22号色"
+      ],
+      "line": "Mr.カラー 艦船模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#88AC6E",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028718140"
+    },
+    {
+      "code": "C606",
+      "name": "IJN Linoleum Deck Color",
+      "nameEn": "IJN Linoleum Deck Color",
+      "aliases": [
+        "リノリウム色"
+      ],
+      "line": "Mr.カラー 艦船模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": null,
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028718157"
+    },
+    {
+      "code": "C607",
+      "name": "JMSDF 2704 Gray N5",
+      "nameEn": "JMSDF 2704 Gray N5",
+      "aliases": [
+        "灰色2704(N5"
+      ],
+      "line": "Mr.カラー 艦船模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": null,
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028718164"
+    },
+    {
+      "code": "C608",
+      "name": "JMSDF 2705 Dark Gray N4",
+      "nameEn": "JMSDF 2705 Dark Gray N4",
+      "aliases": [
+        "暗灰色2705(N4"
+      ],
+      "line": "Mr.カラー 艦船模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": null,
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028718171"
+    },
+    {
+      "code": "C609",
+      "name": "JMSDF Cleated Deck Color",
+      "nameEn": "JMSDF Cleated Deck Color",
+      "aliases": [
+        "滑り止め塗装部色"
+      ],
+      "line": "Mr.カラー 艦船模型用カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#828282",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028718188"
+    },
+    {
+      "code": "AC05",
+      "name": "Stealth Blue",
+      "nameEn": "Stealth Blue",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#58617E",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "AC06",
+      "name": "Dominant Blue",
+      "nameEn": "Dominant Blue",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#788192",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "AC07",
+      "name": "Flat Surface Blue",
+      "nameEn": "Flat Surface Blue",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#233C52",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "40",
+      "name": "German Gray",
+      "nameEn": "German Gray",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#2F4248",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "CK1",
+      "name": "Stone Wall",
+      "nameEn": "Stone Wall",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": null,
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "CK2",
+      "name": "Roof Tile",
+      "nameEn": "Roof Tile",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": null,
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "CK3",
+      "name": "The Plaster",
+      "nameEn": "The Plaster",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": null,
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "CK4",
+      "name": "Wood Floor-Pillar",
+      "nameEn": "Wood Floor-Pillar",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": null,
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "MC211",
+      "name": "Chrome Silver",
+      "nameEn": "Chrome Silver",
+      "aliases": [
+        "Mr.メタルカラー クロームシルバー"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": null,
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028738209"
+    },
+    {
+      "code": "MC212",
+      "name": "Iron",
+      "nameEn": "Iron",
+      "aliases": [
+        "Mr.メタルカラー アイアン"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": null,
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028738216"
+    },
+    {
+      "code": "MC213",
+      "name": "Stainless",
+      "nameEn": "Stainless",
+      "aliases": [
+        "Mr.メタルカラー ステンレス"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": "#3A3C3A",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028738223"
+    },
+    {
+      "code": "MC214",
+      "name": "Dark Iron",
+      "nameEn": "Dark Iron",
+      "aliases": [
+        "Mr.メタルカラー ダークアイアン"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": "#111111",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028738230"
+    },
+    {
+      "code": "MC215",
+      "name": "Copper",
+      "nameEn": "Copper",
+      "aliases": [
+        "Mr.メタルカラー カッパー"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": "#BB826A",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028738247"
+    },
+    {
+      "code": "MC216",
+      "name": "Bronze",
+      "nameEn": "Bronze",
+      "aliases": [
+        "Mr.メタルカラー ブロンズ"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": "#086225",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028738254"
+    },
+    {
+      "code": "MC217",
+      "name": "Gold",
+      "nameEn": "Gold",
+      "aliases": [
+        "Mr.メタルカラー ゴールド"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": "#C8A00A",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028738261"
+    },
+    {
+      "code": "MC218",
+      "name": "Aluminum",
+      "nameEn": "Aluminum",
+      "aliases": [
+        "Mr.メタルカラー アルミ"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": "#D0D5DB",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028738278"
+    },
+    {
+      "code": "MC219",
+      "name": "Mr Metal Color Brass",
+      "nameEn": "Mr Metal Color Brass",
+      "aliases": [
+        "Mr.メタルカラー ブラス"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": null,
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028738285"
+    },
+    {
+      "code": "SC01",
+      "name": "Hull color/Kure",
+      "nameEn": "Hull color/Kure",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#898C91",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "SC02",
+      "name": "Hull Color/Sasebo",
+      "nameEn": "Hull Color/Sasebo",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#6C716B",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "SC03",
+      "name": "Hull color/Maizuru",
+      "nameEn": "Hull color/Maizuru",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#9FA1AD",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "SC04",
+      "name": "Type 21 Camouflage Color IJN",
+      "nameEn": "Type 21 Camouflage Color IJN",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": null,
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "SC05",
+      "name": "Type 22 Camouflage Color IJN",
+      "nameEn": "Type 22 Camouflage Color IJN",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": null,
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "SC06",
+      "name": "Linoleum Deck Color",
+      "nameEn": "Linoleum Deck Color",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": null,
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "SC11",
+      "name": "Haze Gray (5-H)",
+      "nameEn": "Haze Gray (5-H)",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#6D747A",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "SC12",
+      "name": "Ocean Grey (5-O)",
+      "nameEn": "Ocean Grey (5-O)",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#48575C",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "SC13",
+      "name": "Sea Blue (5-S)",
+      "nameEn": "Sea Blue (5-S)",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#48575E",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "SC15",
+      "name": "Flight Deck Stain (#21)",
+      "nameEn": "Flight Deck Stain (#21)",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#4F606C",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "SC16",
+      "name": "Light Gray (5-L)",
+      "nameEn": "Light Gray (5-L)",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#8D9FAB",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "TC07",
+      "name": "Dark Green 3414",
+      "nameEn": "Dark Green 3414",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#3F4836",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "TC08",
+      "name": "Brown 3606",
+      "nameEn": "Brown 3606",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#4B412F",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "TC09",
+      "name": "Olive Drab 2314",
+      "nameEn": "Olive Drab 2314",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#38361C",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "TC10",
+      "name": "NATO Bronzegrün RAL 6031 (Green)",
+      "nameEn": "NATO Bronzegrün RAL 6031 (Green)",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#3D4136",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "TC11",
+      "name": "NATO Lederbraun RAL 8027 (Brown)",
+      "nameEn": "NATO Lederbraun RAL 8027 (Brown)",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#3E3427",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "TC12",
+      "name": "NATO Teerschwarz RAL 9021 (Black)",
+      "nameEn": "NATO Teerschwarz RAL 9021 (Black)",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#242424",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "TC13",
+      "name": "Ground Color",
+      "nameEn": "Ground Color",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#403C3C",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "TC14",
+      "name": "Grass Color",
+      "nameEn": "Grass Color",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#4B5744",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "TC15",
+      "name": "Hay Color",
+      "nameEn": "Hay Color",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#928231",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "TC16",
+      "name": "Green",
+      "nameEn": "Green",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#2E6844",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "TC17",
+      "name": "Brown",
+      "nameEn": "Brown",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#8F6C51",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "TC18",
+      "name": "Army Khaki",
+      "nameEn": "Army Khaki",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#9E8250",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "UG01",
+      "name": "Gundam Color MS White",
+      "nameEn": "Gundam Color MS White",
+      "aliases": [
+        "ガンダムカラー MSホワイト"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#FFFFFF",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028935653"
+    },
+    {
+      "code": "UG02",
+      "name": "Gundam Color MS Blue",
+      "nameEn": "Gundam Color MS Blue",
+      "aliases": [
+        "ガンダムカラー MSブルー"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#014798",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028935660"
+    },
+    {
+      "code": "UG03",
+      "name": "Gundam Color MS Yellow",
+      "nameEn": "Gundam Color MS Yellow",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#F9BF33",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "UG04",
+      "name": "Gundam Color MS Red",
+      "nameEn": "Gundam Color MS Red",
+      "aliases": [
+        "ガンダムカラー MSレッド"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#C72526",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028935684"
+    },
+    {
+      "code": "UG05",
+      "name": "Gundam Color U.N.T.'s MS Grey",
+      "nameEn": "Gundam Color U.N.T.'s MS Grey",
+      "aliases": [
+        "ガンダムカラー MSグレー連邦系"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": "#323232",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028935691"
+    },
+    {
+      "code": "UG06",
+      "name": "Gundam Color MS Green",
+      "nameEn": "Gundam Color MS Green",
+      "aliases": [
+        "ガンダムカラー MSグリーン"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#86A680",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028935707"
+    },
+    {
+      "code": "UG07",
+      "name": "Gundam Color MS DEEP GREEN",
+      "nameEn": "Gundam Color MS DEEP GREEN",
+      "aliases": [
+        "ガンダムカラー MSディープグリーン"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#406147",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028935714"
+    },
+    {
+      "code": "UG08",
+      "name": "Gundam Color MS Purple",
+      "nameEn": "Gundam Color MS Purple",
+      "aliases": [
+        "ガンダムカラー MSパープル"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#847EA4",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028935721"
+    },
+    {
+      "code": "UG12",
+      "name": "Gundam Color MS SAZABI RED",
+      "nameEn": "Gundam Color MS SAZABI RED",
+      "aliases": [
+        "ガンダムカラー サザビーレッド"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#E52724",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028935769"
+    },
+    {
+      "code": "UG13",
+      "name": "GUNDAM COLOR A.E.U.G.'s MS BLUE",
+      "nameEn": "GUNDAM COLOR A.E.U.G.'s MS BLUE",
+      "aliases": [
+        "ガンダムカラー MSブルーZ系"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#2413D9",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028935776"
+    },
+    {
+      "code": "UG14",
+      "name": "Gundam Color MS Light Blue",
+      "nameEn": "Gundam Color MS Light Blue",
+      "aliases": [
+        "ガンダムカラー MSライトブルー"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#4B7BC2",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028033847"
+    },
+    {
+      "code": "UG15",
+      "name": "Gundam Color MS Phantom Grey",
+      "nameEn": "Gundam Color MS Phantom Grey",
+      "aliases": [
+        "ガンダムカラー MSファントムグレー"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#030013",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028033854"
+    },
+    {
+      "code": "UG16",
+      "name": "Gundam Color TITANS BLUE 1",
+      "nameEn": "Gundam Color TITANS BLUE 1",
+      "aliases": [
+        "ガンダムカラー ティターンズブルー1"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#080119",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028112016"
+    },
+    {
+      "code": "UG17",
+      "name": "Gundam Color MS Titans Blue 2",
+      "nameEn": "Gundam Color MS Titans Blue 2",
+      "aliases": [
+        "ガンダムカラー ティターンズブルー2"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#000759",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028112023"
+    },
+    {
+      "code": "UG18",
+      "name": "Gundam Color for Builders RX-78 WHITE Ver. ANIME",
+      "nameEn": "Gundam Color for Builders RX-78 WHITE Ver. ANIME",
+      "aliases": [
+        "ガンダムカラー RX-78ホワイト Ver.アニメカラー"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#DFEFDF",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028736151"
+    },
+    {
+      "code": "UG19",
+      "name": "Gundam Color for Builders RX-78 BLUE Ver. ANIME",
+      "nameEn": "Gundam Color for Builders RX-78 BLUE Ver. ANIME",
+      "aliases": [
+        "ガンダムカラー RX-78ブルー Ver.アニメカラー"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#2F8FD4",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028736168"
+    },
+    {
+      "code": "UG20",
+      "name": "RX-78 RED Ver. ANIME",
+      "nameEn": "RX-78 RED Ver. ANIME",
+      "aliases": [
+        "ガンダムカラー RX-78レッド Ver.アニメカラー"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#D92710",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028736175"
+    },
+    {
+      "code": "UG21",
+      "name": "Gundam Color for Builders RX-78 YELLOW Ver. ANIME",
+      "nameEn": "Gundam Color for Builders RX-78 YELLOW Ver. ANIME",
+      "aliases": [
+        "ガンダムカラー RX-78イエロー Ver.アニメカラー"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#F0B000",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028736182"
+    },
+    {
+      "code": "UG22",
+      "name": "GUNDAM COLOR FOR BUILDERS MS-06S RED Ver ANIME",
+      "nameEn": "GUNDAM COLOR FOR BUILDERS MS-06S RED Ver ANIME",
+      "aliases": [
+        "ガンダムカラー MS-06Sレッド Ver.アニメカラー"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#502224",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028736199"
+    },
+    {
+      "code": "UG23",
+      "name": "GUNDAM COLOR FOR BUILDERS MS-06S PINK Ver ANIME",
+      "nameEn": "GUNDAM COLOR FOR BUILDERS MS-06S PINK Ver ANIME",
+      "aliases": [
+        "ガンダムカラー MS-06Sピンク Ver.アニメカラー"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#DB6353",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028736205"
+    },
+    {
+      "code": "UM01",
+      "name": "Ultra Metallic Ultra Silver",
+      "nameEn": "Ultra Metallic Ultra Silver",
+      "aliases": [
+        "Mr.カラー ウルトラメタリック ウルトラシルバー"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": null,
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028431124"
+    },
+    {
+      "code": "UM02",
+      "name": "Ultra Metallic Ultra Gold",
+      "nameEn": "Ultra Metallic Ultra Gold",
+      "aliases": [
+        "Mr.カラー ウルトラメタリック ウルトラゴールド"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": null,
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028431131"
+    },
+    {
+      "code": "YC03",
+      "name": "Yamato Blue1",
+      "nameEn": "Yamato Blue1",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": null,
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "YC07",
+      "name": "Garmillas Green 1",
+      "nameEn": "Garmillas Green 1",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#59672B",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "YC08",
+      "name": "Garmillas Green 2",
+      "nameEn": "Garmillas Green 2",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#41531F",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "YC09",
+      "name": "Garmillas Green 3",
+      "nameEn": "Garmillas Green 3",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#25310F",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "YC16",
+      "name": "Carmillas Red 1",
+      "nameEn": "Carmillas Red 1",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#BE423A",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "YC17",
+      "name": "Carmillas Red 2",
+      "nameEn": "Carmillas Red 2",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#9E7269",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "YC18",
+      "name": "Carmillas Red 3",
+      "nameEn": "Carmillas Red 3",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#CC524F",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "YC19",
+      "name": "Carmillas Blue 1",
+      "nameEn": "Carmillas Blue 1",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#355179",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "YC20",
+      "name": "Carmillas Green 5",
+      "nameEn": "Carmillas Green 5",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#066543",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "YC21",
+      "name": "Carmillas Red 4",
+      "nameEn": "Carmillas Red 4",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#E11838",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "CMC01",
+      "name": "OD Highlight 1",
+      "nameEn": "OD Highlight 1",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#495142",
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "CMC02",
+      "name": "OD Highlight 2",
+      "nameEn": "OD Highlight 2",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#58604B",
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "CMC03",
+      "name": "OD Shadow",
+      "nameEn": "OD Shadow",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#1E231C",
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "CMC04",
+      "name": "DY Highlight 1",
+      "nameEn": "DY Highlight 1",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#CFA55D",
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "CMC05",
+      "name": "DY Highlight 2",
+      "nameEn": "DY Highlight 2",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#DAB96C",
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "CMC06",
+      "name": "DY Shadow",
+      "nameEn": "DY Shadow",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#6A5224",
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "CMC07",
+      "name": "GG Highlight 1",
+      "nameEn": "GG Highlight 1",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#434A54",
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "CMC08",
+      "name": "GG Highlight 2",
+      "nameEn": "GG Highlight 2",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#5D6567",
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "CMC09",
+      "name": "GG Shadow",
+      "nameEn": "GG Shadow",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#120F16",
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "CMC10",
+      "name": "RG CM Base",
+      "nameEn": "RG CM Base",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#406F38",
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "CMC11",
+      "name": "RG Highlight 1",
+      "nameEn": "RG Highlight 1",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#5D8352",
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "CMC12",
+      "name": "RG Highlight 2",
+      "nameEn": "RG Highlight 2",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#91B671",
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "CMC13",
+      "name": "RG Shadow",
+      "nameEn": "RG Shadow",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#134036",
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "CR2",
+      "name": "Magenta",
+      "nameEn": "Magenta",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": null,
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "CRE03",
+      "name": "Revival British Green",
+      "nameEn": "Revival British Green",
+      "aliases": [
+        "ブリティシュグリーン"
+      ],
+      "line": "Mr.カラー リバイバル",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#394A3F",
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028733501"
+    },
+    {
+      "code": "CV01",
+      "name": "Velvet Red",
+      "nameEn": "Velvet Red",
+      "aliases": [
+        "ベルベット レッド"
+      ],
+      "line": "Mr.カラー ベルベットカラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": null,
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028732849"
+    },
+    {
+      "code": "CV02",
+      "name": "Velvet Blue",
+      "nameEn": "Velvet Blue",
+      "aliases": [
+        "ベルベット ブルー"
+      ],
+      "line": "Mr.カラー ベルベットカラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": null,
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028732856"
+    },
+    {
+      "code": "CV03",
+      "name": "Velvet Green",
+      "nameEn": "Velvet Green",
+      "aliases": [
+        "ベルベット グリーン"
+      ],
+      "line": "Mr.カラー ベルベットカラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": null,
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028732863"
+    },
+    {
+      "code": "GX1",
+      "name": "Cool White",
+      "nameEn": "Cool White",
+      "aliases": [
+        "クールホワイト"
+      ],
+      "line": "Mr.カラーGX",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#FFFFFF",
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028718195"
+    },
+    {
+      "code": "GX2",
+      "name": "Ueno Black",
+      "nameEn": "Ueno Black",
+      "aliases": [
+        "ウイノーブラック"
+      ],
+      "line": "Mr.カラーGX",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#000000",
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028718201"
+    },
+    {
+      "code": "GX4",
+      "name": "Chiara Yellow",
+      "nameEn": "Chiara Yellow",
+      "aliases": [
+        "キアライエロー"
+      ],
+      "line": "Mr.カラーGX",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#FFFF00",
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028718225"
+    },
+    {
+      "code": "GX5",
+      "name": "Susie Blue",
+      "nameEn": "Susie Blue",
+      "aliases": [
+        "スージーブルー"
+      ],
+      "line": "Mr.カラーGX",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#004EA2",
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028718232"
+    },
+    {
+      "code": "GX6",
+      "name": "Morrie Green",
+      "nameEn": "Morrie Green",
+      "aliases": [
+        "モウリーグリーン"
+      ],
+      "line": "Mr.カラーGX",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#006830",
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028718249"
+    },
+    {
+      "code": "GX100",
+      "name": "Super Clear III",
+      "nameEn": "Super Clear III",
+      "aliases": [
+        "スーパークリアー3"
+      ],
+      "line": "Mr.カラーGX",
+      "brandLine": "Mr.COLOR",
+      "type": "clear",
+      "finish": "gloss",
+      "colorHex": null,
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028718256"
+    },
+    {
+      "code": "GX102",
+      "name": "GX Deep Clear Red",
+      "nameEn": "GX Deep Clear Red",
+      "aliases": [
+        "GXデープクリアレッド"
+      ],
+      "line": "Mr.クリアカラーGX",
+      "brandLine": "Mr.COLOR",
+      "type": "clear",
+      "finish": "none",
+      "colorHex": null,
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028420067"
+    },
+    {
+      "code": "GX103",
+      "name": "GX Deep Clear Blue",
+      "nameEn": "GX Deep Clear Blue",
+      "aliases": [
+        "GXディープクリアブルー"
+      ],
+      "line": "Mr.クリアカラーGX",
+      "brandLine": "Mr.COLOR",
+      "type": "clear",
+      "finish": "none",
+      "colorHex": null,
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028420074"
+    },
+    {
+      "code": "GX104",
+      "name": "GX Clear Green",
+      "nameEn": "GX Clear Green",
+      "aliases": [
+        "GXクリアグリーン"
+      ],
+      "line": "Mr.クリアカラーGX",
+      "brandLine": "Mr.COLOR",
+      "type": "clear",
+      "finish": "none",
+      "colorHex": null,
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028420081"
+    },
+    {
+      "code": "GX106",
+      "name": "GX Clear Orange",
+      "nameEn": "GX Clear Orange",
+      "aliases": [
+        "GXクリアオレンジ"
+      ],
+      "line": "Mr.クリアカラーGX",
+      "brandLine": "Mr.COLOR",
+      "type": "clear",
+      "finish": "none",
+      "colorHex": null,
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028420104"
+    },
+    {
+      "code": "GX107",
+      "name": "GX Clear Purple",
+      "nameEn": "GX Clear Purple",
+      "aliases": [
+        "GXクリアパープル"
+      ],
+      "line": "Mr.クリアカラーGX",
+      "brandLine": "Mr.COLOR",
+      "type": "clear",
+      "finish": "none",
+      "colorHex": null,
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028420111"
+    },
+    {
+      "code": "GX108",
+      "name": "GX Clear Violet",
+      "nameEn": "GX Clear Violet",
+      "aliases": [
+        "GXクリアバイオレット"
+      ],
+      "line": "Mr.クリアカラーGX",
+      "brandLine": "Mr.COLOR",
+      "type": "clear",
+      "finish": "gloss",
+      "colorHex": null,
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028420128"
+    },
+    {
+      "code": "GX111",
+      "name": "GX Clear Gold",
+      "nameEn": "GX Clear Gold",
+      "aliases": [
+        "GXクリアゴールド"
+      ],
+      "line": "Mr.クリアカラーGX",
+      "brandLine": "Mr.COLOR",
+      "type": "clear",
+      "finish": "none",
+      "colorHex": "#B78731",
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028420159"
+    },
+    {
+      "code": "GX112",
+      "name": "Super Clear III UV Cut",
+      "nameEn": "Super Clear III UV Cut",
+      "aliases": [
+        "スーパークリア3UVカット 光沢"
+      ],
+      "line": "Mr.カラーGX",
+      "brandLine": "Mr.COLOR",
+      "type": "clear",
+      "finish": "none",
+      "colorHex": null,
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028631388"
+    },
+    {
+      "code": "GX113",
+      "name": "Super Clear III UV Cut Flat",
+      "nameEn": "Super Clear III UV Cut Flat",
+      "aliases": [
+        "スーパークリア3UVカット つや消し"
+      ],
+      "line": "Mr.カラーGX",
+      "brandLine": "Mr.COLOR",
+      "type": "clear",
+      "finish": "none",
+      "colorHex": null,
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028631395"
+    },
+    {
+      "code": "GX114",
+      "name": "Flat Super Smooth Clear",
+      "nameEn": "Flat Super Smooth Clear",
+      "aliases": [
+        "スーパースムースクリアー つや消し"
+      ],
+      "line": "Mr.カラーGX",
+      "brandLine": "Mr.COLOR",
+      "type": "clear",
+      "finish": "none",
+      "colorHex": null,
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028631951"
+    },
+    {
+      "code": "GX121",
+      "name": "GX Clear Rouge",
+      "nameEn": "GX Clear Rouge",
+      "aliases": [
+        "クリアルージュ"
+      ],
+      "line": "Mr.クリアカラーGX",
+      "brandLine": "Mr.COLOR",
+      "type": "clear",
+      "finish": "gloss",
+      "colorHex": null,
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028506587"
+    },
+    {
+      "code": "GX122",
+      "name": "GX Clear Peacock Green",
+      "nameEn": "GX Clear Peacock Green",
+      "aliases": [
+        "GXクリアピーコックグリーン"
+      ],
+      "line": "Mr.クリアカラーGX",
+      "brandLine": "Mr.COLOR",
+      "type": "clear",
+      "finish": "gloss",
+      "colorHex": null,
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028507744"
+    },
+    {
+      "code": "GX201",
+      "name": "GX Metal Black",
+      "nameEn": "GX Metal Black",
+      "aliases": [
+        "GXメタルブラック"
+      ],
+      "line": "Mr.メタリックカラーGX",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": null,
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028033328"
+    },
+    {
+      "code": "GX202",
+      "name": "GX Metal Red",
+      "nameEn": "GX Metal Red",
+      "aliases": [
+        "GXメタルレッド"
+      ],
+      "line": "Mr.メタリックカラーGX",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": null,
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028033335"
+    },
+    {
+      "code": "GX203",
+      "name": "GX Metal Yellow",
+      "nameEn": "GX Metal Yellow",
+      "aliases": [
+        "GXメタルイエロー"
+      ],
+      "line": "Mr.メタリックカラーGX",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": null,
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028033342"
+    },
+    {
+      "code": "GX204",
+      "name": "GX Metal Blue",
+      "nameEn": "GX Metal Blue",
+      "aliases": [
+        "GXメタルブルー"
+      ],
+      "line": "Mr.メタリックカラーGX",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": null,
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028033359"
+    },
+    {
+      "code": "GX205",
+      "name": "GX Metal Green",
+      "nameEn": "GX Metal Green",
+      "aliases": [
+        "GXメタルグリーン"
+      ],
+      "line": "Mr.メタリックカラーGX",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": null,
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028033366"
+    },
+    {
+      "code": "GX206",
+      "name": "GX metal Purple",
+      "nameEn": "GX metal Purple",
+      "aliases": [
+        "GXメタルパープル"
+      ],
+      "line": "Mr.メタリックカラーGX",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": null,
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028033373"
+    },
+    {
+      "code": "GX207",
+      "name": "GX Metal Violet",
+      "nameEn": "GX Metal Violet",
+      "aliases": [
+        "GXメタルバイオレット"
+      ],
+      "line": "Mr.メタリックカラーGX",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": "#8A5FB9",
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028033380"
+    },
+    {
+      "code": "GX209",
+      "name": "GX Red Gold",
+      "nameEn": "GX Red Gold",
+      "aliases": [
+        "GXレッドゴールド"
+      ],
+      "line": "Mr.メタリックカラーGX",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": null,
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028033403"
+    },
+    {
+      "code": "GX210",
+      "name": "GX Blue Gold",
+      "nameEn": "GX Blue Gold",
+      "aliases": [
+        "GXブルーゴールド"
+      ],
+      "line": "Mr.メタリックカラーGX",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": null,
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028033410"
+    },
+    {
+      "code": "GX211",
+      "name": "GX Metal Yellow Green",
+      "nameEn": "GX Metal Yellow Green",
+      "aliases": [
+        "GXメタルイエローグリーン"
+      ],
+      "line": "Mr.メタリックカラーGX",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": null,
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028033953"
+    },
+    {
+      "code": "GX212",
+      "name": "GX Metal Peach",
+      "nameEn": "GX Metal Peach",
+      "aliases": [
+        "GXメタルピーチ"
+      ],
+      "line": "Mr.メタリックカラーGX",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": null,
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028033960"
+    },
+    {
+      "code": "GX213",
+      "name": "GX White Silver",
+      "nameEn": "GX White Silver",
+      "aliases": [
+        "GXホワイトシルバー"
+      ],
+      "line": "Mr.メタリックカラーGX",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": null,
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028033984"
+    },
+    {
+      "code": "GX214",
+      "name": "GX Ice Silver",
+      "nameEn": "GX Ice Silver",
+      "aliases": [
+        "GXアイスシルバー"
+      ],
+      "line": "Mr.メタリックカラーGX",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": null,
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028033991"
+    },
+    {
+      "code": "GX215",
+      "name": "Metal Bloody Red",
+      "nameEn": "Metal Bloody Red",
+      "aliases": [
+        "GXメタルブラッディレッド"
+      ],
+      "line": "Mr.メタリックカラーGX",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": null,
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028420005"
+    },
+    {
+      "code": "GX216",
+      "name": "metal Dark Blue",
+      "nameEn": "metal Dark Blue",
+      "aliases": [
+        "GXメタルダークブルー"
+      ],
+      "line": "Mr.メタリックカラーGX",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": null,
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028420012"
+    },
+    {
+      "code": "GX217",
+      "name": "GX Rough Gold",
+      "nameEn": "GX Rough Gold",
+      "aliases": [
+        "GXラフゴールド"
+      ],
+      "line": "Mr.メタリックカラーGX",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": null,
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028420029"
+    },
+    {
+      "code": "GX218",
+      "name": "Graphite Black",
+      "nameEn": "Graphite Black",
+      "aliases": [
+        "GXグラファイトブラック"
+      ],
+      "line": "Mr.メタリックカラーGX",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": null,
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028508642"
+    },
+    {
+      "code": "LAC102",
+      "name": "Parker Gun Metallic",
+      "nameEn": "Parker Gun Metallic",
+      "aliases": [
+        "パーカーガンメタリック"
+      ],
+      "line": "リトルアーモリーカラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": null,
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028733167"
+    },
+    {
+      "code": "SC10",
+      "name": "Deck Blue (20-8)",
+      "nameEn": "Deck Blue (20-8)",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#07252F",
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "XC01",
+      "name": "Mr. Crystal Color Diamond Silver",
+      "nameEn": "Mr. Crystal Color Diamond Silver",
+      "aliases": [
+        "ダイヤモンドシルバー"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": null,
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028718607"
+    },
+    {
+      "code": "XC02",
+      "name": "Topaz Gold",
+      "nameEn": "Topaz Gold",
+      "aliases": [
+        "トパーズゴールド"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": null,
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028718614"
+    },
+    {
+      "code": "XC03",
+      "name": "Mr. Crystal Color Ruby Red",
+      "nameEn": "Mr. Crystal Color Ruby Red",
+      "aliases": [
+        "ルビーレッド"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": null,
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028718621"
+    },
+    {
+      "code": "XC04",
+      "name": "Mr. Crystal Color Amethyst Purple",
+      "nameEn": "Mr. Crystal Color Amethyst Purple",
+      "aliases": [
+        "アメジストパープル"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": null,
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028718638"
+    },
+    {
+      "code": "XC05",
+      "name": "Mr. Crystal Color Saphire Blue",
+      "nameEn": "Mr. Crystal Color Saphire Blue",
+      "aliases": [
+        "サファイアブルー"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": null,
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028718645"
+    },
+    {
+      "code": "XC06",
+      "name": "Mr. Crystal Color Tourmaline Green",
+      "nameEn": "Mr. Crystal Color Tourmaline Green",
+      "aliases": [
+        "トルマリングリーン"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": null,
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028718652"
+    },
+    {
+      "code": "XC07",
+      "name": "Mr. Crystal Color Turquoise Green",
+      "nameEn": "Mr. Crystal Color Turquoise Green",
+      "aliases": [
+        "ターコイズグリーン"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": null,
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028718669"
+    },
+    {
+      "code": "XC08",
+      "name": "Mr. Crystal Color Moonstone Pearl",
+      "nameEn": "Mr. Crystal Color Moonstone Pearl",
+      "aliases": [
+        "ムーンストーンパール"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": null,
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028718676"
+    },
+    {
+      "code": "YC22",
+      "name": "Carmillas Purple 3",
+      "nameEn": "Carmillas Purple 3",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#5860A9",
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "YC23",
+      "name": "Carmillas Green 6",
+      "nameEn": "Carmillas Green 6",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#44664D",
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "YC24",
+      "name": "Caemillas Gray 1",
+      "nameEn": "Caemillas Gray 1",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#63636D",
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "B504",
+      "name": "Mr. Metal Primer-R",
+      "nameEn": "Mr. Metal Primer-R",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "primer",
+      "finish": "none",
+      "colorHex": null,
+      "volumeMl": 40,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "MP242",
+      "name": "Mr. Metal Primer-R",
+      "nameEn": "Mr. Metal Primer-R",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "primer",
+      "finish": "none",
+      "colorHex": null,
+      "volumeMl": 40,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "RP261",
+      "name": "Mr. Resin Primer Surfacer",
+      "nameEn": "Mr. Resin Primer Surfacer",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "primer",
+      "finish": "flat",
+      "colorHex": null,
+      "volumeMl": 40,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "SF242",
+      "name": "Mr. Metal Primer",
+      "nameEn": "Mr. Metal Primer",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "primer",
+      "finish": "none",
+      "colorHex": null,
+      "volumeMl": 40,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "SF281",
+      "name": "Mr. Surfacer 1000",
+      "nameEn": "Mr. Surfacer 1000",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "primer",
+      "finish": "flat",
+      "colorHex": null,
+      "volumeMl": 40,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "SF283",
+      "name": "Mr. Base White 1000",
+      "nameEn": "Mr. Base White 1000",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "primer",
+      "finish": "flat",
+      "colorHex": "#FFFFFF",
+      "volumeMl": 40,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "SF285",
+      "name": "Mr. Surfacer 500",
+      "nameEn": "Mr. Surfacer 500",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "primer",
+      "finish": "flat",
+      "colorHex": null,
+      "volumeMl": 40,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "SF286",
+      "name": "Mr. Surfacer 1200",
+      "nameEn": "Mr. Surfacer 1200",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "primer",
+      "finish": "flat",
+      "colorHex": null,
+      "volumeMl": 40,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "SF287",
+      "name": "Mr. Primer Surfacer 1000",
+      "nameEn": "Mr. Primer Surfacer 1000",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "primer",
+      "finish": "flat",
+      "colorHex": "#D3D3D3",
+      "volumeMl": 40,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "SF288",
+      "name": "Mr. Finishing Surfacer 1500 Black",
+      "nameEn": "Mr. Finishing Surfacer 1500 Black",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "primer",
+      "finish": "flat",
+      "colorHex": null,
+      "volumeMl": 40,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "SF289",
+      "name": "Mr. Finishing Surfacer 1500 Gray",
+      "nameEn": "Mr. Finishing Surfacer 1500 Gray",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "primer",
+      "finish": "flat",
+      "colorHex": null,
+      "volumeMl": 40,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "SF290",
+      "name": "Mr. Mahogany Surfacer 1000",
+      "nameEn": "Mr. Mahogany Surfacer 1000",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "primer",
+      "finish": "flat",
+      "colorHex": null,
+      "volumeMl": 40,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "SF291",
+      "name": "Mr. Finishing Surfacer 1500 White",
+      "nameEn": "Mr. Finishing Surfacer 1500 White",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "primer",
+      "finish": "flat",
+      "colorHex": null,
+      "volumeMl": 40,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "SF292",
+      "name": "Mr. Finishing Surfacer 1500 Pink",
+      "nameEn": "Mr. Finishing Surfacer 1500 Pink",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "primer",
+      "finish": "flat",
+      "colorHex": null,
+      "volumeMl": 40,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "SF294",
+      "name": "Mr. Primer Surfacer 1000 - Dark Gray",
+      "nameEn": "Mr. Primer Surfacer 1000 - Dark Gray",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "primer",
+      "finish": "flat",
+      "colorHex": null,
+      "volumeMl": 40,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "S1",
+      "name": "White",
+      "nameEn": "White",
+      "aliases": [
+        "ホワイト(白"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#FFFFFF",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536980"
+    },
+    {
+      "code": "S2",
+      "name": "Black",
+      "nameEn": "Black",
+      "aliases": [
+        "ブラック(黒"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#101010",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536393"
+    },
+    {
+      "code": "S3",
+      "name": "Red",
+      "nameEn": "Red",
+      "aliases": [
+        "レッド"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#FF0000",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536997"
+    },
+    {
+      "code": "S4",
+      "name": "Yellow",
+      "nameEn": "Yellow",
+      "aliases": [],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#FDE001",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "S5",
+      "name": "Blue",
+      "nameEn": "Blue",
+      "aliases": [
+        "ブルー"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#0000FF",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028928143"
+    },
+    {
+      "code": "S6",
+      "name": "Green",
+      "nameEn": "Green",
+      "aliases": [
+        "グリーン"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#006734",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536423"
+    },
+    {
+      "code": "S8",
+      "name": "Silver",
+      "nameEn": "Silver",
+      "aliases": [
+        "シルバー(銀"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": "#DCDCDD",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536430"
+    },
+    {
+      "code": "S9",
+      "name": "Gold",
+      "nameEn": "Gold",
+      "aliases": [
+        "ゴールド(金"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": "#CBA30D",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536447"
+    },
+    {
+      "code": "S11",
+      "name": "Light Gull Gray",
+      "nameEn": "Light Gull Gray",
+      "aliases": [
+        "ガルグレー"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#BDC3C4",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536454"
+    },
+    {
+      "code": "S12",
+      "name": "Olive Drab",
+      "nameEn": "Olive Drab",
+      "aliases": [
+        "オリーブドラブ(1"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#685932",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536461"
+    },
+    {
+      "code": "S13",
+      "name": "Neutral Gray",
+      "nameEn": "Neutral Gray",
+      "aliases": [
+        "ニュートラルグレー"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#5B6B78",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536478"
+    },
+    {
+      "code": "S14",
+      "name": "Navy Blue",
+      "nameEn": "Navy Blue",
+      "aliases": [
+        "ネービーブルー"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#004652",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536485"
+    },
+    {
+      "code": "S15",
+      "name": "IJN Green (Nakajima)",
+      "nameEn": "IJN Green (Nakajima)",
+      "aliases": [
+        "暗緑色(中島系"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#013920",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028928228"
+    },
+    {
+      "code": "S16",
+      "name": "IJA Green",
+      "nameEn": "IJA Green",
+      "aliases": [
+        "濃緑色"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#165B3F",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536508"
+    },
+    {
+      "code": "S28",
+      "name": "Steel",
+      "nameEn": "Steel",
+      "aliases": [
+        "黒鉄色"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": "#201C1D",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536515"
+    },
+    {
+      "code": "S29",
+      "name": "Hull Red",
+      "nameEn": "Hull Red",
+      "aliases": [
+        "艦艇色"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#603336",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536522"
+    },
+    {
+      "code": "S30",
+      "name": "Flat Clear",
+      "nameEn": "Flat Clear",
+      "aliases": [
+        "つや消しクリアー"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "clear",
+      "finish": "flat",
+      "colorHex": null,
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536539"
+    },
+    {
+      "code": "S31",
+      "name": "Dark Gray (1)",
+      "nameEn": "Dark Gray (1)",
+      "aliases": [
+        "軍艦色(1"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#939391",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536546"
+    },
+    {
+      "code": "S32",
+      "name": "Dark Grey (2)",
+      "nameEn": "Dark Grey (2)",
+      "aliases": [
+        "軍艦色(2"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#6D6D6B",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536553"
+    },
+    {
+      "code": "S33",
+      "name": "Flat Black",
+      "nameEn": "Flat Black",
+      "aliases": [
+        "つや消しブラック"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#000000",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536560"
+    },
+    {
+      "code": "S34",
+      "name": "Sky Blue",
+      "nameEn": "Sky Blue",
+      "aliases": [
+        "スカイブルー"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#0195D9",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536577"
+    },
+    {
+      "code": "S35",
+      "name": "IJN Gray (Mitsubishi)",
+      "nameEn": "IJN Gray (Mitsubishi)",
+      "aliases": [
+        "明灰白色(三菱系"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#759586",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536584"
+    },
+    {
+      "code": "S38",
+      "name": "OLIVE DRAB(2)",
+      "nameEn": "OLIVE DRAB(2)",
+      "aliases": [
+        "オリーブドラブ2"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#3B3521",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028501049"
+    },
+    {
+      "code": "S39",
+      "name": "Dark Yellow",
+      "nameEn": "Dark Yellow",
+      "aliases": [
+        "ダークイエロー"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#B79764",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536591"
+    },
+    {
+      "code": "S40",
+      "name": "German Gray (3/4 flat)",
+      "nameEn": "German Gray (3/4 flat)",
+      "aliases": [
+        "ジャーマングレー"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#2C4248",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536607"
+    },
+    {
+      "code": "S41",
+      "name": "Red Brown (3/4 flat)",
+      "nameEn": "Red Brown (3/4 flat)",
+      "aliases": [
+        "レッドブラウン"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#4A2F32",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536614"
+    },
+    {
+      "code": "S42",
+      "name": "Mahogany",
+      "nameEn": "Mahogany",
+      "aliases": [
+        "マホガニー"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#4B3538",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536621"
+    },
+    {
+      "code": "S43",
+      "name": "Wood Brown",
+      "nameEn": "Wood Brown",
+      "aliases": [
+        "ウッドブラウン"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#71533B",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536638"
+    },
+    {
+      "code": "S44",
+      "name": "Tan",
+      "nameEn": "Tan",
+      "aliases": [
+        "タン"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#C3A26D",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536645"
+    },
+    {
+      "code": "S46",
+      "name": "Gloss Clear",
+      "nameEn": "Gloss Clear",
+      "aliases": [
+        "クリアー(透明"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "clear",
+      "finish": "gloss",
+      "colorHex": null,
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536652"
+    },
+    {
+      "code": "S47",
+      "name": "Clear Red",
+      "nameEn": "Clear Red",
+      "aliases": [
+        "クリアーレッド"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "clear",
+      "finish": "gloss",
+      "colorHex": "#E60012",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536669"
+    },
+    {
+      "code": "S48",
+      "name": "Clear Yellow",
+      "nameEn": "Clear Yellow",
+      "aliases": [
+        "クリアーイエロー"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "clear",
+      "finish": "gloss",
+      "colorHex": "#FFD900",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536676"
+    },
+    {
+      "code": "S49",
+      "name": "Clear Orange",
+      "nameEn": "Clear Orange",
+      "aliases": [
+        "クリアーオレンジ"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "clear",
+      "finish": "gloss",
+      "colorHex": "#FF6100",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536683"
+    },
+    {
+      "code": "S50",
+      "name": "Clear Blue",
+      "nameEn": "Clear Blue",
+      "aliases": [
+        "クリアーブルー"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "clear",
+      "finish": "gloss",
+      "colorHex": "#00A0E9",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536690"
+    },
+    {
+      "code": "S58",
+      "name": "Orange Yellow",
+      "nameEn": "Orange Yellow",
+      "aliases": [
+        "黄橙色"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#FAAA00",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028501056"
+    },
+    {
+      "code": "S62",
+      "name": "Flat White",
+      "nameEn": "Flat White",
+      "aliases": [
+        "つや消しホワイト"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#FFFFFF",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536706"
+    },
+    {
+      "code": "S63",
+      "name": "Pink",
+      "nameEn": "Pink",
+      "aliases": [
+        "ピンク(桃"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#EB6D94",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028501087"
+    },
+    {
+      "code": "S64",
+      "name": "Yellow Green",
+      "nameEn": "Yellow Green",
+      "aliases": [
+        "ルマングリーン(黄緑"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#00A33B",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028501094"
+    },
+    {
+      "code": "S65",
+      "name": "Bright Blue",
+      "nameEn": "Bright Blue",
+      "aliases": [
+        "インディブルー"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#004098",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536713"
+    },
+    {
+      "code": "S66",
+      "name": "Bright Green",
+      "nameEn": "Bright Green",
+      "aliases": [
+        "デイトナグリーン"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#009944",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536720"
+    },
+    {
+      "code": "S67",
+      "name": "Purple",
+      "nameEn": "Purple",
+      "aliases": [
+        "パープル(紫"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#3C2280",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536737"
+    },
+    {
+      "code": "S68",
+      "name": "Red Madder",
+      "nameEn": "Red Madder",
+      "aliases": [
+        "モンザレッド"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#D80C18",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536744"
+    },
+    {
+      "code": "S69",
+      "name": "Off White",
+      "nameEn": "Off White",
+      "aliases": [
+        "グランプリホワイト"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#F9F8F4",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536751"
+    },
+    {
+      "code": "S70",
+      "name": "Dark Green (3/4 Flat)",
+      "nameEn": "Dark Green (3/4 Flat)",
+      "aliases": [
+        "ダークグリーン"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#21423A",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536768"
+    },
+    {
+      "code": "S75",
+      "name": "Metallic Red",
+      "nameEn": "Metallic Red",
+      "aliases": [
+        "メタリックレッド"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": "#B01F1E",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536775"
+    },
+    {
+      "code": "S76",
+      "name": "Metallic Blue",
+      "nameEn": "Metallic Blue",
+      "aliases": [
+        "メタリックブルー"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": "#004EA2",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536782"
+    },
+    {
+      "code": "S77",
+      "name": "Metallic Green",
+      "nameEn": "Metallic Green",
+      "aliases": [
+        "メタリックグリーン"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": "#00894F",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536799"
+    },
+    {
+      "code": "S78",
+      "name": "Metallic Black",
+      "nameEn": "Metallic Black",
+      "aliases": [
+        "メタルブラック"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": "#231815",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536805"
+    },
+    {
+      "code": "S79",
+      "name": "Shine Red",
+      "nameEn": "Shine Red",
+      "aliases": [
+        "シャインレッド"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#E60012",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536812"
+    },
+    {
+      "code": "S80",
+      "name": "Cobalt Blue",
+      "nameEn": "Cobalt Blue",
+      "aliases": [
+        "コバルトブルー"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#1D2088",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536829"
+    },
+    {
+      "code": "S81",
+      "name": "Russet",
+      "nameEn": "Russet",
+      "aliases": [
+        "赤2号(あずき色"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#772A31",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028501117"
+    },
+    {
+      "code": "S82",
+      "name": "Scarlet",
+      "nameEn": "Scarlet",
+      "aliases": [],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": null,
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "GSIJ084",
+      "name": "Sepia",
+      "nameEn": "Sepia",
+      "aliases": [],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": null,
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "S90",
+      "name": "Shine Silver",
+      "nameEn": "Shine Silver",
+      "aliases": [
+        "シャインシルバー"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": "#D3D3D4",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536836"
+    },
+    {
+      "code": "S92",
+      "name": "Semi Gloss Black",
+      "nameEn": "Semi Gloss Black",
+      "aliases": [],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#000000",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "S97",
+      "name": "Light Gray",
+      "nameEn": "Light Gray",
+      "aliases": [
+        "灰色9号"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#B2BEB2",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028501124"
+    },
+    {
+      "code": "S101",
+      "name": "Smoke Gray",
+      "nameEn": "Smoke Gray",
+      "aliases": [
+        "スモークグレー"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "clear",
+      "finish": "gloss",
+      "colorHex": "#E6E6E6",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536850"
+    },
+    {
+      "code": "S107",
+      "name": "Character White",
+      "nameEn": "Character White",
+      "aliases": [
+        "キャラクターホワイト"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#F5F6F4",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536867"
+    },
+    {
+      "code": "S108",
+      "name": "Character Red",
+      "nameEn": "Character Red",
+      "aliases": [
+        "キャラクターレッド"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#C8161E",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536874"
+    },
+    {
+      "code": "S109",
+      "name": "Character Yellow",
+      "nameEn": "Character Yellow",
+      "aliases": [
+        "キャラクターイエロー"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#F08300",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536881"
+    },
+    {
+      "code": "S110",
+      "name": "Character Blue",
+      "nameEn": "Character Blue",
+      "aliases": [
+        "キャラクターブルー"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#004098",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536898"
+    },
+    {
+      "code": "S111",
+      "name": "Character Flesh 1",
+      "nameEn": "Character Flesh 1",
+      "aliases": [
+        "キャラクターフレッシュ(1"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#FCE4D6",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536904"
+    },
+    {
+      "code": "S112",
+      "name": "Character Flesh 2",
+      "nameEn": "Character Flesh 2",
+      "aliases": [
+        "キャラクターフレッシュ(2"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#F6BCB8",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536911"
+    },
+    {
+      "code": "S115",
+      "name": "RLM65 Light Blue",
+      "nameEn": "RLM65 Light Blue",
+      "aliases": [
+        "RLM65ライトブルー"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#779AA8",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536928"
+    },
+    {
+      "code": "S117",
+      "name": "RLM76 Light Blue",
+      "nameEn": "RLM76 Light Blue",
+      "aliases": [
+        "RLM76ライトブルー"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#BFD5D4",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536935"
+    },
+    {
+      "code": "S124",
+      "name": "Dark Green (Mitsubishi)",
+      "nameEn": "Dark Green (Mitsubishi)",
+      "aliases": [
+        "暗緑色(三菱系"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#004D20",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536942"
+    },
+    {
+      "code": "S129",
+      "name": "Dark Green (Nakajima)",
+      "nameEn": "Dark Green (Nakajima)",
+      "aliases": [
+        "濃緑色(中島系"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#45644D",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536959"
+    },
+    {
+      "code": "S151",
+      "name": "White Pearl",
+      "nameEn": "White Pearl",
+      "aliases": [
+        "ホワイトパール"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "pearl",
+      "colorHex": "#FFFFFF",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028501131"
+    },
+    {
+      "code": "B505",
+      "name": "Mr. Surfacer 1000",
+      "nameEn": "Mr. Surfacer 1000",
+      "aliases": [],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "primer",
+      "finish": "flat",
+      "colorHex": null,
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "B506",
+      "name": "Mr. Surfacer 500 Spray",
+      "nameEn": "Mr. Surfacer 500 Spray",
+      "aliases": [],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "primer",
+      "finish": "flat",
+      "colorHex": "#C8C8C8",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "SG11",
+      "name": "Gundam Color MS MS Char Red",
+      "nameEn": "Gundam Color MS MS Char Red",
+      "aliases": [],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": "#9B3A4B",
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "SJ01",
+      "name": "Kure Naval Arsenal (3/4 Flat)",
+      "nameEn": "Kure Naval Arsenal (3/4 Flat)",
+      "aliases": [
+        "呉海軍工廠標準色"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": null,
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536966"
+    },
+    {
+      "code": "SJ02",
+      "name": "Sasebo Naval Arsenal (3/4 Flat)",
+      "nameEn": "Sasebo Naval Arsenal (3/4 Flat)",
+      "aliases": [
+        "佐世保海軍工廠標準色"
+      ],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": null,
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": "4973028536973"
+    },
+    {
+      "code": "YS01",
+      "name": "Space Battleship Yamato Gray",
+      "nameEn": "Space Battleship Yamato Gray",
+      "aliases": [],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": null,
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "YS02",
+      "name": "Space Battleship Yamato Red",
+      "nameEn": "Space Battleship Yamato Red",
+      "aliases": [],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "semi_gloss",
+      "colorHex": null,
+      "volumeMl": 100,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "B511",
+      "name": "Mr. White Surfacer 1000",
+      "nameEn": "Mr. White Surfacer 1000",
+      "aliases": [],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "primer",
+      "finish": "flat",
+      "colorHex": "#FFFFFF",
+      "volumeMl": 170,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "B513",
+      "name": "Mr. Super Clear Gloss",
+      "nameEn": "Mr. Super Clear Gloss",
+      "aliases": [],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "clear",
+      "finish": "gloss",
+      "colorHex": null,
+      "volumeMl": 170,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "B514",
+      "name": "Mr. Super Clear Flat",
+      "nameEn": "Mr. Super Clear Flat",
+      "aliases": [],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "clear",
+      "finish": "flat",
+      "colorHex": null,
+      "volumeMl": 170,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "B515",
+      "name": "Mr. Surfacer 1200",
+      "nameEn": "Mr. Surfacer 1200",
+      "aliases": [],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "primer",
+      "finish": "flat",
+      "colorHex": "#C0C0C0",
+      "volumeMl": 170,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "B516",
+      "name": "Mr. Super Clear Semi-Gloss",
+      "nameEn": "Mr. Super Clear Semi-Gloss",
+      "aliases": [],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "clear",
+      "finish": "semi_gloss",
+      "colorHex": null,
+      "volumeMl": 170,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "B519",
+      "name": "Mr. Surfacer 1000",
+      "nameEn": "Mr. Surfacer 1000",
+      "aliases": [],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "primer",
+      "finish": "flat",
+      "colorHex": "#E6E6E6",
+      "volumeMl": 170,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "B522",
+      "name": "Mr. Super Clear Gloss UV Cut",
+      "nameEn": "Mr. Super Clear Gloss UV Cut",
+      "aliases": [],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "clear",
+      "finish": "gloss",
+      "colorHex": null,
+      "volumeMl": 170,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "B523",
+      "name": "Mr. Super Clear Flat",
+      "nameEn": "Mr. Super Clear Flat",
+      "aliases": [],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "clear",
+      "finish": "flat",
+      "colorHex": null,
+      "volumeMl": 170,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "B525",
+      "name": "Mr. Oxide Red Surfacer 1000",
+      "nameEn": "Mr. Oxide Red Surfacer 1000",
+      "aliases": [],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "primer",
+      "finish": "flat",
+      "colorHex": "#985344",
+      "volumeMl": 170,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "B527",
+      "name": "Mr. Finishing Surfacer 1500 Gray",
+      "nameEn": "Mr. Finishing Surfacer 1500 Gray",
+      "aliases": [],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "primer",
+      "finish": "flat",
+      "colorHex": "#9DA8A5",
+      "volumeMl": 170,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "B528",
+      "name": "Mr. Mahogany Surfacer 1000",
+      "nameEn": "Mr. Mahogany Surfacer 1000",
+      "aliases": [],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "primer",
+      "finish": "flat",
+      "colorHex": null,
+      "volumeMl": 170,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "B529",
+      "name": "Mr. Finishing Surfacer 1500 White",
+      "nameEn": "Mr. Finishing Surfacer 1500 White",
+      "aliases": [],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "primer",
+      "finish": "flat",
+      "colorHex": "#FAFAFA",
+      "volumeMl": 170,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "B530",
+      "name": "Mr Super Smooth Clear",
+      "nameEn": "Mr Super Smooth Clear",
+      "aliases": [],
+      "line": "Mr.カラースプレー",
+      "brandLine": "Mr.COLOR",
+      "type": "clear",
+      "finish": "flat",
+      "colorHex": null,
+      "volumeMl": 170,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "SM201",
+      "name": "Super Metallic 2 - Super Fine Silver",
+      "nameEn": "Super Metallic 2 - Super Fine Silver",
+      "aliases": [
+        "スーパーファインシルバー2"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": "#C8C8CA",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028718683"
+    },
+    {
+      "code": "SM202",
+      "name": "Super Metallic 2 - Super Gold",
+      "nameEn": "Super Metallic 2 - Super Gold",
+      "aliases": [
+        "スーパーゴールド2"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": "#C7AA5A",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028718690"
+    },
+    {
+      "code": "SM203",
+      "name": "Super Metallic 2 - Super Iron",
+      "nameEn": "Super Metallic 2 - Super Iron",
+      "aliases": [
+        "スーパーアイアン2"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": "#201C1D",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028718706"
+    },
+    {
+      "code": "SM204",
+      "name": "Super Metallic 2 - Super Stainless",
+      "nameEn": "Super Metallic 2 - Super Stainless",
+      "aliases": [
+        "スーパーステンレス2"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": "#868581",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028718713"
+    },
+    {
+      "code": "SM205",
+      "name": "Super Metallic 2 - Super Titanum",
+      "nameEn": "Super Metallic 2 - Super Titanum",
+      "aliases": [
+        "スーパーチタン2"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": "#878681",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028718720"
+    },
+    {
+      "code": "SM206",
+      "name": "Super Metallic 2 - Super Chrome Silver",
+      "nameEn": "Super Metallic 2 - Super Chrome Silver",
+      "aliases": [
+        "スーパークロームシルバー2"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": "#C7C8CA",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028718737"
+    },
+    {
+      "code": "SM207",
+      "name": "Super Metallic 2 - Super Rich Gold",
+      "nameEn": "Super Metallic 2 - Super Rich Gold",
+      "aliases": [
+        "スーパーリッチゴールド"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": "#CBA30D",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028718744"
+    },
+    {
+      "code": "SM208",
+      "name": "Super Metallic 2 - Super Duraluminum",
+      "nameEn": "Super Metallic 2 - Super Duraluminum",
+      "aliases": [
+        "スーパージュラルミン"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": "#75777F",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028718751"
+    },
+    {
+      "code": "SM209",
+      "name": "Super Metallic 2 - Super Copper",
+      "nameEn": "Super Metallic 2 - Super Copper",
+      "aliases": [
+        "スーパーカッパー"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": "#CE722A",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028718768"
+    },
+    {
+      "code": "SM210",
+      "name": "Super Metallic 2 Super Pink Gold",
+      "nameEn": "Super Metallic 2 Super Pink Gold",
+      "aliases": [
+        "スーパーピンクゴールド"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": "#CF9999",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028734287"
+    },
+    {
+      "code": "SM211",
+      "name": "Super Metallic 2 Super Red Gold",
+      "nameEn": "Super Metallic 2 Super Red Gold",
+      "aliases": [
+        "スーパーレッドゴールド"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": "#D29739",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028734294"
+    },
+    {
+      "code": "SM212",
+      "name": "Super Metallic 2 Super Matt Aluminium",
+      "nameEn": "Super Metallic 2 Super Matt Aluminium",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#CFD0CF",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "SM01",
+      "name": "Super Fine Silver",
+      "nameEn": "Super Fine Silver",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": null,
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "SM02",
+      "name": "Super Gold",
+      "nameEn": "Super Gold",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": null,
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "SM04",
+      "name": "Super Stainless",
+      "nameEn": "Super Stainless",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": null,
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "SM06",
+      "name": "Chrome Silver",
+      "nameEn": "Chrome Silver",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#C7C8CA",
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "SM08",
+      "name": "Super Metallic PLATE SILVER",
+      "nameEn": "Super Metallic PLATE SILVER",
+      "aliases": [],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "metallic",
+      "colorHex": null,
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": null
+    },
+    {
+      "code": "CL03",
+      "name": "Pale Clear Red",
+      "nameEn": "Pale Clear Red",
+      "aliases": [
+        "ラスキウス クリアーペールレッド"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "clear",
+      "finish": "gloss",
+      "colorHex": "#F5BFB4",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028719901"
+    },
+    {
+      "code": "CL04",
+      "name": "Pale Clear Orange",
+      "nameEn": "Pale Clear Orange",
+      "aliases": [
+        "ラスキウス クリアーペールオレンジ"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "clear",
+      "finish": "gloss",
+      "colorHex": "#F7C27E",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028719918"
+    },
+    {
+      "code": "CL05",
+      "name": "Pale Clear Brown",
+      "nameEn": "Pale Clear Brown",
+      "aliases": [
+        "ラスキウス クリアーペールブラウン"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "clear",
+      "finish": "gloss",
+      "colorHex": "#F1824B",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028719925"
+    },
+    {
+      "code": "CL101",
+      "name": "Aura Blond",
+      "nameEn": "Aura Blond",
+      "aliases": [
+        "Mr.カラー LASCIVUS Aura (ラスキウス アウラ）ブロンド"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#F3F298",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028719970"
+    },
+    {
+      "code": "CL102",
+      "name": "Aura Copper Brown",
+      "nameEn": "Aura Copper Brown",
+      "aliases": [
+        "Mr.カラー LASCIVUS Aura (ラスキウス アウラ）栗毛"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#C6522B",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028719987"
+    },
+    {
+      "code": "CL103",
+      "name": "Aura Black Hair",
+      "nameEn": "Aura Black Hair",
+      "aliases": [
+        "Mr.カラー LASCIVUS Aura (ラスキウス アウラ）濡烏"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#3C3E3D",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028719994"
+    },
+    {
+      "code": "CL104",
+      "name": "Aura Pink Purple",
+      "nameEn": "Aura Pink Purple",
+      "aliases": [
+        "Mr.カラー LASCIVUS Aura (ラスキウス アウラ）ピンクパール"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#E799C1",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028922882"
+    },
+    {
+      "code": "CL105",
+      "name": "Aura Lilac",
+      "nameEn": "Aura Lilac",
+      "aliases": [
+        "Mr.カラー LASCIVUS Aura (ラスキウス アウラ）ライラック"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#CAA0C8",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028922899"
+    },
+    {
+      "code": "CL106",
+      "name": "Aura Icy White",
+      "nameEn": "Aura Icy White",
+      "aliases": [
+        "Mr.カラー LASCIVUS Aura (ラスキウス アウラ) 白雪色"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#FFFFFF",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028922905"
+    },
+    {
+      "code": "CL107",
+      "name": "Aura Flaxen",
+      "nameEn": "Aura Flaxen",
+      "aliases": [
+        "Mr.カラー LASCIVUS Aura (ラスキウス アウラ) 亜麻色"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#ABA692",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028922912"
+    },
+    {
+      "code": "CL108",
+      "name": "Aura Pale Blue-Green",
+      "nameEn": "Aura Pale Blue-Green",
+      "aliases": [
+        "Mr.カラー LASCIVUS Aura (ラスキウス アウラ) 浅葱色"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "flat",
+      "colorHex": "#009FAD",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028922929"
+    },
+    {
+      "code": "CL109",
+      "name": "Aura Lime Green",
+      "nameEn": "Aura Lime Green",
+      "aliases": [
+        "Mr.カラー LASCIVUS Aura (ラスキウス アウラ) ライムグリーン"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#9CCB61",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028922936"
+    },
+    {
+      "code": "CL110",
+      "name": "Aura Scarlet",
+      "nameEn": "Aura Scarlet",
+      "aliases": [
+        "Mr.カラー LASCIVUS Aura (ラスキウス アウラ) 緋色"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#E82663",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028922943"
+    },
+    {
+      "code": "CL111",
+      "name": "Aura Azure",
+      "nameEn": "Aura Azure",
+      "aliases": [
+        "Mr.カラー LASCIVUS Aura (ラスキウス アウラ) 空色"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#6EC2EE",
+      "volumeMl": 10,
+      "thinnerRatio": null,
+      "barcode": "4973028922950"
+    },
+    {
+      "code": "CL01",
+      "name": "White Peach",
+      "nameEn": "White Peach",
+      "aliases": [
+        "ラスキウス ホワイトピーチ"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#FBD7BD",
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028736885"
+    },
+    {
+      "code": "CL02",
+      "name": "Cocoa Milk",
+      "nameEn": "Cocoa Milk",
+      "aliases": [
+        "ラスキウス ココアミルク"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#AA8072",
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028736892"
+    },
+    {
+      "code": "CL06",
+      "name": "Clear White",
+      "nameEn": "Clear White",
+      "aliases": [
+        "ラスキウス クリアーホワイト"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "clear",
+      "finish": "gloss",
+      "colorHex": null,
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028739374"
+    },
+    {
+      "code": "CL07",
+      "name": "Rosy Peach",
+      "nameEn": "Rosy Peach",
+      "aliases": [
+        "Mr.カラー LASCIVUS (ラスキウス) 鴇羽色"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#F7BCB4",
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028505696"
+    },
+    {
+      "code": "CL08",
+      "name": "Nuts White",
+      "nameEn": "Nuts White",
+      "aliases": [
+        "Mr.カラー LASCIVUS (ラスキウス) ナッツホワイト"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "gloss",
+      "colorHex": "#FFFCF7",
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028505702"
+    },
+    {
+      "code": "CL09",
+      "name": "Smooth Pearl Coat",
+      "nameEn": "Smooth Pearl Coat",
+      "aliases": [
+        "Mr.カラー LASCIVUS (ラスキウス) スムースパールコート"
+      ],
+      "line": "Mr.カラー",
+      "brandLine": "Mr.COLOR",
+      "type": "lacquer",
+      "finish": "none",
+      "colorHex": "#FFFFFF",
+      "volumeMl": 18,
+      "thinnerRatio": null,
+      "barcode": "4973028505719"
+    }
+  ]
+}

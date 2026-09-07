@@ -1,4 +1,6 @@
+import finishers from '@/data/paint-catalog/finishers.json';
 import gaianotes from '@/data/paint-catalog/gaianotes.json';
+import gsiCreos from '@/data/paint-catalog/gsi-creos.json';
 import momodeling from '@/data/paint-catalog/momodeling.json';
 import tamiya from '@/data/paint-catalog/tamiya.json';
 import { PAINT_FINISHES, PAINT_TYPES, type PaintFinish, type PaintType } from '@/db/schema';
@@ -39,7 +41,7 @@ type CatalogFile = {
   }[];
 };
 
-const CATALOG_FILES: CatalogFile[] = [momodeling, tamiya, gaianotes];
+const CATALOG_FILES: CatalogFile[] = [momodeling, tamiya, gsiCreos, gaianotes, finishers];
 
 export type CatalogPaint = {
   /** 목록 key. 브랜드 + 라인 + 품번 조합은 겹치지 않는다. */

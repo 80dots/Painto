@@ -33,6 +33,7 @@ const BUILT_IN_BRANDS: NewBrand[] = [
   // 내장 도료 카탈로그가 있는 브랜드 (src/data/paint-catalog)
   { name: '모모델링', country: 'KR', isBuiltIn: true },
   { name: '가이아노츠', country: 'JP', isBuiltIn: true },
+  { name: '피니셔스', country: 'JP', isBuiltIn: true },
 ];
 
 /** 기본 브랜드를 한 번만 채운다. 이미 있으면 아무것도 하지 않는다. */
