@@ -38,6 +38,8 @@ type CatalogFile = {
     volumeMl: number | null;
     thinnerRatio: string | null;
     barcode: string | null;
+    /** 판매처 제품 사진 주소. 고르면 내려받아 앱에 저장한다. */
+    photoUrl?: string | null;
   }[];
 };
 
@@ -60,6 +62,7 @@ export type CatalogPaint = {
   volumeMl: number | null;
   thinnerRatio: string | null;
   barcode: string | null;
+  photoUrl: string | null;
   /** 검색용으로 미리 눌러 둔 문자열 */
   haystack: string;
 };
@@ -91,6 +94,7 @@ export const CATALOG_PAINTS: CatalogPaint[] = CATALOG_FILES.flatMap((file) =>
     volumeMl: paint.volumeMl,
     thinnerRatio: paint.thinnerRatio,
     barcode: paint.barcode,
+    photoUrl: paint.photoUrl ?? null,
     haystack: normalize(
       [
         file.brand,

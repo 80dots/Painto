@@ -27,7 +27,8 @@
       "colorHex": "#121417",
       "volumeMl": 60,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/95ebeb6965b0a8f66a3c2a85821b0505.jpg"
     },
     {
       "code": "IC-02",
@@ -41,7 +42,8 @@
       "colorHex": "#F7F8FA",
       "volumeMl": 60,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/029162df23d2f660430f03df6ea4ec2d.jpg"
     },
     {
       "code": "IC-03",
@@ -55,7 +57,8 @@
       "colorHex": "#F2F3F5",
       "volumeMl": 30,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/20193b72b495c6422a2e9f5982aa4e6e.jpg"
     },
     {
       "code": "IC-04",
@@ -69,7 +72,8 @@
       "colorHex": "#E7E9EC",
       "volumeMl": 30,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/58cabe7b2e6621120cdd033ee2b0ae33.jpg"
     },
     {
       "code": "IC-05",
@@ -83,7 +87,8 @@
       "colorHex": "#DCDFE3",
       "volumeMl": 30,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/ca4515bf3b047aac236c3edebd830f38.jpg"
     },
     {
       "code": "IC-06",
@@ -97,7 +102,8 @@
       "colorHex": "#D3D6DA",
       "volumeMl": 30,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/7fde7ce0dd538113408b9b8195af533d.jpg"
     },
     {
       "code": "IC-07",
@@ -111,7 +117,8 @@
       "colorHex": "#8E9196",
       "volumeMl": 30,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/4ac6e477ed50cee7dc4b560b48f4ad89.jpg"
     },
     {
       "code": "IC-08",
@@ -125,7 +132,8 @@
       "colorHex": "#737880",
       "volumeMl": 30,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/ce56dcc503669018e6608406a3d56a0f.jpg"
     },
     {
       "code": "IC-09",
@@ -139,7 +147,8 @@
       "colorHex": "#56595E",
       "volumeMl": 30,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/199bde1225ce57d381aba47605c6c0c7.jpg"
     },
     {
       "code": "IC-10",
@@ -153,7 +162,8 @@
       "colorHex": "#393A3E",
       "volumeMl": 30,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/dc3dba4c79e9c8b32da3c42c92359873.jpg"
     },
     {
       "code": "BC-001",
@@ -167,7 +177,8 @@
       "colorHex": "#E12E23",
       "volumeMl": 30,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/e11e380bdb5f85355776163802a3e396.jpg"
     },
     {
       "code": "BC-002",
@@ -181,7 +192,8 @@
       "colorHex": "#D51F2A",
       "volumeMl": 30,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/e5f635a65247da83a19befec01267ed8.jpg"
     },
     {
       "code": "BC-004",
@@ -195,7 +207,8 @@
       "colorHex": "#A4101E",
       "volumeMl": 30,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/0743e058309d82ec7913038aa30dd817.jpg"
     },
     {
       "code": "BC-011",
@@ -209,7 +222,8 @@
       "colorHex": "#EFC311",
       "volumeMl": 30,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/d6e1f478c229b9d67b7839c889d5fa31.jpg"
     },
     {
       "code": "BC-012",
@@ -223,7 +237,8 @@
       "colorHex": "#F09410",
       "volumeMl": 30,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/34640fd9dc969ad29cfd53a0a58ac7df.jpg"
     },
     {
       "code": "BC-013",
@@ -237,7 +252,8 @@
       "colorHex": "#E75C1B",
       "volumeMl": 30,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/33ae1a1505c7ffe5380d0d5e6fe12123.jpg"
     },
     {
       "code": "BC-021",
@@ -251,7 +267,8 @@
       "colorHex": "#2E5DBE",
       "volumeMl": 30,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/4262f7089bb292ed7571deb70f187c9f.jpg"
     },
     {
       "code": "BC-022",
@@ -265,7 +282,8 @@
       "colorHex": "#24509B",
       "volumeMl": 30,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/ef5d617b7f8d977a6ea6ff1d0723ae56.jpg"
     },
     {
       "code": "BC-023",
@@ -279,7 +297,8 @@
       "colorHex": "#52A3DC",
       "volumeMl": 30,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/99c90c85984f661531e12cbf46161836.jpg"
     },
     {
       "code": "BC-024",
@@ -293,7 +312,8 @@
       "colorHex": "#6E6FC4",
       "volumeMl": 30,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202312/f7debe231c10d13032a6ec9d079d2a2b.jpg"
     },
     {
       "code": "BC-025",
@@ -307,7 +327,8 @@
       "colorHex": "#52569F",
       "volumeMl": 30,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202312/068be8461cf926e572ab0fb165810184.jpg"
     },
     {
       "code": "BC-030",
@@ -321,7 +342,8 @@
       "colorHex": "#12655C",
       "volumeMl": 30,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/fbb1590d4bb7bd17a678ae92b6096d82.jpg"
     },
     {
       "code": "BC-040",
@@ -335,7 +357,8 @@
       "colorHex": "#8E88C4",
       "volumeMl": 30,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/a16196a7fdf1101514093e15cae0c691.jpg"
     },
     {
       "code": "HC-01",
@@ -349,7 +372,8 @@
       "colorHex": "#EE2233",
       "volumeMl": 30,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202403/833852a82de4e560aa95b3bcce104593.jpg"
     },
     {
       "code": "HC-02",
@@ -363,7 +387,8 @@
       "colorHex": "#E4DE1A",
       "volumeMl": 30,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/aea4161b6dde0a77392d615c61c55268.jpg"
     },
     {
       "code": "HC-03",
@@ -377,7 +402,8 @@
       "colorHex": "#F64A28",
       "volumeMl": 30,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/31df14bc3688e348a5c4baf2548c39e2.jpg"
     },
     {
       "code": "HC-04",
@@ -391,7 +417,8 @@
       "colorHex": "#1FBE4A",
       "volumeMl": 30,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/b18dac62abcab9457cf9843714f1efac.jpg"
     },
     {
       "code": "PC-01",
@@ -405,7 +432,8 @@
       "colorHex": "#EDEDF0",
       "volumeMl": 30,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/33abda42df9db1f1fe347d29d8b67985.jpg"
     },
     {
       "code": "PC-02",
@@ -419,7 +447,8 @@
       "colorHex": "#86AEDA",
       "volumeMl": 30,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/cbb34c58183b89079ae7fee0cdde76d8.jpg"
     },
     {
       "code": "PMC-01",
@@ -433,7 +462,8 @@
       "colorHex": "#E4E6EA",
       "volumeMl": 30,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202503/edd92e98eae075451fe480ff7df6cb91.jpg"
     },
     {
       "code": "PMC-02",
@@ -447,7 +477,8 @@
       "colorHex": "#B9BEC4",
       "volumeMl": 30,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202503/d9e3733aba5cfb077f924f0392d7a26a.jpg"
     },
     {
       "code": "PMC-03",
@@ -461,7 +492,8 @@
       "colorHex": "#C4A055",
       "volumeMl": 30,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202512/78348f5fdb0c2a7dab0b02d1e0f27dc4.jpg"
     },
     {
       "code": "PMC-04",
@@ -475,7 +507,8 @@
       "colorHex": "#B08A45",
       "volumeMl": 30,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202512/7fee33aff5affb3678dfe1f4c3ed56ec.jpg"
     },
     {
       "code": "PMC-05",
@@ -489,7 +522,8 @@
       "colorHex": "#A81E2E",
       "volumeMl": 30,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202512/762b3057ebe3963f7a080961a793389c.jpg"
     },
     {
       "code": "PMC-06",
@@ -503,7 +537,8 @@
       "colorHex": "#23386B",
       "volumeMl": 30,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202512/976de3a6459cc7d583e1a898f6eca8d5.jpg"
     },
     {
       "code": "MC-01",
@@ -517,7 +552,8 @@
       "colorHex": "#C6CACE",
       "volumeMl": 60,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202403/2ef79072d932c008444d2ca334fb6eb5.jpg"
     },
     {
       "code": "MC-02",
@@ -531,7 +567,8 @@
       "colorHex": "#BFC4C9",
       "volumeMl": 60,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202403/be381763329b11f5a3705ac9969ce373.jpg"
     },
     {
       "code": "MC-03",
@@ -545,7 +582,8 @@
       "colorHex": "#9AA0A6",
       "volumeMl": 30,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202403/acbb269e610ceeb288a34b0d7addabf0.jpg"
     },
     {
       "code": "MC-04",
@@ -559,7 +597,8 @@
       "colorHex": "#7C8288",
       "volumeMl": 30,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202403/6ac9f2869bf5562a8bd60bd212dd412a.jpg"
     },
     {
       "code": "MC-05",
@@ -573,7 +612,8 @@
       "colorHex": "#5F656B",
       "volumeMl": 30,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202403/c48f7b6c4494bedac658cc2a3906a669.jpg"
     },
     {
       "code": "MC-06",
@@ -587,7 +627,8 @@
       "colorHex": "#2E3238",
       "volumeMl": 30,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202403/2748efa2c9a13efe2d1b52d59ccdcf27.jpg"
     },
     {
       "code": "MC-07",
@@ -601,7 +642,8 @@
       "colorHex": "#C4A257",
       "volumeMl": 30,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202403/580de8de576a225a598ce00b53b3c9ca.jpg"
     },
     {
       "code": "MC-08",
@@ -615,7 +657,8 @@
       "colorHex": "#CFAA4E",
       "volumeMl": 30,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202403/8d82f191d2aa853b2dbfab88e32948f0.jpg"
     },
     {
       "code": "MC-09",
@@ -629,7 +672,8 @@
       "colorHex": "#C08F5F",
       "volumeMl": 30,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202403/9fbc5183453e9ef024bc386474e51603.jpg"
     },
     {
       "code": "MC-10",
@@ -643,7 +687,8 @@
       "colorHex": "#6A7076",
       "volumeMl": 30,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202403/494412245578433b7c5963e784a0ec64.jpg"
     },
     {
       "code": "MC-11",
@@ -657,7 +702,8 @@
       "colorHex": "#4A5056",
       "volumeMl": 30,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202403/1fe707560ed713c6f97203a0b3515833.jpg"
     },
     {
       "code": "MC-12",
@@ -671,7 +717,8 @@
       "colorHex": "#17624F",
       "volumeMl": 30,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202403/80a5bd1556644986b9242e8036943c18.jpg"
     },
     {
       "code": "MC-13",
@@ -685,7 +732,8 @@
       "colorHex": "#2C5FA6",
       "volumeMl": 30,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202403/f03c91c0388def777de51b66e5f0cfe0.jpg"
     },
     {
       "code": "MC-14",
@@ -699,7 +747,8 @@
       "colorHex": "#D8B62A",
       "volumeMl": 30,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202403/0c7dce3ca72f7a46a86f9ed36933ae86.jpg"
     },
     {
       "code": "MC-15",
@@ -713,7 +762,8 @@
       "colorHex": "#B5222C",
       "volumeMl": 30,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202403/0ec100c3bc9a4b3bac420f3cc6e0cf3b.jpg"
     },
     {
       "code": "MC-16",
@@ -727,7 +777,8 @@
       "colorHex": "#63509B",
       "volumeMl": 30,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202403/6be574c26c0437bf181719e4cfa2ac00.jpg"
     },
     {
       "code": "MC-18",
@@ -741,7 +792,8 @@
       "colorHex": "#AFB4B9",
       "volumeMl": 30,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202403/0046b6443c5352b7f6824d53c71b9ec0.jpg"
     },
     {
       "code": "MC-19",
@@ -755,7 +807,8 @@
       "colorHex": "#CDD2D6",
       "volumeMl": 30,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202403/f7068e098db5e57620367d1420c3ff5f.jpg"
     },
     {
       "code": "MC-20",
@@ -769,7 +822,8 @@
       "colorHex": "#D6CBA6",
       "volumeMl": 30,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202403/792813af67d75e334875df54c4fb0164.jpg"
     },
     {
       "code": "MC-21",
@@ -783,7 +837,8 @@
       "colorHex": "#A9603A",
       "volumeMl": 30,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202403/50bec161a11faa89d67c7d910e4ac28f.jpg"
     },
     {
       "code": "CC-01",
@@ -797,7 +852,8 @@
       "colorHex": "#CE1230",
       "volumeMl": 30,
       "thinnerRatio": "1:1~1.5",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/9a0df6417af98cc32ea2a7a8533580c4.jpg"
     },
     {
       "code": "CC-02",
@@ -811,7 +867,8 @@
       "colorHex": "#96122A",
       "volumeMl": 30,
       "thinnerRatio": "1:1~1.5",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/74fb1fb3f3d3604106998ec0a792e6bb.jpg"
     },
     {
       "code": "CC-03",
@@ -825,7 +882,8 @@
       "colorHex": "#2090D2",
       "volumeMl": 30,
       "thinnerRatio": "1:1~1.5",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/3fa397d82363b398194bcdf6b791be76.jpg"
     },
     {
       "code": "CC-04",
@@ -839,7 +897,8 @@
       "colorHex": "#1B4FA8",
       "volumeMl": 30,
       "thinnerRatio": "1:1~1.5",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/7cdbeddd31689d41d982f3a026df9297.jpg"
     },
     {
       "code": "CC-05",
@@ -853,7 +912,8 @@
       "colorHex": "#EBC820",
       "volumeMl": 30,
       "thinnerRatio": "1:1~1.5",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/c897b0db01304f5027cdbb3ae727263e.jpg"
     },
     {
       "code": "CC-06",
@@ -867,7 +927,8 @@
       "colorHex": "#D7A82B",
       "volumeMl": 30,
       "thinnerRatio": "1:1~1.5",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/395152198b3391bc06a093103bf25fc7.jpg"
     },
     {
       "code": "CC-07",
@@ -881,7 +942,8 @@
       "colorHex": "#A05A1E",
       "volumeMl": 30,
       "thinnerRatio": "1:1~1.5",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/35896182ee14d5e4151807d9a81e3f47.jpg"
     },
     {
       "code": "CC-08",
@@ -895,7 +957,8 @@
       "colorHex": "#6C3B9E",
       "volumeMl": 30,
       "thinnerRatio": "1:1~1.5",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/a85ce131d0fc3cbfe315d5351c330222.jpg"
     },
     {
       "code": "CC-09",
@@ -909,7 +972,8 @@
       "colorHex": "#E56A15",
       "volumeMl": 30,
       "thinnerRatio": "1:1~1.5",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/2cb8bde4e412c74a5ef57787eb30cad9.jpg"
     },
     {
       "code": "CC-10",
@@ -923,7 +987,8 @@
       "colorHex": "#D6407E",
       "volumeMl": 30,
       "thinnerRatio": "1:1~1.5",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/a3412cd741cc31bda1b3fd76f9b9d7cf.jpg"
     },
     {
       "code": "CC-11",
@@ -937,7 +1002,8 @@
       "colorHex": "#4A4A50",
       "volumeMl": 30,
       "thinnerRatio": "1:1~1.5",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/ae42e1a32b8039a9ef16db8e5d334099.jpg"
     },
     {
       "code": "CC-12",
@@ -951,7 +1017,8 @@
       "colorHex": "#17A04C",
       "volumeMl": 30,
       "thinnerRatio": "1:1~1.5",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/20c7366f6b018dc42410fc6d5afb2eeb.jpg"
     },
     {
       "code": "CA-01",
@@ -965,7 +1032,8 @@
       "colorHex": "#4A5FC0",
       "volumeMl": 30,
       "thinnerRatio": "1:1~1.5",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/e6ba0b17d999889f3ca44cc207085ae7.jpg"
     },
     {
       "code": "CA-02",
@@ -979,7 +1047,8 @@
       "colorHex": "#C2AEC6",
       "volumeMl": 30,
       "thinnerRatio": "1:1~1.5",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/5bd3977f6fb82ed7499cb08630fa27d6.jpg"
     },
     {
       "code": "CA-03",
@@ -993,7 +1062,8 @@
       "colorHex": "#4E8C74",
       "volumeMl": 30,
       "thinnerRatio": "1:1~1.5",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/1939255cf9f9a7217c5ed4acee1b728d.jpg"
     },
     {
       "code": "CA-04",
@@ -1007,7 +1077,8 @@
       "colorHex": "#93B24A",
       "volumeMl": 30,
       "thinnerRatio": "1:1~1.5",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/881ade532b7aab2eb1887bf4a268b885.jpg"
     },
     {
       "code": "CA-05",
@@ -1021,7 +1092,8 @@
       "colorHex": "#B4643C",
       "volumeMl": 30,
       "thinnerRatio": "1:1~1.5",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/e2e36a0f2a4b36a41cee9074ea896cc3.jpg"
     },
     {
       "code": "CA-06",
@@ -1035,7 +1107,8 @@
       "colorHex": "#3A3F8C",
       "volumeMl": 30,
       "thinnerRatio": "1:1~1.5",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/9f076ccdd7f5b833ed7a52b76182d273.jpg"
     },
     {
       "code": "CH-01",
@@ -1049,7 +1122,8 @@
       "colorHex": "#D2D6DA",
       "volumeMl": 60,
       "thinnerRatio": "1:0",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/ed1a1c89e562f39b57f567821f962f14.jpg"
     },
     {
       "code": "CH-02",
@@ -1063,7 +1137,8 @@
       "colorHex": "#E2E6EA",
       "volumeMl": 60,
       "thinnerRatio": "1:0",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/2a9fce365106d67060abbb12dd35e14d.jpg"
     },
     {
       "code": "CH-03",
@@ -1077,7 +1152,8 @@
       "colorHex": "#B4B9BE",
       "volumeMl": 60,
       "thinnerRatio": "1:0",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/bd51cdfa59f6b9025e798fb476cdaec9.jpg"
     },
     {
       "code": "CH-04",
@@ -1091,7 +1167,8 @@
       "colorHex": null,
       "volumeMl": 60,
       "thinnerRatio": "1:0",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/be4bf319f3c99edcbb0986e9ac05cf5f.jpg"
     },
     {
       "code": "CH-05",
@@ -1105,7 +1182,8 @@
       "colorHex": "#3A3E44",
       "volumeMl": 60,
       "thinnerRatio": "1:0",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202204/c3552cd3b72c76fd3bdd5c3510c99c98.jpg"
     },
     {
       "code": "SC-01",
@@ -1119,7 +1197,8 @@
       "colorHex": "#1A1C1F",
       "volumeMl": 60,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/588e3dd489ccc13e5abd845112dcca0a.jpg"
     },
     {
       "code": "SC-02",
@@ -1133,7 +1212,8 @@
       "colorHex": "#F2F3F5",
       "volumeMl": 60,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/4909200c08737681675a29c750925660.jpg"
     },
     {
       "code": "SC-03",
@@ -1147,7 +1227,8 @@
       "colorHex": "#26292D",
       "volumeMl": 60,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/dee67c77aec9aec16bfda48547bdfd27.jpg"
     },
     {
       "code": "SC-04",
@@ -1161,7 +1242,8 @@
       "colorHex": "#EDEEF0",
       "volumeMl": 60,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/2793f469217ffff42a2079296bf4b6f6.jpg"
     },
     {
       "code": "SC-05",
@@ -1175,7 +1257,8 @@
       "colorHex": "#C2626A",
       "volumeMl": 60,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/6a270670d851c36150fc70a20db61693.jpg"
     },
     {
       "code": "SC-06",
@@ -1189,7 +1272,8 @@
       "colorHex": "#83C0DE",
       "volumeMl": 60,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/c4a7f4b97b08ada44db7cf2a930989c8.jpg"
     },
     {
       "code": "SC-07",
@@ -1203,7 +1287,8 @@
       "colorHex": "#E1CE93",
       "volumeMl": 60,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/2a24be51f3366656c791cca1982979ea.jpg"
     },
     {
       "code": "SC-08",
@@ -1217,7 +1302,8 @@
       "colorHex": "#3C3E44",
       "volumeMl": 60,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/6aa1fe6c01a25c4819a329e33f7c11e5.jpg"
     },
     {
       "code": "SC-09",
@@ -1231,7 +1317,8 @@
       "colorHex": "#A0A2A4",
       "volumeMl": 60,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/1d6af01b21c673d0342aa9b2b8053601.jpg"
     },
     {
       "code": "SC-10",
@@ -1245,7 +1332,8 @@
       "colorHex": "#A9AAAA",
       "volumeMl": 60,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/6e40a5083c93aaeb55adc47b28a5075d.jpg"
     },
     {
       "code": "FC-01",
@@ -1259,7 +1347,8 @@
       "colorHex": null,
       "volumeMl": 60,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/86b9b060a5dfb9136bdadbdf96332b56.jpg"
     },
     {
       "code": "FC-02",
@@ -1273,7 +1362,8 @@
       "colorHex": null,
       "volumeMl": 60,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/5bf8338ff36ad3c4492b9e60de1b1300.jpg"
     },
     {
       "code": "FC-03",
@@ -1287,7 +1377,8 @@
       "colorHex": null,
       "volumeMl": 60,
       "thinnerRatio": "1:1~2",
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/1c92d7b2532250544f7a5ed832842ad0.jpg"
     },
     {
       "code": "UC-01",
@@ -1301,7 +1392,8 @@
       "colorHex": null,
       "volumeMl": 60,
       "thinnerRatio": null,
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202406/5419f82bb826b357fc9f13a63eed4a49.jpg"
     },
     {
       "code": "UC-02",
@@ -1315,7 +1407,8 @@
       "colorHex": "#101215",
       "volumeMl": 60,
       "thinnerRatio": null,
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202302/1e10154b94e54728f1ceed31438a867b.jpg"
     },
     {
       "code": "UC-03",
@@ -1329,7 +1422,8 @@
       "colorHex": null,
       "volumeMl": 60,
       "thinnerRatio": null,
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202406/968e813d65e7e883939fbd81a0713dbb.jpg"
     },
     {
       "code": "UC-11",
@@ -1343,7 +1437,8 @@
       "colorHex": "#CC1B2A",
       "volumeMl": 60,
       "thinnerRatio": null,
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/4b3c1addac268ab2d2a1f38c04b1ee6c.jpg"
     },
     {
       "code": "UC-12",
@@ -1357,7 +1452,8 @@
       "colorHex": "#1668C0",
       "volumeMl": 60,
       "thinnerRatio": null,
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/b33caf86a0ab541d815c94db8689010b.jpg"
     },
     {
       "code": "UC-13",
@@ -1371,7 +1467,8 @@
       "colorHex": "#9A1226",
       "volumeMl": 60,
       "thinnerRatio": null,
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/f957c41fc761eaac47498cc18b1ea564.jpg"
     },
     {
       "code": "UC-14",
@@ -1385,7 +1482,8 @@
       "colorHex": "#17408F",
       "volumeMl": 60,
       "thinnerRatio": null,
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/044a22196eae2126a9d41234274c48b1.jpg"
     },
     {
       "code": "UC-15",
@@ -1399,7 +1497,8 @@
       "colorHex": "#EBC420",
       "volumeMl": 60,
       "thinnerRatio": null,
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/8e15410572e845c03f1fc239df6b937a.jpg"
     },
     {
       "code": "UC-16",
@@ -1413,7 +1512,8 @@
       "colorHex": "#E66A18",
       "volumeMl": 60,
       "thinnerRatio": null,
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/cf6c53a9174b9dadb215d0451ebc53ea.jpg"
     },
     {
       "code": "UC-17",
@@ -1427,7 +1527,8 @@
       "colorHex": "#14A050",
       "volumeMl": 60,
       "thinnerRatio": null,
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/300ba2c2dcbdbd374693d882334af132.jpg"
     },
     {
       "code": "UC-18",
@@ -1441,7 +1542,8 @@
       "colorHex": "#6A38A0",
       "volumeMl": 60,
       "thinnerRatio": null,
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/92c5f612b13b452df6aa47c34aef3265.jpg"
     },
     {
       "code": "UC-19",
@@ -1455,7 +1557,8 @@
       "colorHex": "#D8447E",
       "volumeMl": 60,
       "thinnerRatio": null,
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/eba70f8185b2adf0c493fa1c050def4f.jpg"
     },
     {
       "code": "UC-20",
@@ -1469,7 +1572,8 @@
       "colorHex": "#D2A93A",
       "volumeMl": 60,
       "thinnerRatio": null,
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202211/dff5e637f563e3beb5a8094120a6f63e.jpg"
     },
     {
       "code": "UC01M",
@@ -1483,7 +1587,8 @@
       "colorHex": null,
       "volumeMl": 60,
       "thinnerRatio": null,
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202507/d343fd7d39b81775d44ddcfcf489ad95.jpg"
     },
     {
       "code": "UC02M",
@@ -1497,7 +1602,8 @@
       "colorHex": "#101215",
       "volumeMl": 60,
       "thinnerRatio": null,
-      "barcode": null
+      "barcode": null,
+      "photoUrl": "https://m-holic.net/web/product/medium/202507/fbe62136845975c2ac9470ab6e597616.jpg"
     }
   ]
 }

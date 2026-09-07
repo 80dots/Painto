@@ -36,7 +36,7 @@ import {
 } from '@/features/paints/queries';
 import { useT } from '@/features/settings/provider';
 import { useTheme } from '@/hooks/use-theme';
-import { deletePhoto } from '@/lib/photos';
+import { deletePhoto, downloadPhoto } from '@/lib/photos';
 import { formatDate, formatQuantity, normalizeHex, toNumber } from '@/lib/utils';
 
 type PaintForm = {
@@ -44,6 +44,8 @@ type PaintForm = {
   code: string;
   barcode: string;
   photoUri: string | null;
+  /** 카탈로그에서 고른 도료의 사진 주소. 저장할 때 내려받아 앱에 넣는다. */
+  catalogPhotoUrl: string | null;
   brandId: number | null;
   /** 카탈로그에서 고른 브랜드. 저장할 때 brands 에 만들어 붙인다. */
   catalogBrand: { name: string; line: string | null; country: string | null } | null;
@@ -68,6 +70,7 @@ const EMPTY_FORM: PaintForm = {
   code: '',
   barcode: '',
   photoUri: null,
+  catalogPhotoUrl: null,
   brandId: null,
   catalogBrand: null,
   type: 'lacquer',
@@ -83,22 +86,34 @@ const EMPTY_FORM: PaintForm = {
   isFavorite: false,
 };
 
-/** 카탈로그 항목을 폼 값에 얹는다. 보유 수량·사진·메모는 건드리지 않는다. */
-function fillFromCatalog(prev: PaintForm, item: CatalogPaint): PaintForm {
+/**
+ * 카탈로그 항목을 폼 값에 얹는다. 보유 수량·직접 찍은 사진·메모는 건드리지 않는다.
+ *
+ * 카탈로그에 값이 없는 항목은 이전 값을 물려받지 않고 빈칸으로 둔다.
+ * 앞서 고른 도료의 값이 남아 섞이면 엉뚱한 정보로 저장되기 때문이다.
+ * 다만 사용자가 직접 찍어 온 바코드는 지우지 않는다.
+ */
+function fillFromCatalog(
+  prev: PaintForm,
+  item: CatalogPaint,
+  scannedBarcode?: string | null,
+): PaintForm {
   const ratio = splitRatio(item.thinnerRatio);
   return {
     ...prev,
     name: item.name,
-    code: item.code ?? prev.code,
+    code: item.code ?? '',
     brandId: null,
     catalogBrand: { name: item.brand, line: item.brandLine, country: item.country },
     type: item.type,
     finish: item.finish,
-    colorHex: item.colorHex ?? prev.colorHex,
-    volumeMl: item.volumeMl ? String(item.volumeMl) : prev.volumeMl,
-    thinnerPaint: ratio.paint || prev.thinnerPaint,
-    thinnerSolvent: ratio.solvent || prev.thinnerSolvent,
-    barcode: item.barcode ?? prev.barcode,
+    colorHex: item.colorHex ?? '',
+    volumeMl: item.volumeMl ? String(item.volumeMl) : '',
+    thinnerPaint: ratio.paint,
+    thinnerSolvent: ratio.solvent,
+    barcode: item.barcode ?? scannedBarcode ?? '',
+    // 직접 찍어 둔 사진이 있으면 그대로 두고, 없을 때만 카탈로그 사진을 쓴다.
+    catalogPhotoUrl: prev.photoUri ? null : item.photoUrl,
   };
 }
 
@@ -125,7 +140,7 @@ export default function PaintDetailScreen() {
     const base = { ...EMPTY_FORM, barcode: barcodeParam ?? '' };
     // 스캔한 바코드가 내장 카탈로그에 있으면 등록 화면을 미리 채워 둔다.
     const match = barcodeParam ? findCatalogByBarcode(barcodeParam) : null;
-    return match ? fillFromCatalog(base, match) : base;
+    return match ? fillFromCatalog(base, match, barcodeParam) : base;
   });
   const [saving, setSaving] = useState(false);
   const [scannerOpen, setScannerOpen] = useState(false);
@@ -161,6 +176,7 @@ export default function PaintDetailScreen() {
       code: paint.code ?? '',
       barcode: paint.barcode ?? '',
       photoUri: paint.photoUri,
+      catalogPhotoUrl: null,
       brandId: paint.brandId,
       catalogBrand: null,
       type: paint.type,
@@ -228,7 +244,7 @@ export default function PaintDetailScreen() {
   const applyCatalogPaint = (item: CatalogPaint) => {
     setCatalogQuery(null);
     Keyboard.dismiss();
-    setForm((prev) => fillFromCatalog(prev, item));
+    setForm((prev) => fillFromCatalog(prev, item, barcodeParam));
   };
 
   const handleScanned = async (scanned: string) => {
@@ -269,6 +285,10 @@ export default function PaintDetailScreen() {
           )
         : form.brandId;
 
+      // 카탈로그 사진은 아직 주소일 뿐이다. 저장 시점에 받아 두면 그 뒤로는 오프라인에서도 보인다.
+      const photoUri =
+        form.photoUri ?? (form.catalogPhotoUrl ? await downloadPhoto(form.catalogPhotoUrl) : null);
+
       const thinnerRatio =
         form.thinnerPaint.trim() && form.thinnerSolvent.trim()
           ? `${form.thinnerPaint.trim()}:${form.thinnerSolvent.trim()}`
@@ -278,7 +298,7 @@ export default function PaintDetailScreen() {
         name: form.name.trim(),
         code: form.code.trim() || null,
         barcode: form.barcode.trim() || null,
-        photoUri: form.photoUri,
+        photoUri,
         brandId,
         type: form.type,
         finish: form.finish,
@@ -299,7 +319,7 @@ export default function PaintDetailScreen() {
       }
 
       // 사진을 바꿨다면 예전 파일을 정리한다.
-      if (savedPhotoUri.current && savedPhotoUri.current !== form.photoUri) {
+      if (savedPhotoUri.current && savedPhotoUri.current !== photoUri) {
         deletePhoto(savedPhotoUri.current);
       }
       router.back();
@@ -355,8 +375,10 @@ export default function PaintDetailScreen() {
         {/* 사진 · 브랜드 · 이름 */}
         <View className="flex-row gap-3">
           <PhotoPicker
-            uri={form.photoUri}
-            onChange={(uri) => update('photoUri', uri)}
+            uri={form.photoUri ?? form.catalogPhotoUrl}
+            onChange={(uri) =>
+              setForm((prev) => ({ ...prev, photoUri: uri, catalogPhotoUrl: null }))
+            }
             size={104}
             title={t('paintForm.photo')}
           />
@@ -388,7 +410,7 @@ export default function PaintDetailScreen() {
                 setCatalogQuery(value);
               }}
               placeholder={t('paintForm.namePlaceholder')}
-              className="h-14 text-2xl font-semibold"
+              className="h-14 text-[24px] font-semibold"
             />
           </View>
         </View>
@@ -531,7 +553,6 @@ export default function PaintDetailScreen() {
                 onChangeText={(value) => update('notes', value)}
                 placeholder={t('paintForm.notesPlaceholder')}
                 multiline
-                textAlignVertical="top"
               />
             </Field>
           </>

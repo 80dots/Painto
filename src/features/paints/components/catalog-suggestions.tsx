@@ -43,7 +43,12 @@ export function CatalogSuggestions({ query, onPick }: CatalogSuggestionsProps) {
               : 'flex-row items-center gap-3 border-t border-border px-3 py-2 active:bg-muted'
           }
         >
-          <ColorSwatch color={paint.colorHex} fallbackText={paint.code} size="sm" />
+          <ColorSwatch
+            color={paint.colorHex}
+            photoUri={paint.photoUrl}
+            fallbackText={paint.code}
+            size="sm"
+          />
 
           <View className="flex-1">
             <Text className="text-sm font-semibold text-foreground" numberOfLines={1}>

@@ -31,6 +31,14 @@ export function SearchBar({ value, onChangeText, placeholder, className }: Searc
         placeholderTextColor={colors.mutedForeground}
         returnKeyType="search"
         className="flex-1 text-base text-foreground"
+        // 안드로이드에서 글자 윗부분이 잘리지 않도록 (input.tsx 와 같은 이유)
+        style={{
+          includeFontPadding: false,
+          lineHeight: undefined,
+          textAlignVertical: 'center',
+          paddingTop: 0,
+          paddingBottom: 0,
+        }}
       />
       {value.length > 0 ? (
         <Pressable
