@@ -1,10 +1,12 @@
+import gaianotes from '@/data/paint-catalog/gaianotes.json';
 import momodeling from '@/data/paint-catalog/momodeling.json';
+import tamiya from '@/data/paint-catalog/tamiya.json';
 import { PAINT_FINISHES, PAINT_TYPES, type PaintFinish, type PaintType } from '@/db/schema';
 
 /**
  * 앱에 내장한 시판 도료 목록.
  *
- * 등록 화면에서 이름을 몇 글자 치면 여기서 찾아 브랜드·품번·색상·용량·희석비를
+ * 등록 화면에서 이름·품번을 몇 글자 치면 여기서 찾아 브랜드·품번·색상·용량·희석비를
  * 한 번에 채워 준다. DB 에 넣지 않고 번들에 JSON 으로 들고 다니므로
  * 마이그레이션 없이 브랜드를 추가할 수 있다.
  *
@@ -15,13 +17,19 @@ import { PAINT_FINISHES, PAINT_TYPES, type PaintFinish, type PaintType } from '@
 type CatalogFile = {
   brand: string;
   brandEn: string | null;
+  /** 검색어로 받아 줄 다른 표기 (Tamiya, タミヤ …) */
+  brandAliases?: string[];
   country: string | null;
   updatedAt: string;
   paints: {
     code: string | null;
     name: string;
     nameEn: string | null;
+    /** 색이름의 다른 표기 (일본어명 등) */
+    aliases?: string[] | null;
     line: string | null;
+    /** 브랜드 목록에 쓸 굵은 구분 (타미야 아크릴 / 에나멜 …) */
+    brandLine?: string | null;
     type: string;
     finish: string;
     colorHex: string | null;
@@ -31,10 +39,10 @@ type CatalogFile = {
   }[];
 };
 
-const CATALOG_FILES: CatalogFile[] = [momodeling];
+const CATALOG_FILES: CatalogFile[] = [momodeling, tamiya, gaianotes];
 
 export type CatalogPaint = {
-  /** 목록 key. 브랜드 안에서 품번이 겹치지 않는다. */
+  /** 목록 key. 브랜드 + 라인 + 품번 조합은 겹치지 않는다. */
   id: string;
   brand: string;
   brandEn: string | null;
@@ -43,6 +51,7 @@ export type CatalogPaint = {
   name: string;
   nameEn: string | null;
   line: string | null;
+  brandLine: string | null;
   type: PaintType;
   finish: PaintFinish;
   colorHex: string | null;
@@ -53,7 +62,7 @@ export type CatalogPaint = {
   haystack: string;
 };
 
-/** 공백·하이픈·점을 지우고 소문자로. "BC-002" 와 "bc002" 가 같은 것으로 취급된다. */
+/** 공백·하이픈·점을 지우고 소문자로. "XF-2" 와 "xf2" 가 같은 것으로 취급된다. */
 function normalize(value: string) {
   return value.toLowerCase().replace(/[\s\-_.]/g, '');
 }
@@ -65,7 +74,7 @@ const isPaintFinish = (value: string): value is PaintFinish =>
 
 export const CATALOG_PAINTS: CatalogPaint[] = CATALOG_FILES.flatMap((file) =>
   file.paints.map((paint) => ({
-    id: `${file.brand}:${paint.code ?? paint.name}`,
+    id: `${file.brand}:${paint.line ?? ''}:${paint.code ?? paint.name}`,
     brand: file.brand,
     brandEn: file.brandEn,
     country: file.country,
@@ -73,6 +82,7 @@ export const CATALOG_PAINTS: CatalogPaint[] = CATALOG_FILES.flatMap((file) =>
     name: paint.name,
     nameEn: paint.nameEn,
     line: paint.line,
+    brandLine: paint.brandLine ?? null,
     type: isPaintType(paint.type) ? paint.type : 'other',
     finish: isPaintFinish(paint.finish) ? paint.finish : 'none',
     colorHex: paint.colorHex,
@@ -80,7 +90,17 @@ export const CATALOG_PAINTS: CatalogPaint[] = CATALOG_FILES.flatMap((file) =>
     thinnerRatio: paint.thinnerRatio,
     barcode: paint.barcode,
     haystack: normalize(
-      [file.brand, file.brandEn, paint.code, paint.name, paint.nameEn, paint.line]
+      [
+        file.brand,
+        file.brandEn,
+        ...(file.brandAliases ?? []),
+        paint.code,
+        paint.name,
+        paint.nameEn,
+        ...(paint.aliases ?? []),
+        paint.line,
+        paint.barcode,
+      ]
         .filter(Boolean)
         .join(' '),
     ),
@@ -118,6 +138,9 @@ export function searchCatalog(query: string, limit = 8): CatalogPaint[] {
     else if (name.startsWith(needle) || nameEn.startsWith(needle)) score = 10;
     else if (name.includes(needle) || nameEn.includes(needle)) score = 20;
 
+    // 점수가 같으면 색을 아는 쪽을 앞에 둔다 (브랜드명만 쳤을 때 대표 색이 먼저 나온다)
+    if (!paint.colorHex) score += 1;
+
     scored.push({ paint, score });
   }
 
@@ -125,7 +148,7 @@ export function searchCatalog(query: string, limit = 8): CatalogPaint[] {
   return scored.slice(0, limit).map((item) => item.paint);
 }
 
-/** 스캔한 바코드가 카탈로그에 있는지 본다. (아직 바코드를 아는 브랜드가 없다) */
+/** 스캔한 바코드가 카탈로그에 있는지 본다. */
 export function findCatalogByBarcode(barcode: string): CatalogPaint | null {
   const trimmed = barcode.trim();
   if (!trimmed) return null;

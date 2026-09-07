@@ -21,7 +21,7 @@ import { Field, Input } from '@/components/ui/input';
 import { Stepper } from '@/components/ui/stepper';
 import { Text } from '@/components/ui/text';
 import { PAINT_FINISHES, PAINT_TYPES, type PaintFinish, type PaintType } from '@/db/schema';
-import { type CatalogPaint } from '@/features/paints/catalog';
+import { findCatalogByBarcode, type CatalogPaint } from '@/features/paints/catalog';
 import { BarcodeScannerModal } from '@/features/paints/components/barcode-scanner-modal';
 import { CatalogSuggestions } from '@/features/paints/components/catalog-suggestions';
 import {
@@ -45,6 +45,8 @@ type PaintForm = {
   barcode: string;
   photoUri: string | null;
   brandId: number | null;
+  /** 카탈로그에서 고른 브랜드. 저장할 때 brands 에 만들어 붙인다. */
+  catalogBrand: { name: string; line: string | null; country: string | null } | null;
   type: PaintType;
   finish: PaintFinish;
   colorHex: string;
@@ -67,6 +69,7 @@ const EMPTY_FORM: PaintForm = {
   barcode: '',
   photoUri: null,
   brandId: null,
+  catalogBrand: null,
   type: 'lacquer',
   finish: 'none',
   colorHex: '',
@@ -79,6 +82,25 @@ const EMPTY_FORM: PaintForm = {
   notes: '',
   isFavorite: false,
 };
+
+/** 카탈로그 항목을 폼 값에 얹는다. 보유 수량·사진·메모는 건드리지 않는다. */
+function fillFromCatalog(prev: PaintForm, item: CatalogPaint): PaintForm {
+  const ratio = splitRatio(item.thinnerRatio);
+  return {
+    ...prev,
+    name: item.name,
+    code: item.code ?? prev.code,
+    brandId: null,
+    catalogBrand: { name: item.brand, line: item.brandLine, country: item.country },
+    type: item.type,
+    finish: item.finish,
+    colorHex: item.colorHex ?? prev.colorHex,
+    volumeMl: item.volumeMl ? String(item.volumeMl) : prev.volumeMl,
+    thinnerPaint: ratio.paint || prev.thinnerPaint,
+    thinnerSolvent: ratio.solvent || prev.thinnerSolvent,
+    barcode: item.barcode ?? prev.barcode,
+  };
+}
 
 /** "1:2" → { paint: '1', solvent: '2' } */
 function splitRatio(ratio?: string | null) {
@@ -99,9 +121,11 @@ export default function PaintDetailScreen() {
   const { data: brandRows } = useBrandOptions();
   const { data: logs } = usePaintStockLogs(paintId);
 
-  const [form, setForm] = useState<PaintForm>({
-    ...EMPTY_FORM,
-    barcode: barcodeParam ?? '',
+  const [form, setForm] = useState<PaintForm>(() => {
+    const base = { ...EMPTY_FORM, barcode: barcodeParam ?? '' };
+    // 스캔한 바코드가 내장 카탈로그에 있으면 등록 화면을 미리 채워 둔다.
+    const match = barcodeParam ? findCatalogByBarcode(barcodeParam) : null;
+    return match ? fillFromCatalog(base, match) : base;
   });
   const [saving, setSaving] = useState(false);
   const [scannerOpen, setScannerOpen] = useState(false);
@@ -138,6 +162,7 @@ export default function PaintDetailScreen() {
       barcode: paint.barcode ?? '',
       photoUri: paint.photoUri,
       brandId: paint.brandId,
+      catalogBrand: null,
       type: paint.type,
       finish: paint.finish,
       colorHex: paint.colorHex ?? '',
@@ -164,9 +189,13 @@ export default function PaintDetailScreen() {
 
   const brandLabel = useMemo(() => {
     const brand = brands.find((item) => item.id === form.brandId);
-    if (!brand) return null;
+    if (!brand) {
+      const pending = form.catalogBrand;
+      if (!pending) return null;
+      return pending.line ? `${pending.name} ${pending.line}` : pending.name;
+    }
     return brand.line ? `${brand.name} ${brand.line}` : brand.name;
-  }, [brands, form.brandId]);
+  }, [brands, form.brandId, form.catalogBrand]);
 
   const brandItems = useMemo<ActionSheetItem[]>(
     () => [
@@ -175,7 +204,7 @@ export default function PaintDetailScreen() {
         label: t('paintForm.noBrand'),
         selected: form.brandId === null,
         onPress: () => {
-          update('brandId', null);
+          setForm((prev) => ({ ...prev, brandId: null, catalogBrand: null }));
           setBrandOpen(false);
         },
       },
@@ -185,7 +214,7 @@ export default function PaintDetailScreen() {
         description: brand.line ?? undefined,
         selected: brand.id === form.brandId,
         onPress: () => {
-          update('brandId', brand.id);
+          setForm((prev) => ({ ...prev, brandId: brand.id, catalogBrand: null }));
           setBrandOpen(false);
         },
       })),
@@ -196,31 +225,20 @@ export default function PaintDetailScreen() {
   const update = <K extends keyof PaintForm>(key: K, value: PaintForm[K]) =>
     setForm((prev) => ({ ...prev, [key]: value }));
 
-  /** 내장 카탈로그에서 고른 도료로 빈칸을 채운다. 보유 수량·사진·메모는 건드리지 않는다. */
-  const applyCatalogPaint = async (item: CatalogPaint) => {
+  const applyCatalogPaint = (item: CatalogPaint) => {
     setCatalogQuery(null);
     Keyboard.dismiss();
-
-    const ratio = splitRatio(item.thinnerRatio);
-    const brandId = await ensureBrand(item.brand, item.country);
-
-    setForm((prev) => ({
-      ...prev,
-      name: item.name,
-      code: item.code ?? prev.code,
-      brandId: brandId ?? prev.brandId,
-      type: item.type,
-      finish: item.finish,
-      colorHex: item.colorHex ?? prev.colorHex,
-      volumeMl: item.volumeMl ? String(item.volumeMl) : prev.volumeMl,
-      thinnerPaint: ratio.paint || prev.thinnerPaint,
-      thinnerSolvent: ratio.solvent || prev.thinnerSolvent,
-      barcode: item.barcode ?? prev.barcode,
-    }));
+    setForm((prev) => fillFromCatalog(prev, item));
   };
 
   const handleScanned = async (scanned: string) => {
     update('barcode', scanned);
+
+    // 아직 이름을 안 넣었다면 내장 카탈로그에서 찾아 채워 준다.
+    if (!form.name.trim()) {
+      const match = findCatalogByBarcode(scanned);
+      if (match) applyCatalogPaint(match);
+    }
 
     // 이미 등록된 바코드를 새 도료에 붙이려 하면 알려 준다.
     const existing = await findPaintByBarcode(scanned);
@@ -243,6 +261,14 @@ export default function PaintDetailScreen() {
     }
     setSaving(true);
     try {
+      const brandId = form.catalogBrand
+        ? await ensureBrand(
+            form.catalogBrand.name,
+            form.catalogBrand.line,
+            form.catalogBrand.country,
+          )
+        : form.brandId;
+
       const thinnerRatio =
         form.thinnerPaint.trim() && form.thinnerSolvent.trim()
           ? `${form.thinnerPaint.trim()}:${form.thinnerSolvent.trim()}`
@@ -253,7 +279,7 @@ export default function PaintDetailScreen() {
         code: form.code.trim() || null,
         barcode: form.barcode.trim() || null,
         photoUri: form.photoUri,
-        brandId: form.brandId,
+        brandId,
         type: form.type,
         finish: form.finish,
         colorHex: normalizeHex(form.colorHex),

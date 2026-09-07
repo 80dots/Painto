@@ -49,9 +49,15 @@ https://docs.expo.dev/versions/v57.0.0/ 의 해당 버전 문서를 확인할 �
 - 새 브랜드는 같은 모양의 JSON 을 만들고 `catalog.ts` 의 `CATALOG_FILES` 에 넣는다.
 - `type` / `finish` 값은 `src/db/schema.ts` 의 `PAINT_TYPES` / `PAINT_FINISHES` 와 같아야 한다.
   (틀린 값은 `other` / `none` 으로 떨어진다.)
-- 브랜드는 고를 때 `ensureBrand()` 로 만들어 붙이므로 `brands` 테이블에 미리 없어도 된다.
-- `colorHex` 는 제품 사진에서 뽑은 근사값이다. 정확한 값이 아니라는 걸 전제로 쓴다.
-- 바코드는 공개된 데이터가 없어 대부분 `null` 이다. 사용자가 스캔해 채운다.
+- 브랜드는 저장할 때 `ensureBrand()` 로 만들어 붙이므로 `brands` 테이블에 미리 없어도 된다.
+  같은 품번이 계열마다 있는 브랜드(타미야 X-1 은 아크릴에도 에나멜에도 있다)는
+  `brandLine` 으로 갈라 둔다. 그 값이 `brands.line` 이 된다.
+- 카탈로그 적용은 동기 함수(`fillFromCatalog`)로 둔다. 드래그 규칙과 같은 이유로
+  이펙트 안에서 상태를 바꾸지 않으려고, 브랜드 만들기는 저장 시점으로 미룬다.
+- `colorHex` 는 근사값이다. 정확한 값이 아니라는 걸 전제로 쓴다.
+  무색 클리어에는 흰색을 넣지 말고 비워 둔다 (목록에서 흰 도료로 보인다).
+- 바코드를 아는 항목은 스캔만으로 등록 화면이 채워진다 (`findCatalogByBarcode`).
+  값이 없으면 `null` 로 두고 사용자가 스캔해 채우게 한다.
 
 ## 스키마 변경
 

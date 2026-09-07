@@ -266,20 +266,26 @@ export function usePaintTypesInUse() {
  * 이름(라인 없음)으로 브랜드를 찾고, 없으면 만든다.
  * 내장 카탈로그에서 고른 도료의 브랜드를 붙일 때 쓴다.
  */
-export async function ensureBrand(name: string, country?: string | null) {
+export async function ensureBrand(name: string, line?: string | null, country?: string | null) {
   const trimmed = name.trim();
   if (!trimmed) return null;
+  const trimmedLine = line?.trim() || null;
 
   const [existing] = await db
     .select({ id: brands.id })
     .from(brands)
-    .where(and(eq(brands.name, trimmed), isNull(brands.line)))
+    .where(
+      and(
+        eq(brands.name, trimmed),
+        trimmedLine ? eq(brands.line, trimmedLine) : isNull(brands.line),
+      ),
+    )
     .limit(1);
   if (existing) return existing.id;
 
   const [row] = await db
     .insert(brands)
-    .values({ name: trimmed, country: country ?? null, isBuiltIn: true })
+    .values({ name: trimmed, line: trimmedLine, country: country ?? null, isBuiltIn: true })
     .returning({ id: brands.id });
   return row.id;
 }

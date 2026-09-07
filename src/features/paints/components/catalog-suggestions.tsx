@@ -50,7 +50,14 @@ export function CatalogSuggestions({ query, onPick }: CatalogSuggestionsProps) {
               {paint.name}
             </Text>
             <Text variant="small" numberOfLines={1}>
-              {[paint.brand, paint.code, paint.nameEn].filter(Boolean).join(' · ')}
+              {[
+                paint.brand,
+                paint.line,
+                paint.code,
+                paint.nameEn === paint.name ? null : paint.nameEn,
+              ]
+                .filter(Boolean)
+                .join(' · ')}
             </Text>
           </View>
 
