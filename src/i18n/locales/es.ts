@@ -135,6 +135,7 @@ export const es: Translation = {
     brand: 'Marca',
     noBrand: 'Sin marca',
     namePlaceholder: 'Nombre de la pintura',
+    catalogHint: 'De la lista de pinturas incluida',
     type: 'Tipo',
     finish: 'Acabado',
     volume: 'Volumen (ml)',

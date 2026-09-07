@@ -136,6 +136,7 @@ export const ko = {
     brand: '브랜드',
     noBrand: '브랜드 없음',
     namePlaceholder: '도료 이름',
+    catalogHint: '내장 도료 목록에서 찾기',
     type: '종류',
     finish: '광택',
     volume: '용량 (ml)',

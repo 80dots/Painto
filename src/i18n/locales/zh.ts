@@ -134,6 +134,7 @@ export const zh: Translation = {
     brand: '品牌',
     noBrand: '无品牌',
     namePlaceholder: '油漆名称',
+    catalogHint: '从内置涂料列表中查找',
     type: '种类',
     finish: '光泽',
     volume: '容量 (ml)',

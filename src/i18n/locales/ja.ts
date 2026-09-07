@@ -134,6 +134,7 @@ export const ja: Translation = {
     brand: 'ブランド',
     noBrand: 'ブランドなし',
     namePlaceholder: '塗料名',
+    catalogHint: '内蔵の塗料リストから選ぶ',
     type: '種類',
     finish: 'つや',
     volume: '容量 (ml)',

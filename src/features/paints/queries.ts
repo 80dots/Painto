@@ -1,4 +1,4 @@
-import { and, asc, desc, eq, like, lte, or, sql, type SQL } from 'drizzle-orm';
+import { and, asc, desc, eq, isNull, like, lte, or, sql, type SQL } from 'drizzle-orm';
 import { useLiveQuery } from 'drizzle-orm/expo-sqlite';
 
 import { db } from '@/db/client';
@@ -260,6 +260,28 @@ export function usePaintTypesInUse() {
       .where(eq(paints.isArchived, false))
       .groupBy(paints.type),
   );
+}
+
+/**
+ * 이름(라인 없음)으로 브랜드를 찾고, 없으면 만든다.
+ * 내장 카탈로그에서 고른 도료의 브랜드를 붙일 때 쓴다.
+ */
+export async function ensureBrand(name: string, country?: string | null) {
+  const trimmed = name.trim();
+  if (!trimmed) return null;
+
+  const [existing] = await db
+    .select({ id: brands.id })
+    .from(brands)
+    .where(and(eq(brands.name, trimmed), isNull(brands.line)))
+    .limit(1);
+  if (existing) return existing.id;
+
+  const [row] = await db
+    .insert(brands)
+    .values({ name: trimmed, country: country ?? null, isBuiltIn: true })
+    .returning({ id: brands.id });
+  return row.id;
 }
 
 /** 도료 등록 폼에서 쓰는 브랜드 목록 */

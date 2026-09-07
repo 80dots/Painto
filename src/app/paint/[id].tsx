@@ -1,7 +1,15 @@
 import { Stack, useLocalSearchParams, useRouter } from 'expo-router';
 import { ChevronDown, ChevronUp, ScanBarcode, Star, Trash2 } from 'lucide-react-native';
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { Alert, KeyboardAvoidingView, Platform, Pressable, ScrollView, View } from 'react-native';
+import {
+  Alert,
+  Keyboard,
+  KeyboardAvoidingView,
+  Platform,
+  Pressable,
+  ScrollView,
+  View,
+} from 'react-native';
 
 import { PhotoPicker } from '@/components/photo-picker';
 import { ActionSheet, type ActionSheetItem } from '@/components/ui/action-sheet';
@@ -13,10 +21,13 @@ import { Field, Input } from '@/components/ui/input';
 import { Stepper } from '@/components/ui/stepper';
 import { Text } from '@/components/ui/text';
 import { PAINT_FINISHES, PAINT_TYPES, type PaintFinish, type PaintType } from '@/db/schema';
+import { type CatalogPaint } from '@/features/paints/catalog';
 import { BarcodeScannerModal } from '@/features/paints/components/barcode-scanner-modal';
+import { CatalogSuggestions } from '@/features/paints/components/catalog-suggestions';
 import {
   createPaint,
   deletePaint,
+  ensureBrand,
   findPaintByBarcode,
   updatePaint,
   useBrandOptions,
@@ -97,6 +108,8 @@ export default function PaintDetailScreen() {
   /** 자주 안 쓰는 항목은 접어 둔다 */
   const [showMore, setShowMore] = useState(false);
   const [brandOpen, setBrandOpen] = useState(false);
+  /** 이름을 직접 친 뒤에만 내장 카탈로그를 띄운다 (편집 화면에서 바로 뜨지 않게) */
+  const [catalogQuery, setCatalogQuery] = useState<string | null>(null);
 
   const typeOptions = useMemo<ChipOption<PaintType>[]>(
     () => PAINT_TYPES.map((item) => ({ value: item, label: t(`paintType.${item}`) })),
@@ -182,6 +195,29 @@ export default function PaintDetailScreen() {
 
   const update = <K extends keyof PaintForm>(key: K, value: PaintForm[K]) =>
     setForm((prev) => ({ ...prev, [key]: value }));
+
+  /** 내장 카탈로그에서 고른 도료로 빈칸을 채운다. 보유 수량·사진·메모는 건드리지 않는다. */
+  const applyCatalogPaint = async (item: CatalogPaint) => {
+    setCatalogQuery(null);
+    Keyboard.dismiss();
+
+    const ratio = splitRatio(item.thinnerRatio);
+    const brandId = await ensureBrand(item.brand, item.country);
+
+    setForm((prev) => ({
+      ...prev,
+      name: item.name,
+      code: item.code ?? prev.code,
+      brandId: brandId ?? prev.brandId,
+      type: item.type,
+      finish: item.finish,
+      colorHex: item.colorHex ?? prev.colorHex,
+      volumeMl: item.volumeMl ? String(item.volumeMl) : prev.volumeMl,
+      thinnerPaint: ratio.paint || prev.thinnerPaint,
+      thinnerSolvent: ratio.solvent || prev.thinnerSolvent,
+      barcode: item.barcode ?? prev.barcode,
+    }));
+  };
 
   const handleScanned = async (scanned: string) => {
     update('barcode', scanned);
@@ -321,12 +357,19 @@ export default function PaintDetailScreen() {
 
             <Input
               value={form.name}
-              onChangeText={(value) => update('name', value)}
+              onChangeText={(value) => {
+                update('name', value);
+                setCatalogQuery(value);
+              }}
               placeholder={t('paintForm.namePlaceholder')}
               className="h-14 text-2xl font-semibold"
             />
           </View>
         </View>
+
+        {catalogQuery ? (
+          <CatalogSuggestions query={catalogQuery} onPick={applyCatalogPaint} />
+        ) : null}
 
         <Field label={t('paintForm.type')}>
           <ChipGroup options={typeOptions} value={form.type} onChange={(v) => update('type', v)} />

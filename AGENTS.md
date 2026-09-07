@@ -39,6 +39,20 @@ https://docs.expo.dev/versions/v57.0.0/ 의 해당 버전 문서를 확인할 �
 - `projects` 는 "제작 중인 킷"이 아니라 **보유 프라모델 전체**다.
   기본 상태는 `unbuilt`(미조립)이고, 조립~마감 상태는 `IN_PROGRESS_STATUSES` 로 판별한다.
 
+## 내장 도료 카탈로그
+
+`src/data/paint-catalog/<브랜드>.json` 에 시판 도료 목록을 넣어 두고,
+등록 화면에서 이름·품번을 치면 `src/features/paints/catalog.ts` 가 찾아
+브랜드·품번·종류·광택·용량·색상·희석비를 한 번에 채운다.
+
+- DB 가 아니라 번들에 들고 다닌다. 브랜드를 추가해도 마이그레이션이 필요 없다.
+- 새 브랜드는 같은 모양의 JSON 을 만들고 `catalog.ts` 의 `CATALOG_FILES` 에 넣는다.
+- `type` / `finish` 값은 `src/db/schema.ts` 의 `PAINT_TYPES` / `PAINT_FINISHES` 와 같아야 한다.
+  (틀린 값은 `other` / `none` 으로 떨어진다.)
+- 브랜드는 고를 때 `ensureBrand()` 로 만들어 붙이므로 `brands` 테이블에 미리 없어도 된다.
+- `colorHex` 는 제품 사진에서 뽑은 근사값이다. 정확한 값이 아니라는 걸 전제로 쓴다.
+- 바코드는 공개된 데이터가 없어 대부분 `null` 이다. 사용자가 스캔해 채운다.
+
 ## 스키마 변경
 
 `src/db/schema.ts` 수정 → `npm run db:generate` → 생성된 `drizzle/*.sql` 커밋.

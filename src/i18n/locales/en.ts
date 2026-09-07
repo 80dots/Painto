@@ -135,6 +135,7 @@ export const en: Translation = {
     brand: 'Brand',
     noBrand: 'No brand',
     namePlaceholder: 'Paint name',
+    catalogHint: 'From the built-in paint list',
     type: 'Type',
     finish: 'Finish',
     volume: 'Volume (ml)',
