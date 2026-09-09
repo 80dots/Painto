@@ -76,6 +76,11 @@ export const paints = sqliteTable(
     location: text('location'),
     /** 병에 붙은 바코드. 스캔으로 같은 도료를 찾아 재고를 올린다. */
     barcode: text('barcode'),
+    /**
+     * 내장 카탈로그에서 고른 도료의 고유 id (`src/data/paint-catalog`).
+     * 같은 도료를 두 번 등록하는 걸 막는 데 쓴다. 직접 입력한 도료는 비어 있다.
+     */
+    catalogId: text('catalog_id'),
     /** 앱 문서 폴더에 복사해 둔 도료 사진 경로 */
     photoUri: text('photo_uri'),
     notes: text('notes'),
@@ -89,6 +94,7 @@ export const paints = sqliteTable(
     index('paints_name_idx').on(t.name),
     index('paints_code_idx').on(t.code),
     index('paints_barcode_idx').on(t.barcode),
+    index('paints_catalog_id_idx').on(t.catalogId),
   ],
 );
 

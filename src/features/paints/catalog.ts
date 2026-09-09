@@ -31,6 +31,8 @@ type CatalogFile = {
   sources: string[];
   notes: string;
   paints: {
+    /** 도료 하나를 가리키는 고유 id. 한 번 정하면 바꾸지 않는다 */
+    catalogId: string;
     code: string | null;
     /** 그 브랜드가 파는 표기 그대로 (한국어 · 영어 · 일본어) */
     name: string;
@@ -56,7 +58,10 @@ type CatalogFile = {
 const CATALOG_FILES: CatalogFile[] = [momodeling, tamiya, gsiCreos, gaianotes, finishers];
 
 export type CatalogPaint = {
-  /** 목록 key. 브랜드 + 라인 + 품번 조합은 겹치지 않는다. */
+  /**
+   * 도료 하나를 가리키는 고유 id (`tamiya.enamel.x-1`).
+   * 등록한 도료에 `paints.catalog_id` 로 남겨 같은 도료를 두 번 넣는 걸 막는다.
+   */
   id: string;
   brand: string;
   brandEn: string | null;
@@ -89,7 +94,7 @@ const isPaintFinish = (value: string): value is PaintFinish =>
 
 export const CATALOG_PAINTS: CatalogPaint[] = CATALOG_FILES.flatMap((file) =>
   file.paints.map((paint) => ({
-    id: `${file.brand}:${paint.line ?? ''}:${paint.code || paint.name}`,
+    id: paint.catalogId,
     brand: file.brand,
     brandEn: file.brandEn,
     country: file.country,

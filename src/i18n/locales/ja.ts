@@ -155,6 +155,8 @@ export const ja: Translation = {
     nameRequired: '名前を入力してください',
     deleteTitle: '塗料を削除',
     deleteMessage: '「{name}」を削除しますか？',
+    duplicatePaintTitle: '登録済みの塗料です',
+    duplicatePaintMessage: '「{name}」はすでにリストにあります。開いて数量を調整しますか?',
     duplicateBarcodeTitle: '登録済みのバーコードです',
     duplicateBarcodeMessage: '「{name}」に登録されています。その塗料を開きますか？',
   },

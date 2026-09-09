@@ -16,6 +16,7 @@
   "notes": "품번·색이름·시리즈·광택은 ツミツミ 의 피니셔스 도료 목록에서, JAN 바코드는 ツルマイ模型 상품 목록에서 색이름으로 맞춰 왔다. 용량은 전 품목 20ml 기준이다 (L 사이즈는 담지 않았다). 색상값은 비어 있다 — 공개된 컬러차트가 없고, 병이 투명 유리라 제품 사진에서 뽑으면 유리와 그늘 때문에 실제보다 어둡게 나와 쓰지 않았다.",
   "paints": [
     {
+      "catalogId": "finishers.002",
       "code": "002",
       "name": "ファンデーションピンク",
       "nameEn": null,
@@ -31,6 +32,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780021.jpg"
     },
     {
+      "catalogId": "finishers.004",
       "code": "004",
       "name": "ファンデーションクリーム",
       "nameEn": null,
@@ -46,6 +48,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780045.jpg"
     },
     {
+      "catalogId": "finishers.003",
       "code": "003",
       "name": "ファンデーションブルー",
       "nameEn": null,
@@ -61,6 +64,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780038.jpg"
     },
     {
+      "catalogId": "finishers.001",
       "code": "001",
       "name": "ファンデーションホワイト",
       "nameEn": null,
@@ -76,6 +80,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780014.jpg"
     },
     {
+      "catalogId": "finishers.005",
       "code": "005",
       "name": "ファンデーショングレー",
       "nameEn": null,
@@ -91,6 +96,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780052.jpg"
     },
     {
+      "catalogId": "finishers.013",
       "code": "013",
       "name": "ピュアレッド",
       "nameEn": null,
@@ -106,6 +112,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780137.jpg"
     },
     {
+      "catalogId": "finishers.010",
       "code": "010",
       "name": "ピュアオレンジ",
       "nameEn": null,
@@ -121,6 +128,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780106.jpg"
     },
     {
+      "catalogId": "finishers.nc6f80ce3",
       "code": null,
       "name": "パパイヤオレンジ",
       "nameEn": null,
@@ -136,6 +144,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362789727.jpg"
     },
     {
+      "catalogId": "finishers.008",
       "code": "008",
       "name": "ピュアイエロー",
       "nameEn": null,
@@ -151,6 +160,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780083.jpg"
     },
     {
+      "catalogId": "finishers.011",
       "code": "011",
       "name": "ピュアグリーン",
       "nameEn": null,
@@ -166,6 +176,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780113.jpg"
     },
     {
+      "catalogId": "finishers.009",
       "code": "009",
       "name": "ピュアブルー",
       "nameEn": null,
@@ -181,6 +192,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780090.jpg"
     },
     {
+      "catalogId": "finishers.006",
       "code": "006",
       "name": "ピュアホワイト",
       "nameEn": null,
@@ -196,6 +208,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780069.jpg"
     },
     {
+      "catalogId": "finishers.007",
       "code": "007",
       "name": "ピュアブラック",
       "nameEn": null,
@@ -211,6 +224,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780076.jpg"
     },
     {
+      "catalogId": "finishers.n9e31324d",
       "code": null,
       "name": "ベイビークリアー",
       "nameEn": null,
@@ -226,6 +240,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362789697.jpg"
     },
     {
+      "catalogId": "finishers.012",
       "code": "012",
       "name": "ブライトレッド",
       "nameEn": null,
@@ -241,6 +256,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780120.jpg"
     },
     {
+      "catalogId": "finishers.014",
       "code": "014",
       "name": "リッチレッド",
       "nameEn": null,
@@ -256,6 +272,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "finishers.015",
       "code": "015",
       "name": "シルクレッド",
       "nameEn": null,
@@ -271,6 +288,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780151.jpg"
     },
     {
+      "catalogId": "finishers.016",
       "code": "016",
       "name": "ディープレッド",
       "nameEn": null,
@@ -286,6 +304,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780168.jpg"
     },
     {
+      "catalogId": "finishers.038",
       "code": "038",
       "name": "サーモンピンク",
       "nameEn": null,
@@ -301,6 +320,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780380.jpg"
     },
     {
+      "catalogId": "finishers.048",
       "code": "048",
       "name": "ヨシムラレッド",
       "nameEn": null,
@@ -316,6 +336,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780489.jpg"
     },
     {
+      "catalogId": "finishers.078",
       "code": "078",
       "name": "ルミレッド",
       "nameEn": null,
@@ -331,6 +352,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780786.jpg"
     },
     {
+      "catalogId": "finishers.079",
       "code": "079",
       "name": "マイカレッド",
       "nameEn": null,
@@ -346,6 +368,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780793.jpg"
     },
     {
+      "catalogId": "finishers.077",
       "code": "077",
       "name": "ルミオレンジ",
       "nameEn": null,
@@ -361,6 +384,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780779.jpg"
     },
     {
+      "catalogId": "finishers.018",
       "code": "018",
       "name": "レモンイエロー",
       "nameEn": null,
@@ -376,6 +400,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780182.jpg"
     },
     {
+      "catalogId": "finishers.019",
       "code": "019",
       "name": "ディープイエロー",
       "nameEn": null,
@@ -391,6 +416,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780199.jpg"
     },
     {
+      "catalogId": "finishers.020",
       "code": "020",
       "name": "ミディアムイエロー",
       "nameEn": null,
@@ -406,6 +432,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780205.jpg"
     },
     {
+      "catalogId": "finishers.021",
       "code": "021",
       "name": "イエローグリーン",
       "nameEn": null,
@@ -421,6 +448,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780212.jpg"
     },
     {
+      "catalogId": "finishers.022",
       "code": "022",
       "name": "ブリリアントグリーン",
       "nameEn": null,
@@ -436,6 +464,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780229.jpg"
     },
     {
+      "catalogId": "finishers.041",
       "code": "041",
       "name": "ペパーミント",
       "nameEn": null,
@@ -451,6 +480,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780410.jpg"
     },
     {
+      "catalogId": "finishers.045",
       "code": "045",
       "name": "スーパーファイングリーン",
       "nameEn": null,
@@ -466,6 +496,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780458.jpg"
     },
     {
+      "catalogId": "finishers.063",
       "code": "063",
       "name": "ジャガーグリーン",
       "nameEn": null,
@@ -481,6 +512,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780632.jpg"
     },
     {
+      "catalogId": "finishers.065",
       "code": "065",
       "name": "フォーミュラーグリーン",
       "nameEn": null,
@@ -496,6 +528,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780656.jpg"
     },
     {
+      "catalogId": "finishers.n4c15f5cb",
       "code": null,
       "name": "サーキットグリーン",
       "nameEn": null,
@@ -511,6 +544,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362789918.jpg"
     },
     {
+      "catalogId": "finishers.023",
       "code": "023",
       "name": "ガルフブルー",
       "nameEn": null,
@@ -526,6 +560,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780236.jpg"
     },
     {
+      "catalogId": "finishers.024",
       "code": "024",
       "name": "スカイブルー",
       "nameEn": null,
@@ -541,6 +576,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780243.jpg"
     },
     {
+      "catalogId": "finishers.025",
       "code": "025",
       "name": "フォーミュラフレンチブルー",
       "nameEn": null,
@@ -556,6 +592,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780250.jpg"
     },
     {
+      "catalogId": "finishers.027",
       "code": "027",
       "name": "ブライトブルー",
       "nameEn": null,
@@ -571,6 +608,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780274.jpg"
     },
     {
+      "catalogId": "finishers.028",
       "code": "028",
       "name": "ブルツブルー",
       "nameEn": null,
@@ -586,6 +624,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780281.jpg"
     },
     {
+      "catalogId": "finishers.035",
       "code": "035",
       "name": "セルリアンブルー",
       "nameEn": null,
@@ -601,6 +640,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780359.jpg"
     },
     {
+      "catalogId": "finishers.043",
       "code": "043",
       "name": "スーパーファインコバルト",
       "nameEn": null,
@@ -616,6 +656,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780434.jpg"
     },
     {
+      "catalogId": "finishers.044",
       "code": "044",
       "name": "スーパーディープブルー",
       "nameEn": null,
@@ -631,6 +672,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780441.jpg"
     },
     {
+      "catalogId": "finishers.047",
       "code": "047",
       "name": "ブラバムブルー",
       "nameEn": null,
@@ -646,6 +688,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780472.jpg"
     },
     {
+      "catalogId": "finishers.050",
       "code": "050",
       "name": "ジェネシスブルー",
       "nameEn": null,
@@ -661,6 +704,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780502.jpg"
     },
     {
+      "catalogId": "finishers.051",
       "code": "051",
       "name": "ロッシブルー",
       "nameEn": null,
@@ -676,6 +720,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780519.jpg"
     },
     {
+      "catalogId": "finishers.053",
       "code": "053",
       "name": "ウルフブルー",
       "nameEn": null,
@@ -691,6 +736,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780533.jpg"
     },
     {
+      "catalogId": "finishers.054",
       "code": "054",
       "name": "シーサイドブルー",
       "nameEn": null,
@@ -706,6 +752,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780540.jpg"
     },
     {
+      "catalogId": "finishers.059",
       "code": "059",
       "name": "APブルー",
       "nameEn": null,
@@ -721,6 +768,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780595.jpg"
     },
     {
+      "catalogId": "finishers.060",
       "code": "060",
       "name": "プロストブルー",
       "nameEn": null,
@@ -736,6 +784,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780601.jpg"
     },
     {
+      "catalogId": "finishers.061",
       "code": "061",
       "name": "グリニッシュブルー",
       "nameEn": null,
@@ -751,6 +800,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780618.jpg"
     },
     {
+      "catalogId": "finishers.062",
       "code": "062",
       "name": "パシフィックブルー",
       "nameEn": null,
@@ -766,6 +816,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780625.jpg"
     },
     {
+      "catalogId": "finishers.087",
       "code": "087",
       "name": "コブラブルー",
       "nameEn": null,
@@ -781,6 +832,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362785910.jpg"
     },
     {
+      "catalogId": "finishers.091",
       "code": "091",
       "name": "ソニックブルー",
       "nameEn": null,
@@ -796,6 +848,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362788171.jpg"
     },
     {
+      "catalogId": "finishers.026",
       "code": "026",
       "name": "ブルーパープル",
       "nameEn": null,
@@ -811,6 +864,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780267.jpg"
     },
     {
+      "catalogId": "finishers.037",
       "code": "037",
       "name": "パープル",
       "nameEn": null,
@@ -826,6 +880,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780373.jpg"
     },
     {
+      "catalogId": "finishers.042",
       "code": "042",
       "name": "ラベンダー",
       "nameEn": null,
@@ -841,6 +896,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780427.jpg"
     },
     {
+      "catalogId": "finishers.049",
       "code": "049",
       "name": "21パープル",
       "nameEn": null,
@@ -856,6 +912,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780496.jpg"
     },
     {
+      "catalogId": "finishers.064",
       "code": "064",
       "name": "ジャガーパープル",
       "nameEn": null,
@@ -871,6 +928,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780649.jpg"
     },
     {
+      "catalogId": "finishers.082",
       "code": "082",
       "name": "ニンジャパープル",
       "nameEn": null,
@@ -886,6 +944,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780823.jpg"
     },
     {
+      "catalogId": "finishers.039",
       "code": "039",
       "name": "ブラウン",
       "nameEn": null,
@@ -901,6 +960,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780397.jpg"
     },
     {
+      "catalogId": "finishers.040",
       "code": "040",
       "name": "チョコレート",
       "nameEn": null,
@@ -916,6 +976,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780403.jpg"
     },
     {
+      "catalogId": "finishers.066",
       "code": "066",
       "name": "マルーン",
       "nameEn": null,
@@ -931,6 +992,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780663.jpg"
     },
     {
+      "catalogId": "finishers.088",
       "code": "088",
       "name": "キャメルグレー",
       "nameEn": null,
@@ -946,6 +1008,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362785934.jpg"
     },
     {
+      "catalogId": "finishers.017",
       "code": "017",
       "name": "アイボリーホワイト",
       "nameEn": null,
@@ -961,6 +1024,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780175.jpg"
     },
     {
+      "catalogId": "finishers.046",
       "code": "046",
       "name": "スーパーシェルホワイト",
       "nameEn": null,
@@ -976,6 +1040,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780465.jpg"
     },
     {
+      "catalogId": "finishers.089",
       "code": "089",
       "name": "ブルーグレー",
       "nameEn": null,
@@ -991,6 +1056,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362786108.jpg"
     },
     {
+      "catalogId": "finishers.090",
       "code": "090",
       "name": "ピンクグレー",
       "nameEn": null,
@@ -1006,6 +1072,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362786115.jpg"
     },
     {
+      "catalogId": "finishers.032",
       "code": "032",
       "name": "セミグロスブラック",
       "nameEn": null,
@@ -1021,6 +1088,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780328.jpg"
     },
     {
+      "catalogId": "finishers.033",
       "code": "033",
       "name": "ウエストブラック",
       "nameEn": null,
@@ -1036,6 +1104,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "finishers.034",
       "code": "034",
       "name": "カーボンブラックマット",
       "nameEn": null,
@@ -1051,6 +1120,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780342.jpg"
     },
     {
+      "catalogId": "finishers.036",
       "code": "036",
       "name": "ブルーブラック",
       "nameEn": null,
@@ -1066,6 +1136,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780366.jpg"
     },
     {
+      "catalogId": "finishers.029",
       "code": "029",
       "name": "ファインシルバー",
       "nameEn": null,
@@ -1081,6 +1152,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780298.jpg"
     },
     {
+      "catalogId": "finishers.030",
       "code": "030",
       "name": "CLKシルバー",
       "nameEn": null,
@@ -1096,6 +1168,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780304.jpg"
     },
     {
+      "catalogId": "finishers.031",
       "code": "031",
       "name": "ライトガンメタル",
       "nameEn": null,
@@ -1111,6 +1184,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780311.jpg"
     },
     {
+      "catalogId": "finishers.052",
       "code": "052",
       "name": "シールズシルバー",
       "nameEn": null,
@@ -1126,6 +1200,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780526.jpg"
     },
     {
+      "catalogId": "finishers.067",
       "code": "067",
       "name": "クロームシルバー",
       "nameEn": null,
@@ -1141,6 +1216,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780670.jpg"
     },
     {
+      "catalogId": "finishers.068",
       "code": "068",
       "name": "アカキン（赤金）",
       "nameEn": null,
@@ -1156,6 +1232,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780687.jpg"
     },
     {
+      "catalogId": "finishers.069",
       "code": "069",
       "name": "アオキン（青金）",
       "nameEn": null,
@@ -1171,6 +1248,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780694.jpg"
     },
     {
+      "catalogId": "finishers.076",
       "code": "076",
       "name": "エンジンブルー",
       "nameEn": null,
@@ -1186,6 +1264,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780762.jpg"
     },
     {
+      "catalogId": "finishers.080",
       "code": "080",
       "name": "メタリックレッド",
       "nameEn": null,
@@ -1201,6 +1280,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780809.jpg"
     },
     {
+      "catalogId": "finishers.081",
       "code": "081",
       "name": "フォーミュラークローム",
       "nameEn": null,
@@ -1216,6 +1296,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780816.jpg"
     },
     {
+      "catalogId": "finishers.092",
       "code": "092",
       "name": "エンジンゴールド",
       "nameEn": null,
@@ -1231,6 +1312,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362788928.jpg"
     },
     {
+      "catalogId": "finishers.093",
       "code": "093",
       "name": "エンジングリーン",
       "nameEn": null,
@@ -1246,6 +1328,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362788911.jpg"
     },
     {
+      "catalogId": "finishers.094",
       "code": "094",
       "name": "エンジンカッパー",
       "nameEn": null,
@@ -1261,6 +1344,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362788935.jpg"
     },
     {
+      "catalogId": "finishers.fin",
       "code": "FIN",
       "name": "ブライトゴールド",
       "nameEn": null,
@@ -1276,6 +1360,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362789130.jpg"
     },
     {
+      "catalogId": "finishers.070",
       "code": "070",
       "name": "シルバーパールリキッド",
       "nameEn": null,
@@ -1291,6 +1376,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780700.jpg"
     },
     {
+      "catalogId": "finishers.071",
       "code": "071",
       "name": "ゴールドパールリキッド",
       "nameEn": null,
@@ -1306,6 +1392,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780717.jpg"
     },
     {
+      "catalogId": "finishers.072",
       "code": "072",
       "name": "パールホワイト",
       "nameEn": null,
@@ -1321,6 +1408,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780724.jpg"
     },
     {
+      "catalogId": "finishers.073",
       "code": "073",
       "name": "パールグリーン",
       "nameEn": null,
@@ -1336,6 +1424,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780731.jpg"
     },
     {
+      "catalogId": "finishers.074",
       "code": "074",
       "name": "パールブルー",
       "nameEn": null,
@@ -1351,6 +1440,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780748.jpg"
     },
     {
+      "catalogId": "finishers.075",
       "code": "075",
       "name": "パールピンク",
       "nameEn": null,
@@ -1366,6 +1456,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780755.jpg"
     },
     {
+      "catalogId": "finishers.058",
       "code": "058",
       "name": "スーパークリングブルー",
       "nameEn": null,
@@ -1381,6 +1472,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780588.jpg"
     },
     {
+      "catalogId": "finishers.055",
       "code": "055",
       "name": "クリアレッド",
       "nameEn": null,
@@ -1396,6 +1488,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780557.jpg"
     },
     {
+      "catalogId": "finishers.056",
       "code": "056",
       "name": "クリアオレンジ",
       "nameEn": null,
@@ -1411,6 +1504,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780564.jpg"
     },
     {
+      "catalogId": "finishers.057",
       "code": "057",
       "name": "クリアブラック",
       "nameEn": null,
@@ -1426,6 +1520,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362780571.jpg"
     },
     {
+      "catalogId": "finishers.gp1",
       "code": "GP1",
       "name": "オートクリアー GP1（ウレタン）",
       "nameEn": null,
@@ -1441,6 +1536,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "finishers.gp1m",
       "code": "GP1m",
       "name": "オートクリアー GP1 ミニ",
       "nameEn": null,
@@ -1456,6 +1552,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "finishers.gp2",
       "code": "GP2",
       "name": "オートクリアー GP2",
       "nameEn": null,
@@ -1471,6 +1568,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "finishers.sfc",
       "code": "SFC",
       "name": "スーパーフラットコート",
       "nameEn": null,
@@ -1486,6 +1584,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "finishers.n93c9b9f2",
       "code": null,
       "name": "蛍光イエロー",
       "nameEn": null,
@@ -1501,6 +1600,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362789390.jpg"
     },
     {
+      "catalogId": "finishers.nab4666d4",
       "code": null,
       "name": "蛍光オレンジ",
       "nameEn": null,
@@ -1516,6 +1616,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362789413.jpg"
     },
     {
+      "catalogId": "finishers.nee4093a9",
       "code": null,
       "name": "蛍光グリーン",
       "nameEn": null,
@@ -1531,6 +1632,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362789406.jpg"
     },
     {
+      "catalogId": "finishers.n62bd632e",
       "code": null,
       "name": "蛍光ピンク",
       "nameEn": null,
@@ -1546,6 +1648,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362789383.jpg"
     },
     {
+      "catalogId": "finishers.naac7e0f8",
       "code": null,
       "name": "蛍光ブルー",
       "nameEn": null,
@@ -1561,6 +1664,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362789376.jpg"
     },
     {
+      "catalogId": "finishers.n1cbe0e83",
       "code": null,
       "name": "蛍光レッド",
       "nameEn": null,
@@ -1576,6 +1680,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362789420.jpg"
     },
     {
+      "catalogId": "finishers.ap-g",
       "code": "AP-G",
       "name": "アクリルプラサフ グレー",
       "nameEn": null,
@@ -1591,6 +1696,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "finishers.ap-w",
       "code": "AP-W",
       "name": "アクリルプラサフ ホワイト",
       "nameEn": null,

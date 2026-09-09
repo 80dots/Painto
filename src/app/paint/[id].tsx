@@ -29,6 +29,7 @@ import {
   deletePaint,
   ensureBrand,
   findPaintByBarcode,
+  findPaintByCatalogId,
   updatePaint,
   useBrandOptions,
   usePaint,
@@ -43,6 +44,8 @@ type PaintForm = {
   name: string;
   code: string;
   barcode: string;
+  /** 내장 카탈로그에서 고른 도료의 고유 id. 같은 도료를 두 번 넣는 걸 막는다. */
+  catalogId: string | null;
   photoUri: string | null;
   /** 카탈로그에서 고른 도료의 사진 주소. 저장할 때 내려받아 앱에 넣는다. */
   catalogPhotoUrl: string | null;
@@ -72,6 +75,7 @@ const EMPTY_FORM: PaintForm = {
   name: '',
   code: '',
   barcode: '',
+  catalogId: null,
   photoUri: null,
   catalogPhotoUrl: null,
   brandId: null,
@@ -115,6 +119,7 @@ function fillFromCatalog(
     thinnerPaint: ratio.paint,
     thinnerSolvent: ratio.solvent,
     barcode: item.barcode ?? scannedBarcode ?? '',
+    catalogId: item.id,
     // 직접 찍어 둔 사진이 있으면 그대로 두고, 없을 때만 카탈로그 사진을 쓴다.
     catalogPhotoUrl: prev.photoUri ? null : item.photoUrl,
   };
@@ -178,6 +183,7 @@ export default function PaintDetailScreen() {
       name: paint.name,
       code: paint.code ?? '',
       barcode: paint.barcode ?? '',
+      catalogId: paint.catalogId,
       photoUri: paint.photoUri,
       catalogPhotoUrl: null,
       brandId: paint.brandId,
@@ -244,10 +250,28 @@ export default function PaintDetailScreen() {
   const update = <K extends keyof PaintForm>(key: K, value: PaintForm[K]) =>
     setForm((prev) => ({ ...prev, [key]: value }));
 
+  /** 이미 등록된 도료면 알려 주고 그 도료로 갈 수 있게 한다. 이어서 등록해도 막지는 않는다. */
+  const warnIfRegistered = async (item: CatalogPaint) => {
+    const existing = await findPaintByCatalogId(item.id, paintId);
+    if (!existing) return false;
+
+    Alert.alert(
+      t('paintForm.duplicatePaintTitle'),
+      t('paintForm.duplicatePaintMessage', { name: existing.name }),
+      [
+        { text: t('common.cancel'), style: 'cancel' },
+        { text: t('common.open'), onPress: () => router.replace(`/paint/${existing.id}`) },
+      ],
+    );
+    return true;
+  };
+
+  /** 이미 알렸으면 true — 알림이 두 개 겹치지 않게 한다. */
   const applyCatalogPaint = (item: CatalogPaint) => {
     setCatalogQuery(null);
     Keyboard.dismiss();
     setForm((prev) => fillFromCatalog(prev, item, barcodeParam));
+    return warnIfRegistered(item);
   };
 
   const handleScanned = async (scanned: string) => {
@@ -256,7 +280,7 @@ export default function PaintDetailScreen() {
     // 아직 이름을 안 넣었다면 내장 카탈로그에서 찾아 채워 준다.
     if (!form.name.trim()) {
       const match = findCatalogByBarcode(scanned);
-      if (match) applyCatalogPaint(match);
+      if (match && (await applyCatalogPaint(match))) return;
     }
 
     // 이미 등록된 바코드를 새 도료에 붙이려 하면 알려 준다.
@@ -278,6 +302,21 @@ export default function PaintDetailScreen() {
       Alert.alert(t('paintForm.nameRequired'));
       return;
     }
+    if (form.catalogId) {
+      const existing = await findPaintByCatalogId(form.catalogId, paintId);
+      if (existing) {
+        Alert.alert(
+          t('paintForm.duplicatePaintTitle'),
+          t('paintForm.duplicatePaintMessage', { name: existing.name }),
+          [
+            { text: t('common.cancel'), style: 'cancel' },
+            { text: t('common.open'), onPress: () => router.replace(`/paint/${existing.id}`) },
+          ],
+        );
+        return;
+      }
+    }
+
     setSaving(true);
     try {
       const brandId = form.catalogBrand
@@ -301,6 +340,7 @@ export default function PaintDetailScreen() {
         name: form.name.trim(),
         code: form.code.trim() || null,
         barcode: form.barcode.trim() || null,
+        catalogId: form.catalogId,
         photoUri,
         brandId,
         type: form.type,

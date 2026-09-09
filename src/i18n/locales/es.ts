@@ -156,6 +156,8 @@ export const es: Translation = {
     nameRequired: 'Escribe un nombre',
     deleteTitle: 'Eliminar pintura',
     deleteMessage: '¿Eliminar «{name}»?',
+    duplicatePaintTitle: 'Pintura ya registrada',
+    duplicatePaintMessage: '«{name}» ya está en tu lista. ¿Abrirla para ajustar la cantidad?',
     duplicateBarcodeTitle: 'Código ya registrado',
     duplicateBarcodeMessage: 'Este código pertenece a «{name}». ¿Abrir esa pintura?',
   },

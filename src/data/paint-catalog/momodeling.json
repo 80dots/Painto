@@ -16,6 +16,7 @@
   "notes": "품번·제품명·용량은 판매처 목록과 제품 사진의 병 라벨에서 확인했다. 색상값(colorHex)은 제품 사진에서 뽑은 근사값이라 실제 도색 결과와 다를 수 있다. 바코드는 제조사·판매처 어디에도 공개돼 있지 않아 비워 뒀다 — 사용자가 병을 스캔해 채우면 된다.",
   "paints": [
     {
+      "catalogId": "momodeling.basic-color.ic-01",
       "code": "IC-01",
       "name": "퍼펙트블랙 유광",
       "nameEn": "Perfect Black",
@@ -31,6 +32,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/95ebeb6965b0a8f66a3c2a85821b0505.jpg"
     },
     {
+      "catalogId": "momodeling.basic-color.ic-02",
       "code": "IC-02",
       "name": "퍼펙트화이트 유광",
       "nameEn": "Perfect White",
@@ -46,6 +48,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/029162df23d2f660430f03df6ea4ec2d.jpg"
     },
     {
+      "catalogId": "momodeling.basic-color.ic-03",
       "code": "IC-03",
       "name": "퍼펙트화이트1 유광",
       "nameEn": "Perfect White 1",
@@ -61,6 +64,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/20193b72b495c6422a2e9f5982aa4e6e.jpg"
     },
     {
+      "catalogId": "momodeling.basic-color.ic-04",
       "code": "IC-04",
       "name": "퍼펙트화이트2 유광",
       "nameEn": "Perfect White 2",
@@ -76,6 +80,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/58cabe7b2e6621120cdd033ee2b0ae33.jpg"
     },
     {
+      "catalogId": "momodeling.basic-color.ic-05",
       "code": "IC-05",
       "name": "퍼펙트화이트3 유광",
       "nameEn": "Perfect White 3",
@@ -91,6 +96,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/ca4515bf3b047aac236c3edebd830f38.jpg"
     },
     {
+      "catalogId": "momodeling.basic-color.ic-06",
       "code": "IC-06",
       "name": "모노그레이 1",
       "nameEn": "Mono Gray 1",
@@ -106,6 +112,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/7fde7ce0dd538113408b9b8195af533d.jpg"
     },
     {
+      "catalogId": "momodeling.basic-color.ic-07",
       "code": "IC-07",
       "name": "모노그레이 2",
       "nameEn": "Mono Gray 2",
@@ -121,6 +128,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/4ac6e477ed50cee7dc4b560b48f4ad89.jpg"
     },
     {
+      "catalogId": "momodeling.basic-color.ic-08",
       "code": "IC-08",
       "name": "모노그레이 3",
       "nameEn": "Mono Gray 3",
@@ -136,6 +144,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/ce56dcc503669018e6608406a3d56a0f.jpg"
     },
     {
+      "catalogId": "momodeling.basic-color.ic-09",
       "code": "IC-09",
       "name": "모노그레이 4",
       "nameEn": "Mono Gray 4",
@@ -151,6 +160,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/199bde1225ce57d381aba47605c6c0c7.jpg"
     },
     {
+      "catalogId": "momodeling.basic-color.ic-10",
       "code": "IC-10",
       "name": "모노그레이 5",
       "nameEn": "Mono Gray 5",
@@ -166,6 +176,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/dc3dba4c79e9c8b32da3c42c92359873.jpg"
     },
     {
+      "catalogId": "momodeling.basic-color.bc-001",
       "code": "BC-001",
       "name": "브라이트레드",
       "nameEn": "Bright Red",
@@ -181,6 +192,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/e11e380bdb5f85355776163802a3e396.jpg"
     },
     {
+      "catalogId": "momodeling.basic-color.bc-002",
       "code": "BC-002",
       "name": "퓨어레드",
       "nameEn": "Pure Red",
@@ -196,6 +208,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/e5f635a65247da83a19befec01267ed8.jpg"
     },
     {
+      "catalogId": "momodeling.basic-color.bc-004",
       "code": "BC-004",
       "name": "딥레드",
       "nameEn": "Deep Red",
@@ -211,6 +224,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/0743e058309d82ec7913038aa30dd817.jpg"
     },
     {
+      "catalogId": "momodeling.basic-color.bc-011",
       "code": "BC-011",
       "name": "퓨어옐로우",
       "nameEn": "Pure Yellow",
@@ -226,6 +240,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/d6e1f478c229b9d67b7839c889d5fa31.jpg"
     },
     {
+      "catalogId": "momodeling.basic-color.bc-012",
       "code": "BC-012",
       "name": "오렌지 옐로우",
       "nameEn": "Orange Yellow",
@@ -241,6 +256,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/34640fd9dc969ad29cfd53a0a58ac7df.jpg"
     },
     {
+      "catalogId": "momodeling.basic-color.bc-013",
       "code": "BC-013",
       "name": "오렌지",
       "nameEn": "Orange",
@@ -256,6 +272,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/33ae1a1505c7ffe5380d0d5e6fe12123.jpg"
     },
     {
+      "catalogId": "momodeling.basic-color.bc-021",
       "code": "BC-021",
       "name": "코발트블루1",
       "nameEn": "Cobalt Blue 1",
@@ -271,6 +288,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/4262f7089bb292ed7571deb70f187c9f.jpg"
     },
     {
+      "catalogId": "momodeling.basic-color.bc-022",
       "code": "BC-022",
       "name": "코발트블루2",
       "nameEn": "Cobalt Blue 2",
@@ -286,6 +304,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/ef5d617b7f8d977a6ea6ff1d0723ae56.jpg"
     },
     {
+      "catalogId": "momodeling.basic-color.bc-023",
       "code": "BC-023",
       "name": "스카이블루",
       "nameEn": "Sky Blue",
@@ -301,6 +320,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/99c90c85984f661531e12cbf46161836.jpg"
     },
     {
+      "catalogId": "momodeling.basic-color.bc-024",
       "code": "BC-024",
       "name": "바이올렛1",
       "nameEn": "Violet 1",
@@ -316,6 +336,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202312/f7debe231c10d13032a6ec9d079d2a2b.jpg"
     },
     {
+      "catalogId": "momodeling.basic-color.bc-025",
       "code": "BC-025",
       "name": "바이올렛2",
       "nameEn": "Violet 2",
@@ -331,6 +352,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202312/068be8461cf926e572ab0fb165810184.jpg"
     },
     {
+      "catalogId": "momodeling.basic-color.bc-030",
       "code": "BC-030",
       "name": "포레스트 그린",
       "nameEn": "Forest Green",
@@ -346,6 +368,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/fbb1590d4bb7bd17a678ae92b6096d82.jpg"
     },
     {
+      "catalogId": "momodeling.basic-color.bc-040",
       "code": "BC-040",
       "name": "라벤더",
       "nameEn": "Lavender",
@@ -361,6 +384,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/a16196a7fdf1101514093e15cae0c691.jpg"
     },
     {
+      "catalogId": "momodeling.fluorescent-color.hc-01",
       "code": "HC-01",
       "name": "형광 레드",
       "nameEn": "Fluorescent Red",
@@ -376,6 +400,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202403/833852a82de4e560aa95b3bcce104593.jpg"
     },
     {
+      "catalogId": "momodeling.fluorescent-color.hc-02",
       "code": "HC-02",
       "name": "형광 옐로우",
       "nameEn": "Fluorescent Yellow",
@@ -391,6 +416,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/aea4161b6dde0a77392d615c61c55268.jpg"
     },
     {
+      "catalogId": "momodeling.fluorescent-color.hc-03",
       "code": "HC-03",
       "name": "형광 오렌지",
       "nameEn": "Fluorescent Orange",
@@ -406,6 +432,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/31df14bc3688e348a5c4baf2548c39e2.jpg"
     },
     {
+      "catalogId": "momodeling.fluorescent-color.hc-04",
       "code": "HC-04",
       "name": "형광 그린",
       "nameEn": "Fluorescent Green",
@@ -421,6 +448,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/b18dac62abcab9457cf9843714f1efac.jpg"
     },
     {
+      "catalogId": "momodeling.brilliant-pearl.pc-01",
       "code": "PC-01",
       "name": "화이트펄",
       "nameEn": "White Pearl",
@@ -436,6 +464,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/33abda42df9db1f1fe347d29d8b67985.jpg"
     },
     {
+      "catalogId": "momodeling.brilliant-pearl.pc-02",
       "code": "PC-02",
       "name": "블루펄",
       "nameEn": "Blue Pearl",
@@ -451,6 +480,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/cbb34c58183b89079ae7fee0cdde76d8.jpg"
     },
     {
+      "catalogId": "momodeling.premium-color.pmc-01",
       "code": "PMC-01",
       "name": "프리미엄 크리스탈 펄",
       "nameEn": "Crystal Pearl",
@@ -466,6 +496,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202503/edd92e98eae075451fe480ff7df6cb91.jpg"
     },
     {
+      "catalogId": "momodeling.premium-color.pmc-02",
       "code": "PMC-02",
       "name": "프리미엄 크롬 실버",
       "nameEn": "Chrome Silver",
@@ -481,6 +512,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202503/d9e3733aba5cfb077f924f0392d7a26a.jpg"
     },
     {
+      "catalogId": "momodeling.premium-color.pmc-03",
       "code": "PMC-03",
       "name": "프리미엄 스타골드1",
       "nameEn": "Star Gold 1",
@@ -496,6 +528,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202512/78348f5fdb0c2a7dab0b02d1e0f27dc4.jpg"
     },
     {
+      "catalogId": "momodeling.premium-color.pmc-04",
       "code": "PMC-04",
       "name": "프리미엄 스타골드2",
       "nameEn": "Star Gold 2",
@@ -511,6 +544,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202512/7fee33aff5affb3678dfe1f4c3ed56ec.jpg"
     },
     {
+      "catalogId": "momodeling.premium-color.pmc-05",
       "code": "PMC-05",
       "name": "프리미엄 디아블로 레드",
       "nameEn": "Diablo Red",
@@ -526,6 +560,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202512/762b3057ebe3963f7a080961a793389c.jpg"
     },
     {
+      "catalogId": "momodeling.premium-color.pmc-06",
       "code": "PMC-06",
       "name": "프리미엄 문나이트 블루",
       "nameEn": "Moon Night Blue",
@@ -541,6 +576,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202512/976de3a6459cc7d583e1a898f6eca8d5.jpg"
     },
     {
+      "catalogId": "momodeling.metalic-color.mc-01",
       "code": "MC-01",
       "name": "메탈릭 브라이트 실버 (고휘도실버)",
       "nameEn": "Bright Silver",
@@ -556,6 +592,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202403/2ef79072d932c008444d2ca334fb6eb5.jpg"
     },
     {
+      "catalogId": "momodeling.metalic-color.mc-02",
       "code": "MC-02",
       "name": "메탈릭 고광택실버",
       "nameEn": "High Gloss Silver",
@@ -571,6 +608,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202403/be381763329b11f5a3705ac9969ce373.jpg"
     },
     {
+      "catalogId": "momodeling.metalic-color.mc-03",
       "code": "MC-03",
       "name": "메탈릭 티타늄실버",
       "nameEn": "Titanium Silver",
@@ -586,6 +624,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202403/acbb269e610ceeb288a34b0d7addabf0.jpg"
     },
     {
+      "catalogId": "momodeling.metalic-color.mc-04",
       "code": "MC-04",
       "name": "메탈릭 라이트아이언",
       "nameEn": "Light Iron",
@@ -601,6 +640,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202403/6ac9f2869bf5562a8bd60bd212dd412a.jpg"
     },
     {
+      "catalogId": "momodeling.metalic-color.mc-05",
       "code": "MC-05",
       "name": "메탈릭 아이언",
       "nameEn": "Iron",
@@ -616,6 +656,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202403/c48f7b6c4494bedac658cc2a3906a669.jpg"
     },
     {
+      "catalogId": "momodeling.metalic-color.mc-06",
       "code": "MC-06",
       "name": "메탈릭 메탈블랙",
       "nameEn": "Metal Black",
@@ -631,6 +672,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202403/2748efa2c9a13efe2d1b52d59ccdcf27.jpg"
     },
     {
+      "catalogId": "momodeling.metalic-color.mc-07",
       "code": "MC-07",
       "name": "메탈릭 골드",
       "nameEn": "Gold",
@@ -646,6 +688,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202403/580de8de576a225a598ce00b53b3c9ca.jpg"
     },
     {
+      "catalogId": "momodeling.metalic-color.mc-08",
       "code": "MC-08",
       "name": "메탈릭 슈퍼골드",
       "nameEn": "Super Gold",
@@ -661,6 +704,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202403/8d82f191d2aa853b2dbfab88e32948f0.jpg"
     },
     {
+      "catalogId": "momodeling.metalic-color.mc-09",
       "code": "MC-09",
       "name": "메탈릭 레드골드",
       "nameEn": "Red Gold",
@@ -676,6 +720,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202403/9fbc5183453e9ef024bc386474e51603.jpg"
     },
     {
+      "catalogId": "momodeling.metalic-color.mc-10",
       "code": "MC-10",
       "name": "메탈릭 라이트건메탈",
       "nameEn": "Light Gun Metal",
@@ -691,6 +736,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202403/494412245578433b7c5963e784a0ec64.jpg"
     },
     {
+      "catalogId": "momodeling.metalic-color.mc-11",
       "code": "MC-11",
       "name": "메탈릭 건메탈",
       "nameEn": "Gun Metal",
@@ -706,6 +752,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202403/1fe707560ed713c6f97203a0b3515833.jpg"
     },
     {
+      "catalogId": "momodeling.metalic-color.mc-12",
       "code": "MC-12",
       "name": "메탈릭 그린",
       "nameEn": "Metallic Green",
@@ -721,6 +768,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202403/80a5bd1556644986b9242e8036943c18.jpg"
     },
     {
+      "catalogId": "momodeling.metalic-color.mc-13",
       "code": "MC-13",
       "name": "메탈릭 블루",
       "nameEn": "Metallic Blue",
@@ -736,6 +784,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202403/f03c91c0388def777de51b66e5f0cfe0.jpg"
     },
     {
+      "catalogId": "momodeling.metalic-color.mc-14",
       "code": "MC-14",
       "name": "메탈릭 옐로우",
       "nameEn": "Metallic Yellow",
@@ -751,6 +800,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202403/0c7dce3ca72f7a46a86f9ed36933ae86.jpg"
     },
     {
+      "catalogId": "momodeling.metalic-color.mc-15",
       "code": "MC-15",
       "name": "메탈릭 레드",
       "nameEn": "Metallic Red",
@@ -766,6 +816,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202403/0ec100c3bc9a4b3bac420f3cc6e0cf3b.jpg"
     },
     {
+      "catalogId": "momodeling.metalic-color.mc-16",
       "code": "MC-16",
       "name": "메탈릭 퍼플",
       "nameEn": "Metallic Purple",
@@ -781,6 +832,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202403/6be574c26c0437bf181719e4cfa2ac00.jpg"
     },
     {
+      "catalogId": "momodeling.metalic-color.mc-18",
       "code": "MC-18",
       "name": "메탈릭 알루미늄실버",
       "nameEn": "Aluminium Silver",
@@ -796,6 +848,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202403/0046b6443c5352b7f6824d53c71b9ec0.jpg"
     },
     {
+      "catalogId": "momodeling.metalic-color.mc-19",
       "code": "MC-19",
       "name": "메탈릭 하이퍼실버",
       "nameEn": "Hyper Silver",
@@ -811,6 +864,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202403/f7068e098db5e57620367d1420c3ff5f.jpg"
     },
     {
+      "catalogId": "momodeling.metalic-color.mc-20",
       "code": "MC-20",
       "name": "메탈릭 화이트골드",
       "nameEn": "White Gold",
@@ -826,6 +880,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202403/792813af67d75e334875df54c4fb0164.jpg"
     },
     {
+      "catalogId": "momodeling.metalic-color.mc-21",
       "code": "MC-21",
       "name": "메탈릭 쿠퍼",
       "nameEn": "Copper",
@@ -841,6 +896,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202403/50bec161a11faa89d67c7d910e4ac28f.jpg"
     },
     {
+      "catalogId": "momodeling.clear-color.cc-01",
       "code": "CC-01",
       "name": "클리어레드",
       "nameEn": "Clear Red",
@@ -856,6 +912,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/9a0df6417af98cc32ea2a7a8533580c4.jpg"
     },
     {
+      "catalogId": "momodeling.clear-color.cc-02",
       "code": "CC-02",
       "name": "딥레드 애플레드",
       "nameEn": "Deep Red (Apple Red)",
@@ -871,6 +928,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/74fb1fb3f3d3604106998ec0a792e6bb.jpg"
     },
     {
+      "catalogId": "momodeling.clear-color.cc-03",
       "code": "CC-03",
       "name": "클리어블루",
       "nameEn": "Clear Blue",
@@ -886,6 +944,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/3fa397d82363b398194bcdf6b791be76.jpg"
     },
     {
+      "catalogId": "momodeling.clear-color.cc-04",
       "code": "CC-04",
       "name": "클리어마린블루",
       "nameEn": "Clear Marine Blue",
@@ -901,6 +960,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/7cdbeddd31689d41d982f3a026df9297.jpg"
     },
     {
+      "catalogId": "momodeling.clear-color.cc-05",
       "code": "CC-05",
       "name": "클리어옐로우",
       "nameEn": "Clear Yellow",
@@ -916,6 +976,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/c897b0db01304f5027cdbb3ae727263e.jpg"
     },
     {
+      "catalogId": "momodeling.clear-color.cc-06",
       "code": "CC-06",
       "name": "클리어골드",
       "nameEn": "Clear Gold",
@@ -931,6 +992,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/395152198b3391bc06a093103bf25fc7.jpg"
     },
     {
+      "catalogId": "momodeling.clear-color.cc-07",
       "code": "CC-07",
       "name": "클리어브라운",
       "nameEn": "Clear Brown",
@@ -946,6 +1008,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/35896182ee14d5e4151807d9a81e3f47.jpg"
     },
     {
+      "catalogId": "momodeling.clear-color.cc-08",
       "code": "CC-08",
       "name": "클리어퍼플",
       "nameEn": "Clear Purple",
@@ -961,6 +1024,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/a85ce131d0fc3cbfe315d5351c330222.jpg"
     },
     {
+      "catalogId": "momodeling.clear-color.cc-09",
       "code": "CC-09",
       "name": "클리어오렌지",
       "nameEn": "Clear Orange",
@@ -976,6 +1040,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/2cb8bde4e412c74a5ef57787eb30cad9.jpg"
     },
     {
+      "catalogId": "momodeling.clear-color.cc-10",
       "code": "CC-10",
       "name": "클리어핑크",
       "nameEn": "Clear Pink",
@@ -991,6 +1056,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/a3412cd741cc31bda1b3fd76f9b9d7cf.jpg"
     },
     {
+      "catalogId": "momodeling.clear-color.cc-11",
       "code": "CC-11",
       "name": "클리어블랙",
       "nameEn": "Clear Black (Smoke)",
@@ -1006,6 +1072,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/ae42e1a32b8039a9ef16db8e5d334099.jpg"
     },
     {
+      "catalogId": "momodeling.clear-color.cc-12",
       "code": "CC-12",
       "name": "클리어그린",
       "nameEn": "Clear Green",
@@ -1021,6 +1088,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/20c7366f6b018dc42410fc6d5afb2eeb.jpg"
     },
     {
+      "catalogId": "momodeling.chameleon-color.ca-01",
       "code": "CA-01",
       "name": "카멜레온 블루 퍼플",
       "nameEn": "Chameleon Blue Purple",
@@ -1036,6 +1104,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/e6ba0b17d999889f3ca44cc207085ae7.jpg"
     },
     {
+      "catalogId": "momodeling.chameleon-color.ca-02",
       "code": "CA-02",
       "name": "카멜레온 샴페인 라벤더",
       "nameEn": "Chameleon Champagne Lavender",
@@ -1051,6 +1120,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/5bd3977f6fb82ed7499cb08630fa27d6.jpg"
     },
     {
+      "catalogId": "momodeling.chameleon-color.ca-03",
       "code": "CA-03",
       "name": "카멜레온 그린 퍼플",
       "nameEn": "Chameleon Green Purple",
@@ -1066,6 +1136,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/1939255cf9f9a7217c5ed4acee1b728d.jpg"
     },
     {
+      "catalogId": "momodeling.chameleon-color.ca-04",
       "code": "CA-04",
       "name": "카멜레온 그린 옐로우",
       "nameEn": "Chameleon Green Yellow",
@@ -1081,6 +1152,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/881ade532b7aab2eb1887bf4a268b885.jpg"
     },
     {
+      "catalogId": "momodeling.chameleon-color.ca-05",
       "code": "CA-05",
       "name": "카멜레온 레드 골드",
       "nameEn": "Chameleon Red Gold",
@@ -1096,6 +1168,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/e2e36a0f2a4b36a41cee9074ea896cc3.jpg"
     },
     {
+      "catalogId": "momodeling.chameleon-color.ca-06",
       "code": "CA-06",
       "name": "카멜레온 딥블루 퍼플",
       "nameEn": "Chameleon Deep Blue Purple",
@@ -1111,6 +1184,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/9f076ccdd7f5b833ed7a52b76182d273.jpg"
     },
     {
+      "catalogId": "momodeling.special-color.ch-01",
       "code": "CH-01",
       "name": "크롬도료 샤이닝",
       "nameEn": "Momo Chrome (Shining)",
@@ -1126,6 +1200,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/ed1a1c89e562f39b57f567821f962f14.jpg"
     },
     {
+      "catalogId": "momodeling.special-color.ch-02",
       "code": "CH-02",
       "name": "크롬도료 브라이트",
       "nameEn": "Momo Chrome (Bright)",
@@ -1141,6 +1216,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/2a9fce365106d67060abbb12dd35e14d.jpg"
     },
     {
+      "catalogId": "momodeling.special-color.ch-03",
       "code": "CH-03",
       "name": "크롬도료 미디움",
       "nameEn": "Momo Chrome (Medium)",
@@ -1156,6 +1232,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/bd51cdfa59f6b9025e798fb476cdaec9.jpg"
     },
     {
+      "catalogId": "momodeling.special-color.ch-04",
       "code": "CH-04",
       "name": "크롬쉴드 마감제",
       "nameEn": "Chrome Shield",
@@ -1171,6 +1248,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/be4bf319f3c99edcbb0986e9ac05cf5f.jpg"
     },
     {
+      "catalogId": "momodeling.special-color.ch-05",
       "code": "CH-05",
       "name": "크롬도료 블랙",
       "nameEn": "Momo Chrome (Black)",
@@ -1186,6 +1264,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202204/c3552cd3b72c76fd3bdd5c3510c99c98.jpg"
     },
     {
+      "catalogId": "momodeling.surfacer.sc-01",
       "code": "SC-01",
       "name": "블랙유광 서페이서",
       "nameEn": "Black Gloss Surfacer",
@@ -1201,6 +1280,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/588e3dd489ccc13e5abd845112dcca0a.jpg"
     },
     {
+      "catalogId": "momodeling.surfacer.sc-02",
       "code": "SC-02",
       "name": "화이트유광 서페이서",
       "nameEn": "White Gloss Surfacer",
@@ -1216,6 +1296,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/4909200c08737681675a29c750925660.jpg"
     },
     {
+      "catalogId": "momodeling.surfacer.sc-03",
       "code": "SC-03",
       "name": "블랙무광 서페이서",
       "nameEn": "Black Matt Surfacer",
@@ -1231,6 +1312,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/dee67c77aec9aec16bfda48547bdfd27.jpg"
     },
     {
+      "catalogId": "momodeling.surfacer.sc-04",
       "code": "SC-04",
       "name": "화이트무광 서페이서",
       "nameEn": "White Matt Surfacer",
@@ -1246,6 +1328,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/2793f469217ffff42a2079296bf4b6f6.jpg"
     },
     {
+      "catalogId": "momodeling.surfacer.sc-05",
       "code": "SC-05",
       "name": "레드 서페이서",
       "nameEn": "Red Surfacer",
@@ -1261,6 +1344,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/6a270670d851c36150fc70a20db61693.jpg"
     },
     {
+      "catalogId": "momodeling.surfacer.sc-06",
       "code": "SC-06",
       "name": "블루 서페이서",
       "nameEn": "Blue Surfacer",
@@ -1276,6 +1360,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/c4a7f4b97b08ada44db7cf2a930989c8.jpg"
     },
     {
+      "catalogId": "momodeling.surfacer.sc-07",
       "code": "SC-07",
       "name": "옐로우 서페이서",
       "nameEn": "Yellow Surfacer",
@@ -1291,6 +1376,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/2a24be51f3366656c791cca1982979ea.jpg"
     },
     {
+      "catalogId": "momodeling.surfacer.sc-08",
       "code": "SC-08",
       "name": "다크그레이 서페이서",
       "nameEn": "Dark Gray Surfacer",
@@ -1306,6 +1392,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/6aa1fe6c01a25c4819a329e33f7c11e5.jpg"
     },
     {
+      "catalogId": "momodeling.surfacer.sc-09",
       "code": "SC-09",
       "name": "그레이 서페이서",
       "nameEn": "Gray Surfacer",
@@ -1321,6 +1408,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/1d6af01b21c673d0342aa9b2b8053601.jpg"
     },
     {
+      "catalogId": "momodeling.surfacer.sc-10",
       "code": "SC-10",
       "name": "레진 멀티 서페이서",
       "nameEn": "Resin Multi Surfacer",
@@ -1336,6 +1424,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/6e40a5083c93aaeb55adc47b28a5075d.jpg"
     },
     {
+      "catalogId": "momodeling.finish-clear.fc-01",
       "code": "FC-01",
       "name": "퍼펙트 유광클리어",
       "nameEn": "Perfect Clear (Gloss)",
@@ -1351,6 +1440,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/86b9b060a5dfb9136bdadbdf96332b56.jpg"
     },
     {
+      "catalogId": "momodeling.finish-clear.fc-02",
       "code": "FC-02",
       "name": "퍼펙트 반광클리어",
       "nameEn": "Perfect Clear (Semi Gloss)",
@@ -1366,6 +1456,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/5bf8338ff36ad3c4492b9e60de1b1300.jpg"
     },
     {
+      "catalogId": "momodeling.finish-clear.fc-03",
       "code": "FC-03",
       "name": "퍼펙트 무광클리어",
       "nameEn": "Perfect Clear (Matt)",
@@ -1381,6 +1472,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/1c92d7b2532250544f7a5ed832842ad0.jpg"
     },
     {
+      "catalogId": "momodeling.urethane-color.uc-01",
       "code": "UC-01",
       "name": "유광 우레탄 클리어",
       "nameEn": "Urethane Clear (Gloss)",
@@ -1396,6 +1488,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202406/5419f82bb826b357fc9f13a63eed4a49.jpg"
     },
     {
+      "catalogId": "momodeling.urethane-color.uc-02",
       "code": "UC-02",
       "name": "블랙유광 우레탄 클리어",
       "nameEn": "Urethane Clear (Black Gloss)",
@@ -1411,6 +1504,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202302/1e10154b94e54728f1ceed31438a867b.jpg"
     },
     {
+      "catalogId": "momodeling.urethane-color.uc-03",
       "code": "UC-03",
       "name": "프리미엄 유광 우레탄 클리어",
       "nameEn": "Premium Urethane Clear (Gloss)",
@@ -1426,6 +1520,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202406/968e813d65e7e883939fbd81a0713dbb.jpg"
     },
     {
+      "catalogId": "momodeling.urethane-color.uc-11",
       "code": "UC-11",
       "name": "레드 우레탄 클리어",
       "nameEn": "Urethane Clear Red",
@@ -1441,6 +1536,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/4b3c1addac268ab2d2a1f38c04b1ee6c.jpg"
     },
     {
+      "catalogId": "momodeling.urethane-color.uc-12",
       "code": "UC-12",
       "name": "블루 우레탄 클리어",
       "nameEn": "Urethane Clear Blue",
@@ -1456,6 +1552,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/b33caf86a0ab541d815c94db8689010b.jpg"
     },
     {
+      "catalogId": "momodeling.urethane-color.uc-13",
       "code": "UC-13",
       "name": "딥레드 애플레드 우레탄 클리어",
       "nameEn": "Urethane Clear Deep Red",
@@ -1471,6 +1568,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/f957c41fc761eaac47498cc18b1ea564.jpg"
     },
     {
+      "catalogId": "momodeling.urethane-color.uc-14",
       "code": "UC-14",
       "name": "마린블루 우레탄 클리어",
       "nameEn": "Urethane Clear Marine Blue",
@@ -1486,6 +1584,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/044a22196eae2126a9d41234274c48b1.jpg"
     },
     {
+      "catalogId": "momodeling.urethane-color.uc-15",
       "code": "UC-15",
       "name": "옐로우 우레탄 클리어",
       "nameEn": "Urethane Clear Yellow",
@@ -1501,6 +1600,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/8e15410572e845c03f1fc239df6b937a.jpg"
     },
     {
+      "catalogId": "momodeling.urethane-color.uc-16",
       "code": "UC-16",
       "name": "오렌지 우레탄 클리어",
       "nameEn": "Urethane Clear Orange",
@@ -1516,6 +1616,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/cf6c53a9174b9dadb215d0451ebc53ea.jpg"
     },
     {
+      "catalogId": "momodeling.urethane-color.uc-17",
       "code": "UC-17",
       "name": "그린 우레탄 클리어",
       "nameEn": "Urethane Clear Green",
@@ -1531,6 +1632,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/300ba2c2dcbdbd374693d882334af132.jpg"
     },
     {
+      "catalogId": "momodeling.urethane-color.uc-18",
       "code": "UC-18",
       "name": "퍼플 우레탄 클리어",
       "nameEn": "Urethane Clear Purple",
@@ -1546,6 +1648,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/92c5f612b13b452df6aa47c34aef3265.jpg"
     },
     {
+      "catalogId": "momodeling.urethane-color.uc-19",
       "code": "UC-19",
       "name": "핑크 우레탄 클리어",
       "nameEn": "Urethane Clear Pink",
@@ -1561,6 +1664,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/eba70f8185b2adf0c493fa1c050def4f.jpg"
     },
     {
+      "catalogId": "momodeling.urethane-color.uc-20",
       "code": "UC-20",
       "name": "골드 우레탄 클리어",
       "nameEn": "Urethane Clear Gold",
@@ -1576,6 +1680,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202211/dff5e637f563e3beb5a8094120a6f63e.jpg"
     },
     {
+      "catalogId": "momodeling.urethane-color.uc01m",
       "code": "UC01M",
       "name": "UC-01 단품 유광 우레탄 주제",
       "nameEn": "Urethane Gloss Base (UC-01)",
@@ -1591,6 +1696,7 @@
       "photoUrl": "https://m-holic.net/web/product/medium/202507/d343fd7d39b81775d44ddcfcf489ad95.jpg"
     },
     {
+      "catalogId": "momodeling.urethane-color.uc02m",
       "code": "UC02M",
       "name": "UC-02 단품 블랙 우레탄 주제",
       "nameEn": "Urethane Black Base (UC-02)",

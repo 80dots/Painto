@@ -155,6 +155,8 @@ export const zh: Translation = {
     nameRequired: '请输入名称',
     deleteTitle: '删除油漆',
     deleteMessage: '要删除“{name}”吗？',
+    duplicatePaintTitle: '该涂料已登记',
+    duplicatePaintMessage: '「{name}」已在列表中。是否打开并调整数量?',
     duplicateBarcodeTitle: '该条码已登记',
     duplicateBarcodeMessage: '该条码属于“{name}”。要打开那个油漆吗？',
   },

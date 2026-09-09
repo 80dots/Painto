@@ -112,7 +112,7 @@ export function usePaintList(filters: PaintFilters = {}) {
 export function usePaint(id: number | null) {
   return useLiveQuery(
     db
-      .select({ ...paintListColumns, notes: paints.notes })
+      .select({ ...paintListColumns, notes: paints.notes, catalogId: paints.catalogId })
       .from(paints)
       .leftJoin(brands, eq(paints.brandId, brands.id))
       .where(eq(paints.id, id ?? -1))
@@ -166,6 +166,21 @@ export async function deletePaint(id: number) {
   // stock_logs 는 itemType + itemId 로만 연결돼 있어 외래키 cascade 가 걸리지 않는다.
   await db.delete(stockLogs).where(and(eq(stockLogs.itemType, 'paint'), eq(stockLogs.itemId, id)));
   deletePhoto(row?.photoUri);
+}
+
+/** 내장 카탈로그의 같은 도료가 이미 등록돼 있는지 본다. */
+export async function findPaintByCatalogId(catalogId: string, excludeId?: number | null) {
+  const trimmed = catalogId.trim();
+  if (!trimmed) return null;
+
+  const [row] = await db
+    .select({ id: paints.id, name: paints.name, quantity: paints.quantity })
+    .from(paints)
+    .where(eq(paints.catalogId, trimmed))
+    .limit(1);
+
+  if (!row || row.id === excludeId) return null;
+  return row;
 }
 
 /** 바코드로 이미 등록된 도료를 찾는다. */

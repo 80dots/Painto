@@ -50,6 +50,13 @@
       "when": 1788612161015,
       "tag": "0006_supply_unit_default",
       "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "6",
+      "when": 1788919978083,
+      "tag": "0007_paint_catalog_id",
+      "breakpoints": true
     }
   ]
 }

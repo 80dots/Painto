@@ -156,6 +156,8 @@ export const en: Translation = {
     nameRequired: 'Please enter a name',
     deleteTitle: 'Delete paint',
     deleteMessage: 'Delete "{name}"?',
+    duplicatePaintTitle: 'Paint already registered',
+    duplicatePaintMessage: '"{name}" is already on your list. Open it to adjust the count?',
     duplicateBarcodeTitle: 'Barcode already registered',
     duplicateBarcodeMessage: 'This barcode belongs to "{name}". Open that paint?',
   },

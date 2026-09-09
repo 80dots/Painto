@@ -157,6 +157,8 @@ export const ko = {
     nameRequired: '이름을 입력해 주세요',
     deleteTitle: '도료 삭제',
     deleteMessage: "'{name}' 을(를) 삭제할까요?",
+    duplicatePaintTitle: '이미 등록된 도료입니다',
+    duplicatePaintMessage: "'{name}' 이(가) 이미 목록에 있습니다. 열어서 수량을 조정할까요?",
     duplicateBarcodeTitle: '이미 등록된 바코드입니다',
     duplicateBarcodeMessage: "'{name}' 에 등록된 바코드입니다. 그 도료를 열까요?",
   },

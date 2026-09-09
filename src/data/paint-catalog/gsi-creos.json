@@ -20,6 +20,7 @@
   "notes": "품번·영문 색이름·색상값·마감·용량은 scalemates 의 Mr Color 목록에서, JAN 바코드와 일본어 색이름·시리즈는 ツルマイ模型 상품 목록에서 품번으로 맞춰 왔다. Mr.COLOR 계열(락카)만 담았다. 수성 호비컬러(H)·아크리시온(N)·웨더링 컬러(WC)·신너·컬러 세트는 뺐다. 색상값은 참고용 근사값이다.",
   "paints": [
     {
+      "catalogId": "gsi-creos.mr.c1",
       "code": "C1",
       "name": "White",
       "nameEn": null,
@@ -37,6 +38,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028535600.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c2",
       "code": "C2",
       "name": "Black",
       "nameEn": null,
@@ -54,6 +56,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028535617.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c3",
       "code": "C3",
       "name": "Red",
       "nameEn": null,
@@ -69,6 +72,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.c4",
       "code": "C4",
       "name": "Yellow",
       "nameEn": null,
@@ -84,6 +88,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.c5",
       "code": "C5",
       "name": "Blue",
       "nameEn": null,
@@ -99,6 +104,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.c6",
       "code": "C6",
       "name": "Green",
       "nameEn": null,
@@ -114,6 +120,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.c7",
       "code": "C7",
       "name": "Brown",
       "nameEn": null,
@@ -129,6 +136,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.c8",
       "code": "C8",
       "name": "Silver",
       "nameEn": null,
@@ -144,6 +152,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.c9",
       "code": "C9",
       "name": "Gold",
       "nameEn": null,
@@ -159,6 +168,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.c10",
       "code": "C10",
       "name": "Copper",
       "nameEn": null,
@@ -176,6 +186,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028535693.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c11",
       "code": "C11",
       "name": "Light Gull Gray",
       "nameEn": null,
@@ -193,6 +204,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028535709.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c12",
       "code": "C12",
       "name": "Olive Drab 1",
       "nameEn": null,
@@ -210,6 +222,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028535716.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c13",
       "code": "C13",
       "name": "Neutral Gray",
       "nameEn": null,
@@ -227,6 +240,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028535723.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c14",
       "code": "C14",
       "name": "Navy Blue",
       "nameEn": null,
@@ -244,6 +258,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028535730.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c15",
       "code": "C15",
       "name": "IJN Green (Nakajima)",
       "nameEn": null,
@@ -261,6 +276,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028535747.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c16",
       "code": "C16",
       "name": "IJA Green",
       "nameEn": null,
@@ -278,6 +294,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028535754.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c17",
       "code": "C17",
       "name": "RLM71 Dark Green",
       "nameEn": null,
@@ -295,6 +312,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028535761.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c18",
       "code": "C18",
       "name": "RLM70 Black Green",
       "nameEn": null,
@@ -312,6 +330,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028535778.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c19",
       "code": "C19",
       "name": "Sandy Brown",
       "nameEn": null,
@@ -329,6 +348,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028535785.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c20",
       "code": "C20",
       "name": "Light Blue",
       "nameEn": null,
@@ -346,6 +366,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028535792.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c21",
       "code": "C21",
       "name": "Middle Stone",
       "nameEn": null,
@@ -363,6 +384,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028535808.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c22",
       "code": "C22",
       "name": "Dark Earth",
       "nameEn": null,
@@ -380,6 +402,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028535815.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c23",
       "code": "C23",
       "name": "Dark Green (2)",
       "nameEn": null,
@@ -397,6 +420,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028535822.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c25",
       "code": "C25",
       "name": "Dark Seagray",
       "nameEn": null,
@@ -414,6 +438,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028535839.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c26",
       "code": "C26",
       "name": "Duck Egg Green",
       "nameEn": null,
@@ -431,6 +456,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028535846.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c27",
       "code": "C27",
       "name": "Interior Green",
       "nameEn": null,
@@ -448,6 +474,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028535853.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c28",
       "code": "C28",
       "name": "Steel",
       "nameEn": null,
@@ -465,6 +492,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028535860.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c29",
       "code": "C29",
       "name": "Hull Red",
       "nameEn": null,
@@ -482,6 +510,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028535877.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c30",
       "code": "C30",
       "name": "Flat Base",
       "nameEn": null,
@@ -499,6 +528,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028535884.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c31",
       "code": "C31",
       "name": "Dark Gray (1)",
       "nameEn": null,
@@ -514,6 +544,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.c32",
       "code": "C32",
       "name": "Dark Gray (2)",
       "nameEn": null,
@@ -529,6 +560,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.c33",
       "code": "C33",
       "name": "Flat Black",
       "nameEn": null,
@@ -546,6 +578,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028535914.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c34",
       "code": "C34",
       "name": "Sky Blue",
       "nameEn": null,
@@ -563,6 +596,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028535921.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c35",
       "code": "C35",
       "name": "IJN Gray (Mitsubishi)",
       "nameEn": null,
@@ -580,6 +614,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028535938.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c36",
       "code": "C36",
       "name": "RLM 74 Gray Green",
       "nameEn": null,
@@ -597,6 +632,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028535945.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c37",
       "code": "C37",
       "name": "RLM 75 Gray Violet",
       "nameEn": null,
@@ -614,6 +650,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028535952.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c38",
       "code": "C38",
       "name": "Olive Drab 2",
       "nameEn": null,
@@ -631,6 +668,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028535969.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c39",
       "code": "C39",
       "name": "Dark Yellow (Sandy Yellow)",
       "nameEn": null,
@@ -648,6 +686,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028535976.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c41",
       "code": "C41",
       "name": "Red Brown",
       "nameEn": null,
@@ -665,6 +704,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028535990.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c42",
       "code": "C42",
       "name": "Mahogany",
       "nameEn": null,
@@ -682,6 +722,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635003.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c43",
       "code": "C43",
       "name": "Wood Brown",
       "nameEn": null,
@@ -699,6 +740,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635010.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c44",
       "code": "C44",
       "name": "Tan",
       "nameEn": null,
@@ -716,6 +758,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635027.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c45",
       "code": "C45",
       "name": "Sail Color",
       "nameEn": null,
@@ -733,6 +776,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635034.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c46",
       "code": "C46",
       "name": "Clear",
       "nameEn": null,
@@ -750,6 +794,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635041.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c47",
       "code": "C47",
       "name": "Clear Red",
       "nameEn": null,
@@ -767,6 +812,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635058.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c48",
       "code": "C48",
       "name": "Clear Yellow",
       "nameEn": null,
@@ -784,6 +830,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635065.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c49",
       "code": "C49",
       "name": "Clear Orange",
       "nameEn": null,
@@ -801,6 +848,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635072.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c50",
       "code": "C50",
       "name": "Clear Blue",
       "nameEn": null,
@@ -818,6 +866,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635089.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c51",
       "code": "C51",
       "name": "Flesh",
       "nameEn": null,
@@ -833,6 +882,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.c52",
       "code": "C52",
       "name": "Field Gray 2",
       "nameEn": null,
@@ -850,6 +900,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635102.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c54",
       "code": "C54",
       "name": "Khaki Green",
       "nameEn": null,
@@ -867,6 +918,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635119.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c55",
       "code": "C55",
       "name": "Khaki",
       "nameEn": null,
@@ -884,6 +936,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635126.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c56",
       "code": "C56",
       "name": "IJN Gray Green (Nakajima)",
       "nameEn": null,
@@ -901,6 +954,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635133.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c57",
       "code": "C57",
       "name": "Metallic Blue Green",
       "nameEn": null,
@@ -918,6 +972,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635140.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c58",
       "code": "C58",
       "name": "Orange Yellow (IJA/IJN Aircraft)",
       "nameEn": null,
@@ -935,6 +990,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635157.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c59",
       "code": "C59",
       "name": "Orange",
       "nameEn": null,
@@ -952,6 +1008,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635164.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c60",
       "code": "C60",
       "name": "RLM 02 Gray",
       "nameEn": null,
@@ -969,6 +1026,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635171.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c61",
       "code": "C61",
       "name": "Burnt Iron",
       "nameEn": null,
@@ -986,6 +1044,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635188.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c62",
       "code": "C62",
       "name": "Flat White",
       "nameEn": null,
@@ -1003,6 +1062,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635195.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c63",
       "code": "C63",
       "name": "Pink",
       "nameEn": null,
@@ -1020,6 +1080,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635201.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c64",
       "code": "C64",
       "name": "Yellow Green",
       "nameEn": null,
@@ -1037,6 +1098,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635218.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c65",
       "code": "C65",
       "name": "Bright Blue",
       "nameEn": null,
@@ -1054,6 +1116,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635225.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c66",
       "code": "C66",
       "name": "Bright Green",
       "nameEn": null,
@@ -1069,6 +1132,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.c67",
       "code": "C67",
       "name": "Purple",
       "nameEn": null,
@@ -1084,6 +1148,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.c68",
       "code": "C68",
       "name": "Madder Red",
       "nameEn": null,
@@ -1101,6 +1166,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635256.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c69",
       "code": "C69",
       "name": "Off White",
       "nameEn": null,
@@ -1118,6 +1184,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635263.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c70",
       "code": "C70",
       "name": "Dark Green",
       "nameEn": null,
@@ -1133,6 +1200,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.c71",
       "code": "C71",
       "name": "Midnight Blue",
       "nameEn": null,
@@ -1150,6 +1218,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635287.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c72",
       "code": "C72",
       "name": "Intermediate Blue",
       "nameEn": null,
@@ -1167,6 +1236,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635294.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c73",
       "code": "C73",
       "name": "Aircraft Gray",
       "nameEn": null,
@@ -1184,6 +1254,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635300.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c74",
       "code": "C74",
       "name": "Air Superiority Blue",
       "nameEn": null,
@@ -1201,6 +1272,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635317.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c75",
       "code": "C75",
       "name": "Metallic Red",
       "nameEn": null,
@@ -1218,6 +1290,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635324.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c76",
       "code": "C76",
       "name": "Metallic Blue",
       "nameEn": null,
@@ -1235,6 +1308,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635331.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c77",
       "code": "C77",
       "name": "Metallic Green",
       "nameEn": null,
@@ -1252,6 +1326,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635348.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c78",
       "code": "C78",
       "name": "Metallic Black",
       "nameEn": null,
@@ -1267,6 +1342,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.c79",
       "code": "C79",
       "name": "Shine Red",
       "nameEn": null,
@@ -1284,6 +1360,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635362.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c80",
       "code": "C80",
       "name": "Cobalt Blue",
       "nameEn": null,
@@ -1301,6 +1378,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635379.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c81",
       "code": "C81",
       "name": "Russet",
       "nameEn": null,
@@ -1318,6 +1396,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028716788.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c90",
       "code": "C90",
       "name": "Shine Silver",
       "nameEn": null,
@@ -1333,6 +1412,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.c92",
       "code": "C92",
       "name": "Semi-Gloss Black",
       "nameEn": null,
@@ -1350,6 +1430,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028716801.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c97",
       "code": "C97",
       "name": "Light Gray",
       "nameEn": null,
@@ -1367,6 +1448,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635416.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c100",
       "code": "C100",
       "name": "Wine Red",
       "nameEn": null,
@@ -1384,6 +1466,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635423.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c101",
       "code": "C101",
       "name": "Smoke Gray",
       "nameEn": null,
@@ -1401,6 +1484,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635430.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c104",
       "code": "C104",
       "name": "Gun Chrome",
       "nameEn": null,
@@ -1418,6 +1502,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635447.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c107",
       "code": "C107",
       "name": "Character White",
       "nameEn": null,
@@ -1435,6 +1520,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635454.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c108",
       "code": "C108",
       "name": "Character Red",
       "nameEn": null,
@@ -1452,6 +1538,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635461.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c109",
       "code": "C109",
       "name": "Character Yellow",
       "nameEn": null,
@@ -1469,6 +1556,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635478.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c110",
       "code": "C110",
       "name": "Character Blue",
       "nameEn": null,
@@ -1486,6 +1574,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635485.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c111",
       "code": "C111",
       "name": "Character Flesh 1",
       "nameEn": null,
@@ -1503,6 +1592,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635492.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c112",
       "code": "C112",
       "name": "Character Flesh 2",
       "nameEn": null,
@@ -1520,6 +1610,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635508.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c113",
       "code": "C113",
       "name": "RLM04 Yellow",
       "nameEn": null,
@@ -1537,6 +1628,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635515.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c114",
       "code": "C114",
       "name": "RLM 23 Red",
       "nameEn": null,
@@ -1554,6 +1646,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635522.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c115",
       "code": "C115",
       "name": "RLM65 Light Blue",
       "nameEn": null,
@@ -1571,6 +1664,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635539.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c116",
       "code": "C116",
       "name": "RLM 66 Black Gray",
       "nameEn": null,
@@ -1588,6 +1682,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635546.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c117",
       "code": "C117",
       "name": "RLM76 Light blue",
       "nameEn": null,
@@ -1605,6 +1700,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635553.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c118",
       "code": "C118",
       "name": "RLM 78 Light Blue",
       "nameEn": null,
@@ -1622,6 +1718,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635560.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c119",
       "code": "C119",
       "name": "RLM 79 Sand Yellow",
       "nameEn": null,
@@ -1639,6 +1736,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635577.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c120",
       "code": "C120",
       "name": "RLM 80 Olive Green",
       "nameEn": null,
@@ -1656,6 +1754,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635584.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c121",
       "code": "C121",
       "name": "RLM 81 Brown Violet",
       "nameEn": null,
@@ -1673,6 +1772,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635591.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c122",
       "code": "C122",
       "name": "RLM 82 Light Green",
       "nameEn": null,
@@ -1690,6 +1790,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635607.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c123",
       "code": "C123",
       "name": "RLM 83 Dark Green",
       "nameEn": null,
@@ -1707,6 +1808,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635614.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c124",
       "code": "C124",
       "name": "Dark Green (Mitsubishi)",
       "nameEn": null,
@@ -1724,6 +1826,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635621.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c125",
       "code": "C125",
       "name": "Cowling Color",
       "nameEn": null,
@@ -1741,6 +1844,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635638.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c126",
       "code": "C126",
       "name": "Cockpit Color (Mitsubishi)",
       "nameEn": null,
@@ -1758,6 +1862,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635645.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c127",
       "code": "C127",
       "name": "Cockpit Color (Nakajima)",
       "nameEn": null,
@@ -1775,6 +1880,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635652.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c128",
       "code": "C128",
       "name": "Gray green",
       "nameEn": null,
@@ -1792,6 +1898,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635669.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c129",
       "code": "C129",
       "name": "Dark Green (Nakajima)",
       "nameEn": null,
@@ -1809,6 +1916,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635676.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c130",
       "code": "C130",
       "name": "Dark Green (Kawasaki)",
       "nameEn": null,
@@ -1826,6 +1934,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635683.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c131",
       "code": "C131",
       "name": "Propeller Color",
       "nameEn": null,
@@ -1843,6 +1952,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635690.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c132",
       "code": "C132",
       "name": "Earth Green",
       "nameEn": null,
@@ -1860,6 +1970,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635706.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c133",
       "code": "C133",
       "name": "Earth",
       "nameEn": null,
@@ -1875,6 +1986,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.c135",
       "code": "C135",
       "name": "Russian Green 1",
       "nameEn": null,
@@ -1892,6 +2004,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635737.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c136",
       "code": "C136",
       "name": "Russian Green 2",
       "nameEn": null,
@@ -1909,6 +2022,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635744.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c137",
       "code": "C137",
       "name": "Tire Black",
       "nameEn": null,
@@ -1926,6 +2040,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635751.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c138",
       "code": "C138",
       "name": "Clear Green",
       "nameEn": null,
@@ -1943,6 +2058,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635768.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c151",
       "code": "C151",
       "name": "White Pearl",
       "nameEn": null,
@@ -1960,6 +2076,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028735291.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c155",
       "code": "C155",
       "name": "Super Clear",
       "nameEn": null,
@@ -1975,6 +2092,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.c156",
       "code": "C156",
       "name": "Super White IV",
       "nameEn": null,
@@ -1992,6 +2110,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028735277.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c158",
       "code": "C158",
       "name": "Super Italian Red",
       "nameEn": null,
@@ -2009,6 +2128,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635775.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c159",
       "code": "C159",
       "name": "Super Silver",
       "nameEn": null,
@@ -2026,6 +2146,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635782.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c171",
       "code": "C171",
       "name": "Fluorescent Red",
       "nameEn": null,
@@ -2043,6 +2164,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635805.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c172",
       "code": "C172",
       "name": "Fluorescent Yellow",
       "nameEn": null,
@@ -2060,6 +2182,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635812.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c173",
       "code": "C173",
       "name": "Fluorescent Orange",
       "nameEn": null,
@@ -2077,6 +2200,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635829.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c174",
       "code": "C174",
       "name": "Fluorescent Pink",
       "nameEn": null,
@@ -2094,6 +2218,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635836.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c175",
       "code": "C175",
       "name": "Fluoroscent Green",
       "nameEn": null,
@@ -2111,6 +2236,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635843.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c181",
       "code": "C181",
       "name": "Semi-Gloss Super Clear",
       "nameEn": null,
@@ -2128,6 +2254,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635850.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c182",
       "code": "C182",
       "name": "Flat Clear",
       "nameEn": null,
@@ -2145,6 +2272,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635867.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c183",
       "code": "C183",
       "name": "Super Clear Gray Tone",
       "nameEn": null,
@@ -2162,6 +2290,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028735284.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c188",
       "code": "C188",
       "name": "Flat Base Rough",
       "nameEn": null,
@@ -2179,6 +2308,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028735789.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c189",
       "code": "C189",
       "name": "Flat Base Smooth",
       "nameEn": null,
@@ -2196,6 +2326,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028735796.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c207",
       "code": "C207",
       "name": "Fluorescent Green, Primary",
       "nameEn": null,
@@ -2211,6 +2342,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.211",
       "code": "211",
       "name": "MR.METAL COLOR Chrome Silver",
       "nameEn": null,
@@ -2226,6 +2358,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.212",
       "code": "212",
       "name": "MR.METAL COLOR Iron",
       "nameEn": null,
@@ -2241,6 +2374,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.213",
       "code": "213",
       "name": "MR.METAL COLOR Stainless",
       "nameEn": null,
@@ -2256,6 +2390,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.214",
       "code": "214",
       "name": "MR.METAL COLOR Dark Iron",
       "nameEn": null,
@@ -2271,6 +2406,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.218",
       "code": "218",
       "name": "Mr Metal Color Aluminium",
       "nameEn": null,
@@ -2286,6 +2422,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.c301",
       "code": "C301",
       "name": "Gray FS36081",
       "nameEn": null,
@@ -2303,6 +2440,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635874.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c302",
       "code": "C302",
       "name": "Green - FS34092",
       "nameEn": null,
@@ -2320,6 +2458,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635881.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c303",
       "code": "C303",
       "name": "Green FS34102",
       "nameEn": null,
@@ -2337,6 +2476,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635898.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c304",
       "code": "C304",
       "name": "Olive Drab FS34087",
       "nameEn": null,
@@ -2354,6 +2494,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635904.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c305",
       "code": "C305",
       "name": "Gray FS36118",
       "nameEn": null,
@@ -2371,6 +2512,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635911.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c306",
       "code": "C306",
       "name": "Gray FS36270",
       "nameEn": null,
@@ -2388,6 +2530,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028717341.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c307",
       "code": "C307",
       "name": "Gray FS36320",
       "nameEn": null,
@@ -2405,6 +2548,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635935.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c308",
       "code": "C308",
       "name": "Gray FS36375",
       "nameEn": null,
@@ -2422,6 +2566,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635942.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c309",
       "code": "C309",
       "name": "Green FS34079",
       "nameEn": null,
@@ -2439,6 +2584,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635959.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c310",
       "code": "C310",
       "name": "FS 30219 Brown",
       "nameEn": null,
@@ -2456,6 +2602,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635966.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c311",
       "code": "C311",
       "name": "Gray FS36622",
       "nameEn": null,
@@ -2473,6 +2620,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635973.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c312",
       "code": "C312",
       "name": "Green FS34227",
       "nameEn": null,
@@ -2490,6 +2638,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635980.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c313",
       "code": "C313",
       "name": "Yellow FS33531",
       "nameEn": null,
@@ -2507,6 +2656,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028635997.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c314",
       "code": "C314",
       "name": "Blue FS35622 (Israeli Kfir, C2, etc.)",
       "nameEn": null,
@@ -2524,6 +2674,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028735000.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c315",
       "code": "C315",
       "name": "Gray FS16440 (Light Gull Gray)",
       "nameEn": null,
@@ -2541,6 +2692,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028735017.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c316",
       "code": "C316",
       "name": "WHITE FS17875",
       "nameEn": null,
@@ -2558,6 +2710,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028735024.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c317",
       "code": "C317",
       "name": "Gray FS36231",
       "nameEn": null,
@@ -2575,6 +2728,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028735031.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c318",
       "code": "C318",
       "name": "Radome",
       "nameEn": null,
@@ -2592,6 +2746,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028735048.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c319",
       "code": "C319",
       "name": "Light Green (JASDF F-1)",
       "nameEn": null,
@@ -2607,6 +2762,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.c320",
       "code": "C320",
       "name": "Dark Green (JASDF F-1)",
       "nameEn": null,
@@ -2624,6 +2780,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028735062.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c321",
       "code": "C321",
       "name": "Light Brown",
       "nameEn": null,
@@ -2641,6 +2798,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028735079.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c322",
       "code": "C322",
       "name": "Phthalo Cyanne Blue (JASDF Blue Impulse)",
       "nameEn": null,
@@ -2658,6 +2816,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028735086.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c323",
       "code": "C323",
       "name": "Light Blue (JASDF Blue Impulse)",
       "nameEn": null,
@@ -2675,6 +2834,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028735093.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c324",
       "code": "C324",
       "name": "Light Gray (JASDF Cockpit)",
       "nameEn": null,
@@ -2692,6 +2852,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028735109.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c325",
       "code": "C325",
       "name": "Gray FS26440",
       "nameEn": null,
@@ -2709,6 +2870,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028735116.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c326",
       "code": "C326",
       "name": "Blue FS15044 (USAF Thunderbirds Blue)",
       "nameEn": null,
@@ -2726,6 +2888,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028735123.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c327",
       "code": "C327",
       "name": "Red FS11136 (USAF Thunderbirds)",
       "nameEn": null,
@@ -2743,6 +2906,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028735130.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c328",
       "code": "C328",
       "name": "Blue FS15050 (US Navy Blue Angels)",
       "nameEn": null,
@@ -2760,6 +2924,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028735147.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c329",
       "code": "C329",
       "name": "Yellow FS13538 (US Navy Blue Angels)",
       "nameEn": null,
@@ -2777,6 +2942,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028735154.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c330",
       "code": "C330",
       "name": "Dark Green BSC381C/641 (RAF Harrier, Jaguar)",
       "nameEn": null,
@@ -2794,6 +2960,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028735161.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c331",
       "code": "C331",
       "name": "Dark Seagray BS381C/638 (RAF Harrier, Jaguar)",
       "nameEn": null,
@@ -2811,6 +2978,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028735178.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c332",
       "code": "C332",
       "name": "Light Aircraft Gray BS381C/627 (RAF Harrier, Jaguar)",
       "nameEn": null,
@@ -2828,6 +2996,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028735185.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c333",
       "code": "C333",
       "name": "Extra Dark Sea Gray BS381C/640 (Royal Navy Sea Harrier)",
       "nameEn": null,
@@ -2845,6 +3014,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028735192.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c334",
       "code": "C334",
       "name": "Barley Gray BS4800/18B21 (RAF F-4)",
       "nameEn": null,
@@ -2862,6 +3032,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028735208.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c335",
       "code": "C335",
       "name": "Medium Seagray BSC381C/637 (RAF Balkan)",
       "nameEn": null,
@@ -2879,6 +3050,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028735215.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c336",
       "code": "C336",
       "name": "Hemp BS4800/10B21 (RAF Nimrod) rgb(104, 142, 107)",
       "nameEn": null,
@@ -2896,6 +3068,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028735222.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c337",
       "code": "C337",
       "name": "Grayish Blue FS35237 (US NAVY F-14, F-4)",
       "nameEn": null,
@@ -2913,6 +3086,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028735239.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c338",
       "code": "C338",
       "name": "Light Gray FS36495 (US MARINE F-18)",
       "nameEn": null,
@@ -2930,6 +3104,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028735246.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c339",
       "code": "C339",
       "name": "Engine Gray FS16081 (US NAVY SEA SPRITE)",
       "nameEn": null,
@@ -2947,6 +3122,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028735253.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c340",
       "code": "C340",
       "name": "Field Green FS34097 (US MARINE Cobra)",
       "nameEn": null,
@@ -2964,6 +3140,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028735260.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c351",
       "code": "C351",
       "name": "Zinc-Chromate Type1 FS34151",
       "nameEn": null,
@@ -2981,6 +3158,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028737103.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c352",
       "code": "C352",
       "name": "Chromate Yellow Primer FS33481",
       "nameEn": null,
@@ -2998,6 +3176,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028737110.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c361",
       "code": "C361",
       "name": "Dark Green BS641",
       "nameEn": null,
@@ -3015,6 +3194,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028737127.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c362",
       "code": "C362",
       "name": "Ocean Gray",
       "nameEn": null,
@@ -3032,6 +3212,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028737134.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c363",
       "code": "C363",
       "name": "Medium Seagray BS637",
       "nameEn": null,
@@ -3049,6 +3230,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028737141.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c364",
       "code": "C364",
       "name": "Aircraft Grey Green BS283",
       "nameEn": null,
@@ -3066,6 +3248,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028737158.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c365",
       "code": "C365",
       "name": "Gloss Sea Blue FS15042",
       "nameEn": null,
@@ -3083,6 +3266,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028737165.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c366",
       "code": "C366",
       "name": "Intermediate Blue FS35164",
       "nameEn": null,
@@ -3100,6 +3284,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028737172.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c367",
       "code": "C367",
       "name": "Blue Gray FS35189",
       "nameEn": null,
@@ -3117,6 +3302,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028737189.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c368",
       "code": "C368",
       "name": "Sky BS381C/210",
       "nameEn": null,
@@ -3134,6 +3320,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028737196.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c369",
       "code": "C369",
       "name": "Dark Earth BS381C/450",
       "nameEn": null,
@@ -3151,6 +3338,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028737202.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c370",
       "code": "C370",
       "name": "Azure Blue",
       "nameEn": null,
@@ -3168,6 +3356,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028737219.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c374",
       "code": "C374",
       "name": "Shallow Ocean Blue",
       "nameEn": null,
@@ -3185,6 +3374,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028737226.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c375",
       "code": "C375",
       "name": "Deep Ocean Blue",
       "nameEn": null,
@@ -3202,6 +3392,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028717822.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c376",
       "code": "C376",
       "name": "Radome Gray",
       "nameEn": null,
@@ -3219,6 +3410,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028737240.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c377",
       "code": "C377",
       "name": "Aluminized Silver FS17178",
       "nameEn": null,
@@ -3234,6 +3426,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.c378",
       "code": "C378",
       "name": "JASDF Landing Gear White",
       "nameEn": null,
@@ -3249,6 +3442,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.c379",
       "code": "C379",
       "name": "JASDF Cockpit Dark Gull Gray",
       "nameEn": null,
@@ -3264,6 +3458,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.c380",
       "code": "C380",
       "name": "Blue FS15180",
       "nameEn": null,
@@ -3281,6 +3476,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028721133.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c381",
       "code": "C381",
       "name": "Insignia White FS17925",
       "nameEn": null,
@@ -3296,6 +3492,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.c382",
       "code": "C382",
       "name": "Light Gull Gray FS36440",
       "nameEn": null,
@@ -3311,6 +3508,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.c383",
       "code": "C383",
       "name": "Dark Green (Kawanishi)",
       "nameEn": null,
@@ -3328,6 +3526,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028737257.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c384",
       "code": "C384",
       "name": "Cockpit Color (Kawanishi)",
       "nameEn": null,
@@ -3345,6 +3544,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028717853.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c385",
       "code": "C385",
       "name": "Red (IJN Marking)",
       "nameEn": null,
@@ -3362,6 +3562,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028737271.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c391",
       "code": "C391",
       "name": "Interior Turquoise Green/Soviet",
       "nameEn": null,
@@ -3379,6 +3580,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028736854.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c392",
       "code": "C392",
       "name": "Interior Blue/Soviet",
       "nameEn": null,
@@ -3396,6 +3598,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028736861.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c393",
       "code": "C393",
       "name": "Russian Aircraft Blue II",
       "nameEn": null,
@@ -3413,6 +3616,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028736878.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c411",
       "code": "C411",
       "name": "Classic Silver",
       "nameEn": null,
@@ -3428,6 +3632,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.c412",
       "code": "C412",
       "name": "Brass",
       "nameEn": null,
@@ -3443,6 +3648,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr-afv.c511",
       "code": "C511",
       "name": "Russian Green &quot;4BO”",
       "nameEn": null,
@@ -3460,6 +3666,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr-afv.c512",
       "code": "C512",
       "name": "Russian Green &quot;4BO” 1947-",
       "nameEn": null,
@@ -3477,6 +3684,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028717914.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-afv.c513",
       "code": "C513",
       "name": "Dark Grey DunkelGrau",
       "nameEn": null,
@@ -3494,6 +3702,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028717921.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-afv.c514",
       "code": "C514",
       "name": "Gray ”Grau”",
       "nameEn": null,
@@ -3511,6 +3720,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028736083.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-afv.c515",
       "code": "C515",
       "name": "Faded Gray ”Blassgrau”",
       "nameEn": null,
@@ -3528,6 +3738,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028736090.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-afv.c516",
       "code": "C516",
       "name": "Dark Green 3414",
       "nameEn": null,
@@ -3545,6 +3756,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028736533.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-afv.c517",
       "code": "C517",
       "name": "Brown 3606",
       "nameEn": null,
@@ -3562,6 +3774,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028736540.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-afv.c518",
       "code": "C518",
       "name": "Olive Drab 2314",
       "nameEn": null,
@@ -3579,6 +3792,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028736557.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-afv.c519",
       "code": "C519",
       "name": "Bronzegrun",
       "nameEn": null,
@@ -3596,6 +3810,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028736564.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-afv.c520",
       "code": "C520",
       "name": "Lederbraun",
       "nameEn": null,
@@ -3613,6 +3828,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028736571.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-afv.c521",
       "code": "C521",
       "name": "Teerschwarz - RAL9021 (NATO Black)",
       "nameEn": null,
@@ -3630,6 +3846,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028718003.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-afv.c522",
       "code": "C522",
       "name": "Ground Color",
       "nameEn": null,
@@ -3647,6 +3864,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028736595.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-afv.c523",
       "code": "C523",
       "name": "Grass Color",
       "nameEn": null,
@@ -3664,6 +3882,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028736601.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-afv.c524",
       "code": "C524",
       "name": "Hay Color",
       "nameEn": null,
@@ -3681,6 +3900,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028736618.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-afv.c525",
       "code": "C525",
       "name": "Green (Japanese Green)",
       "nameEn": null,
@@ -3698,6 +3918,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028736625.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-afv.c526",
       "code": "C526",
       "name": "Brown (Japanese Brown)",
       "nameEn": null,
@@ -3715,6 +3936,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028736632.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-afv.c527",
       "code": "C527",
       "name": "Khaki (Japanese Khaki)",
       "nameEn": null,
@@ -3732,6 +3954,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028718065.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-afv.c528",
       "code": "C528",
       "name": "IDF Gray 1 (-1981 Sinai)",
       "nameEn": null,
@@ -3749,6 +3972,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028736656.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-afv.c529",
       "code": "C529",
       "name": "IDF Gray 2 (-1981 Golan)",
       "nameEn": null,
@@ -3766,6 +3990,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028736663.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-afv.c530",
       "code": "C530",
       "name": "IDF Gray 3 (Modern)",
       "nameEn": null,
@@ -3783,6 +4008,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028736670.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c601",
       "code": "C601",
       "name": "IJN Hull Color/Kure",
       "nameEn": null,
@@ -3800,6 +4026,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028718102.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c602",
       "code": "C602",
       "name": "IJN Hull Color/Sasebo",
       "nameEn": null,
@@ -3817,6 +4044,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028737028.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c603",
       "code": "C603",
       "name": "IJN Hull Color/Maizuru",
       "nameEn": null,
@@ -3834,6 +4062,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028718126.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c604",
       "code": "C604",
       "name": "IJN Type 21 Camouflage Color",
       "nameEn": null,
@@ -3851,6 +4080,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028737042.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c605",
       "code": "C605",
       "name": "IJN Type 22 Camouflage Color",
       "nameEn": null,
@@ -3868,6 +4098,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028737059.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c606",
       "code": "C606",
       "name": "IJN Linoleum Deck Color",
       "nameEn": null,
@@ -3885,6 +4116,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028718157.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c607",
       "code": "C607",
       "name": "JMSDF 2704 Gray N5",
       "nameEn": null,
@@ -3902,6 +4134,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028737073.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c608",
       "code": "C608",
       "name": "JMSDF 2705 Dark Gray N4",
       "nameEn": null,
@@ -3919,6 +4152,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028718171.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.c609",
       "code": "C609",
       "name": "JMSDF Cleated Deck Color",
       "nameEn": null,
@@ -3936,6 +4170,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028737097.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.ac05",
       "code": "AC05",
       "name": "Stealth Blue",
       "nameEn": null,
@@ -3951,6 +4186,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.ac06",
       "code": "AC06",
       "name": "Dominant Blue",
       "nameEn": null,
@@ -3966,6 +4202,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.ac07",
       "code": "AC07",
       "name": "Flat Surface Blue",
       "nameEn": null,
@@ -3981,6 +4218,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.40",
       "code": "40",
       "name": "German Gray",
       "nameEn": null,
@@ -3996,6 +4234,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.ck1",
       "code": "CK1",
       "name": "Stone Wall",
       "nameEn": null,
@@ -4011,6 +4250,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.ck2",
       "code": "CK2",
       "name": "Roof Tile",
       "nameEn": null,
@@ -4026,6 +4266,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.ck3",
       "code": "CK3",
       "name": "The Plaster",
       "nameEn": null,
@@ -4041,6 +4282,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.ck4",
       "code": "CK4",
       "name": "Wood Floor-Pillar",
       "nameEn": null,
@@ -4056,6 +4298,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.mc211",
       "code": "MC211",
       "name": "Chrome Silver",
       "nameEn": null,
@@ -4073,6 +4316,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028738209-1.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.mc212",
       "code": "MC212",
       "name": "Iron",
       "nameEn": null,
@@ -4090,6 +4334,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028738216.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.mc213",
       "code": "MC213",
       "name": "Stainless",
       "nameEn": null,
@@ -4107,6 +4352,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028738223.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.mc214",
       "code": "MC214",
       "name": "Dark Iron",
       "nameEn": null,
@@ -4124,6 +4370,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028738230.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.mc215",
       "code": "MC215",
       "name": "Copper",
       "nameEn": null,
@@ -4141,6 +4388,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028738247.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.mc216",
       "code": "MC216",
       "name": "Bronze",
       "nameEn": null,
@@ -4158,6 +4406,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028738254.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.mc217",
       "code": "MC217",
       "name": "Gold",
       "nameEn": null,
@@ -4175,6 +4424,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028738261.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.mc218",
       "code": "MC218",
       "name": "Aluminum",
       "nameEn": null,
@@ -4192,6 +4442,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028738278.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.mc219",
       "code": "MC219",
       "name": "Mr Metal Color Brass",
       "nameEn": null,
@@ -4209,6 +4460,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028738285.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.sc01",
       "code": "SC01",
       "name": "Hull color/Kure",
       "nameEn": null,
@@ -4224,6 +4476,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.sc02",
       "code": "SC02",
       "name": "Hull Color/Sasebo",
       "nameEn": null,
@@ -4239,6 +4492,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.sc03",
       "code": "SC03",
       "name": "Hull color/Maizuru",
       "nameEn": null,
@@ -4254,6 +4508,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.sc04",
       "code": "SC04",
       "name": "Type 21 Camouflage Color IJN",
       "nameEn": null,
@@ -4269,6 +4524,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.sc05",
       "code": "SC05",
       "name": "Type 22 Camouflage Color IJN",
       "nameEn": null,
@@ -4284,6 +4540,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.sc06",
       "code": "SC06",
       "name": "Linoleum Deck Color",
       "nameEn": null,
@@ -4299,6 +4556,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.sc11",
       "code": "SC11",
       "name": "Haze Gray (5-H)",
       "nameEn": null,
@@ -4314,6 +4572,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.sc12",
       "code": "SC12",
       "name": "Ocean Grey (5-O)",
       "nameEn": null,
@@ -4329,6 +4588,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.sc13",
       "code": "SC13",
       "name": "Sea Blue (5-S)",
       "nameEn": null,
@@ -4344,6 +4604,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.sc15",
       "code": "SC15",
       "name": "Flight Deck Stain (#21)",
       "nameEn": null,
@@ -4359,6 +4620,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.sc16",
       "code": "SC16",
       "name": "Light Gray (5-L)",
       "nameEn": null,
@@ -4374,6 +4636,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.tc07",
       "code": "TC07",
       "name": "Dark Green 3414",
       "nameEn": null,
@@ -4389,6 +4652,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.tc08",
       "code": "TC08",
       "name": "Brown 3606",
       "nameEn": null,
@@ -4404,6 +4668,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.tc09",
       "code": "TC09",
       "name": "Olive Drab 2314",
       "nameEn": null,
@@ -4419,6 +4684,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.tc10",
       "code": "TC10",
       "name": "NATO Bronzegrün RAL 6031 (Green)",
       "nameEn": null,
@@ -4434,6 +4700,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.tc11",
       "code": "TC11",
       "name": "NATO Lederbraun RAL 8027 (Brown)",
       "nameEn": null,
@@ -4449,6 +4716,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.tc12",
       "code": "TC12",
       "name": "NATO Teerschwarz RAL 9021 (Black)",
       "nameEn": null,
@@ -4464,6 +4732,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.tc13",
       "code": "TC13",
       "name": "Ground Color",
       "nameEn": null,
@@ -4479,6 +4748,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.tc14",
       "code": "TC14",
       "name": "Grass Color",
       "nameEn": null,
@@ -4494,6 +4764,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.tc15",
       "code": "TC15",
       "name": "Hay Color",
       "nameEn": null,
@@ -4509,6 +4780,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.tc16",
       "code": "TC16",
       "name": "Green",
       "nameEn": null,
@@ -4524,6 +4796,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.tc17",
       "code": "TC17",
       "name": "Brown",
       "nameEn": null,
@@ -4539,6 +4812,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.tc18",
       "code": "TC18",
       "name": "Army Khaki",
       "nameEn": null,
@@ -4554,6 +4828,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.ug01",
       "code": "UG01",
       "name": "Gundam Color MS White",
       "nameEn": null,
@@ -4571,6 +4846,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028935653.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.ug02",
       "code": "UG02",
       "name": "Gundam Color MS Blue",
       "nameEn": null,
@@ -4588,6 +4864,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028935660.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.ug03",
       "code": "UG03",
       "name": "Gundam Color MS Yellow",
       "nameEn": null,
@@ -4603,6 +4880,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.ug04",
       "code": "UG04",
       "name": "Gundam Color MS Red",
       "nameEn": null,
@@ -4620,6 +4898,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028935684.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.ug05",
       "code": "UG05",
       "name": "Gundam Color U.N.T.'s MS Grey",
       "nameEn": null,
@@ -4637,6 +4916,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028935691.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.ug06",
       "code": "UG06",
       "name": "Gundam Color MS Green",
       "nameEn": null,
@@ -4654,6 +4934,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028935707.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.ug07",
       "code": "UG07",
       "name": "Gundam Color MS DEEP GREEN",
       "nameEn": null,
@@ -4671,6 +4952,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028935714.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.ug08",
       "code": "UG08",
       "name": "Gundam Color MS Purple",
       "nameEn": null,
@@ -4688,6 +4970,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028935721.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.ug12",
       "code": "UG12",
       "name": "Gundam Color MS SAZABI RED",
       "nameEn": null,
@@ -4705,6 +4988,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028935769.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.ug13",
       "code": "UG13",
       "name": "GUNDAM COLOR A.E.U.G.'s MS BLUE",
       "nameEn": null,
@@ -4722,6 +5006,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028935776.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.ug14",
       "code": "UG14",
       "name": "Gundam Color MS Light Blue",
       "nameEn": null,
@@ -4739,6 +5024,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028033847.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.ug15",
       "code": "UG15",
       "name": "Gundam Color MS Phantom Grey",
       "nameEn": null,
@@ -4756,6 +5042,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028033854.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.ug16",
       "code": "UG16",
       "name": "Gundam Color TITANS BLUE 1",
       "nameEn": null,
@@ -4773,6 +5060,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028112016.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.ug17",
       "code": "UG17",
       "name": "Gundam Color MS Titans Blue 2",
       "nameEn": null,
@@ -4790,6 +5078,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028112023.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.ug18",
       "code": "UG18",
       "name": "Gundam Color for Builders RX-78 WHITE Ver. ANIME",
       "nameEn": null,
@@ -4807,6 +5096,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028736151.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.ug19",
       "code": "UG19",
       "name": "Gundam Color for Builders RX-78 BLUE Ver. ANIME",
       "nameEn": null,
@@ -4824,6 +5114,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028736168.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.ug20",
       "code": "UG20",
       "name": "RX-78 RED Ver. ANIME",
       "nameEn": null,
@@ -4841,6 +5132,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028736175.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.ug21",
       "code": "UG21",
       "name": "Gundam Color for Builders RX-78 YELLOW Ver. ANIME",
       "nameEn": null,
@@ -4858,6 +5150,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028736182.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.ug22",
       "code": "UG22",
       "name": "GUNDAM COLOR FOR BUILDERS MS-06S RED Ver ANIME",
       "nameEn": null,
@@ -4875,6 +5168,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028736199.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.ug23",
       "code": "UG23",
       "name": "GUNDAM COLOR FOR BUILDERS MS-06S PINK Ver ANIME",
       "nameEn": null,
@@ -4892,6 +5186,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028736205.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.um01",
       "code": "UM01",
       "name": "Ultra Metallic Ultra Silver",
       "nameEn": null,
@@ -4909,6 +5204,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028431124.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.um02",
       "code": "UM02",
       "name": "Ultra Metallic Ultra Gold",
       "nameEn": null,
@@ -4926,6 +5222,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028431131.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.yc03",
       "code": "YC03",
       "name": "Yamato Blue1",
       "nameEn": null,
@@ -4941,6 +5238,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.yc07",
       "code": "YC07",
       "name": "Garmillas Green 1",
       "nameEn": null,
@@ -4956,6 +5254,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.yc08",
       "code": "YC08",
       "name": "Garmillas Green 2",
       "nameEn": null,
@@ -4971,6 +5270,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.yc09",
       "code": "YC09",
       "name": "Garmillas Green 3",
       "nameEn": null,
@@ -4986,6 +5286,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.yc16",
       "code": "YC16",
       "name": "Carmillas Red 1",
       "nameEn": null,
@@ -5001,6 +5302,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.yc17",
       "code": "YC17",
       "name": "Carmillas Red 2",
       "nameEn": null,
@@ -5016,6 +5318,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.yc18",
       "code": "YC18",
       "name": "Carmillas Red 3",
       "nameEn": null,
@@ -5031,6 +5334,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.yc19",
       "code": "YC19",
       "name": "Carmillas Blue 1",
       "nameEn": null,
@@ -5046,6 +5350,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.yc20",
       "code": "YC20",
       "name": "Carmillas Green 5",
       "nameEn": null,
@@ -5061,6 +5366,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.yc21",
       "code": "YC21",
       "name": "Carmillas Red 4",
       "nameEn": null,
@@ -5076,6 +5382,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.cmc01",
       "code": "CMC01",
       "name": "OD Highlight 1",
       "nameEn": null,
@@ -5091,6 +5398,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.cmc02",
       "code": "CMC02",
       "name": "OD Highlight 2",
       "nameEn": null,
@@ -5106,6 +5414,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.cmc03",
       "code": "CMC03",
       "name": "OD Shadow",
       "nameEn": null,
@@ -5121,6 +5430,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.cmc04",
       "code": "CMC04",
       "name": "DY Highlight 1",
       "nameEn": null,
@@ -5136,6 +5446,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.cmc05",
       "code": "CMC05",
       "name": "DY Highlight 2",
       "nameEn": null,
@@ -5151,6 +5462,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.cmc06",
       "code": "CMC06",
       "name": "DY Shadow",
       "nameEn": null,
@@ -5166,6 +5478,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.cmc07",
       "code": "CMC07",
       "name": "GG Highlight 1",
       "nameEn": null,
@@ -5181,6 +5494,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.cmc08",
       "code": "CMC08",
       "name": "GG Highlight 2",
       "nameEn": null,
@@ -5196,6 +5510,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.cmc09",
       "code": "CMC09",
       "name": "GG Shadow",
       "nameEn": null,
@@ -5211,6 +5526,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.cmc10",
       "code": "CMC10",
       "name": "RG CM Base",
       "nameEn": null,
@@ -5226,6 +5542,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.cmc11",
       "code": "CMC11",
       "name": "RG Highlight 1",
       "nameEn": null,
@@ -5241,6 +5558,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.cmc12",
       "code": "CMC12",
       "name": "RG Highlight 2",
       "nameEn": null,
@@ -5256,6 +5574,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.cmc13",
       "code": "CMC13",
       "name": "RG Shadow",
       "nameEn": null,
@@ -5271,6 +5590,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.cr2",
       "code": "CR2",
       "name": "Magenta",
       "nameEn": null,
@@ -5286,6 +5606,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.cre03",
       "code": "CRE03",
       "name": "Revival British Green",
       "nameEn": null,
@@ -5303,6 +5624,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028733501.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.cv01",
       "code": "CV01",
       "name": "Velvet Red",
       "nameEn": null,
@@ -5320,6 +5642,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028732849.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.cv02",
       "code": "CV02",
       "name": "Velvet Blue",
       "nameEn": null,
@@ -5337,6 +5660,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028732856.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.cv03",
       "code": "CV03",
       "name": "Velvet Green",
       "nameEn": null,
@@ -5354,6 +5678,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028732863.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-gx.gx1",
       "code": "GX1",
       "name": "Cool White",
       "nameEn": null,
@@ -5371,6 +5696,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028718195.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-gx.gx2",
       "code": "GX2",
       "name": "Ueno Black",
       "nameEn": null,
@@ -5388,6 +5714,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028718201.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-gx.gx4",
       "code": "GX4",
       "name": "Chiara Yellow",
       "nameEn": null,
@@ -5405,6 +5732,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028718225.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-gx.gx5",
       "code": "GX5",
       "name": "Susie Blue",
       "nameEn": null,
@@ -5422,6 +5750,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028718232.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-gx.gx6",
       "code": "GX6",
       "name": "Morrie Green",
       "nameEn": null,
@@ -5439,6 +5768,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028718249.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-gx.gx100",
       "code": "GX100",
       "name": "Super Clear III",
       "nameEn": null,
@@ -5456,6 +5786,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028718256.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-gx.gx102",
       "code": "GX102",
       "name": "GX Deep Clear Red",
       "nameEn": null,
@@ -5473,6 +5804,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028420067.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-gx.gx103",
       "code": "GX103",
       "name": "GX Deep Clear Blue",
       "nameEn": null,
@@ -5490,6 +5822,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028420074.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-gx.gx104",
       "code": "GX104",
       "name": "GX Clear Green",
       "nameEn": null,
@@ -5507,6 +5840,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028420081.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-gx.gx106",
       "code": "GX106",
       "name": "GX Clear Orange",
       "nameEn": null,
@@ -5524,6 +5858,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028420104.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-gx.gx107",
       "code": "GX107",
       "name": "GX Clear Purple",
       "nameEn": null,
@@ -5541,6 +5876,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028420111.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-gx.gx108",
       "code": "GX108",
       "name": "GX Clear Violet",
       "nameEn": null,
@@ -5558,6 +5894,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028420128.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-gx.gx111",
       "code": "GX111",
       "name": "GX Clear Gold",
       "nameEn": null,
@@ -5575,6 +5912,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028420159.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-gx.gx112",
       "code": "GX112",
       "name": "Super Clear III UV Cut",
       "nameEn": null,
@@ -5592,6 +5930,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028631388.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-gx.gx113",
       "code": "GX113",
       "name": "Super Clear III UV Cut Flat",
       "nameEn": null,
@@ -5609,6 +5948,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028631395.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-gx.gx114",
       "code": "GX114",
       "name": "Flat Super Smooth Clear",
       "nameEn": null,
@@ -5626,6 +5966,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028631951.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-gx.gx121",
       "code": "GX121",
       "name": "GX Clear Rouge",
       "nameEn": null,
@@ -5643,6 +5984,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028506587.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-gx.gx122",
       "code": "GX122",
       "name": "GX Clear Peacock Green",
       "nameEn": null,
@@ -5660,6 +6002,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028507744.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-gx.gx201",
       "code": "GX201",
       "name": "GX Metal Black",
       "nameEn": null,
@@ -5677,6 +6020,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028033328.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-gx.gx202",
       "code": "GX202",
       "name": "GX Metal Red",
       "nameEn": null,
@@ -5694,6 +6038,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028033335.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-gx.gx203",
       "code": "GX203",
       "name": "GX Metal Yellow",
       "nameEn": null,
@@ -5711,6 +6056,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028033342.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-gx.gx204",
       "code": "GX204",
       "name": "GX Metal Blue",
       "nameEn": null,
@@ -5728,6 +6074,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028033359.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-gx.gx205",
       "code": "GX205",
       "name": "GX Metal Green",
       "nameEn": null,
@@ -5745,6 +6092,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028033366.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-gx.gx206",
       "code": "GX206",
       "name": "GX metal Purple",
       "nameEn": null,
@@ -5762,6 +6110,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028033373.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-gx.gx207",
       "code": "GX207",
       "name": "GX Metal Violet",
       "nameEn": null,
@@ -5779,6 +6128,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028033380.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-gx.gx209",
       "code": "GX209",
       "name": "GX Red Gold",
       "nameEn": null,
@@ -5796,6 +6146,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028033403.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-gx.gx210",
       "code": "GX210",
       "name": "GX Blue Gold",
       "nameEn": null,
@@ -5813,6 +6164,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028033410.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-gx.gx211",
       "code": "GX211",
       "name": "GX Metal Yellow Green",
       "nameEn": null,
@@ -5830,6 +6182,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028033953.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-gx.gx212",
       "code": "GX212",
       "name": "GX Metal Peach",
       "nameEn": null,
@@ -5847,6 +6200,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028033960.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-gx.gx213",
       "code": "GX213",
       "name": "GX White Silver",
       "nameEn": null,
@@ -5864,6 +6218,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028033984.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-gx.gx214",
       "code": "GX214",
       "name": "GX Ice Silver",
       "nameEn": null,
@@ -5881,6 +6236,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028033991.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-gx.gx215",
       "code": "GX215",
       "name": "Metal Bloody Red",
       "nameEn": null,
@@ -5898,6 +6254,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028420005.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-gx.gx216",
       "code": "GX216",
       "name": "metal Dark Blue",
       "nameEn": null,
@@ -5915,6 +6272,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028420012.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-gx.gx217",
       "code": "GX217",
       "name": "GX Rough Gold",
       "nameEn": null,
@@ -5932,6 +6290,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028420029.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr-gx.gx218",
       "code": "GX218",
       "name": "Graphite Black",
       "nameEn": null,
@@ -5949,6 +6308,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028508642.jpg"
     },
     {
+      "catalogId": "gsi-creos.lac102",
       "code": "LAC102",
       "name": "Parker Gun Metallic",
       "nameEn": null,
@@ -5966,6 +6326,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028733167.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.sc10",
       "code": "SC10",
       "name": "Deck Blue (20-8)",
       "nameEn": null,
@@ -5981,6 +6342,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.xc01",
       "code": "XC01",
       "name": "Mr. Crystal Color Diamond Silver",
       "nameEn": null,
@@ -5998,6 +6360,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028718607.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.xc02",
       "code": "XC02",
       "name": "Topaz Gold",
       "nameEn": null,
@@ -6015,6 +6378,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028718614.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.xc03",
       "code": "XC03",
       "name": "Mr. Crystal Color Ruby Red",
       "nameEn": null,
@@ -6032,6 +6396,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028718621.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.xc04",
       "code": "XC04",
       "name": "Mr. Crystal Color Amethyst Purple",
       "nameEn": null,
@@ -6049,6 +6414,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028718638.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.xc05",
       "code": "XC05",
       "name": "Mr. Crystal Color Saphire Blue",
       "nameEn": null,
@@ -6066,6 +6432,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028718645.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.xc06",
       "code": "XC06",
       "name": "Mr. Crystal Color Tourmaline Green",
       "nameEn": null,
@@ -6083,6 +6450,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028718652.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.xc07",
       "code": "XC07",
       "name": "Mr. Crystal Color Turquoise Green",
       "nameEn": null,
@@ -6100,6 +6468,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028718669.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.xc08",
       "code": "XC08",
       "name": "Mr. Crystal Color Moonstone Pearl",
       "nameEn": null,
@@ -6117,6 +6486,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028718676.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.yc22",
       "code": "YC22",
       "name": "Carmillas Purple 3",
       "nameEn": null,
@@ -6132,6 +6502,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.yc23",
       "code": "YC23",
       "name": "Carmillas Green 6",
       "nameEn": null,
@@ -6147,6 +6518,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.yc24",
       "code": "YC24",
       "name": "Caemillas Gray 1",
       "nameEn": null,
@@ -6162,6 +6534,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.b504",
       "code": "B504",
       "name": "Mr. Metal Primer-R",
       "nameEn": null,
@@ -6177,6 +6550,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.mp242",
       "code": "MP242",
       "name": "Mr. Metal Primer-R",
       "nameEn": null,
@@ -6192,6 +6566,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.rp261",
       "code": "RP261",
       "name": "Mr. Resin Primer Surfacer",
       "nameEn": null,
@@ -6207,6 +6582,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.sf242",
       "code": "SF242",
       "name": "Mr. Metal Primer",
       "nameEn": null,
@@ -6222,6 +6598,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.sf281",
       "code": "SF281",
       "name": "Mr. Surfacer 1000",
       "nameEn": null,
@@ -6237,6 +6614,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.sf283",
       "code": "SF283",
       "name": "Mr. Base White 1000",
       "nameEn": null,
@@ -6252,6 +6630,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.sf285",
       "code": "SF285",
       "name": "Mr. Surfacer 500",
       "nameEn": null,
@@ -6267,6 +6646,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.sf286",
       "code": "SF286",
       "name": "Mr. Surfacer 1200",
       "nameEn": null,
@@ -6282,6 +6662,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.sf287",
       "code": "SF287",
       "name": "Mr. Primer Surfacer 1000",
       "nameEn": null,
@@ -6297,6 +6678,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.sf288",
       "code": "SF288",
       "name": "Mr. Finishing Surfacer 1500 Black",
       "nameEn": null,
@@ -6312,6 +6694,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.sf289",
       "code": "SF289",
       "name": "Mr. Finishing Surfacer 1500 Gray",
       "nameEn": null,
@@ -6327,6 +6710,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.sf290",
       "code": "SF290",
       "name": "Mr. Mahogany Surfacer 1000",
       "nameEn": null,
@@ -6342,6 +6726,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.sf291",
       "code": "SF291",
       "name": "Mr. Finishing Surfacer 1500 White",
       "nameEn": null,
@@ -6357,6 +6742,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.sf292",
       "code": "SF292",
       "name": "Mr. Finishing Surfacer 1500 Pink",
       "nameEn": null,
@@ -6372,6 +6758,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.sf294",
       "code": "SF294",
       "name": "Mr. Primer Surfacer 1000 - Dark Gray",
       "nameEn": null,
@@ -6387,6 +6774,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.s1",
       "code": "S1",
       "name": "White",
       "nameEn": null,
@@ -6404,6 +6792,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835328.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s2",
       "code": "S2",
       "name": "Black",
       "nameEn": null,
@@ -6421,6 +6810,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835335.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s3",
       "code": "S3",
       "name": "Red",
       "nameEn": null,
@@ -6438,6 +6828,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835342.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s4",
       "code": "S4",
       "name": "Yellow",
       "nameEn": null,
@@ -6453,6 +6844,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.s5",
       "code": "S5",
       "name": "Blue",
       "nameEn": null,
@@ -6470,6 +6862,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835366.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s6",
       "code": "S6",
       "name": "Green",
       "nameEn": null,
@@ -6487,6 +6880,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028928150.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s8",
       "code": "S8",
       "name": "Silver",
       "nameEn": null,
@@ -6504,6 +6898,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835380.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s9",
       "code": "S9",
       "name": "Gold",
       "nameEn": null,
@@ -6521,6 +6916,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835397.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s11",
       "code": "S11",
       "name": "Light Gull Gray",
       "nameEn": null,
@@ -6538,6 +6934,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835403.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s12",
       "code": "S12",
       "name": "Olive Drab",
       "nameEn": null,
@@ -6555,6 +6952,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835410.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s13",
       "code": "S13",
       "name": "Neutral Gray",
       "nameEn": null,
@@ -6572,6 +6970,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835427.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s14",
       "code": "S14",
       "name": "Navy Blue",
       "nameEn": null,
@@ -6589,6 +6988,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835434.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s15",
       "code": "S15",
       "name": "IJN Green (Nakajima)",
       "nameEn": null,
@@ -6606,6 +7006,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835441.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s16",
       "code": "S16",
       "name": "IJA Green",
       "nameEn": null,
@@ -6623,6 +7024,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835458.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s28",
       "code": "S28",
       "name": "Steel",
       "nameEn": null,
@@ -6640,6 +7042,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835465.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s29",
       "code": "S29",
       "name": "Hull Red",
       "nameEn": null,
@@ -6657,6 +7060,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835472.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s30",
       "code": "S30",
       "name": "Flat Clear",
       "nameEn": null,
@@ -6674,6 +7078,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835489.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s31",
       "code": "S31",
       "name": "Dark Gray (1)",
       "nameEn": null,
@@ -6691,6 +7096,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835496.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s32",
       "code": "S32",
       "name": "Dark Grey (2)",
       "nameEn": null,
@@ -6708,6 +7114,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835502.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s33",
       "code": "S33",
       "name": "Flat Black",
       "nameEn": null,
@@ -6725,6 +7132,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835519.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s34",
       "code": "S34",
       "name": "Sky Blue",
       "nameEn": null,
@@ -6742,6 +7150,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835526.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s35",
       "code": "S35",
       "name": "IJN Gray (Mitsubishi)",
       "nameEn": null,
@@ -6759,6 +7168,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835533.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s38",
       "code": "S38",
       "name": "OLIVE DRAB(2)",
       "nameEn": null,
@@ -6776,6 +7186,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835540.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s39",
       "code": "S39",
       "name": "Dark Yellow",
       "nameEn": null,
@@ -6793,6 +7204,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835557.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s40",
       "code": "S40",
       "name": "German Gray (3/4 flat)",
       "nameEn": null,
@@ -6810,6 +7222,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835564.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s41",
       "code": "S41",
       "name": "Red Brown (3/4 flat)",
       "nameEn": null,
@@ -6827,6 +7240,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835571.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s42",
       "code": "S42",
       "name": "Mahogany",
       "nameEn": null,
@@ -6844,6 +7258,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835588.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s43",
       "code": "S43",
       "name": "Wood Brown",
       "nameEn": null,
@@ -6861,6 +7276,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835595.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s44",
       "code": "S44",
       "name": "Tan",
       "nameEn": null,
@@ -6878,6 +7294,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835601.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s46",
       "code": "S46",
       "name": "Gloss Clear",
       "nameEn": null,
@@ -6895,6 +7312,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835618.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s47",
       "code": "S47",
       "name": "Clear Red",
       "nameEn": null,
@@ -6912,6 +7330,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835625.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s48",
       "code": "S48",
       "name": "Clear Yellow",
       "nameEn": null,
@@ -6929,6 +7348,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835632.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s49",
       "code": "S49",
       "name": "Clear Orange",
       "nameEn": null,
@@ -6946,6 +7366,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835649.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s50",
       "code": "S50",
       "name": "Clear Blue",
       "nameEn": null,
@@ -6963,6 +7384,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835656.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s58",
       "code": "S58",
       "name": "Orange Yellow",
       "nameEn": null,
@@ -6980,6 +7402,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835663.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s62",
       "code": "S62",
       "name": "Flat White",
       "nameEn": null,
@@ -6997,6 +7420,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835670.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s63",
       "code": "S63",
       "name": "Pink",
       "nameEn": null,
@@ -7014,6 +7438,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835687.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s64",
       "code": "S64",
       "name": "Yellow Green",
       "nameEn": null,
@@ -7031,6 +7456,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835694.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s65",
       "code": "S65",
       "name": "Bright Blue",
       "nameEn": null,
@@ -7048,6 +7474,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835700.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s66",
       "code": "S66",
       "name": "Bright Green",
       "nameEn": null,
@@ -7065,6 +7492,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835717.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s67",
       "code": "S67",
       "name": "Purple",
       "nameEn": null,
@@ -7082,6 +7510,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835724.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s68",
       "code": "S68",
       "name": "Red Madder",
       "nameEn": null,
@@ -7099,6 +7528,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835731.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s69",
       "code": "S69",
       "name": "Off White",
       "nameEn": null,
@@ -7116,6 +7546,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835748.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s70",
       "code": "S70",
       "name": "Dark Green (3/4 Flat)",
       "nameEn": null,
@@ -7133,6 +7564,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835755.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s75",
       "code": "S75",
       "name": "Metallic Red",
       "nameEn": null,
@@ -7150,6 +7582,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835762.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s76",
       "code": "S76",
       "name": "Metallic Blue",
       "nameEn": null,
@@ -7167,6 +7600,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835779.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s77",
       "code": "S77",
       "name": "Metallic Green",
       "nameEn": null,
@@ -7184,6 +7618,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835786.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s78",
       "code": "S78",
       "name": "Metallic Black",
       "nameEn": null,
@@ -7201,6 +7636,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835793.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s79",
       "code": "S79",
       "name": "Shine Red",
       "nameEn": null,
@@ -7218,6 +7654,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835809.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s80",
       "code": "S80",
       "name": "Cobalt Blue",
       "nameEn": null,
@@ -7235,6 +7672,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835816.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s81",
       "code": "S81",
       "name": "Russet",
       "nameEn": null,
@@ -7252,6 +7690,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835823.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s82",
       "code": "S82",
       "name": "Scarlet",
       "nameEn": null,
@@ -7267,6 +7706,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.gsij084",
       "code": "GSIJ084",
       "name": "Sepia",
       "nameEn": null,
@@ -7282,6 +7722,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.s90",
       "code": "S90",
       "name": "Shine Silver",
       "nameEn": null,
@@ -7299,6 +7740,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835830.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s92",
       "code": "S92",
       "name": "Semi Gloss Black",
       "nameEn": null,
@@ -7314,6 +7756,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.s97",
       "code": "S97",
       "name": "Light Gray",
       "nameEn": null,
@@ -7331,6 +7774,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835854.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s101",
       "code": "S101",
       "name": "Smoke Gray",
       "nameEn": null,
@@ -7348,6 +7792,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835861.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s107",
       "code": "S107",
       "name": "Character White",
       "nameEn": null,
@@ -7365,6 +7810,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835878.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s108",
       "code": "S108",
       "name": "Character Red",
       "nameEn": null,
@@ -7382,6 +7828,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835885.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s109",
       "code": "S109",
       "name": "Character Yellow",
       "nameEn": null,
@@ -7399,6 +7846,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835892.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s110",
       "code": "S110",
       "name": "Character Blue",
       "nameEn": null,
@@ -7416,6 +7864,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835908.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s111",
       "code": "S111",
       "name": "Character Flesh 1",
       "nameEn": null,
@@ -7433,6 +7882,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835915.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s112",
       "code": "S112",
       "name": "Character Flesh 2",
       "nameEn": null,
@@ -7450,6 +7900,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835922.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s115",
       "code": "S115",
       "name": "RLM65 Light Blue",
       "nameEn": null,
@@ -7467,6 +7918,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835939.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s117",
       "code": "S117",
       "name": "RLM76 Light Blue",
       "nameEn": null,
@@ -7484,6 +7936,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835946.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s124",
       "code": "S124",
       "name": "Dark Green (Mitsubishi)",
       "nameEn": null,
@@ -7501,6 +7954,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835953.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s129",
       "code": "S129",
       "name": "Dark Green (Nakajima)",
       "nameEn": null,
@@ -7518,6 +7972,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028928747.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.s151",
       "code": "S151",
       "name": "White Pearl",
       "nameEn": null,
@@ -7535,6 +7990,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835977.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.b505",
       "code": "B505",
       "name": "Mr. Surfacer 1000",
       "nameEn": null,
@@ -7550,6 +8006,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.b506",
       "code": "B506",
       "name": "Mr. Surfacer 500 Spray",
       "nameEn": null,
@@ -7565,6 +8022,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.sg11",
       "code": "SG11",
       "name": "Gundam Color MS MS Char Red",
       "nameEn": null,
@@ -7580,6 +8038,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.sj01",
       "code": "SJ01",
       "name": "Kure Naval Arsenal (3/4 Flat)",
       "nameEn": null,
@@ -7597,6 +8056,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835984.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.sj02",
       "code": "SJ02",
       "name": "Sasebo Naval Arsenal (3/4 Flat)",
       "nameEn": null,
@@ -7614,6 +8074,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028835991.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.ys01",
       "code": "YS01",
       "name": "Space Battleship Yamato Gray",
       "nameEn": null,
@@ -7629,6 +8090,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.ys02",
       "code": "YS02",
       "name": "Space Battleship Yamato Red",
       "nameEn": null,
@@ -7644,6 +8106,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.b511",
       "code": "B511",
       "name": "Mr. White Surfacer 1000",
       "nameEn": null,
@@ -7659,6 +8122,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.b513",
       "code": "B513",
       "name": "Mr. Super Clear Gloss",
       "nameEn": null,
@@ -7674,6 +8138,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.b514",
       "code": "B514",
       "name": "Mr. Super Clear Flat",
       "nameEn": null,
@@ -7689,6 +8154,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.b515",
       "code": "B515",
       "name": "Mr. Surfacer 1200",
       "nameEn": null,
@@ -7704,6 +8170,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.b516",
       "code": "B516",
       "name": "Mr. Super Clear Semi-Gloss",
       "nameEn": null,
@@ -7719,6 +8186,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.b519",
       "code": "B519",
       "name": "Mr. Surfacer 1000",
       "nameEn": null,
@@ -7734,6 +8202,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.b522",
       "code": "B522",
       "name": "Mr. Super Clear Gloss UV Cut",
       "nameEn": null,
@@ -7749,6 +8218,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.b523",
       "code": "B523",
       "name": "Mr. Super Clear Flat",
       "nameEn": null,
@@ -7764,6 +8234,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.b525",
       "code": "B525",
       "name": "Mr. Oxide Red Surfacer 1000",
       "nameEn": null,
@@ -7779,6 +8250,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.b527",
       "code": "B527",
       "name": "Mr. Finishing Surfacer 1500 Gray",
       "nameEn": null,
@@ -7794,6 +8266,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.b528",
       "code": "B528",
       "name": "Mr. Mahogany Surfacer 1000",
       "nameEn": null,
@@ -7809,6 +8282,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.b529",
       "code": "B529",
       "name": "Mr. Finishing Surfacer 1500 White",
       "nameEn": null,
@@ -7824,6 +8298,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.b530",
       "code": "B530",
       "name": "Mr Super Smooth Clear",
       "nameEn": null,
@@ -7839,6 +8314,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.sm201",
       "code": "SM201",
       "name": "Super Metallic 2 - Super Fine Silver",
       "nameEn": null,
@@ -7856,6 +8332,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028718683.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.sm202",
       "code": "SM202",
       "name": "Super Metallic 2 - Super Gold",
       "nameEn": null,
@@ -7873,6 +8350,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028718690.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.sm203",
       "code": "SM203",
       "name": "Super Metallic 2 - Super Iron",
       "nameEn": null,
@@ -7890,6 +8368,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028718706.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.sm204",
       "code": "SM204",
       "name": "Super Metallic 2 - Super Stainless",
       "nameEn": null,
@@ -7907,6 +8386,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028718713.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.sm205",
       "code": "SM205",
       "name": "Super Metallic 2 - Super Titanum",
       "nameEn": null,
@@ -7924,6 +8404,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028718720.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.sm206",
       "code": "SM206",
       "name": "Super Metallic 2 - Super Chrome Silver",
       "nameEn": null,
@@ -7941,6 +8422,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028718737.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.sm207",
       "code": "SM207",
       "name": "Super Metallic 2 - Super Rich Gold",
       "nameEn": null,
@@ -7958,6 +8440,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028718744.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.sm208",
       "code": "SM208",
       "name": "Super Metallic 2 - Super Duraluminum",
       "nameEn": null,
@@ -7975,6 +8458,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028506525.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.sm209",
       "code": "SM209",
       "name": "Super Metallic 2 - Super Copper",
       "nameEn": null,
@@ -7992,6 +8476,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028506532.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.sm210",
       "code": "SM210",
       "name": "Super Metallic 2 Super Pink Gold",
       "nameEn": null,
@@ -8009,6 +8494,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028734287.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.sm211",
       "code": "SM211",
       "name": "Super Metallic 2 Super Red Gold",
       "nameEn": null,
@@ -8026,6 +8512,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028734294.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.sm212",
       "code": "SM212",
       "name": "Super Metallic 2 Super Matt Aluminium",
       "nameEn": null,
@@ -8041,6 +8528,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.sm01",
       "code": "SM01",
       "name": "Super Fine Silver",
       "nameEn": null,
@@ -8056,6 +8544,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.sm02",
       "code": "SM02",
       "name": "Super Gold",
       "nameEn": null,
@@ -8071,6 +8560,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.sm04",
       "code": "SM04",
       "name": "Super Stainless",
       "nameEn": null,
@@ -8086,6 +8576,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.sm06",
       "code": "SM06",
       "name": "Chrome Silver",
       "nameEn": null,
@@ -8101,6 +8592,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.sm08",
       "code": "SM08",
       "name": "Super Metallic PLATE SILVER",
       "nameEn": null,
@@ -8116,6 +8608,7 @@
       "photoUrl": null
     },
     {
+      "catalogId": "gsi-creos.mr.cl03",
       "code": "CL03",
       "name": "Pale Clear Red",
       "nameEn": null,
@@ -8133,6 +8626,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028736908.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.cl04",
       "code": "CL04",
       "name": "Pale Clear Orange",
       "nameEn": null,
@@ -8150,6 +8644,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028736915.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.cl05",
       "code": "CL05",
       "name": "Pale Clear Brown",
       "nameEn": null,
@@ -8167,6 +8662,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028736922.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.cl101",
       "code": "CL101",
       "name": "Aura Blond",
       "nameEn": null,
@@ -8184,6 +8680,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028719970.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.cl102",
       "code": "CL102",
       "name": "Aura Copper Brown",
       "nameEn": null,
@@ -8201,6 +8698,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028719987.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.cl103",
       "code": "CL103",
       "name": "Aura Black Hair",
       "nameEn": null,
@@ -8218,6 +8716,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028719994.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.cl104",
       "code": "CL104",
       "name": "Aura Pink Purple",
       "nameEn": null,
@@ -8235,6 +8734,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028922882.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.cl105",
       "code": "CL105",
       "name": "Aura Lilac",
       "nameEn": null,
@@ -8252,6 +8752,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028922899.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.cl106",
       "code": "CL106",
       "name": "Aura Icy White",
       "nameEn": null,
@@ -8269,6 +8770,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028922905.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.cl107",
       "code": "CL107",
       "name": "Aura Flaxen",
       "nameEn": null,
@@ -8286,6 +8788,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028922912.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.cl108",
       "code": "CL108",
       "name": "Aura Pale Blue-Green",
       "nameEn": null,
@@ -8303,6 +8806,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028922929.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.cl109",
       "code": "CL109",
       "name": "Aura Lime Green",
       "nameEn": null,
@@ -8320,6 +8824,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028922936.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.cl110",
       "code": "CL110",
       "name": "Aura Scarlet",
       "nameEn": null,
@@ -8337,6 +8842,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028922943.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.cl111",
       "code": "CL111",
       "name": "Aura Azure",
       "nameEn": null,
@@ -8354,6 +8860,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028922950.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.cl01",
       "code": "CL01",
       "name": "White Peach",
       "nameEn": null,
@@ -8371,6 +8878,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028736885.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.cl02",
       "code": "CL02",
       "name": "Cocoa Milk",
       "nameEn": null,
@@ -8388,6 +8896,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028736892.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.cl06",
       "code": "CL06",
       "name": "Clear White",
       "nameEn": null,
@@ -8405,6 +8914,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028739374.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.cl07",
       "code": "CL07",
       "name": "Rosy Peach",
       "nameEn": null,
@@ -8422,6 +8932,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028505696.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.cl08",
       "code": "CL08",
       "name": "Nuts White",
       "nameEn": null,
@@ -8439,6 +8950,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gsicreos/4973028505702.jpg"
     },
     {
+      "catalogId": "gsi-creos.mr.cl09",
       "code": "CL09",
       "name": "Smooth Pearl Coat",
       "nameEn": null,

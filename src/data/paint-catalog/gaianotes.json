@@ -16,6 +16,7 @@
   "notes": "품번·색이름·용량·시리즈·JAN 바코드는 ツルマイ模型 상품 목록에서, 색상값은 가이아노츠 공식 컬러차트에서 품번으로 맞춰 왔다. 공식 차트는 캐릭터 컬러를 빼고 실려 있어 그쪽 색상값은 비어 있다. 신너·마커·왁스·컬러 세트는 도료가 아니라 뺐다.",
   "paints": [
     {
+      "catalogId": "gaianotes.nazca.ne-001",
       "code": "NE-001",
       "name": "デントグレー",
       "nameEn": null,
@@ -31,6 +32,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4580172307436.jpg"
     },
     {
+      "catalogId": "gaianotes.nazca.ne-003",
       "code": "NE-003",
       "name": "ピンポイント シルバー",
       "nameEn": null,
@@ -46,6 +48,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4580172307450.jpg"
     },
     {
+      "catalogId": "gaianotes.ssfg1",
       "code": "SSFG1",
       "name": "源内 あお ブラウン",
       "nameEn": null,
@@ -61,6 +64,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4580175304210.jpg"
     },
     {
+      "catalogId": "gaianotes.ssfg3",
       "code": "SSFG3",
       "name": "若葉女子校 薄紫",
       "nameEn": null,
@@ -76,6 +80,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4580175304234.jpg"
     },
     {
+      "catalogId": "gaianotes.ssfg4",
       "code": "SSFG4",
       "name": "若葉女子校 モノクローム ベージュ",
       "nameEn": null,
@@ -91,6 +96,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4580175304241.jpg"
     },
     {
+      "catalogId": "gaianotes.ad-01",
       "code": "AD-01",
       "name": "アルカナ ブラウン",
       "nameEn": null,
@@ -106,6 +112,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4580175304418.jpg"
     },
     {
+      "catalogId": "gaianotes.ad-03",
       "code": "AD-03",
       "name": "アルカナ ゴールド",
       "nameEn": null,
@@ -121,6 +128,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4580175304432.jpg"
     },
     {
+      "catalogId": "gaianotes.ad-04",
       "code": "AD-04",
       "name": "アルカナ ダークブルー",
       "nameEn": null,
@@ -136,6 +144,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4580175304449.jpg"
     },
     {
+      "catalogId": "gaianotes.ad-05",
       "code": "AD-05",
       "name": "アルカナ シルバー",
       "nameEn": null,
@@ -151,6 +160,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4580175304456.jpg"
     },
     {
+      "catalogId": "gaianotes.ad-06",
       "code": "AD-06",
       "name": "アルカナ メタリックパープル",
       "nameEn": null,
@@ -166,6 +176,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4580175304463.jpg"
     },
     {
+      "catalogId": "gaianotes.ad-07",
       "code": "AD-07",
       "name": "アルカナ メタリックブルー",
       "nameEn": null,
@@ -181,6 +192,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4580175304470.jpg"
     },
     {
+      "catalogId": "gaianotes.ad-08",
       "code": "AD-08",
       "name": "アルカナ ピンクゴールド",
       "nameEn": null,
@@ -196,6 +208,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4580175304487.jpg"
     },
     {
+      "catalogId": "gaianotes.nazca.ne-002",
       "code": "NE-002",
       "name": "シャドウブラウン",
       "nameEn": null,
@@ -211,6 +224,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4580175307310.jpg"
     },
     {
+      "catalogId": "gaianotes.ge-001",
       "code": "GE-001",
       "name": "ホワイト",
       "nameEn": null,
@@ -226,6 +240,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4580175740018.jpg"
     },
     {
+      "catalogId": "gaianotes.ge-002",
       "code": "GE-002",
       "name": "ブラック",
       "nameEn": null,
@@ -241,6 +256,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4580175740124.jpg"
     },
     {
+      "catalogId": "gaianotes.ge-003",
       "code": "GE-003",
       "name": "シアン",
       "nameEn": null,
@@ -256,6 +272,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4580175740131.jpg"
     },
     {
+      "catalogId": "gaianotes.ge-004",
       "code": "GE-004",
       "name": "マゼンタ",
       "nameEn": null,
@@ -271,6 +288,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4580175740148.jpg"
     },
     {
+      "catalogId": "gaianotes.ge-005",
       "code": "GE-005",
       "name": "イエロー",
       "nameEn": null,
@@ -286,6 +304,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4580175740155.jpg"
     },
     {
+      "catalogId": "gaianotes.ge-006",
       "code": "GE-006",
       "name": "蛍光ブルー",
       "nameEn": null,
@@ -301,6 +320,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4580175740162.jpg"
     },
     {
+      "catalogId": "gaianotes.ge-007",
       "code": "GE-007",
       "name": "蛍光レッド",
       "nameEn": null,
@@ -316,6 +336,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4580175740179.jpg"
     },
     {
+      "catalogId": "gaianotes.ge-008",
       "code": "GE-008",
       "name": "蛍光イエロー",
       "nameEn": null,
@@ -331,6 +352,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4580175740186.jpg"
     },
     {
+      "catalogId": "gaianotes.ge-010",
       "code": "GE-010",
       "name": "蛍光グリーン",
       "nameEn": null,
@@ -346,6 +368,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4580175740209.jpg"
     },
     {
+      "catalogId": "gaianotes.ge-051",
       "code": "GE-051",
       "name": "赤サビ",
       "nameEn": null,
@@ -361,6 +384,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4580175740513.jpg"
     },
     {
+      "catalogId": "gaianotes.ge-052",
       "code": "GE-052",
       "name": "黄サビ",
       "nameEn": null,
@@ -376,6 +400,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4580175740520.jpg"
     },
     {
+      "catalogId": "gaianotes.ge-053",
       "code": "GE-053",
       "name": "煤(すす)",
       "nameEn": null,
@@ -391,6 +416,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4580175741534.jpg"
     },
     {
+      "catalogId": "gaianotes.ge-054",
       "code": "GE-054",
       "name": "オイル",
       "nameEn": null,
@@ -406,6 +432,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4580175740544.jpg"
     },
     {
+      "catalogId": "gaianotes.ge-055",
       "code": "GE-055",
       "name": "埃(ほこり)",
       "nameEn": null,
@@ -421,6 +448,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4580175740551.jpg"
     },
     {
+      "catalogId": "gaianotes.military-series.213",
       "code": "213",
       "name": "灰緑色",
       "nameEn": null,
@@ -436,6 +464,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182272131.jpg"
     },
     {
+      "catalogId": "gaianotes.military-series.214",
       "code": "214",
       "name": "暗緑色",
       "nameEn": null,
@@ -451,6 +480,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182272148.jpg"
     },
     {
+      "catalogId": "gaianotes.wm-04",
       "code": "WM-04",
       "name": "ウォーカーグリーン",
       "nameEn": null,
@@ -466,6 +496,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182273145.jpg"
     },
     {
+      "catalogId": "gaianotes.wm-06",
       "code": "WM-06",
       "name": "ウォーカーレッド",
       "nameEn": null,
@@ -481,6 +512,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182273169.jpg"
     },
     {
+      "catalogId": "gaianotes.wml-01",
       "code": "WML-01",
       "name": "ウォーカーブルー(1)",
       "nameEn": null,
@@ -496,6 +528,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182273176.jpg"
     },
     {
+      "catalogId": "gaianotes.wml-02",
       "code": "WML-02",
       "name": "ウォーカーグリーン",
       "nameEn": null,
@@ -511,6 +544,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182273183.jpg"
     },
     {
+      "catalogId": "gaianotes.wm-07",
       "code": "WM-07",
       "name": "ウォーカー ダークグリーン",
       "nameEn": null,
@@ -526,6 +560,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182273190.jpg"
     },
     {
+      "catalogId": "gaianotes.wm-08",
       "code": "WM-08",
       "name": "ウォーカー オレンジイエロー",
       "nameEn": null,
@@ -541,6 +576,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182273206.jpg"
     },
     {
+      "catalogId": "gaianotes.hm-02",
       "code": "HM-02",
       "name": "ヘビーライトブラウン",
       "nameEn": null,
@@ -556,6 +592,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182273329.jpg"
     },
     {
+      "catalogId": "gaianotes.hm-03",
       "code": "HM-03",
       "name": "ヘビーダークグレー",
       "nameEn": null,
@@ -571,6 +608,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182273336.jpg"
     },
     {
+      "catalogId": "gaianotes.hm-05",
       "code": "HM-05",
       "name": "ヘビーオレンジ",
       "nameEn": null,
@@ -586,6 +624,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182273350.jpg"
     },
     {
+      "catalogId": "gaianotes.id-01",
       "code": "ID-01",
       "name": "イデ オリジナル レッド",
       "nameEn": null,
@@ -601,6 +640,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182273510.jpg"
     },
     {
+      "catalogId": "gaianotes.ma-01",
       "code": "MA-01",
       "name": "ドラグナーホワイト",
       "nameEn": null,
@@ -616,6 +656,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182273619.jpg"
     },
     {
+      "catalogId": "gaianotes.ma-02",
       "code": "MA-02",
       "name": "ドラグナーブルー",
       "nameEn": null,
@@ -631,6 +672,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182273626.jpg"
     },
     {
+      "catalogId": "gaianotes.ma-03",
       "code": "MA-03",
       "name": "ドラグナーレッド",
       "nameEn": null,
@@ -646,6 +688,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182273633.jpg"
     },
     {
+      "catalogId": "gaianotes.ma-04",
       "code": "MA-04",
       "name": "ドラグナーイエロー",
       "nameEn": null,
@@ -661,6 +704,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182273640.jpg"
     },
     {
+      "catalogId": "gaianotes.1000",
       "code": "1000",
       "name": "ステンレスシルバー",
       "nameEn": null,
@@ -676,6 +720,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182275002.jpg"
     },
     {
+      "catalogId": "gaianotes.1001",
       "code": "1001",
       "name": "ライトステンレスシルバー",
       "nameEn": null,
@@ -691,6 +736,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182275019.jpg"
     },
     {
+      "catalogId": "gaianotes.1002",
       "code": "1002",
       "name": "ダークステンレスシルバー",
       "nameEn": null,
@@ -706,6 +752,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182275026.jpg"
     },
     {
+      "catalogId": "gaianotes.1003",
       "code": "1003",
       "name": "青15号",
       "nameEn": null,
@@ -721,6 +768,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182275033.jpg"
     },
     {
+      "catalogId": "gaianotes.1004",
       "code": "1004",
       "name": "ぶどう色2号",
       "nameEn": null,
@@ -736,6 +784,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182275040.jpg"
     },
     {
+      "catalogId": "gaianotes.1005",
       "code": "1005",
       "name": "ねずみ色1号",
       "nameEn": null,
@@ -751,6 +800,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182275057.jpg"
     },
     {
+      "catalogId": "gaianotes.1006",
       "code": "1006",
       "name": "灰色9号",
       "nameEn": null,
@@ -766,6 +816,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182275064.jpg"
     },
     {
+      "catalogId": "gaianotes.1007",
       "code": "1007",
       "name": "ダークグレー",
       "nameEn": null,
@@ -781,6 +832,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182275071.jpg"
     },
     {
+      "catalogId": "gaianotes.1008",
       "code": "1008",
       "name": "クリーム1号",
       "nameEn": null,
@@ -796,6 +848,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182275088.jpg"
     },
     {
+      "catalogId": "gaianotes.1009",
       "code": "1009",
       "name": "ローズピンク",
       "nameEn": null,
@@ -811,6 +864,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182275095.jpg"
     },
     {
+      "catalogId": "gaianotes.1010",
       "code": "1010",
       "name": "ぶどう色1号",
       "nameEn": null,
@@ -826,6 +880,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182275101.jpg"
     },
     {
+      "catalogId": "gaianotes.1011",
       "code": "1011",
       "name": "黒",
       "nameEn": null,
@@ -841,6 +896,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182275118.jpg"
     },
     {
+      "catalogId": "gaianotes.1012",
       "code": "1012",
       "name": "赤サビ",
       "nameEn": null,
@@ -856,6 +912,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182275125.jpg"
     },
     {
+      "catalogId": "gaianotes.1013",
       "code": "1013",
       "name": "黄サビ",
       "nameEn": null,
@@ -871,6 +928,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182275132.jpg"
     },
     {
+      "catalogId": "gaianotes.1022",
       "code": "1022",
       "name": "コンテナレッド",
       "nameEn": null,
@@ -886,6 +944,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182275224.jpg"
     },
     {
+      "catalogId": "gaianotes.1023",
       "code": "1023",
       "name": "名鉄スカーレット",
       "nameEn": null,
@@ -901,6 +960,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182275231.jpg"
     },
     {
+      "catalogId": "gaianotes.1024",
       "code": "1024",
       "name": "西武101系イエロー",
       "nameEn": null,
@@ -916,6 +976,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182275248.jpg"
     },
     {
+      "catalogId": "gaianotes.1025",
       "code": "1025",
       "name": "西武2000系イエロー",
       "nameEn": null,
@@ -931,6 +992,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182275255.jpg"
     },
     {
+      "catalogId": "gaianotes.1026",
       "code": "1026",
       "name": "西武ベージュ",
       "nameEn": null,
@@ -946,6 +1008,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182275262.jpg"
     },
     {
+      "catalogId": "gaianotes.1027",
       "code": "1027",
       "name": "西武レッド",
       "nameEn": null,
@@ -961,6 +1024,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182275279.jpg"
     },
     {
+      "catalogId": "gaianotes.wg-01",
       "code": "WG-01",
       "name": "うすみどり",
       "nameEn": null,
@@ -976,6 +1040,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182281010.jpg"
     },
     {
+      "catalogId": "gaianotes.wg-02",
       "code": "WG-02",
       "name": "みずいろ",
       "nameEn": null,
@@ -991,6 +1056,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182281027.jpg"
     },
     {
+      "catalogId": "gaianotes.wg-03",
       "code": "WG-03",
       "name": "あいぼりー",
       "nameEn": null,
@@ -1006,6 +1072,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182281034.jpg"
     },
     {
+      "catalogId": "gaianotes.wg-04",
       "code": "WG-04",
       "name": "らいとおれんじ",
       "nameEn": null,
@@ -1021,6 +1088,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182281041.jpg"
     },
     {
+      "catalogId": "gaianotes.wg-05",
       "code": "WG-05",
       "name": "ぴんく",
       "nameEn": null,
@@ -1036,6 +1104,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182281058.jpg"
     },
     {
+      "catalogId": "gaianotes.wg-06",
       "code": "WG-06",
       "name": "れもん",
       "nameEn": null,
@@ -1051,6 +1120,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182281065.jpg"
     },
     {
+      "catalogId": "gaianotes.wg-07",
       "code": "WG-07",
       "name": "あっしゅ",
       "nameEn": null,
@@ -1066,6 +1136,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182281072.jpg"
     },
     {
+      "catalogId": "gaianotes.wg-08",
       "code": "WG-08",
       "name": "まるーん",
       "nameEn": null,
@@ -1081,6 +1152,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182281089.jpg"
     },
     {
+      "catalogId": "gaianotes.exs-03",
       "code": "EXS-03",
       "name": "Ex-クリアースプレー",
       "nameEn": null,
@@ -1096,6 +1168,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182290135.jpg"
     },
     {
+      "catalogId": "gaianotes.exs-04",
       "code": "EXS-04",
       "name": "Ex-フラットクリアースプレー",
       "nameEn": null,
@@ -1111,6 +1184,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182290142.jpg"
     },
     {
+      "catalogId": "gaianotes.gssr-01",
       "code": "GSSR-01",
       "name": "サーフェイサーエヴォグレー",
       "nameEn": null,
@@ -1126,6 +1200,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182290210.jpg"
     },
     {
+      "catalogId": "gaianotes.gssr-02",
       "code": "GSSR-02",
       "name": "サーフェイサーエヴォホワイト",
       "nameEn": null,
@@ -1141,6 +1216,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182290227.jpg"
     },
     {
+      "catalogId": "gaianotes.gssr-03",
       "code": "GSSR-03",
       "name": "サーフェイサーエヴォブラック",
       "nameEn": null,
@@ -1156,6 +1232,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182290234.jpg"
     },
     {
+      "catalogId": "gaianotes.dp-01",
       "code": "DP-01",
       "name": "ピアノブラック",
       "nameEn": null,
@@ -1171,6 +1248,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182290418.jpg"
     },
     {
+      "catalogId": "gaianotes.dp-02",
       "code": "DP-02",
       "name": "メタリック用 クリアー",
       "nameEn": null,
@@ -1186,6 +1264,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182290425.jpg"
     },
     {
+      "catalogId": "gaianotes.ex.ex-01",
       "code": "Ex-01",
       "name": "Ex-ホワイト",
       "nameEn": null,
@@ -1201,6 +1280,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182300117.jpg"
     },
     {
+      "catalogId": "gaianotes.ex.ex-02",
       "code": "Ex-02",
       "name": "Ex-ブラック",
       "nameEn": null,
@@ -1216,6 +1296,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182300124.jpg"
     },
     {
+      "catalogId": "gaianotes.ex.ex-03",
       "code": "Ex-03",
       "name": "Ex-クリアー",
       "nameEn": null,
@@ -1231,6 +1312,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182300131.jpg"
     },
     {
+      "catalogId": "gaianotes.ex.ex-04",
       "code": "Ex-04",
       "name": "Ex-フラットクリアー",
       "nameEn": null,
@@ -1246,6 +1328,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182300148.jpg"
     },
     {
+      "catalogId": "gaianotes.ex.ex-05",
       "code": "Ex-05",
       "name": "Ex-フラットホワイト",
       "nameEn": null,
@@ -1261,6 +1344,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182300155.jpg"
     },
     {
+      "catalogId": "gaianotes.ex.ex-06",
       "code": "Ex-06",
       "name": "Ex-フラットブラック",
       "nameEn": null,
@@ -1276,6 +1360,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182300162.jpg"
     },
     {
+      "catalogId": "gaianotes.ex.ex-07",
       "code": "Ex-07",
       "name": "Ex-シルバー",
       "nameEn": null,
@@ -1291,6 +1376,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182300179.jpg"
     },
     {
+      "catalogId": "gaianotes.ex.ex-08",
       "code": "Ex-08",
       "name": "Ex-ゴールド",
       "nameEn": null,
@@ -1306,6 +1392,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182300186.jpg"
     },
     {
+      "catalogId": "gaianotes.ex.ex-09",
       "code": "Ex-09",
       "name": "Ex-セミグロスクリアープレミアム",
       "nameEn": null,
@@ -1321,6 +1408,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182300193.jpg"
     },
     {
+      "catalogId": "gaianotes.ex.ex-10",
       "code": "Ex-10",
       "name": "Ex-フラットクリアープレミアム",
       "nameEn": null,
@@ -1336,6 +1424,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182300209.jpg"
     },
     {
+      "catalogId": "gaianotes.ar-07",
       "code": "AR-07",
       "name": "ルミナスオレンジ",
       "nameEn": null,
@@ -1351,6 +1440,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182301077.jpg"
     },
     {
+      "catalogId": "gaianotes.br-01",
       "code": "BR-01",
       "name": "ブレイブブラック",
       "nameEn": null,
@@ -1366,6 +1456,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182301718.jpg"
     },
     {
+      "catalogId": "gaianotes.br-02",
       "code": "BR-02",
       "name": "シャインイエロー",
       "nameEn": null,
@@ -1381,6 +1472,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182301725.jpg"
     },
     {
+      "catalogId": "gaianotes.br-04",
       "code": "BR-04",
       "name": "ゴールデンイエロー",
       "nameEn": null,
@@ -1396,6 +1488,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182301749.jpg"
     },
     {
+      "catalogId": "gaianotes.br-05",
       "code": "BR-05",
       "name": "ペールブルー",
       "nameEn": null,
@@ -1411,6 +1504,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182301756.jpg"
     },
     {
+      "catalogId": "gaianotes.hg-01",
       "code": "HG-01",
       "name": "ヘキサホワイト",
       "nameEn": null,
@@ -1426,6 +1520,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182302210.jpg"
     },
     {
+      "catalogId": "gaianotes.hg-02",
       "code": "HG-02",
       "name": "ヘキサバイオレット",
       "nameEn": null,
@@ -1441,6 +1536,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182302227.jpg"
     },
     {
+      "catalogId": "gaianotes.hg-03",
       "code": "HG-03",
       "name": "ヘキサフレームガンメタル",
       "nameEn": null,
@@ -1456,6 +1552,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182302234.jpg"
     },
     {
+      "catalogId": "gaianotes.hg-04",
       "code": "HG-04",
       "name": "ヘキサダークグリーン",
       "nameEn": null,
@@ -1471,6 +1568,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182302241.jpg"
     },
     {
+      "catalogId": "gaianotes.hg-05",
       "code": "HG-05",
       "name": "ヘキサデザートイエロー",
       "nameEn": null,
@@ -1486,6 +1584,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182302258.jpg"
     },
     {
+      "catalogId": "gaianotes.hg-06",
       "code": "HG-06",
       "name": "ヘキサレッド",
       "nameEn": null,
@@ -1501,6 +1600,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182302265.jpg"
     },
     {
+      "catalogId": "gaianotes.hg-07",
       "code": "HG-07",
       "name": "ヘキサブルー",
       "nameEn": null,
@@ -1516,6 +1616,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182302272.jpg"
     },
     {
+      "catalogId": "gaianotes.hg-08",
       "code": "HG-08",
       "name": "ヘキサブラック",
       "nameEn": null,
@@ -1531,6 +1632,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182302289.jpg"
     },
     {
+      "catalogId": "gaianotes.hg-09",
       "code": "HG-09",
       "name": "ヘキサグレー",
       "nameEn": null,
@@ -1546,6 +1648,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182302296.jpg"
     },
     {
+      "catalogId": "gaianotes.ev-01",
       "code": "EV-01",
       "name": "エヴァパープル",
       "nameEn": null,
@@ -1561,6 +1664,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182303019.jpg"
     },
     {
+      "catalogId": "gaianotes.ev-02",
       "code": "EV-02",
       "name": "エヴァグリーン",
       "nameEn": null,
@@ -1576,6 +1680,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182303026.jpg"
     },
     {
+      "catalogId": "gaianotes.ev-03",
       "code": "EV-03",
       "name": "エヴァナイトパープル",
       "nameEn": null,
@@ -1591,6 +1696,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182303033.jpg"
     },
     {
+      "catalogId": "gaianotes.ev-04",
       "code": "EV-04",
       "name": "エヴァネオングリーン エヴァンゲリオンカラー",
       "nameEn": null,
@@ -1606,6 +1712,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182303040.jpg"
     },
     {
+      "catalogId": "gaianotes.ev-05",
       "code": "EV-05",
       "name": "エヴァオレンジイエロー",
       "nameEn": null,
@@ -1621,6 +1728,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182303057.jpg"
     },
     {
+      "catalogId": "gaianotes.ev-06",
       "code": "EV-06",
       "name": "エヴァレッド",
       "nameEn": null,
@@ -1636,6 +1744,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182303064.jpg"
     },
     {
+      "catalogId": "gaianotes.ev-07",
       "code": "EV-07",
       "name": "エヴァイエロー",
       "nameEn": null,
@@ -1651,6 +1760,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182303071.jpg"
     },
     {
+      "catalogId": "gaianotes.ev-08",
       "code": "EV-08",
       "name": "エヴァオレンジ",
       "nameEn": null,
@@ -1666,6 +1776,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182303088.jpg"
     },
     {
+      "catalogId": "gaianotes.ev-09",
       "code": "EV-09",
       "name": "エヴァパープルグレー",
       "nameEn": null,
@@ -1681,6 +1792,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182303095.jpg"
     },
     {
+      "catalogId": "gaianotes.ev-10",
       "code": "EV-10",
       "name": "エヴァダークグレー",
       "nameEn": null,
@@ -1696,6 +1808,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182303101.jpg"
     },
     {
+      "catalogId": "gaianotes.ev-11",
       "code": "EV-11",
       "name": "エヴァプロトイエロー",
       "nameEn": null,
@@ -1711,6 +1824,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182303118.jpg"
     },
     {
+      "catalogId": "gaianotes.ev-12",
       "code": "EV-12",
       "name": "エヴァピンク",
       "nameEn": null,
@@ -1726,6 +1840,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182303125.jpg"
     },
     {
+      "catalogId": "gaianotes.ev-13",
       "code": "EV-13",
       "name": "エヴァダークパープル",
       "nameEn": null,
@@ -1741,6 +1856,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182303132.jpg"
     },
     {
+      "catalogId": "gaianotes.ev-15",
       "code": "EV-15",
       "name": "エヴァヴァーミリオン",
       "nameEn": null,
@@ -1756,6 +1872,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182303156.jpg"
     },
     {
+      "catalogId": "gaianotes.ev-16",
       "code": "EV-16",
       "name": "エヴァマリピンク エヴァンゲリオンカラー",
       "nameEn": null,
@@ -1771,6 +1888,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182303163.jpg"
     },
     {
+      "catalogId": "gaianotes.ev-18",
       "code": "EV-18",
       "name": "エヴァ アスカレッド エヴァンゲリオンカラー",
       "nameEn": null,
@@ -1786,6 +1904,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182303187.jpg"
     },
     {
+      "catalogId": "gaianotes.ev-19",
       "code": "EV-19",
       "name": "エヴァ アスカオレンジ エヴァンゲリオンカラー",
       "nameEn": null,
@@ -1801,6 +1920,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182303194.jpg"
     },
     {
+      "catalogId": "gaianotes.ev-20",
       "code": "EV-20",
       "name": "エヴァレイ ホワイト エヴァンゲリオンカラー",
       "nameEn": null,
@@ -1816,6 +1936,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182303200.jpg"
     },
     {
+      "catalogId": "gaianotes.ev-21",
       "code": "EV-21",
       "name": "エヴァレイ ライトブルー エヴァンゲリオンカラー",
       "nameEn": null,
@@ -1831,6 +1952,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182303217.jpg"
     },
     {
+      "catalogId": "gaianotes.ev-22",
       "code": "EV-22",
       "name": "エヴァ ホワイト /量産機本体ホワイト エヴァンゲリオンカラー",
       "nameEn": null,
@@ -1846,6 +1968,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182303224.jpg"
     },
     {
+      "catalogId": "gaianotes.ev-23",
       "code": "EV-23",
       "name": "エヴァ ライトグリーン /仮説5号機の本体薄いグリーン エヴァンゲリオンカラー",
       "nameEn": null,
@@ -1861,6 +1984,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182303231.jpg"
     },
     {
+      "catalogId": "gaianotes.ev-25",
       "code": "EV-25",
       "name": "エヴァ プロトブルー /零号機版本体ブルー エヴァンゲリオンカラー",
       "nameEn": null,
@@ -1876,6 +2000,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182303255.jpg"
     },
     {
+      "catalogId": "gaianotes.ev-26",
       "code": "EV-26",
       "name": "エヴァ パープル TV ver. /初号機テレビ版本体パープル エヴァンゲリオンカラー",
       "nameEn": null,
@@ -1891,6 +2016,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182303262.jpg"
     },
     {
+      "catalogId": "gaianotes.ev-27",
       "code": "EV-27",
       "name": "エヴァ レッド TV ver. /弐号機テレビ版本体レッド エヴァンゲリオンカラー",
       "nameEn": null,
@@ -1906,6 +2032,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182303279.jpg"
     },
     {
+      "catalogId": "gaianotes.fg01",
       "code": "FG01",
       "name": "プラスチックフレッシュ",
       "nameEn": null,
@@ -1921,6 +2048,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182304016.jpg"
     },
     {
+      "catalogId": "gaianotes.fg02",
       "code": "FG02",
       "name": "ベースフレッシュ",
       "nameEn": null,
@@ -1936,6 +2064,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182304023.jpg"
     },
     {
+      "catalogId": "gaianotes.fg-03",
       "code": "FG-03",
       "name": "シャドウフレッシュ",
       "nameEn": null,
@@ -1951,6 +2080,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182304030.jpg"
     },
     {
+      "catalogId": "gaianotes.fg-04",
       "code": "FG-04",
       "name": "アーマーグレー",
       "nameEn": null,
@@ -1966,6 +2096,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182304047.jpg"
     },
     {
+      "catalogId": "gaianotes.fg-05",
       "code": "FG-05",
       "name": "インナーブラック",
       "nameEn": null,
@@ -1981,6 +2112,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182304054.jpg"
     },
     {
+      "catalogId": "gaianotes.fg-06",
       "code": "FG-06",
       "name": "プラチナブロンドベース",
       "nameEn": null,
@@ -1996,6 +2128,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182304061.jpg"
     },
     {
+      "catalogId": "gaianotes.fg-07",
       "code": "FG-07",
       "name": "プラチナブロンドシャドウ",
       "nameEn": null,
@@ -2011,6 +2144,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182304078.jpg"
     },
     {
+      "catalogId": "gaianotes.fg-08",
       "code": "FG-08",
       "name": "ブロンドベース",
       "nameEn": null,
@@ -2026,6 +2160,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182304085.jpg"
     },
     {
+      "catalogId": "gaianotes.fg-09",
       "code": "FG-09",
       "name": "ブロンドシャドウ",
       "nameEn": null,
@@ -2041,6 +2176,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182304092.jpg"
     },
     {
+      "catalogId": "gaianotes.fg-10",
       "code": "FG-10",
       "name": "ホワイトフレッシュ",
       "nameEn": null,
@@ -2056,6 +2192,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182304108.jpg"
     },
     {
+      "catalogId": "gaianotes.fg-11",
       "code": "FG-11",
       "name": "プラスチックブラウンフレッシュ",
       "nameEn": null,
@@ -2071,6 +2208,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182304115.jpg"
     },
     {
+      "catalogId": "gaianotes.fg-12",
       "code": "FG-12",
       "name": "轟雷装甲ブラウン",
       "nameEn": null,
@@ -2086,6 +2224,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182304122.jpg"
     },
     {
+      "catalogId": "gaianotes.fg-13",
       "code": "FG-13",
       "name": "スティレット装甲ブルー",
       "nameEn": null,
@@ -2101,6 +2240,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182304139.jpg"
     },
     {
+      "catalogId": "gaianotes.nazca.np001",
       "code": "NP001",
       "name": "メカサフへヴィ",
       "nameEn": null,
@@ -2116,6 +2256,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182307017.jpg"
     },
     {
+      "catalogId": "gaianotes.nazca.np002",
       "code": "NP002",
       "name": "メカサフライト",
       "nameEn": null,
@@ -2131,6 +2272,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182307024.jpg"
     },
     {
+      "catalogId": "gaianotes.nazca.np004",
       "code": "NP004",
       "name": "ピンクサフ",
       "nameEn": null,
@@ -2146,6 +2288,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182307055.jpg"
     },
     {
+      "catalogId": "gaianotes.nazca.nc-002",
       "code": "NC-002",
       "name": "フロストマットブラック",
       "nameEn": null,
@@ -2161,6 +2304,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182307178.jpg"
     },
     {
+      "catalogId": "gaianotes.nazca.nc-003",
       "code": "NC-003",
       "name": "フレイムレッド",
       "nameEn": null,
@@ -2176,6 +2320,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182307185.jpg"
     },
     {
+      "catalogId": "gaianotes.nazca.nc-004",
       "code": "NC-004",
       "name": "ミリオンブルー",
       "nameEn": null,
@@ -2191,6 +2336,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182307192.jpg"
     },
     {
+      "catalogId": "gaianotes.nazca.nc-005",
       "code": "NC-005",
       "name": "ウォームライトグレー",
       "nameEn": null,
@@ -2206,6 +2352,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182307208.jpg"
     },
     {
+      "catalogId": "gaianotes.nazca.nc-006",
       "code": "NC-006",
       "name": "ブルーフォグホワイト",
       "nameEn": null,
@@ -2221,6 +2368,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182307215.jpg"
     },
     {
+      "catalogId": "gaianotes.nazca.nc-007",
       "code": "NC-007",
       "name": "ジョイントグレー",
       "nameEn": null,
@@ -2236,6 +2384,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182307222.jpg"
     },
     {
+      "catalogId": "gaianotes.nazca.np005",
       "code": "NP005",
       "name": "メカサフ スーパーヘヴィ",
       "nameEn": null,
@@ -2251,6 +2400,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182307239.jpg"
     },
     {
+      "catalogId": "gaianotes.nazca.nc-008",
       "code": "NC-008",
       "name": "ニュートラルホワイト",
       "nameEn": null,
@@ -2266,6 +2416,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182307253.jpg"
     },
     {
+      "catalogId": "gaianotes.nazca.nc-010",
       "code": "NC-010",
       "name": "マンダリンオレンジ",
       "nameEn": null,
@@ -2281,6 +2432,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182307277.jpg"
     },
     {
+      "catalogId": "gaianotes.nazca.nc-011",
       "code": "NC-011",
       "name": "フラットシルバー",
       "nameEn": null,
@@ -2296,6 +2448,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182307284.jpg"
     },
     {
+      "catalogId": "gaianotes.nazca.nc-012",
       "code": "NC-012",
       "name": "ディープカーキ",
       "nameEn": null,
@@ -2311,6 +2464,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182307345.jpg"
     },
     {
+      "catalogId": "gaianotes.nazca.nc-013",
       "code": "NC-013",
       "name": "ブラストカーキ",
       "nameEn": null,
@@ -2326,6 +2480,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182307352.jpg"
     },
     {
+      "catalogId": "gaianotes.nazca.nc-014",
       "code": "NC-014",
       "name": "マンダリンイエロー",
       "nameEn": null,
@@ -2341,6 +2496,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182307369.jpg"
     },
     {
+      "catalogId": "gaianotes.nazca.nc-015",
       "code": "NC-015",
       "name": "ダークブルーイッシュパープル",
       "nameEn": null,
@@ -2356,6 +2512,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182307376.jpg"
     },
     {
+      "catalogId": "gaianotes.nazca.ntc-01",
       "code": "NTC-01",
       "name": "ハウンドブラック",
       "nameEn": null,
@@ -2371,6 +2528,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182307413.jpg"
     },
     {
+      "catalogId": "gaianotes.nazca.ntc-02",
       "code": "NTC-02",
       "name": "ハウンドシルバー",
       "nameEn": null,
@@ -2386,6 +2544,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182307420.jpg"
     },
     {
+      "catalogId": "gaianotes.nc-016",
       "code": "NC-016",
       "name": "ディープクリムゾン",
       "nameEn": null,
@@ -2401,6 +2560,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182307550.jpg"
     },
     {
+      "catalogId": "gaianotes.nc-017",
       "code": "NC-017",
       "name": "CSM(コールドスチールメタリック)",
       "nameEn": null,
@@ -2416,6 +2576,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182307567.jpg"
     },
     {
+      "catalogId": "gaianotes.ntc-03",
       "code": "NTC-03",
       "name": "シュタイングレーパール",
       "nameEn": null,
@@ -2431,6 +2592,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182307574.jpg"
     },
     {
+      "catalogId": "gaianotes.ntc-04",
       "code": "NTC-04",
       "name": "ピュアパールホワイト",
       "nameEn": null,
@@ -2446,6 +2608,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182307581.jpg"
     },
     {
+      "catalogId": "gaianotes.ntc-05",
       "code": "NTC-05",
       "name": "インペリアルグリーン",
       "nameEn": null,
@@ -2461,6 +2624,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182307598.jpg"
     },
     {
+      "catalogId": "gaianotes.tactical-label.tl-001",
       "code": "TL-001",
       "name": "NATOグリーン タクティカル レーベル",
       "nameEn": null,
@@ -2476,6 +2640,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182310215.jpg"
     },
     {
+      "catalogId": "gaianotes.tactical-label.tl-002",
       "code": "TL-002",
       "name": "NATOブラウン タクティカル レーベル",
       "nameEn": null,
@@ -2491,6 +2656,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182310222.jpg"
     },
     {
+      "catalogId": "gaianotes.tactical-label.tl-003",
       "code": "TL-003",
       "name": "NATOブラック タクティカル レーベル",
       "nameEn": null,
@@ -2506,6 +2672,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182310239.jpg"
     },
     {
+      "catalogId": "gaianotes.tl-004",
       "code": "TL-004",
       "name": "ライトグレー FS36251",
       "nameEn": null,
@@ -2521,6 +2688,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182310246.jpg"
     },
     {
+      "catalogId": "gaianotes.tl-005",
       "code": "TL-005",
       "name": "ダークグレー FS36176",
       "nameEn": null,
@@ -2536,6 +2704,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182310253.jpg"
     },
     {
+      "catalogId": "gaianotes.gp-02",
       "code": "GP-02",
       "name": "プレミアムレッド",
       "nameEn": null,
@@ -2551,6 +2720,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182320054.jpg"
     },
     {
+      "catalogId": "gaianotes.premium-series.gp-04",
       "code": "GP-04",
       "name": "プレミアムガラスパール プレミアムカラーシリーズ",
       "nameEn": null,
@@ -2566,6 +2736,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182320078.jpg"
     },
     {
+      "catalogId": "gaianotes.gp-05",
       "code": "GP-05",
       "name": "ウルトラマリンブルー",
       "nameEn": null,
@@ -2581,6 +2752,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182320085.jpg"
     },
     {
+      "catalogId": "gaianotes.32011.gp-02",
       "code": "GP-02",
       "name": "p パールプレミアムレッド",
       "nameEn": null,
@@ -2596,6 +2768,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182320115.jpg"
     },
     {
+      "catalogId": "gaianotes.premium-series.gp-08",
       "code": "GP-08",
       "name": "プレミアムミラークローム プレミアムカラーシリーズ[32013 ]",
       "nameEn": null,
@@ -2611,6 +2784,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182320139.jpg"
     },
     {
+      "catalogId": "gaianotes.premium-series.gp-09",
       "code": "GP-09",
       "name": "プリズムブルーブラック プレミアムカラーシリーズ",
       "nameEn": null,
@@ -2626,6 +2800,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182320146.jpg"
     },
     {
+      "catalogId": "gaianotes.gp-10",
       "code": "GP-10",
       "name": "プレミアムチタンシルバー",
       "nameEn": null,
@@ -2641,6 +2816,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182320153.jpg"
     },
     {
+      "catalogId": "gaianotes.gp-11",
       "code": "GP-11",
       "name": "プレミアムブリオンゴールド",
       "nameEn": null,
@@ -2656,6 +2832,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182320160.jpg"
     },
     {
+      "catalogId": "gaianotes.basic-color.001",
       "code": "001",
       "name": "ピュアホワイト",
       "nameEn": null,
@@ -2671,6 +2848,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330015.jpg"
     },
     {
+      "catalogId": "gaianotes.basic-color.002",
       "code": "002",
       "name": "ピュアブラック",
       "nameEn": null,
@@ -2686,6 +2864,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330022.jpg"
     },
     {
+      "catalogId": "gaianotes.basic-color.003",
       "code": "003",
       "name": "ブライトレッド",
       "nameEn": null,
@@ -2701,6 +2880,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330039.jpg"
     },
     {
+      "catalogId": "gaianotes.basic-color.005",
       "code": "005",
       "name": "サンシャインイエロー",
       "nameEn": null,
@@ -2716,6 +2896,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330053.jpg"
     },
     {
+      "catalogId": "gaianotes.clear-color.006",
       "code": "006",
       "name": "フラットベース",
       "nameEn": null,
@@ -2731,6 +2912,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330060.jpg"
     },
     {
+      "catalogId": "gaianotes.clear-color.007",
       "code": "007",
       "name": "クリアー",
       "nameEn": null,
@@ -2746,6 +2928,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330077.jpg"
     },
     {
+      "catalogId": "gaianotes.clear-color.008",
       "code": "008",
       "name": "フラットクリアー",
       "nameEn": null,
@@ -2761,6 +2944,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330084.jpg"
     },
     {
+      "catalogId": "gaianotes.metallic-color.009",
       "code": "009",
       "name": "ブライトシルバー",
       "nameEn": null,
@@ -2776,6 +2960,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330091.jpg"
     },
     {
+      "catalogId": "gaianotes.metallic-color.010",
       "code": "010",
       "name": "ブライトゴールド",
       "nameEn": null,
@@ -2791,6 +2976,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330107.jpg"
     },
     {
+      "catalogId": "gaianotes.basic-color.011",
       "code": "011",
       "name": "フラットホワイト",
       "nameEn": null,
@@ -2806,6 +2992,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330114.jpg"
     },
     {
+      "catalogId": "gaianotes.basic-color.012",
       "code": "012",
       "name": "フラットブラック",
       "nameEn": null,
@@ -2821,6 +3008,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330121.jpg"
     },
     {
+      "catalogId": "gaianotes.basic-color.013",
       "code": "013",
       "name": "ビリジアングリーン",
       "nameEn": null,
@@ -2836,6 +3024,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330138.jpg"
     },
     {
+      "catalogId": "gaianotes.basic-color.015",
       "code": "015",
       "name": "ピュアオレンジ",
       "nameEn": null,
@@ -2851,6 +3040,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330152.jpg"
     },
     {
+      "catalogId": "gaianotes.basic-color.016",
       "code": "016",
       "name": "ブリリアントピンク",
       "nameEn": null,
@@ -2866,6 +3056,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330169.jpg"
     },
     {
+      "catalogId": "gaianotes.basic-color.017",
       "code": "017",
       "name": "パープルヴァイオレット",
       "nameEn": null,
@@ -2881,6 +3072,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330176.jpg"
     },
     {
+      "catalogId": "gaianotes.basic-color.018",
       "code": "018",
       "name": "エメラルドグリーン",
       "nameEn": null,
@@ -2896,6 +3088,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330183.jpg"
     },
     {
+      "catalogId": "gaianotes.basic-color.019",
       "code": "019",
       "name": "ラベンダー",
       "nameEn": null,
@@ -2911,6 +3104,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330190.jpg"
     },
     {
+      "catalogId": "gaianotes.metallic-color.020",
       "code": "020",
       "name": "ガンメタル",
       "nameEn": null,
@@ -2926,6 +3120,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330206.jpg"
     },
     {
+      "catalogId": "gaianotes.basic-color.021",
       "code": "021",
       "name": "セミグロスホワイト",
       "nameEn": null,
@@ -2941,6 +3136,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330213.jpg"
     },
     {
+      "catalogId": "gaianotes.basic-color.022",
       "code": "022",
       "name": "セミグロスブラック",
       "nameEn": null,
@@ -2956,6 +3152,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330220.jpg"
     },
     {
+      "catalogId": "gaianotes.basic-color.024",
       "code": "024",
       "name": "コバルトブルー",
       "nameEn": null,
@@ -2971,6 +3168,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330244.jpg"
     },
     {
+      "catalogId": "gaianotes.basic-color.025",
       "code": "025",
       "name": "橙黄色",
       "nameEn": null,
@@ -2986,6 +3184,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330251.jpg"
     },
     {
+      "catalogId": "gaianotes.clear-color-military-series.030",
       "code": "030",
       "name": "セミグロスクリアー",
       "nameEn": null,
@@ -3001,6 +3200,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330305.jpg"
     },
     {
+      "catalogId": "gaianotes.basic-color.031",
       "code": "031",
       "name": "アルティメットホワイト",
       "nameEn": null,
@@ -3016,6 +3216,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330312.jpg"
     },
     {
+      "catalogId": "gaianotes.basic-color.032",
       "code": "032",
       "name": "アルティメットブラック",
       "nameEn": null,
@@ -3031,6 +3232,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330329.jpg"
     },
     {
+      "catalogId": "gaianotes.primary-color-series.033",
       "code": "033",
       "name": "純色シアン",
       "nameEn": null,
@@ -3046,6 +3248,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330336.jpg"
     },
     {
+      "catalogId": "gaianotes.primary-color-series.034",
       "code": "034",
       "name": "純色マゼンタ",
       "nameEn": null,
@@ -3061,6 +3264,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330343.jpg"
     },
     {
+      "catalogId": "gaianotes.primary-color-series.035",
       "code": "035",
       "name": "純色イエロー",
       "nameEn": null,
@@ -3076,6 +3280,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330350.jpg"
     },
     {
+      "catalogId": "gaianotes.primary-color-series.036",
       "code": "036",
       "name": "純色グリーン",
       "nameEn": null,
@@ -3091,6 +3296,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330367.jpg"
     },
     {
+      "catalogId": "gaianotes.primary-color-series.037",
       "code": "037",
       "name": "純色バイオレット",
       "nameEn": null,
@@ -3106,6 +3312,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330374.jpg"
     },
     {
+      "catalogId": "gaianotes.metallic-color.038",
       "code": "038",
       "name": "プライマリーメタリックレッド",
       "nameEn": null,
@@ -3121,6 +3328,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330381.jpg"
     },
     {
+      "catalogId": "gaianotes.metallic-color.039",
       "code": "039",
       "name": "プライマリーメタリックブルー",
       "nameEn": null,
@@ -3136,6 +3344,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330398.jpg"
     },
     {
+      "catalogId": "gaianotes.metallic-color.040",
       "code": "040",
       "name": "プライマリーメタリックイエロー",
       "nameEn": null,
@@ -3151,6 +3360,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330404.jpg"
     },
     {
+      "catalogId": "gaianotes.clear-color.042",
       "code": "042",
       "name": "クリアーオレンジ",
       "nameEn": null,
@@ -3166,6 +3376,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330428.jpg"
     },
     {
+      "catalogId": "gaianotes.clear-color.043",
       "code": "043",
       "name": "クリアーブラック",
       "nameEn": null,
@@ -3181,6 +3392,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330435.jpg"
     },
     {
+      "catalogId": "gaianotes.clear-color.045",
       "code": "045",
       "name": "クリアーイエロー",
       "nameEn": null,
@@ -3196,6 +3408,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330459.jpg"
     },
     {
+      "catalogId": "gaianotes.clear-color.046",
       "code": "046",
       "name": "クリアーブラウン",
       "nameEn": null,
@@ -3211,6 +3424,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330466.jpg"
     },
     {
+      "catalogId": "gaianotes.clear-color.047",
       "code": "047",
       "name": "クリアーパープル",
       "nameEn": null,
@@ -3226,6 +3440,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330473.jpg"
     },
     {
+      "catalogId": "gaianotes.clear-color.048",
       "code": "048",
       "name": "クリアーグリーン",
       "nameEn": null,
@@ -3241,6 +3456,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330480.jpg"
     },
     {
+      "catalogId": "gaianotes.clear-color.049",
       "code": "049",
       "name": "クリアーピンク",
       "nameEn": null,
@@ -3256,6 +3472,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330497.jpg"
     },
     {
+      "catalogId": "gaianotes.clear-color.050",
       "code": "050",
       "name": "クリアーホワイト",
       "nameEn": null,
@@ -3271,6 +3488,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330503.jpg"
     },
     {
+      "catalogId": "gaianotes.basic-color.051",
       "code": "051",
       "name": "ノーツフレッシュ",
       "nameEn": null,
@@ -3286,6 +3504,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330510.jpg"
     },
     {
+      "catalogId": "gaianotes.basic-color.052",
       "code": "052",
       "name": "ノーツフレッシュホワイト",
       "nameEn": null,
@@ -3301,6 +3520,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330527.jpg"
     },
     {
+      "catalogId": "gaianotes.basic-color.053",
       "code": "053",
       "name": "ノーツフレッシュピンク",
       "nameEn": null,
@@ -3316,6 +3536,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330534.jpg"
     },
     {
+      "catalogId": "gaianotes.basic-color.054",
       "code": "054",
       "name": "ノーツフレッシュオレンジ",
       "nameEn": null,
@@ -3331,6 +3552,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330541.jpg"
     },
     {
+      "catalogId": "gaianotes.basic-color.059",
       "code": "059",
       "name": "サフレスフレッシュピンク",
       "nameEn": null,
@@ -3346,6 +3568,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330596.jpg"
     },
     {
+      "catalogId": "gaianotes.basic-color.060",
       "code": "060",
       "name": "サフレスフレッシュオレンジ",
       "nameEn": null,
@@ -3361,6 +3584,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330602.jpg"
     },
     {
+      "catalogId": "gaianotes.basic-color.061",
       "code": "061",
       "name": "ミッドナイトブルー",
       "nameEn": null,
@@ -3376,6 +3600,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330619.jpg"
     },
     {
+      "catalogId": "gaianotes.basic-color.062",
       "code": "062",
       "name": "ミディアムブルー",
       "nameEn": null,
@@ -3391,6 +3616,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330626.jpg"
     },
     {
+      "catalogId": "gaianotes.basic-color.071",
       "code": "071",
       "name": "ニュートラルグレーⅠ",
       "nameEn": null,
@@ -3406,6 +3632,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330718.jpg"
     },
     {
+      "catalogId": "gaianotes.basic-color.073",
       "code": "073",
       "name": "ニュートラルグレーⅢ",
       "nameEn": null,
@@ -3421,6 +3648,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330732.jpg"
     },
     {
+      "catalogId": "gaianotes.basic-color.074",
       "code": "074",
       "name": "ニュートラルグレーⅣ",
       "nameEn": null,
@@ -3436,6 +3664,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330749.jpg"
     },
     {
+      "catalogId": "gaianotes.basic-color.075",
       "code": "075",
       "name": "ニュートラルグレーⅤ",
       "nameEn": null,
@@ -3451,6 +3680,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330756.jpg"
     },
     {
+      "catalogId": "gaianotes.fluorescent-color.101",
       "code": "101",
       "name": "蛍光ブルー",
       "nameEn": null,
@@ -3466,6 +3696,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182331012.jpg"
     },
     {
+      "catalogId": "gaianotes.fluorescent-color.102",
       "code": "102",
       "name": "蛍光ピンク",
       "nameEn": null,
@@ -3481,6 +3712,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182331029.jpg"
     },
     {
+      "catalogId": "gaianotes.fluorescent-color.103",
       "code": "103",
       "name": "蛍光レッド",
       "nameEn": null,
@@ -3496,6 +3728,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182331036.jpg"
     },
     {
+      "catalogId": "gaianotes.fluorescent-color.104",
       "code": "104",
       "name": "蛍光グリーン",
       "nameEn": null,
@@ -3511,6 +3744,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182331043.jpg"
     },
     {
+      "catalogId": "gaianotes.fluorescent-color.105",
       "code": "105",
       "name": "蛍光イエロー",
       "nameEn": null,
@@ -3526,6 +3760,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182331050.jpg"
     },
     {
+      "catalogId": "gaianotes.fluorescent-color.106",
       "code": "106",
       "name": "蛍光オレンジ",
       "nameEn": null,
@@ -3541,6 +3776,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182331067.jpg"
     },
     {
+      "catalogId": "gaianotes.fluorescent-color.107",
       "code": "107",
       "name": "蛍光イエローグリーン",
       "nameEn": null,
@@ -3556,6 +3792,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182331074.jpg"
     },
     {
+      "catalogId": "gaianotes.fluorescent-color.108",
       "code": "108",
       "name": "蛍光ブルーグリーン",
       "nameEn": null,
@@ -3571,6 +3808,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182331081.jpg"
     },
     {
+      "catalogId": "gaianotes.fluorescent-color.110",
       "code": "110",
       "name": "蛍光クリアー",
       "nameEn": null,
@@ -3586,6 +3824,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182331104.jpg"
     },
     {
+      "catalogId": "gaianotes.metallic-color.121",
       "code": "121",
       "name": "スターブライトシルバー",
       "nameEn": null,
@@ -3601,6 +3840,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182331210.jpg"
     },
     {
+      "catalogId": "gaianotes.metallic-color.122",
       "code": "122",
       "name": "スターブライトゴールド",
       "nameEn": null,
@@ -3616,6 +3856,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182331227.jpg"
     },
     {
+      "catalogId": "gaianotes.military-series-metallic-color.123",
       "code": "123",
       "name": "スターブライトジュラルミン",
       "nameEn": null,
@@ -3631,6 +3872,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182331234.jpg"
     },
     {
+      "catalogId": "gaianotes.metallic-color.124",
       "code": "124",
       "name": "スターブライトブラス",
       "nameEn": null,
@@ -3646,6 +3888,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182331241.jpg"
     },
     {
+      "catalogId": "gaianotes.metallic-color.125",
       "code": "125",
       "name": "スターブライトアイアン",
       "nameEn": null,
@@ -3661,6 +3904,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182331258.jpg"
     },
     {
+      "catalogId": "gaianotes.metallic-color.126",
       "code": "126",
       "name": "スターブライトシャンパンゴールド",
       "nameEn": null,
@@ -3676,6 +3920,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182331265.jpg"
     },
     {
+      "catalogId": "gaianotes.pearl-color.131",
       "code": "131",
       "name": "パールシルバー",
       "nameEn": null,
@@ -3691,6 +3936,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182331319.jpg"
     },
     {
+      "catalogId": "gaianotes.pearl-color.132",
       "code": "132",
       "name": "パールゴールド",
       "nameEn": null,
@@ -3706,6 +3952,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182331326.jpg"
     },
     {
+      "catalogId": "gaianotes.pearl-color.133",
       "code": "133",
       "name": "パールカッパー",
       "nameEn": null,
@@ -3721,6 +3968,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182331333.jpg"
     },
     {
+      "catalogId": "gaianotes.prism-color.134",
       "code": "134",
       "name": "プリズム パープルグリーン",
       "nameEn": null,
@@ -3736,6 +3984,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182331340.jpg"
     },
     {
+      "catalogId": "gaianotes.prism-color.135",
       "code": "135",
       "name": "プリズム ブルーグリーン",
       "nameEn": null,
@@ -3751,6 +4000,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182331357.jpg"
     },
     {
+      "catalogId": "gaianotes.prism-color.137",
       "code": "137",
       "name": "プリズム パステルターコイズブルーイエロー",
       "nameEn": null,
@@ -3766,6 +4016,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182331371.jpg"
     },
     {
+      "catalogId": "gaianotes.prism-color.139",
       "code": "139",
       "name": "プリズム パステルミントグリーンブルー",
       "nameEn": null,
@@ -3781,6 +4032,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182331395.jpg"
     },
     {
+      "catalogId": "gaianotes.military-series.201",
       "code": "201",
       "name": "ダークイエロー1",
       "nameEn": null,
@@ -3796,6 +4048,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182332019.jpg"
     },
     {
+      "catalogId": "gaianotes.military-series.202",
       "code": "202",
       "name": "オリーブグリーン",
       "nameEn": null,
@@ -3811,6 +4064,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182332026.jpg"
     },
     {
+      "catalogId": "gaianotes.military-series.203",
       "code": "203",
       "name": "レッドブラウン",
       "nameEn": null,
@@ -3826,6 +4080,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182332033.jpg"
     },
     {
+      "catalogId": "gaianotes.military-series.215",
       "code": "215",
       "name": "ダークグリーンFS34079",
       "nameEn": null,
@@ -3841,6 +4096,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182332156.jpg"
     },
     {
+      "catalogId": "gaianotes.military-series.216",
       "code": "216",
       "name": "グリーンFS34102",
       "nameEn": null,
@@ -3856,6 +4112,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182332163.jpg"
     },
     {
+      "catalogId": "gaianotes.military-series.217",
       "code": "217",
       "name": "タンFS30219",
       "nameEn": null,
@@ -3871,6 +4128,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182332170.jpg"
     },
     {
+      "catalogId": "gaianotes.military-series.218",
       "code": "218",
       "name": "グレーFS36622",
       "nameEn": null,
@@ -3886,6 +4144,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182332187.jpg"
     },
     {
+      "catalogId": "gaianotes.military-series.219",
       "code": "219",
       "name": "ライトガルグレーFS36440",
       "nameEn": null,
@@ -3901,6 +4160,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182332194.jpg"
     },
     {
+      "catalogId": "gaianotes.military-series.221",
       "code": "221",
       "name": "ジャーマングレー",
       "nameEn": null,
@@ -3916,6 +4176,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182332217.jpg"
     },
     {
+      "catalogId": "gaianotes.military-series.222",
       "code": "222",
       "name": "オキサイドレッド",
       "nameEn": null,
@@ -3931,6 +4192,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182332224.jpg"
     },
     {
+      "catalogId": "gaianotes.military-series.223",
       "code": "223",
       "name": "インテリアカラー",
       "nameEn": null,
@@ -3946,6 +4208,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182332231.jpg"
     },
     {
+      "catalogId": "gaianotes.vo-01",
       "code": "VO-01",
       "name": "ウォームホワイト",
       "nameEn": null,
@@ -3961,6 +4224,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182335010.jpg"
     },
     {
+      "catalogId": "gaianotes.vo-02",
       "code": "VO-02",
       "name": "アイスコバルトブルー",
       "nameEn": null,
@@ -3976,6 +4240,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182335027.jpg"
     },
     {
+      "catalogId": "gaianotes.vo-003",
       "code": "VO-003",
       "name": "ビビットオレンジ",
       "nameEn": null,
@@ -3991,6 +4256,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182335034.jpg"
     },
     {
+      "catalogId": "gaianotes.vo-06",
       "code": "VO-06",
       "name": "ローズブライトレッド",
       "nameEn": null,
@@ -4006,6 +4272,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182335065.jpg"
     },
     {
+      "catalogId": "gaianotes.vo-008",
       "code": "VO-008",
       "name": "マーズディープブルー",
       "nameEn": null,
@@ -4021,6 +4288,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182335089.jpg"
     },
     {
+      "catalogId": "gaianotes.vo-009",
       "code": "VO-009",
       "name": "マーズダークブルー",
       "nameEn": null,
@@ -4036,6 +4304,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182335096.jpg"
     },
     {
+      "catalogId": "gaianotes.vo-10",
       "code": "VO-10",
       "name": "マーズライトグレー",
       "nameEn": null,
@@ -4051,6 +4320,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182335102.jpg"
     },
     {
+      "catalogId": "gaianotes.vo-13",
       "code": "VO-13",
       "name": "コーラルピンク",
       "nameEn": null,
@@ -4066,6 +4336,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182335133.jpg"
     },
     {
+      "catalogId": "gaianotes.vo-14",
       "code": "VO-14",
       "name": "コーラルオレンジ",
       "nameEn": null,
@@ -4081,6 +4352,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182335140.jpg"
     },
     {
+      "catalogId": "gaianotes.vo-24",
       "code": "VO-24",
       "name": "マイザーピンク",
       "nameEn": null,
@@ -4096,6 +4368,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182335249.jpg"
     },
     {
+      "catalogId": "gaianotes.vo-25",
       "code": "VO-25",
       "name": "マイザーパープル",
       "nameEn": null,
@@ -4111,6 +4384,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182335256.jpg"
     },
     {
+      "catalogId": "gaianotes.vo-27",
       "code": "VO-27",
       "name": "焔小豆（ほむらあずき）",
       "nameEn": null,
@@ -4126,6 +4400,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182335270.jpg"
     },
     {
+      "catalogId": "gaianotes.vo-030",
       "code": "VO-030",
       "name": "ブレードシルバー",
       "nameEn": null,
@@ -4141,6 +4416,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182335300.jpg"
     },
     {
+      "catalogId": "gaianotes.vo-031",
       "code": "VO-031",
       "name": "コールドホワイト",
       "nameEn": null,
@@ -4156,6 +4432,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182335317.jpg"
     },
     {
+      "catalogId": "gaianotes.vo-33",
       "code": "VO-33",
       "name": "マイルドオレンジ",
       "nameEn": null,
@@ -4171,6 +4448,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182335331.jpg"
     },
     {
+      "catalogId": "gaianotes.vo-040",
       "code": "VO-040",
       "name": "風群青（かぜぐんじょう）",
       "nameEn": null,
@@ -4186,6 +4464,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182335409.jpg"
     },
     {
+      "catalogId": "gaianotes.vo-41",
       "code": "VO-41",
       "name": "ヴィクトリーゴールド",
       "nameEn": null,
@@ -4201,6 +4480,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182335416.jpg"
     },
     {
+      "catalogId": "gaianotes.vo-042",
       "code": "VO-042",
       "name": "ヴィクトリーブラウンゴールド",
       "nameEn": null,
@@ -4216,6 +4496,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182335423.jpg"
     },
     {
+      "catalogId": "gaianotes.vo-43",
       "code": "VO-43",
       "name": "レディッシュウォームホワイト",
       "nameEn": null,
@@ -4231,6 +4512,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182335430.jpg"
     },
     {
+      "catalogId": "gaianotes.vo-101",
       "code": "VO-101",
       "name": "パールコールドホワイト",
       "nameEn": null,
@@ -4246,6 +4528,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182336512.jpg"
     },
     {
+      "catalogId": "gaianotes.vo-102",
       "code": "VO-102",
       "name": "パールビビッドオレンジ",
       "nameEn": null,
@@ -4261,6 +4544,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182336529.jpg"
     },
     {
+      "catalogId": "gaianotes.vo-103",
       "code": "VO-103",
       "name": "パールローズディープレッド",
       "nameEn": null,
@@ -4276,6 +4560,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182336536.jpg"
     },
     {
+      "catalogId": "gaianotes.vo-104",
       "code": "VO-104",
       "name": "パールマーズダークブルー 電脳戦機バーチャロン カラー",
       "nameEn": null,
@@ -4291,6 +4576,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182336543.jpg"
     },
     {
+      "catalogId": "gaianotes.at-03",
       "code": "AT-03",
       "name": "ブルーグレー",
       "nameEn": null,
@@ -4306,6 +4592,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182337038.jpg"
     },
     {
+      "catalogId": "gaianotes.at-05",
       "code": "AT-05",
       "name": "ダークブルー",
       "nameEn": null,
@@ -4321,6 +4608,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182337052.jpg"
     },
     {
+      "catalogId": "gaianotes.at-06",
       "code": "AT-06",
       "name": "ブルー",
       "nameEn": null,
@@ -4336,6 +4624,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182337069.jpg"
     },
     {
+      "catalogId": "gaianotes.at-07",
       "code": "AT-07",
       "name": "ペールグリーン",
       "nameEn": null,
@@ -4351,6 +4640,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182337076.jpg"
     },
     {
+      "catalogId": "gaianotes.at-08",
       "code": "AT-08",
       "name": "ライトブルー",
       "nameEn": null,
@@ -4366,6 +4656,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182337083.jpg"
     },
     {
+      "catalogId": "gaianotes.at-09",
       "code": "AT-09",
       "name": "フォグブルー",
       "nameEn": null,
@@ -4381,6 +4672,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182337090.jpg"
     },
     {
+      "catalogId": "gaianotes.at-10",
       "code": "AT-10",
       "name": "パープル",
       "nameEn": null,
@@ -4396,6 +4688,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182337106.jpg"
     },
     {
+      "catalogId": "gaianotes.at-11",
       "code": "AT-11",
       "name": "アイスグリーン",
       "nameEn": null,
@@ -4411,6 +4704,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182337113.jpg"
     },
     {
+      "catalogId": "gaianotes.at-12",
       "code": "AT-12",
       "name": "ボルドー",
       "nameEn": null,
@@ -4426,6 +4720,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182337120.jpg"
     },
     {
+      "catalogId": "gaianotes.at-13",
       "code": "AT-13",
       "name": "オレンジ",
       "nameEn": null,
@@ -4441,6 +4736,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182337137.jpg"
     },
     {
+      "catalogId": "gaianotes.at-14",
       "code": "AT-14",
       "name": "レザーブラウン",
       "nameEn": null,
@@ -4456,6 +4752,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182337144.jpg"
     },
     {
+      "catalogId": "gaianotes.at-16",
       "code": "AT-16",
       "name": "ブラッドレッド",
       "nameEn": null,
@@ -4471,6 +4768,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182337168.jpg"
     },
     {
+      "catalogId": "gaianotes.at-17",
       "code": "AT-17",
       "name": "ホワイトグレー",
       "nameEn": null,
@@ -4486,6 +4784,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182337175.jpg"
     },
     {
+      "catalogId": "gaianotes.at-18",
       "code": "AT-18",
       "name": "ダークバイオレット",
       "nameEn": null,
@@ -4501,6 +4800,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182337182.jpg"
     },
     {
+      "catalogId": "gaianotes.at-19",
       "code": "AT-19",
       "name": "カーマイン",
       "nameEn": null,
@@ -4516,6 +4816,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182337199.jpg"
     },
     {
+      "catalogId": "gaianotes.at-20",
       "code": "AT-20",
       "name": "オレンジイエロー",
       "nameEn": null,
@@ -4531,6 +4832,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182337205.jpg"
     },
     {
+      "catalogId": "gaianotes.at-21",
       "code": "AT-21",
       "name": "ローズピンク",
       "nameEn": null,
@@ -4546,6 +4848,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182337212.jpg"
     },
     {
+      "catalogId": "gaianotes.at-22",
       "code": "AT-22",
       "name": "ネービーブルー",
       "nameEn": null,
@@ -4561,6 +4864,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182337229.jpg"
     },
     {
+      "catalogId": "gaianotes.at-23",
       "code": "AT-23",
       "name": "ペンキレッド",
       "nameEn": null,
@@ -4576,6 +4880,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182337236.jpg"
     },
     {
+      "catalogId": "gaianotes.at-24",
       "code": "AT-24",
       "name": "アンバー",
       "nameEn": null,
@@ -4591,6 +4896,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182337243.jpg"
     },
     {
+      "catalogId": "gaianotes.at-26",
       "code": "AT-26",
       "name": "スレートブラック",
       "nameEn": null,
@@ -4606,6 +4912,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182337267.jpg"
     },
     {
+      "catalogId": "gaianotes.cb-02",
       "code": "CB-02",
       "name": "レッド",
       "nameEn": null,
@@ -4621,6 +4928,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182338028.jpg"
     },
     {
+      "catalogId": "gaianotes.cb-03",
       "code": "CB-03",
       "name": "ライトグレー",
       "nameEn": null,
@@ -4636,6 +4944,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182338035.jpg"
     },
     {
+      "catalogId": "gaianotes.cb-05",
       "code": "CB-05",
       "name": "グレー",
       "nameEn": null,
@@ -4651,6 +4960,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182338059.jpg"
     },
     {
+      "catalogId": "gaianotes.cb-06",
       "code": "CB-06",
       "name": "ライトブルーグレー",
       "nameEn": null,
@@ -4666,6 +4976,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182338066.jpg"
     },
     {
+      "catalogId": "gaianotes.cb-07",
       "code": "CB-07",
       "name": "ライトグレーグリーン",
       "nameEn": null,
@@ -4681,6 +4992,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182338073.jpg"
     },
     {
+      "catalogId": "gaianotes.cb-08",
       "code": "CB-08",
       "name": "ダークグリーン",
       "nameEn": null,
@@ -4696,6 +5008,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182338080.jpg"
     },
     {
+      "catalogId": "gaianotes.cb-09",
       "code": "CB-09",
       "name": "ライトブラウン",
       "nameEn": null,
@@ -4711,6 +5024,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182338097.jpg"
     },
     {
+      "catalogId": "gaianotes.cb-10",
       "code": "CB-10",
       "name": "ココアブラウン",
       "nameEn": null,
@@ -4726,6 +5040,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182338103.jpg"
     },
     {
+      "catalogId": "gaianotes.cb-12",
       "code": "CB-12",
       "name": "ダークグリーン(2)",
       "nameEn": null,
@@ -4741,6 +5056,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182338127.jpg"
     },
     {
+      "catalogId": "gaianotes.cb-13",
       "code": "CB-13",
       "name": "カーキ",
       "nameEn": null,
@@ -4756,6 +5072,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182338134.jpg"
     },
     {
+      "catalogId": "gaianotes.cb-14",
       "code": "CB-14",
       "name": "ライトカーキ",
       "nameEn": null,
@@ -4771,6 +5088,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182338141.jpg"
     },
     {
+      "catalogId": "gaianotes.cb-17",
       "code": "CB-17",
       "name": "モスグリーン",
       "nameEn": null,
@@ -4786,6 +5104,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182338172.jpg"
     },
     {
+      "catalogId": "gaianotes.cb-18",
       "code": "CB-18",
       "name": "ラベンダー",
       "nameEn": null,
@@ -4801,6 +5120,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182338189.jpg"
     },
     {
+      "catalogId": "gaianotes.cb-19",
       "code": "CB-19",
       "name": "デザートイエロー",
       "nameEn": null,
@@ -4816,6 +5136,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182338196.jpg"
     },
     {
+      "catalogId": "gaianotes.cb-20",
       "code": "CB-20",
       "name": "マホガニー",
       "nameEn": null,
@@ -4831,6 +5152,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182338202.jpg"
     },
     {
+      "catalogId": "gaianotes.cb-21",
       "code": "CB-21",
       "name": "ダークレッド",
       "nameEn": null,
@@ -4846,6 +5168,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182338219.jpg"
     },
     {
+      "catalogId": "gaianotes.cb-23",
       "code": "CB-23",
       "name": "ブラウン",
       "nameEn": null,
@@ -4861,6 +5184,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182338233.jpg"
     },
     {
+      "catalogId": "gaianotes.cb-24",
       "code": "CB-24",
       "name": "モスパープル",
       "nameEn": null,
@@ -4876,6 +5200,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182338240.jpg"
     },
     {
+      "catalogId": "gaianotes.cb-25",
       "code": "CB-25",
       "name": "デザートオレンジ",
       "nameEn": null,
@@ -4891,6 +5216,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182338257.jpg"
     },
     {
+      "catalogId": "gaianotes.cm-01",
       "code": "CM-01",
       "name": "ホワイト",
       "nameEn": null,
@@ -4906,6 +5232,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182339018.jpg"
     },
     {
+      "catalogId": "gaianotes.cm-10",
       "code": "CM-10",
       "name": "ピンク",
       "nameEn": null,
@@ -4921,6 +5248,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182339100.jpg"
     },
     {
+      "catalogId": "gaianotes.el-01",
       "code": "EL-01",
       "name": "レモンイエロー",
       "nameEn": null,
@@ -4936,6 +5264,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182339711.jpg"
     },
     {
+      "catalogId": "gaianotes.el-02",
       "code": "EL-02",
       "name": "ライラック",
       "nameEn": null,
@@ -4951,6 +5280,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182339728.jpg"
     },
     {
+      "catalogId": "gaianotes.el-03",
       "code": "EL-03",
       "name": "エルドランゴールド",
       "nameEn": null,
@@ -4966,6 +5296,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182339735.jpg"
     },
     {
+      "catalogId": "gaianotes.dc-09",
       "code": "DC-09",
       "name": "ガイアスプレー ホワイト",
       "nameEn": null,
@@ -4981,6 +5312,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/category/noimage.jpg"
     },
     {
+      "catalogId": "gaianotes.dc-10",
       "code": "DC-10",
       "name": "ガイアスプレー グレー",
       "nameEn": null,
@@ -4996,6 +5328,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/category/noimage.jpg"
     },
     {
+      "catalogId": "gaianotes.am-04",
       "code": "AM-04",
       "name": "オーラグリーン1",
       "nameEn": null,
@@ -5011,6 +5344,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182273046.jpg"
     },
     {
+      "catalogId": "gaianotes.ma-05",
       "code": "MA-05",
       "name": "ドラグナーグレー",
       "nameEn": null,
@@ -5026,6 +5360,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182273657.jpg"
     },
     {
+      "catalogId": "gaianotes.1021",
       "code": "1021",
       "name": "コンテナブルー",
       "nameEn": null,
@@ -5041,6 +5376,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182275217.jpg"
     },
     {
+      "catalogId": "gaianotes.ev-14",
       "code": "EV-14",
       "name": "エヴァダークブルー",
       "nameEn": null,
@@ -5056,6 +5392,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182303149.jpg"
     },
     {
+      "catalogId": "gaianotes.ev-17",
       "code": "EV-17",
       "name": "エヴァ マリブラウン エヴァンゲリオンカラー",
       "nameEn": null,
@@ -5071,6 +5408,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182303170.jpg"
     },
     {
+      "catalogId": "gaianotes.ev-24",
       "code": "EV-24",
       "name": "エヴァ ダークグリーン /仮説5号機の本体濃いグリーン エヴァンゲリオンカラー",
       "nameEn": null,
@@ -5086,6 +5424,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182303248.jpg"
     },
     {
+      "catalogId": "gaianotes.basic-color.004",
       "code": "004",
       "name": "ウルトラブルー",
       "nameEn": null,
@@ -5101,6 +5440,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330046.jpg"
     },
     {
+      "catalogId": "gaianotes.basic-color.014",
       "code": "014",
       "name": "ナチュラルブラウン",
       "nameEn": null,
@@ -5116,6 +5456,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330145.jpg"
     },
     {
+      "catalogId": "gaianotes.basic-color.023",
       "code": "023",
       "name": "スカーレット",
       "nameEn": null,
@@ -5131,6 +5472,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330237.jpg"
     },
     {
+      "catalogId": "gaianotes.basic-color.063",
       "code": "063",
       "name": "ブルーグレー",
       "nameEn": null,
@@ -5146,6 +5488,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330633.jpg"
     },
     {
+      "catalogId": "gaianotes.basic-color.072",
       "code": "072",
       "name": "ニュートラルグレーⅡ",
       "nameEn": null,
@@ -5161,6 +5504,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330725.jpg"
     },
     {
+      "catalogId": "gaianotes.military-series.204",
       "code": "204",
       "name": "ダークイエロー2",
       "nameEn": null,
@@ -5176,6 +5520,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182332040.jpg"
     },
     {
+      "catalogId": "gaianotes.vo-26",
       "code": "VO-26",
       "name": "焔朱（ほむらしゅ）",
       "nameEn": null,
@@ -5191,6 +5536,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182335263.jpg"
     },
     {
+      "catalogId": "gaianotes.vo-105",
       "code": "VO-105",
       "name": "パールマーズライトグレー 電脳戦機バーチャロン カラー",
       "nameEn": null,
@@ -5206,6 +5552,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182336550.jpg"
     },
     {
+      "catalogId": "gaianotes.86059.t-08",
       "code": "T-08",
       "name": "s リターダーMAX（中）",
       "nameEn": null,
@@ -5221,6 +5568,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/category/noimage.jpg"
     },
     {
+      "catalogId": "gaianotes.ssfg2",
       "code": "SSFG2",
       "name": "若葉女子校 紺",
       "nameEn": null,
@@ -5236,6 +5584,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4580175304227.jpg"
     },
     {
+      "catalogId": "gaianotes.ssfg5",
       "code": "SSFG5",
       "name": "寿 武希子 グリーン",
       "nameEn": null,
@@ -5251,6 +5600,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4580175304258.jpg"
     },
     {
+      "catalogId": "gaianotes.ad-02",
       "code": "AD-02",
       "name": "アルカナ ホワイト",
       "nameEn": null,
@@ -5266,6 +5616,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4580175304425.jpg"
     },
     {
+      "catalogId": "gaianotes.ge-009",
       "code": "GE-009",
       "name": "蛍光ピンク",
       "nameEn": null,
@@ -5281,6 +5632,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4580175740193.jpg"
     },
     {
+      "catalogId": "gaianotes.dc-01",
       "code": "DC-01",
       "name": "ガイアスプレー ブラック",
       "nameEn": null,
@@ -5296,6 +5648,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/category/noimage.jpg"
     },
     {
+      "catalogId": "gaianotes.dc-02",
       "code": "DC-02",
       "name": "ガイアスプレー シルバー",
       "nameEn": null,
@@ -5311,6 +5664,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/category/noimage.jpg"
     },
     {
+      "catalogId": "gaianotes.dc-03",
       "code": "DC-03",
       "name": "ガイアスプレー レッド",
       "nameEn": null,
@@ -5326,6 +5680,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/category/noimage.jpg"
     },
     {
+      "catalogId": "gaianotes.am-01",
       "code": "AM-01",
       "name": "オーラパープル1",
       "nameEn": null,
@@ -5341,6 +5696,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182273015.jpg"
     },
     {
+      "catalogId": "gaianotes.am-02",
       "code": "AM-02",
       "name": "オーラパープル2",
       "nameEn": null,
@@ -5356,6 +5712,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182273022.jpg"
     },
     {
+      "catalogId": "gaianotes.am-03",
       "code": "AM-03",
       "name": "オーラダークブルー",
       "nameEn": null,
@@ -5371,6 +5728,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182273039.jpg"
     },
     {
+      "catalogId": "gaianotes.am-05",
       "code": "AM-05",
       "name": "オーラグリーン2",
       "nameEn": null,
@@ -5386,6 +5744,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182273053.jpg"
     },
     {
+      "catalogId": "gaianotes.am-06",
       "code": "AM-06",
       "name": "オーラペールブルー",
       "nameEn": null,
@@ -5401,6 +5760,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182273060.jpg"
     },
     {
+      "catalogId": "gaianotes.wm-01",
       "code": "WM-01",
       "name": "ウォーカーブルー1",
       "nameEn": null,
@@ -5416,6 +5776,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182273114.jpg"
     },
     {
+      "catalogId": "gaianotes.wm-02",
       "code": "WM-02",
       "name": "ウォーカーブルー2",
       "nameEn": null,
@@ -5431,6 +5792,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182273121.jpg"
     },
     {
+      "catalogId": "gaianotes.wm-03",
       "code": "WM-03",
       "name": "ウォーカーホワイト",
       "nameEn": null,
@@ -5446,6 +5808,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182273138.jpg"
     },
     {
+      "catalogId": "gaianotes.wm-05",
       "code": "WM-05",
       "name": "ウォーカーダークブルー",
       "nameEn": null,
@@ -5461,6 +5824,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182273152.jpg"
     },
     {
+      "catalogId": "gaianotes.pb-01",
       "code": "PB-01",
       "name": "パンツァーレッド(1)",
       "nameEn": null,
@@ -5476,6 +5840,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182273213.jpg"
     },
     {
+      "catalogId": "gaianotes.pb-02",
       "code": "PB-02",
       "name": "パンツァーレッド(2)",
       "nameEn": null,
@@ -5491,6 +5856,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182273220.jpg"
     },
     {
+      "catalogId": "gaianotes.pbl-01",
       "code": "PBL-01",
       "name": "メタリック パンツァーレッド",
       "nameEn": null,
@@ -5506,6 +5872,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182273237.jpg"
     },
     {
+      "catalogId": "gaianotes.am-07",
       "code": "AM-07",
       "name": "オーラブルー",
       "nameEn": null,
@@ -5521,6 +5888,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182273275.jpg"
     },
     {
+      "catalogId": "gaianotes.hm-01",
       "code": "HM-01",
       "name": "ヘビーホワイト",
       "nameEn": null,
@@ -5536,6 +5904,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182273312.jpg"
     },
     {
+      "catalogId": "gaianotes.hm-04",
       "code": "HM-04",
       "name": "ヘビーライトグレー",
       "nameEn": null,
@@ -5551,6 +5920,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182273343.jpg"
     },
     {
+      "catalogId": "gaianotes.hm-06",
       "code": "HM-06",
       "name": "ヘビーブルーグレー",
       "nameEn": null,
@@ -5566,6 +5936,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182273367.jpg"
     },
     {
+      "catalogId": "gaianotes.hm-07",
       "code": "HM-07",
       "name": "ヘビーダークパープル",
       "nameEn": null,
@@ -5581,6 +5952,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182273374.jpg"
     },
     {
+      "catalogId": "gaianotes.id-02",
       "code": "ID-02",
       "name": "イデ アレンジ レッド",
       "nameEn": null,
@@ -5596,6 +5968,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182273527.jpg"
     },
     {
+      "catalogId": "gaianotes.ar-01",
       "code": "AR-01",
       "name": "ルミナスブルー",
       "nameEn": null,
@@ -5611,6 +5984,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182301015.jpg"
     },
     {
+      "catalogId": "gaianotes.ar-08",
       "code": "AR-08",
       "name": "ルミナスホワイト プレミアム",
       "nameEn": null,
@@ -5626,6 +6000,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182301084.jpg"
     },
     {
+      "catalogId": "gaianotes.br-03",
       "code": "BR-03",
       "name": "アイボリーホワイト",
       "nameEn": null,
@@ -5641,6 +6016,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182301732.jpg"
     },
     {
+      "catalogId": "gaianotes.nazca.nc-001",
       "code": "NC-001",
       "name": "スチールホワイト",
       "nameEn": null,
@@ -5656,6 +6032,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182307161.jpg"
     },
     {
+      "catalogId": "gaianotes.nazca.nc-009",
       "code": "NC-009",
       "name": "コバルトバイオレット",
       "nameEn": null,
@@ -5671,6 +6048,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182307260.jpg"
     },
     {
+      "catalogId": "gaianotes.gp-07",
       "code": "GP-07",
       "name": "プレミアムメッキシルバー",
       "nameEn": null,
@@ -5686,6 +6064,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182320122.jpg"
     },
     {
+      "catalogId": "gaianotes.military-series.026",
       "code": "026",
       "name": "ライトグリーン",
       "nameEn": null,
@@ -5701,6 +6080,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330268.jpg"
     },
     {
+      "catalogId": "gaianotes.military-series.027",
       "code": "027",
       "name": "ダークグリーン",
       "nameEn": null,
@@ -5716,6 +6096,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330275.jpg"
     },
     {
+      "catalogId": "gaianotes.military-series.028",
       "code": "028",
       "name": "ストーングリーン",
       "nameEn": null,
@@ -5731,6 +6112,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330282.jpg"
     },
     {
+      "catalogId": "gaianotes.clear-color.041",
       "code": "041",
       "name": "クリアーレッド",
       "nameEn": null,
@@ -5746,6 +6128,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330411.jpg"
     },
     {
+      "catalogId": "gaianotes.clear-color.044",
       "code": "044",
       "name": "クリアーブルー",
       "nameEn": null,
@@ -5761,6 +6144,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182330442.jpg"
     },
     {
+      "catalogId": "gaianotes.prism-color.138",
       "code": "138",
       "name": "プリズム パステルチェリーピンクブルー",
       "nameEn": null,
@@ -5776,6 +6160,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182331388.jpg"
     },
     {
+      "catalogId": "gaianotes.vo-04",
       "code": "VO-04",
       "name": "フレームメタリック（1）",
       "nameEn": null,
@@ -5791,6 +6176,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182335041.jpg"
     },
     {
+      "catalogId": "gaianotes.vo-007",
       "code": "VO-007",
       "name": "ローズディープレッド",
       "nameEn": null,
@@ -5806,6 +6192,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182335072.jpg"
     },
     {
+      "catalogId": "gaianotes.vo-15",
       "code": "VO-15",
       "name": "フレームメタリック（2）",
       "nameEn": null,
@@ -5821,6 +6208,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182335157.jpg"
     },
     {
+      "catalogId": "gaianotes.vo-034",
       "code": "VO-034",
       "name": "ブライトロイヤルブルー",
       "nameEn": null,
@@ -5836,6 +6224,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182335348.jpg"
     },
     {
+      "catalogId": "gaianotes.vo-39",
       "code": "VO-39",
       "name": "風蒼（かぜあお）",
       "nameEn": null,
@@ -5851,6 +6240,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182335393.jpg"
     },
     {
+      "catalogId": "gaianotes.at-01",
       "code": "AT-01",
       "name": "グリーン",
       "nameEn": null,
@@ -5866,6 +6256,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182337014.jpg"
     },
     {
+      "catalogId": "gaianotes.at-02",
       "code": "AT-02",
       "name": "ライトグリーン",
       "nameEn": null,
@@ -5881,6 +6272,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182337021.jpg"
     },
     {
+      "catalogId": "gaianotes.at-04",
       "code": "AT-04",
       "name": "パープルグレー",
       "nameEn": null,
@@ -5896,6 +6288,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182337045.jpg"
     },
     {
+      "catalogId": "gaianotes.at-15",
       "code": "AT-15",
       "name": "コバルトグリーン",
       "nameEn": null,
@@ -5911,6 +6304,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182337151.jpg"
     },
     {
+      "catalogId": "gaianotes.at-25",
       "code": "AT-25",
       "name": "シャドウブラック",
       "nameEn": null,
@@ -5926,6 +6320,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182337250.jpg"
     },
     {
+      "catalogId": "gaianotes.at-27",
       "code": "AT-27",
       "name": "スチールブラック",
       "nameEn": null,
@@ -5941,6 +6336,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182337274.jpg"
     },
     {
+      "catalogId": "gaianotes.cb-01",
       "code": "CB-01",
       "name": "アイアンブルー",
       "nameEn": null,
@@ -5956,6 +6352,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182338011.jpg"
     },
     {
+      "catalogId": "gaianotes.cb-04",
       "code": "CB-04",
       "name": "グレーグリーン",
       "nameEn": null,
@@ -5971,6 +6368,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182338042.jpg"
     },
     {
+      "catalogId": "gaianotes.cb-11",
       "code": "CB-11",
       "name": "グレーバイオレット",
       "nameEn": null,
@@ -5986,6 +6384,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182338110.jpg"
     },
     {
+      "catalogId": "gaianotes.cb-15",
       "code": "CB-15",
       "name": "コバルトブルー",
       "nameEn": null,
@@ -6001,6 +6400,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182338158.jpg"
     },
     {
+      "catalogId": "gaianotes.cb-16",
       "code": "CB-16",
       "name": "ダークパープル",
       "nameEn": null,
@@ -6016,6 +6416,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182338165.jpg"
     },
     {
+      "catalogId": "gaianotes.cb-22",
       "code": "CB-22",
       "name": "ブルーホワイト",
       "nameEn": null,
@@ -6031,6 +6432,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182338226.jpg"
     },
     {
+      "catalogId": "gaianotes.cm-07",
       "code": "CM-07",
       "name": "スカイブルー",
       "nameEn": null,
@@ -6046,6 +6448,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182339070.jpg"
     },
     {
+      "catalogId": "gaianotes.cm-08",
       "code": "CM-08",
       "name": "コバルトブルー(2)",
       "nameEn": null,
@@ -6061,6 +6464,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/gaianotes/4582182339087.jpg"
     },
     {
+      "catalogId": "gaianotes.cj-03",
       "code": "CJ-03",
       "name": "ダークグレー",
       "nameEn": null,
