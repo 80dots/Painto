@@ -16,22 +16,32 @@ import { PAINT_FINISHES, PAINT_TYPES, type PaintFinish, type PaintType } from '@
  * 아래 `CATALOG_FILES` 에 넣기만 하면 된다.
  */
 
+/**
+ * 카탈로그 JSON 한 벌. 모든 항목이 이 모양을 그대로 지킨다
+ * (`?` 를 붙이지 않아, 키가 빠진 파일은 타입 검사에서 걸린다).
+ * 값 규칙은 `npm run check:catalog` 가 함께 확인한다.
+ */
 type CatalogFile = {
   brand: string;
   brandEn: string | null;
   /** 검색어로 받아 줄 다른 표기 (Tamiya, タミヤ …) */
-  brandAliases?: string[];
+  brandAliases: string[];
   country: string | null;
   updatedAt: string;
+  sources: string[];
+  notes: string;
   paints: {
     code: string | null;
+    /** 그 브랜드가 파는 표기 그대로 (한국어 · 영어 · 일본어) */
     name: string;
+    /** 영문 이름. `name` 과 같으면 null 로 둔다 */
     nameEn: string | null;
-    /** 색이름의 다른 표기 (일본어명 등) */
-    aliases?: string[] | null;
+    /** 색이름의 다른 표기 (일본어명 등). 없으면 빈 배열 */
+    aliases: string[];
+    /** 제품 라인 (Basic Color, Mr.カラー …) */
     line: string | null;
-    /** 브랜드 목록에 쓸 굵은 구분 (타미야 아크릴 / 에나멜 …) */
-    brandLine?: string | null;
+    /** 브랜드 목록에서 갈라 보여 줄 제품 라인 (GSI Creos 의 Mr.COLOR) */
+    brandLine: string | null;
     type: string;
     finish: string;
     colorHex: string | null;
@@ -39,7 +49,7 @@ type CatalogFile = {
     thinnerRatio: string | null;
     barcode: string | null;
     /** 판매처 제품 사진 주소. 고르면 내려받아 앱에 저장한다. */
-    photoUrl?: string | null;
+    photoUrl: string | null;
   }[];
 };
 
@@ -79,7 +89,7 @@ const isPaintFinish = (value: string): value is PaintFinish =>
 
 export const CATALOG_PAINTS: CatalogPaint[] = CATALOG_FILES.flatMap((file) =>
   file.paints.map((paint) => ({
-    id: `${file.brand}:${paint.line ?? ''}:${paint.code ?? paint.name}`,
+    id: `${file.brand}:${paint.line ?? ''}:${paint.code || paint.name}`,
     brand: file.brand,
     brandEn: file.brandEn,
     country: file.country,
@@ -87,23 +97,23 @@ export const CATALOG_PAINTS: CatalogPaint[] = CATALOG_FILES.flatMap((file) =>
     name: paint.name,
     nameEn: paint.nameEn,
     line: paint.line,
-    brandLine: paint.brandLine ?? null,
+    brandLine: paint.brandLine,
     type: isPaintType(paint.type) ? paint.type : 'other',
     finish: isPaintFinish(paint.finish) ? paint.finish : 'none',
     colorHex: paint.colorHex,
     volumeMl: paint.volumeMl,
     thinnerRatio: paint.thinnerRatio,
     barcode: paint.barcode,
-    photoUrl: paint.photoUrl ?? null,
+    photoUrl: paint.photoUrl,
     haystack: normalize(
       [
         file.brand,
         file.brandEn,
-        ...(file.brandAliases ?? []),
+        ...file.brandAliases,
         paint.code,
         paint.name,
         paint.nameEn,
-        ...(paint.aliases ?? []),
+        ...paint.aliases,
         paint.line,
         paint.barcode,
       ]

@@ -61,7 +61,8 @@
     "format": "prettier --write \"src/**/*.{ts,tsx}\"",
     "db:generate": "drizzle-kit generate",
     "db:studio": "drizzle-kit studio",
-    "prebuild": "expo prebuild --clean"
+    "prebuild": "expo prebuild --clean",
+    "check:catalog": "node scripts/check-paint-catalog.mjs"
   },
   "private": true
 }

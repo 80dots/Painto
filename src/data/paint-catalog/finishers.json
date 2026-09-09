@@ -8,7 +8,7 @@
     "finishers"
   ],
   "country": "JP",
-  "updatedAt": "2026-09-07",
+  "updatedAt": "2026-09-09",
   "sources": [
     "https://tsumitsumi.vercel.app/paint/finishers/",
     "https://tsurumai-hobby.jp/category/paint---othermaker"
@@ -1486,7 +1486,7 @@
       "photoUrl": null
     },
     {
-      "code": "",
+      "code": null,
       "name": "蛍光イエロー",
       "nameEn": null,
       "aliases": [],
@@ -1501,7 +1501,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362789390.jpg"
     },
     {
-      "code": "",
+      "code": null,
       "name": "蛍光オレンジ",
       "nameEn": null,
       "aliases": [],
@@ -1516,7 +1516,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362789413.jpg"
     },
     {
-      "code": "",
+      "code": null,
       "name": "蛍光グリーン",
       "nameEn": null,
       "aliases": [],
@@ -1531,7 +1531,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362789406.jpg"
     },
     {
-      "code": "",
+      "code": null,
       "name": "蛍光ピンク",
       "nameEn": null,
       "aliases": [],
@@ -1546,7 +1546,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362789383.jpg"
     },
     {
-      "code": "",
+      "code": null,
       "name": "蛍光ブルー",
       "nameEn": null,
       "aliases": [],
@@ -1561,7 +1561,7 @@
       "photoUrl": "https://tsurumai-hobby.jp/images/item/finishers/4562362789376.jpg"
     },
     {
-      "code": "",
+      "code": null,
       "name": "蛍光レッド",
       "nameEn": null,
       "aliases": [],

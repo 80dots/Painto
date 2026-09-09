@@ -7,7 +7,7 @@
     "タミヤカラー"
   ],
   "country": "JP",
-  "updatedAt": "2026-09-07",
+  "updatedAt": "2026-09-09",
   "sources": [
     "https://www.scalemates.com/colors/tamiya-paints--655",
     "https://www.scalemates.com/colors/tamiya-color-lacquer-paint--834",
@@ -18,7 +18,7 @@
     {
       "code": "X-1",
       "name": "Black",
-      "nameEn": "Black",
+      "nameEn": null,
       "aliases": [
         "ブラック"
       ],
@@ -35,7 +35,7 @@
     {
       "code": "X-2",
       "name": "White",
-      "nameEn": "White",
+      "nameEn": null,
       "aliases": [
         "ホワイト"
       ],
@@ -52,7 +52,7 @@
     {
       "code": "X-3",
       "name": "Royal Blue",
-      "nameEn": "Royal Blue",
+      "nameEn": null,
       "aliases": [
         "ロイヤルブルー"
       ],
@@ -69,7 +69,7 @@
     {
       "code": "X-4",
       "name": "Blue Gloss",
-      "nameEn": "Blue Gloss",
+      "nameEn": null,
       "aliases": [
         "ブルー"
       ],
@@ -86,7 +86,7 @@
     {
       "code": "X-5",
       "name": "Green Gloss",
-      "nameEn": "Green Gloss",
+      "nameEn": null,
       "aliases": [
         "グリーン"
       ],
@@ -103,7 +103,7 @@
     {
       "code": "X-6",
       "name": "Orange",
-      "nameEn": "Orange",
+      "nameEn": null,
       "aliases": [
         "オレンジ"
       ],
@@ -120,7 +120,7 @@
     {
       "code": "X-7",
       "name": "Red Gloss",
-      "nameEn": "Red Gloss",
+      "nameEn": null,
       "aliases": [
         "レッド"
       ],
@@ -137,7 +137,7 @@
     {
       "code": "X-8",
       "name": "Lemon Yellow Gloss",
-      "nameEn": "Lemon Yellow Gloss",
+      "nameEn": null,
       "aliases": [
         "レモンイエロー"
       ],
@@ -154,7 +154,7 @@
     {
       "code": "X-9",
       "name": "Brown Gloss",
-      "nameEn": "Brown Gloss",
+      "nameEn": null,
       "aliases": [
         "ブラウン"
       ],
@@ -171,7 +171,7 @@
     {
       "code": "X-10",
       "name": "Gun Metal",
-      "nameEn": "Gun Metal",
+      "nameEn": null,
       "aliases": [
         "ガンメタル"
       ],
@@ -188,7 +188,7 @@
     {
       "code": "X-11",
       "name": "Chrome Silver",
-      "nameEn": "Chrome Silver",
+      "nameEn": null,
       "aliases": [
         "クロムシルバー"
       ],
@@ -205,7 +205,7 @@
     {
       "code": "X-12",
       "name": "Gold Leaf Gloss",
-      "nameEn": "Gold Leaf Gloss",
+      "nameEn": null,
       "aliases": [
         "ゴールドリーフ"
       ],
@@ -222,7 +222,7 @@
     {
       "code": "X-13",
       "name": "Metallic Blue Gloss",
-      "nameEn": "Metallic Blue Gloss",
+      "nameEn": null,
       "aliases": [
         "メタリックブルー"
       ],
@@ -239,7 +239,7 @@
     {
       "code": "X-14",
       "name": "Sky Blue",
-      "nameEn": "Sky Blue",
+      "nameEn": null,
       "aliases": [
         "スカイブルー"
       ],
@@ -256,7 +256,7 @@
     {
       "code": "X-15",
       "name": "Light Green",
-      "nameEn": "Light Green",
+      "nameEn": null,
       "aliases": [
         "ライトグリーン"
       ],
@@ -273,7 +273,7 @@
     {
       "code": "X-16",
       "name": "Purple",
-      "nameEn": "Purple",
+      "nameEn": null,
       "aliases": [
         "パープル"
       ],
@@ -290,7 +290,7 @@
     {
       "code": "X-17",
       "name": "Pink",
-      "nameEn": "Pink",
+      "nameEn": null,
       "aliases": [
         "ピンク"
       ],
@@ -307,7 +307,7 @@
     {
       "code": "X-18",
       "name": "Semi Gloss Black",
-      "nameEn": "Semi Gloss Black",
+      "nameEn": null,
       "aliases": [
         "セミグロスブラック"
       ],
@@ -324,7 +324,7 @@
     {
       "code": "X-19",
       "name": "Smoke",
-      "nameEn": "Smoke",
+      "nameEn": null,
       "aliases": [
         "スモーク"
       ],
@@ -341,7 +341,7 @@
     {
       "code": "X-21",
       "name": "Flat Base",
-      "nameEn": "Flat Base",
+      "nameEn": null,
       "aliases": [
         "フラットベース"
       ],
@@ -358,7 +358,7 @@
     {
       "code": "X-22",
       "name": "Clear",
-      "nameEn": "Clear",
+      "nameEn": null,
       "aliases": [
         "クリヤー"
       ],
@@ -375,7 +375,7 @@
     {
       "code": "X-23",
       "name": "Clear Blue",
-      "nameEn": "Clear Blue",
+      "nameEn": null,
       "aliases": [
         "クリヤーブルー"
       ],
@@ -392,7 +392,7 @@
     {
       "code": "X-24",
       "name": "Clear Yellow",
-      "nameEn": "Clear Yellow",
+      "nameEn": null,
       "aliases": [
         "クリヤーイエロー"
       ],
@@ -409,7 +409,7 @@
     {
       "code": "X-25",
       "name": "Clear Green",
-      "nameEn": "Clear Green",
+      "nameEn": null,
       "aliases": [
         "クリヤーグリーン"
       ],
@@ -426,7 +426,7 @@
     {
       "code": "X-26",
       "name": "Clear Orange",
-      "nameEn": "Clear Orange",
+      "nameEn": null,
       "aliases": [
         "クリヤーオレンジ"
       ],
@@ -443,7 +443,7 @@
     {
       "code": "X-27",
       "name": "Clear Red",
-      "nameEn": "Clear Red",
+      "nameEn": null,
       "aliases": [
         "クリヤーレッド"
       ],
@@ -460,7 +460,7 @@
     {
       "code": "X-28",
       "name": "Park Green",
-      "nameEn": "Park Green",
+      "nameEn": null,
       "aliases": [
         "パークグリーン"
       ],
@@ -477,7 +477,7 @@
     {
       "code": "X-31",
       "name": "Titanium Gold",
-      "nameEn": "Titanium Gold",
+      "nameEn": null,
       "aliases": [
         "チタンゴールド"
       ],
@@ -494,7 +494,7 @@
     {
       "code": "X-32",
       "name": "Titanium Silver",
-      "nameEn": "Titanium Silver",
+      "nameEn": null,
       "aliases": [
         "チタンシルバー"
       ],
@@ -511,7 +511,7 @@
     {
       "code": "X-33",
       "name": "Bronze",
-      "nameEn": "Bronze",
+      "nameEn": null,
       "aliases": [
         "ブロンズ"
       ],
@@ -528,7 +528,7 @@
     {
       "code": "X-34",
       "name": "Metallic Brown",
-      "nameEn": "Metallic Brown",
+      "nameEn": null,
       "aliases": [
         "メタリックブラウン"
       ],
@@ -545,7 +545,7 @@
     {
       "code": "XF-1",
       "name": "Flat black",
-      "nameEn": "Flat black",
+      "nameEn": null,
       "aliases": [
         "フラットブラック"
       ],
@@ -562,7 +562,7 @@
     {
       "code": "XF-2",
       "name": "Flat White",
-      "nameEn": "Flat White",
+      "nameEn": null,
       "aliases": [
         "フラットホワイト"
       ],
@@ -579,7 +579,7 @@
     {
       "code": "XF-3",
       "name": "Flat Yellow",
-      "nameEn": "Flat Yellow",
+      "nameEn": null,
       "aliases": [
         "フラットイエロー"
       ],
@@ -596,7 +596,7 @@
     {
       "code": "XF-4",
       "name": "Yellow Green",
-      "nameEn": "Yellow Green",
+      "nameEn": null,
       "aliases": [
         "イエローグリーン"
       ],
@@ -613,7 +613,7 @@
     {
       "code": "XF-5",
       "name": "Flat Green",
-      "nameEn": "Flat Green",
+      "nameEn": null,
       "aliases": [
         "フラットグリーン"
       ],
@@ -630,7 +630,7 @@
     {
       "code": "XF-6",
       "name": "Copper",
-      "nameEn": "Copper",
+      "nameEn": null,
       "aliases": [
         "コッパー"
       ],
@@ -647,7 +647,7 @@
     {
       "code": "XF-7",
       "name": "Flat Red",
-      "nameEn": "Flat Red",
+      "nameEn": null,
       "aliases": [
         "フラットレッド"
       ],
@@ -664,7 +664,7 @@
     {
       "code": "XF-8",
       "name": "Flat Blue",
-      "nameEn": "Flat Blue",
+      "nameEn": null,
       "aliases": [
         "フラットブルー"
       ],
@@ -681,7 +681,7 @@
     {
       "code": "XF-9",
       "name": "Hull Red",
-      "nameEn": "Hull Red",
+      "nameEn": null,
       "aliases": [
         "ハルレッド"
       ],
@@ -698,7 +698,7 @@
     {
       "code": "XF-10",
       "name": "Flat Brown",
-      "nameEn": "Flat Brown",
+      "nameEn": null,
       "aliases": [
         "フラットブラウン"
       ],
@@ -715,7 +715,7 @@
     {
       "code": "XF-11",
       "name": "J.N. Green",
-      "nameEn": "J.N. Green",
+      "nameEn": null,
       "aliases": [
         "暗緑色"
       ],
@@ -732,7 +732,7 @@
     {
       "code": "XF-12",
       "name": "J.N. Grey",
-      "nameEn": "J.N. Grey",
+      "nameEn": null,
       "aliases": [
         "明灰白色"
       ],
@@ -749,7 +749,7 @@
     {
       "code": "XF-13",
       "name": "J.A. Green",
-      "nameEn": "J.A. Green",
+      "nameEn": null,
       "aliases": [
         "濃緑色"
       ],
@@ -766,7 +766,7 @@
     {
       "code": "XF-14",
       "name": "J.A. Grey",
-      "nameEn": "J.A. Grey",
+      "nameEn": null,
       "aliases": [
         "明灰緑色"
       ],
@@ -783,7 +783,7 @@
     {
       "code": "XF-15",
       "name": "Flat Flesh",
-      "nameEn": "Flat Flesh",
+      "nameEn": null,
       "aliases": [
         "フラットフレッシュ"
       ],
@@ -800,7 +800,7 @@
     {
       "code": "XF-16",
       "name": "Flat Aluminium",
-      "nameEn": "Flat Aluminium",
+      "nameEn": null,
       "aliases": [
         "フラットアルミ"
       ],
@@ -817,7 +817,7 @@
     {
       "code": "XF-17",
       "name": "Sea Blue",
-      "nameEn": "Sea Blue",
+      "nameEn": null,
       "aliases": [
         "シーブルー"
       ],
@@ -834,7 +834,7 @@
     {
       "code": "XF-18",
       "name": "Medium Blue",
-      "nameEn": "Medium Blue",
+      "nameEn": null,
       "aliases": [
         "ミディアムブルー"
       ],
@@ -851,7 +851,7 @@
     {
       "code": "XF-19",
       "name": "Sky Grey",
-      "nameEn": "Sky Grey",
+      "nameEn": null,
       "aliases": [
         "スカイグレイ"
       ],
@@ -868,7 +868,7 @@
     {
       "code": "XF-20",
       "name": "Medium Grey",
-      "nameEn": "Medium Grey",
+      "nameEn": null,
       "aliases": [
         "ミディアムグレイ"
       ],
@@ -885,7 +885,7 @@
     {
       "code": "XF-21",
       "name": "Sky",
-      "nameEn": "Sky",
+      "nameEn": null,
       "aliases": [
         "スカイ"
       ],
@@ -902,7 +902,7 @@
     {
       "code": "XF-22",
       "name": "RLM grey",
-      "nameEn": "RLM grey",
+      "nameEn": null,
       "aliases": [
         "RLMグレイ"
       ],
@@ -919,7 +919,7 @@
     {
       "code": "XF-23",
       "name": "Light Blue",
-      "nameEn": "Light Blue",
+      "nameEn": null,
       "aliases": [
         "ライトブルー"
       ],
@@ -936,7 +936,7 @@
     {
       "code": "XF-24",
       "name": "Dark Grey",
-      "nameEn": "Dark Grey",
+      "nameEn": null,
       "aliases": [
         "ダークグレイ"
       ],
@@ -953,7 +953,7 @@
     {
       "code": "XF-25",
       "name": "Light Sea Grey",
-      "nameEn": "Light Sea Grey",
+      "nameEn": null,
       "aliases": [
         "ライトシーグレイ"
       ],
@@ -970,7 +970,7 @@
     {
       "code": "XF-26",
       "name": "Deep Green",
-      "nameEn": "Deep Green",
+      "nameEn": null,
       "aliases": [
         "ディープグリーン"
       ],
@@ -987,7 +987,7 @@
     {
       "code": "XF-27",
       "name": "Black Green",
-      "nameEn": "Black Green",
+      "nameEn": null,
       "aliases": [
         "ブラックグリーン"
       ],
@@ -1004,7 +1004,7 @@
     {
       "code": "XF-28",
       "name": "Dark Copper",
-      "nameEn": "Dark Copper",
+      "nameEn": null,
       "aliases": [
         "ダークコッパー"
       ],
@@ -1021,7 +1021,7 @@
     {
       "code": "XF-49",
       "name": "Khaki",
-      "nameEn": "Khaki",
+      "nameEn": null,
       "aliases": [
         "カーキ"
       ],
@@ -1038,7 +1038,7 @@
     {
       "code": "XF-50",
       "name": "Field Blue",
-      "nameEn": "Field Blue",
+      "nameEn": null,
       "aliases": [
         "フィールドブルー"
       ],
@@ -1055,7 +1055,7 @@
     {
       "code": "XF-51",
       "name": "Khaki Drab",
-      "nameEn": "Khaki Drab",
+      "nameEn": null,
       "aliases": [
         "カーキドラブ"
       ],
@@ -1072,7 +1072,7 @@
     {
       "code": "XF-52",
       "name": "Flat Earth",
-      "nameEn": "Flat Earth",
+      "nameEn": null,
       "aliases": [
         "フラットアース"
       ],
@@ -1089,7 +1089,7 @@
     {
       "code": "XF-53",
       "name": "Neutral Grey",
-      "nameEn": "Neutral Grey",
+      "nameEn": null,
       "aliases": [
         "ニュートラルグレイ"
       ],
@@ -1106,7 +1106,7 @@
     {
       "code": "XF-54",
       "name": "Dark Sea Grey",
-      "nameEn": "Dark Sea Grey",
+      "nameEn": null,
       "aliases": [
         "ダークシーグレイ"
       ],
@@ -1123,7 +1123,7 @@
     {
       "code": "XF-55",
       "name": "Deck Tan",
-      "nameEn": "Deck Tan",
+      "nameEn": null,
       "aliases": [
         "デッキタン"
       ],
@@ -1140,7 +1140,7 @@
     {
       "code": "XF-56",
       "name": "Metallic Grey",
-      "nameEn": "Metallic Grey",
+      "nameEn": null,
       "aliases": [
         "メタリックグレイ"
       ],
@@ -1157,7 +1157,7 @@
     {
       "code": "XF-57",
       "name": "Buff",
-      "nameEn": "Buff",
+      "nameEn": null,
       "aliases": [
         "バフ"
       ],
@@ -1174,7 +1174,7 @@
     {
       "code": "XF-58",
       "name": "Olive Green",
-      "nameEn": "Olive Green",
+      "nameEn": null,
       "aliases": [
         "オリーブグリーン"
       ],
@@ -1191,7 +1191,7 @@
     {
       "code": "XF-59",
       "name": "Desert yellow",
-      "nameEn": "Desert yellow",
+      "nameEn": null,
       "aliases": [
         "デザートイエロー"
       ],
@@ -1208,7 +1208,7 @@
     {
       "code": "XF-60",
       "name": "Dark Yellow",
-      "nameEn": "Dark Yellow",
+      "nameEn": null,
       "aliases": [
         "ダークイエロー"
       ],
@@ -1225,7 +1225,7 @@
     {
       "code": "XF-61",
       "name": "Dark Green",
-      "nameEn": "Dark Green",
+      "nameEn": null,
       "aliases": [
         "ダークグリーン"
       ],
@@ -1242,7 +1242,7 @@
     {
       "code": "XF-62",
       "name": "Olive Drab",
-      "nameEn": "Olive Drab",
+      "nameEn": null,
       "aliases": [
         "オリーブドラブ"
       ],
@@ -1259,7 +1259,7 @@
     {
       "code": "XF-63",
       "name": "German Grey",
-      "nameEn": "German Grey",
+      "nameEn": null,
       "aliases": [
         "ジャーマングレイ"
       ],
@@ -1276,7 +1276,7 @@
     {
       "code": "XF-64",
       "name": "Red brown",
-      "nameEn": "Red brown",
+      "nameEn": null,
       "aliases": [
         "レッドブラウン"
       ],
@@ -1293,7 +1293,7 @@
     {
       "code": "XF-65",
       "name": "Field Grey",
-      "nameEn": "Field Grey",
+      "nameEn": null,
       "aliases": [
         "フィールドグレイ"
       ],
@@ -1310,7 +1310,7 @@
     {
       "code": "XF-66",
       "name": "Light Grey",
-      "nameEn": "Light Grey",
+      "nameEn": null,
       "aliases": [
         "ライトグレイ"
       ],
@@ -1327,7 +1327,7 @@
     {
       "code": "XF-67",
       "name": "NATO Green",
-      "nameEn": "NATO Green",
+      "nameEn": null,
       "aliases": [],
       "line": "Enamel",
       "brandLine": null,
@@ -1342,7 +1342,7 @@
     {
       "code": "XF-68",
       "name": "NATO Brown",
-      "nameEn": "NATO Brown",
+      "nameEn": null,
       "aliases": [],
       "line": "Enamel",
       "brandLine": null,
@@ -1357,7 +1357,7 @@
     {
       "code": "XF-69",
       "name": "NATO Black",
-      "nameEn": "NATO Black",
+      "nameEn": null,
       "aliases": [],
       "line": "Enamel",
       "brandLine": null,
@@ -1372,7 +1372,7 @@
     {
       "code": "XF-70",
       "name": "Dark Green 2",
-      "nameEn": "Dark Green 2",
+      "nameEn": null,
       "aliases": [
         "暗緑色2"
       ],
@@ -1389,7 +1389,7 @@
     {
       "code": "XF-71",
       "name": "Cockpit Green (IJN)",
-      "nameEn": "Cockpit Green (IJN)",
+      "nameEn": null,
       "aliases": [
         "コックピット色"
       ],
@@ -1406,7 +1406,7 @@
     {
       "code": "XF-72",
       "name": "Brown (JGSDF)",
-      "nameEn": "Brown (JGSDF)",
+      "nameEn": null,
       "aliases": [],
       "line": "Enamel",
       "brandLine": null,
@@ -1421,7 +1421,7 @@
     {
       "code": "XF-73",
       "name": "Dark Green (JGSDF)",
-      "nameEn": "Dark Green (JGSDF)",
+      "nameEn": null,
       "aliases": [],
       "line": "Enamel",
       "brandLine": null,
@@ -1436,7 +1436,7 @@
     {
       "code": "XF-74",
       "name": "Olive Drab (JGSDF)",
-      "nameEn": "Olive Drab (JGSDF)",
+      "nameEn": null,
       "aliases": [],
       "line": "Enamel",
       "brandLine": null,
@@ -1451,7 +1451,7 @@
     {
       "code": "XF-75",
       "name": "IJN Gray (Kure Arsenal)",
-      "nameEn": "IJN Gray (Kure Arsenal)",
+      "nameEn": null,
       "aliases": [],
       "line": "Enamel",
       "brandLine": null,
@@ -1466,7 +1466,7 @@
     {
       "code": "XF-76",
       "name": "Gray Green (IJN)",
-      "nameEn": "Gray Green (IJN)",
+      "nameEn": null,
       "aliases": [],
       "line": "Enamel",
       "brandLine": null,
@@ -1481,7 +1481,7 @@
     {
       "code": "XF-77",
       "name": "IJN Gray (Sasebo Arsenal)",
-      "nameEn": "IJN Gray (Sasebo Arsenal)",
+      "nameEn": null,
       "aliases": [],
       "line": "Enamel",
       "brandLine": null,
@@ -1496,7 +1496,7 @@
     {
       "code": "XF-78",
       "name": "Wooden Deck Tan",
-      "nameEn": "Wooden Deck Tan",
+      "nameEn": null,
       "aliases": [],
       "line": "Enamel",
       "brandLine": null,
@@ -1511,7 +1511,7 @@
     {
       "code": "XF-79",
       "name": "Linoleum Deck Brown",
-      "nameEn": "Linoleum Deck Brown",
+      "nameEn": null,
       "aliases": [],
       "line": "Enamel",
       "brandLine": null,
@@ -1526,7 +1526,7 @@
     {
       "code": "XF-80",
       "name": "Royal Light Gray",
-      "nameEn": "Royal Light Gray",
+      "nameEn": null,
       "aliases": [],
       "line": "Enamel",
       "brandLine": null,
@@ -1541,7 +1541,7 @@
     {
       "code": "XF-81",
       "name": "Dark Green 2 RAF",
-      "nameEn": "Dark Green 2 RAF",
+      "nameEn": null,
       "aliases": [],
       "line": "Enamel",
       "brandLine": null,
@@ -1556,7 +1556,7 @@
     {
       "code": "XF-82",
       "name": "Ocean Gray 2 RAF",
-      "nameEn": "Ocean Gray 2 RAF",
+      "nameEn": null,
       "aliases": [],
       "line": "Enamel",
       "brandLine": null,
@@ -1571,7 +1571,7 @@
     {
       "code": "XF-83",
       "name": "Med Sea Gray 2 RAF",
-      "nameEn": "Med Sea Gray 2 RAF",
+      "nameEn": null,
       "aliases": [],
       "line": "Enamel",
       "brandLine": null,
@@ -1586,7 +1586,7 @@
     {
       "code": "XF-84",
       "name": "Dark Iron",
-      "nameEn": "Dark Iron",
+      "nameEn": null,
       "aliases": [
         "ダークアイアン (履帯色)"
       ],
@@ -1603,7 +1603,7 @@
     {
       "code": "XF-85",
       "name": "Rubber Black",
-      "nameEn": "Rubber Black",
+      "nameEn": null,
       "aliases": [
         "ラバーブラック"
       ],
@@ -1620,7 +1620,7 @@
     {
       "code": "XF-86",
       "name": "Flat Clear",
-      "nameEn": "Flat Clear",
+      "nameEn": null,
       "aliases": [],
       "line": "Enamel",
       "brandLine": null,
@@ -1635,7 +1635,7 @@
     {
       "code": "87199",
       "name": "Panel Line Accent Color (Dark Gray)",
-      "nameEn": "Panel Line Accent Color (Dark Gray)",
+      "nameEn": null,
       "aliases": [],
       "line": "Enamel",
       "brandLine": null,
@@ -1650,7 +1650,7 @@
     {
       "code": "X-1",
       "name": "Black",
-      "nameEn": "Black",
+      "nameEn": null,
       "aliases": [
         "ブラック"
       ],
@@ -1667,7 +1667,7 @@
     {
       "code": "X-2",
       "name": "White",
-      "nameEn": "White",
+      "nameEn": null,
       "aliases": [
         "ホワイト"
       ],
@@ -1684,7 +1684,7 @@
     {
       "code": "X-3",
       "name": "Royal Blue",
-      "nameEn": "Royal Blue",
+      "nameEn": null,
       "aliases": [
         "ロイヤルブルー"
       ],
@@ -1701,7 +1701,7 @@
     {
       "code": "X-4",
       "name": "Blue",
-      "nameEn": "Blue",
+      "nameEn": null,
       "aliases": [
         "ブルー"
       ],
@@ -1718,7 +1718,7 @@
     {
       "code": "X-5",
       "name": "Green",
-      "nameEn": "Green",
+      "nameEn": null,
       "aliases": [
         "グリーン"
       ],
@@ -1735,7 +1735,7 @@
     {
       "code": "X-6",
       "name": "Orange",
-      "nameEn": "Orange",
+      "nameEn": null,
       "aliases": [
         "オレンジ"
       ],
@@ -1752,7 +1752,7 @@
     {
       "code": "X-7",
       "name": "Red",
-      "nameEn": "Red",
+      "nameEn": null,
       "aliases": [
         "レッド"
       ],
@@ -1769,7 +1769,7 @@
     {
       "code": "X-8",
       "name": "Lemon Yellow",
-      "nameEn": "Lemon Yellow",
+      "nameEn": null,
       "aliases": [
         "レモンイエロー"
       ],
@@ -1786,7 +1786,7 @@
     {
       "code": "X-9",
       "name": "Brown",
-      "nameEn": "Brown",
+      "nameEn": null,
       "aliases": [
         "ブラウン"
       ],
@@ -1803,7 +1803,7 @@
     {
       "code": "X-10",
       "name": "Gun Metal",
-      "nameEn": "Gun Metal",
+      "nameEn": null,
       "aliases": [
         "ガンメタル"
       ],
@@ -1820,7 +1820,7 @@
     {
       "code": "X-11",
       "name": "Chrome Silver",
-      "nameEn": "Chrome Silver",
+      "nameEn": null,
       "aliases": [
         "クロームシルバー"
       ],
@@ -1837,7 +1837,7 @@
     {
       "code": "X-12",
       "name": "Gold Leaf",
-      "nameEn": "Gold Leaf",
+      "nameEn": null,
       "aliases": [
         "ゴールドリーフ"
       ],
@@ -1854,7 +1854,7 @@
     {
       "code": "X-13",
       "name": "Metallic Blue",
-      "nameEn": "Metallic Blue",
+      "nameEn": null,
       "aliases": [
         "メタリックブルー"
       ],
@@ -1871,7 +1871,7 @@
     {
       "code": "X-14",
       "name": "Sky Blue",
-      "nameEn": "Sky Blue",
+      "nameEn": null,
       "aliases": [
         "スカイブルー"
       ],
@@ -1888,7 +1888,7 @@
     {
       "code": "X-15",
       "name": "Light Green",
-      "nameEn": "Light Green",
+      "nameEn": null,
       "aliases": [
         "ライトグリーン"
       ],
@@ -1905,7 +1905,7 @@
     {
       "code": "X-16",
       "name": "Purple",
-      "nameEn": "Purple",
+      "nameEn": null,
       "aliases": [
         "パープル"
       ],
@@ -1922,7 +1922,7 @@
     {
       "code": "X-17",
       "name": "Pink",
-      "nameEn": "Pink",
+      "nameEn": null,
       "aliases": [
         "ピンク"
       ],
@@ -1939,7 +1939,7 @@
     {
       "code": "X-18",
       "name": "Semi-Gloss Black",
-      "nameEn": "Semi-Gloss Black",
+      "nameEn": null,
       "aliases": [
         "セミグロスブラック"
       ],
@@ -1956,7 +1956,7 @@
     {
       "code": "X-19",
       "name": "Smoke",
-      "nameEn": "Smoke",
+      "nameEn": null,
       "aliases": [
         "スモーク"
       ],
@@ -1973,7 +1973,7 @@
     {
       "code": "X-21",
       "name": "Flat Base",
-      "nameEn": "Flat Base",
+      "nameEn": null,
       "aliases": [
         "フラットベース"
       ],
@@ -1990,7 +1990,7 @@
     {
       "code": "X-22",
       "name": "Clear",
-      "nameEn": "Clear",
+      "nameEn": null,
       "aliases": [
         "クリヤー"
       ],
@@ -2007,7 +2007,7 @@
     {
       "code": "X-23",
       "name": "Clear Blue",
-      "nameEn": "Clear Blue",
+      "nameEn": null,
       "aliases": [
         "クリヤーブルー"
       ],
@@ -2024,7 +2024,7 @@
     {
       "code": "X-24",
       "name": "Clear Yellow",
-      "nameEn": "Clear Yellow",
+      "nameEn": null,
       "aliases": [
         "クリヤーイエロー"
       ],
@@ -2041,7 +2041,7 @@
     {
       "code": "X-25",
       "name": "Clear Green",
-      "nameEn": "Clear Green",
+      "nameEn": null,
       "aliases": [
         "クリヤーグリーン"
       ],
@@ -2058,7 +2058,7 @@
     {
       "code": "X-26",
       "name": "Clear Orange",
-      "nameEn": "Clear Orange",
+      "nameEn": null,
       "aliases": [
         "クリヤーオレンジ"
       ],
@@ -2075,7 +2075,7 @@
     {
       "code": "X-27",
       "name": "Clear Red",
-      "nameEn": "Clear Red",
+      "nameEn": null,
       "aliases": [
         "クリヤーレッド"
       ],
@@ -2092,7 +2092,7 @@
     {
       "code": "X-28",
       "name": "Park Green",
-      "nameEn": "Park Green",
+      "nameEn": null,
       "aliases": [
         "パークグリーン"
       ],
@@ -2109,7 +2109,7 @@
     {
       "code": "X-31",
       "name": "Titanium Gold",
-      "nameEn": "Titanium Gold",
+      "nameEn": null,
       "aliases": [
         "チタンゴールド"
       ],
@@ -2126,7 +2126,7 @@
     {
       "code": "X-32",
       "name": "Titanium Silver",
-      "nameEn": "Titanium Silver",
+      "nameEn": null,
       "aliases": [
         "チタンシルバー"
       ],
@@ -2143,7 +2143,7 @@
     {
       "code": "X-33",
       "name": "Bronze",
-      "nameEn": "Bronze",
+      "nameEn": null,
       "aliases": [
         "ブロンズ"
       ],
@@ -2160,7 +2160,7 @@
     {
       "code": "X-34",
       "name": "Metallic Brown",
-      "nameEn": "Metallic Brown",
+      "nameEn": null,
       "aliases": [
         "メタリックブラウン"
       ],
@@ -2177,7 +2177,7 @@
     {
       "code": "X-35",
       "name": "Semi-Gloss Clear",
-      "nameEn": "Semi-Gloss Clear",
+      "nameEn": null,
       "aliases": [
         "セミグロスクリヤー"
       ],
@@ -2194,7 +2194,7 @@
     {
       "code": "XF-1",
       "name": "Flat Black",
-      "nameEn": "Flat Black",
+      "nameEn": null,
       "aliases": [
         "フラットブラック"
       ],
@@ -2211,7 +2211,7 @@
     {
       "code": "XF-2",
       "name": "Flat White",
-      "nameEn": "Flat White",
+      "nameEn": null,
       "aliases": [
         "フラットホワイト"
       ],
@@ -2228,7 +2228,7 @@
     {
       "code": "XF-3",
       "name": "Flat Yellow",
-      "nameEn": "Flat Yellow",
+      "nameEn": null,
       "aliases": [
         "フラットイエロー"
       ],
@@ -2245,7 +2245,7 @@
     {
       "code": "XF-4",
       "name": "Yellow Green",
-      "nameEn": "Yellow Green",
+      "nameEn": null,
       "aliases": [
         "イエローグリーン"
       ],
@@ -2262,7 +2262,7 @@
     {
       "code": "XF-5",
       "name": "Flat Green",
-      "nameEn": "Flat Green",
+      "nameEn": null,
       "aliases": [
         "フラットグリーン"
       ],
@@ -2279,7 +2279,7 @@
     {
       "code": "XF-6",
       "name": "Copper",
-      "nameEn": "Copper",
+      "nameEn": null,
       "aliases": [
         "コッパー"
       ],
@@ -2296,7 +2296,7 @@
     {
       "code": "XF-7",
       "name": "Flat Red",
-      "nameEn": "Flat Red",
+      "nameEn": null,
       "aliases": [
         "フラットレッド"
       ],
@@ -2313,7 +2313,7 @@
     {
       "code": "XF-8",
       "name": "Flat Blue",
-      "nameEn": "Flat Blue",
+      "nameEn": null,
       "aliases": [
         "フラットブルー"
       ],
@@ -2330,7 +2330,7 @@
     {
       "code": "XF-9",
       "name": "Hull Red",
-      "nameEn": "Hull Red",
+      "nameEn": null,
       "aliases": [
         "ハルレッド"
       ],
@@ -2347,7 +2347,7 @@
     {
       "code": "XF-10",
       "name": "Flat Brown",
-      "nameEn": "Flat Brown",
+      "nameEn": null,
       "aliases": [
         "フラットブラウン"
       ],
@@ -2364,7 +2364,7 @@
     {
       "code": "XF-11",
       "name": "J.N. Green",
-      "nameEn": "J.N. Green",
+      "nameEn": null,
       "aliases": [
         "暗緑色"
       ],
@@ -2381,7 +2381,7 @@
     {
       "code": "XF-12",
       "name": "J.N. Grey",
-      "nameEn": "J.N. Grey",
+      "nameEn": null,
       "aliases": [
         "明灰白色"
       ],
@@ -2398,7 +2398,7 @@
     {
       "code": "XF-13",
       "name": "J.A. Green",
-      "nameEn": "J.A. Green",
+      "nameEn": null,
       "aliases": [
         "濃緑色"
       ],
@@ -2415,7 +2415,7 @@
     {
       "code": "XF-14",
       "name": "J.A. Grey",
-      "nameEn": "J.A. Grey",
+      "nameEn": null,
       "aliases": [
         "明灰緑色"
       ],
@@ -2432,7 +2432,7 @@
     {
       "code": "XF-15",
       "name": "Flat Flesh",
-      "nameEn": "Flat Flesh",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic Mini",
       "brandLine": null,
@@ -2447,7 +2447,7 @@
     {
       "code": "XF-16",
       "name": "Flat Aluminium",
-      "nameEn": "Flat Aluminium",
+      "nameEn": null,
       "aliases": [
         "フラットアルミ"
       ],
@@ -2464,7 +2464,7 @@
     {
       "code": "XF-17",
       "name": "Sea Blue",
-      "nameEn": "Sea Blue",
+      "nameEn": null,
       "aliases": [
         "シーブルー"
       ],
@@ -2481,7 +2481,7 @@
     {
       "code": "XF-18",
       "name": "Medium Blue",
-      "nameEn": "Medium Blue",
+      "nameEn": null,
       "aliases": [
         "ミディアムブルー"
       ],
@@ -2498,7 +2498,7 @@
     {
       "code": "XF-19",
       "name": "Sky Grey",
-      "nameEn": "Sky Grey",
+      "nameEn": null,
       "aliases": [
         "スカイグレイ"
       ],
@@ -2515,7 +2515,7 @@
     {
       "code": "XF-20",
       "name": "Medium Grey",
-      "nameEn": "Medium Grey",
+      "nameEn": null,
       "aliases": [
         "ミディアムグレイ"
       ],
@@ -2532,7 +2532,7 @@
     {
       "code": "XF-21",
       "name": "Sky",
-      "nameEn": "Sky",
+      "nameEn": null,
       "aliases": [
         "スカイ"
       ],
@@ -2549,7 +2549,7 @@
     {
       "code": "XF-22",
       "name": "RLM Grey",
-      "nameEn": "RLM Grey",
+      "nameEn": null,
       "aliases": [
         "RLMグレイ"
       ],
@@ -2566,7 +2566,7 @@
     {
       "code": "XF-23",
       "name": "Light Blue",
-      "nameEn": "Light Blue",
+      "nameEn": null,
       "aliases": [
         "ライトブルー"
       ],
@@ -2583,7 +2583,7 @@
     {
       "code": "XF-24",
       "name": "Dark Grey",
-      "nameEn": "Dark Grey",
+      "nameEn": null,
       "aliases": [
         "ダークグレイ"
       ],
@@ -2600,7 +2600,7 @@
     {
       "code": "XF-25",
       "name": "Light Sea Grey",
-      "nameEn": "Light Sea Grey",
+      "nameEn": null,
       "aliases": [
         "ライトシーグレイ"
       ],
@@ -2617,7 +2617,7 @@
     {
       "code": "XF-26",
       "name": "Deep Green",
-      "nameEn": "Deep Green",
+      "nameEn": null,
       "aliases": [
         "ディープグリーン"
       ],
@@ -2634,7 +2634,7 @@
     {
       "code": "XF-27",
       "name": "Black Green",
-      "nameEn": "Black Green",
+      "nameEn": null,
       "aliases": [
         "ブラックグリーン"
       ],
@@ -2651,7 +2651,7 @@
     {
       "code": "XF-28",
       "name": "Dark Copper",
-      "nameEn": "Dark Copper",
+      "nameEn": null,
       "aliases": [
         "ダークコッパー"
       ],
@@ -2668,7 +2668,7 @@
     {
       "code": "XF-49",
       "name": "Khaki",
-      "nameEn": "Khaki",
+      "nameEn": null,
       "aliases": [
         "カーキ"
       ],
@@ -2685,7 +2685,7 @@
     {
       "code": "XF-50",
       "name": "Field Blue",
-      "nameEn": "Field Blue",
+      "nameEn": null,
       "aliases": [
         "フィールドブルー"
       ],
@@ -2702,7 +2702,7 @@
     {
       "code": "XF-51",
       "name": "Khaki Drab",
-      "nameEn": "Khaki Drab",
+      "nameEn": null,
       "aliases": [
         "カーキドラブ"
       ],
@@ -2719,7 +2719,7 @@
     {
       "code": "XF-52",
       "name": "Flat Earth",
-      "nameEn": "Flat Earth",
+      "nameEn": null,
       "aliases": [
         "フラットアース"
       ],
@@ -2736,7 +2736,7 @@
     {
       "code": "XF-53",
       "name": "Neutral Grey",
-      "nameEn": "Neutral Grey",
+      "nameEn": null,
       "aliases": [
         "ニュートラルグレイ"
       ],
@@ -2753,7 +2753,7 @@
     {
       "code": "XF-54",
       "name": "Dark Sea Grey",
-      "nameEn": "Dark Sea Grey",
+      "nameEn": null,
       "aliases": [
         "ダークシーグレイ"
       ],
@@ -2770,7 +2770,7 @@
     {
       "code": "XF-55",
       "name": "Deck Tan",
-      "nameEn": "Deck Tan",
+      "nameEn": null,
       "aliases": [
         "デッキタン"
       ],
@@ -2787,7 +2787,7 @@
     {
       "code": "XF-56",
       "name": "Metallic Grey",
-      "nameEn": "Metallic Grey",
+      "nameEn": null,
       "aliases": [
         "メタリックグレイ"
       ],
@@ -2804,7 +2804,7 @@
     {
       "code": "XF-57",
       "name": "Buff",
-      "nameEn": "Buff",
+      "nameEn": null,
       "aliases": [
         "バフ"
       ],
@@ -2821,7 +2821,7 @@
     {
       "code": "XF-58",
       "name": "Olive Green",
-      "nameEn": "Olive Green",
+      "nameEn": null,
       "aliases": [
         "オリーブグリーン"
       ],
@@ -2838,7 +2838,7 @@
     {
       "code": "XF-59",
       "name": "Desert Yellow",
-      "nameEn": "Desert Yellow",
+      "nameEn": null,
       "aliases": [
         "デザートイエロー"
       ],
@@ -2855,7 +2855,7 @@
     {
       "code": "XF-60",
       "name": "Dark Yellow",
-      "nameEn": "Dark Yellow",
+      "nameEn": null,
       "aliases": [
         "ダークイエロー"
       ],
@@ -2872,7 +2872,7 @@
     {
       "code": "XF-61",
       "name": "Dark Green",
-      "nameEn": "Dark Green",
+      "nameEn": null,
       "aliases": [
         "ダークグリーン"
       ],
@@ -2889,7 +2889,7 @@
     {
       "code": "XF-62",
       "name": "Olive Drab",
-      "nameEn": "Olive Drab",
+      "nameEn": null,
       "aliases": [
         "オリーブドラブ"
       ],
@@ -2906,7 +2906,7 @@
     {
       "code": "XF-63",
       "name": "German Grey",
-      "nameEn": "German Grey",
+      "nameEn": null,
       "aliases": [
         "ジャーマングレイ"
       ],
@@ -2923,7 +2923,7 @@
     {
       "code": "XF-64",
       "name": "Red Brown",
-      "nameEn": "Red Brown",
+      "nameEn": null,
       "aliases": [
         "レッドブラウン"
       ],
@@ -2940,7 +2940,7 @@
     {
       "code": "XF-65",
       "name": "Field Grey",
-      "nameEn": "Field Grey",
+      "nameEn": null,
       "aliases": [
         "フィールドグレイ"
       ],
@@ -2957,7 +2957,7 @@
     {
       "code": "XF-66",
       "name": "Light Grey",
-      "nameEn": "Light Grey",
+      "nameEn": null,
       "aliases": [
         "ライトグレイ"
       ],
@@ -2974,7 +2974,7 @@
     {
       "code": "XF-67",
       "name": "NATO Green",
-      "nameEn": "NATO Green",
+      "nameEn": null,
       "aliases": [
         "NATOグリーン"
       ],
@@ -2991,7 +2991,7 @@
     {
       "code": "XF-68",
       "name": "NATO Brown",
-      "nameEn": "NATO Brown",
+      "nameEn": null,
       "aliases": [
         "NATOブラウン"
       ],
@@ -3008,7 +3008,7 @@
     {
       "code": "XF-69",
       "name": "NATO Black",
-      "nameEn": "NATO Black",
+      "nameEn": null,
       "aliases": [
         "NATOブラック"
       ],
@@ -3025,7 +3025,7 @@
     {
       "code": "XF-70",
       "name": "Dark Green 2",
-      "nameEn": "Dark Green 2",
+      "nameEn": null,
       "aliases": [
         "暗緑色2"
       ],
@@ -3042,7 +3042,7 @@
     {
       "code": "XF-71",
       "name": "Cockpit Green (IJN)",
-      "nameEn": "Cockpit Green (IJN)",
+      "nameEn": null,
       "aliases": [
         "コックピット色"
       ],
@@ -3059,7 +3059,7 @@
     {
       "code": "XF-72",
       "name": "Brown (JGSDF)",
-      "nameEn": "Brown (JGSDF)",
+      "nameEn": null,
       "aliases": [
         "茶色(陸上自衛隊)"
       ],
@@ -3076,7 +3076,7 @@
     {
       "code": "XF-73",
       "name": "Dark Green (JGSDF)",
-      "nameEn": "Dark Green (JGSDF)",
+      "nameEn": null,
       "aliases": [
         "濃緑色(陸上自衛隊)"
       ],
@@ -3093,7 +3093,7 @@
     {
       "code": "XF-74",
       "name": "Olive Drab (JGSDF)",
-      "nameEn": "Olive Drab (JGSDF)",
+      "nameEn": null,
       "aliases": [
         "OD色(陸上自衛隊)"
       ],
@@ -3110,7 +3110,7 @@
     {
       "code": "XF-75",
       "name": "IJN Gray (Kure Arsenal)",
-      "nameEn": "IJN Gray (Kure Arsenal)",
+      "nameEn": null,
       "aliases": [
         "呉海軍工廠グレイ"
       ],
@@ -3127,7 +3127,7 @@
     {
       "code": "XF-76",
       "name": "Gray Green (IJN)",
-      "nameEn": "Gray Green (IJN)",
+      "nameEn": null,
       "aliases": [
         "灰緑色(日本海軍)"
       ],
@@ -3144,7 +3144,7 @@
     {
       "code": "XF-77",
       "name": "IJN Gray (Sasebo Arsenal)",
-      "nameEn": "IJN Gray (Sasebo Arsenal)",
+      "nameEn": null,
       "aliases": [
         "佐世保海軍工廠グレイ(日本海軍)"
       ],
@@ -3161,7 +3161,7 @@
     {
       "code": "XF-78",
       "name": "Wooden Deck Tan",
-      "nameEn": "Wooden Deck Tan",
+      "nameEn": null,
       "aliases": [
         "木甲板色"
       ],
@@ -3178,7 +3178,7 @@
     {
       "code": "XF-79",
       "name": "Linoleum Deck Brown",
-      "nameEn": "Linoleum Deck Brown",
+      "nameEn": null,
       "aliases": [
         "リノリウム甲板色"
       ],
@@ -3195,7 +3195,7 @@
     {
       "code": "XF-80",
       "name": "Royal Light Gray",
-      "nameEn": "Royal Light Gray",
+      "nameEn": null,
       "aliases": [
         "ロイヤルライトグレイ"
       ],
@@ -3212,7 +3212,7 @@
     {
       "code": "XF-81",
       "name": "Dark Green 2 (RAF)",
-      "nameEn": "Dark Green 2 (RAF)",
+      "nameEn": null,
       "aliases": [
         "ダークグリーン2(イギリス空軍)"
       ],
@@ -3229,7 +3229,7 @@
     {
       "code": "XF-82",
       "name": "Ocean Gray 2 (RAF)",
-      "nameEn": "Ocean Gray 2 (RAF)",
+      "nameEn": null,
       "aliases": [
         "オーシャングレイ2(イギリス空軍)"
       ],
@@ -3246,7 +3246,7 @@
     {
       "code": "XF-83",
       "name": "Medium Sea Gray 2 (RAF)",
-      "nameEn": "Medium Sea Gray 2 (RAF)",
+      "nameEn": null,
       "aliases": [
         "ミディアムシーグレイ2(イギリス空軍)"
       ],
@@ -3263,7 +3263,7 @@
     {
       "code": "XF-84",
       "name": "Dark Iron",
-      "nameEn": "Dark Iron",
+      "nameEn": null,
       "aliases": [
         "ダークアイアン(履帯色)"
       ],
@@ -3280,7 +3280,7 @@
     {
       "code": "XF-85",
       "name": "Rubber Black",
-      "nameEn": "Rubber Black",
+      "nameEn": null,
       "aliases": [
         "ラバーブラック"
       ],
@@ -3297,7 +3297,7 @@
     {
       "code": "XF-86",
       "name": "Flat Clear",
-      "nameEn": "Flat Clear",
+      "nameEn": null,
       "aliases": [
         "フラットクリヤー"
       ],
@@ -3314,7 +3314,7 @@
     {
       "code": "XF-87",
       "name": "IJN Gray (Maizuru Arsenal)",
-      "nameEn": "IJN Gray (Maizuru Arsenal)",
+      "nameEn": null,
       "aliases": [
         "舞鶴海軍工廠グレイ(日本海軍)"
       ],
@@ -3331,7 +3331,7 @@
     {
       "code": "XF-88",
       "name": "Dark Yellow 2",
-      "nameEn": "Dark Yellow 2",
+      "nameEn": null,
       "aliases": [
         "ダークイエロー2(ドイツ陸軍)"
       ],
@@ -3348,7 +3348,7 @@
     {
       "code": "XF-89",
       "name": "Dark Green 2",
-      "nameEn": "Dark Green 2",
+      "nameEn": null,
       "aliases": [
         "ダークグリーン2(ドイツ陸軍)"
       ],
@@ -3365,7 +3365,7 @@
     {
       "code": "XF-90",
       "name": "Red Brown 2",
-      "nameEn": "Red Brown 2",
+      "nameEn": null,
       "aliases": [
         "レッドブラウン2(ドイツ陸軍)"
       ],
@@ -3382,7 +3382,7 @@
     {
       "code": "XF-91",
       "name": "IJN Gray (Yokosuka arsenal)",
-      "nameEn": "IJN Gray (Yokosuka arsenal)",
+      "nameEn": null,
       "aliases": [
         "横須賀海軍工廠グレイ(日本海軍)"
       ],
@@ -3399,7 +3399,7 @@
     {
       "code": "XF-92",
       "name": "Yellow-brown (DAK 1941)",
-      "nameEn": "Yellow-brown (DAK 1941)",
+      "nameEn": null,
       "aliases": [
         "イエローブラウン (DAK 1941～)"
       ],
@@ -3416,7 +3416,7 @@
     {
       "code": "XF-93",
       "name": "Light Brown (DAK 1942)",
-      "nameEn": "Light Brown (DAK 1942)",
+      "nameEn": null,
       "aliases": [
         "ライトブラウン (DAK 1942～)"
       ],
@@ -3433,7 +3433,7 @@
     {
       "code": "XF-94",
       "name": "Wood Brown",
-      "nameEn": "Wood Brown",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic Mini",
       "brandLine": null,
@@ -3448,7 +3448,7 @@
     {
       "code": "PC-6",
       "name": "Yellow",
-      "nameEn": "Yellow",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -3463,7 +3463,7 @@
     {
       "code": "X-1",
       "name": "Black",
-      "nameEn": "Black",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -3478,7 +3478,7 @@
     {
       "code": "X-2",
       "name": "White",
-      "nameEn": "White",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -3493,7 +3493,7 @@
     {
       "code": "X-3",
       "name": "Royal Blue",
-      "nameEn": "Royal Blue",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -3508,7 +3508,7 @@
     {
       "code": "X-4",
       "name": "Blue",
-      "nameEn": "Blue",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -3523,7 +3523,7 @@
     {
       "code": "X-5",
       "name": "Green",
-      "nameEn": "Green",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -3538,7 +3538,7 @@
     {
       "code": "X-6",
       "name": "Orange",
-      "nameEn": "Orange",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -3553,7 +3553,7 @@
     {
       "code": "X-7",
       "name": "Red",
-      "nameEn": "Red",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -3568,7 +3568,7 @@
     {
       "code": "X-8",
       "name": "Lemon Yellow",
-      "nameEn": "Lemon Yellow",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -3583,7 +3583,7 @@
     {
       "code": "X-9",
       "name": "Brown",
-      "nameEn": "Brown",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -3598,7 +3598,7 @@
     {
       "code": "X-10",
       "name": "Gun Metal",
-      "nameEn": "Gun Metal",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -3613,7 +3613,7 @@
     {
       "code": "X-11",
       "name": "Chrome Silver",
-      "nameEn": "Chrome Silver",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -3628,7 +3628,7 @@
     {
       "code": "X-12",
       "name": "Gold Leaf",
-      "nameEn": "Gold Leaf",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -3643,7 +3643,7 @@
     {
       "code": "X-13",
       "name": "Metallic Blue",
-      "nameEn": "Metallic Blue",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -3658,7 +3658,7 @@
     {
       "code": "X-14",
       "name": "Sky Blue",
-      "nameEn": "Sky Blue",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -3673,7 +3673,7 @@
     {
       "code": "X-15",
       "name": "Light Green",
-      "nameEn": "Light Green",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -3688,7 +3688,7 @@
     {
       "code": "X-16",
       "name": "Purple",
-      "nameEn": "Purple",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -3703,7 +3703,7 @@
     {
       "code": "X-17",
       "name": "Pink",
-      "nameEn": "Pink",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -3718,7 +3718,7 @@
     {
       "code": "X-18",
       "name": "Semi-Gloss Black",
-      "nameEn": "Semi-Gloss Black",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -3733,7 +3733,7 @@
     {
       "code": "X-19",
       "name": "Smoke",
-      "nameEn": "Smoke",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -3748,7 +3748,7 @@
     {
       "code": "X-21",
       "name": "Flat Base",
-      "nameEn": "Flat Base",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -3763,7 +3763,7 @@
     {
       "code": "X-22",
       "name": "Clear",
-      "nameEn": "Clear",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -3778,7 +3778,7 @@
     {
       "code": "X-23",
       "name": "Clear Blue",
-      "nameEn": "Clear Blue",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -3793,7 +3793,7 @@
     {
       "code": "X-24",
       "name": "Clear Yellow",
-      "nameEn": "Clear Yellow",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -3808,7 +3808,7 @@
     {
       "code": "X-25",
       "name": "Clear Green",
-      "nameEn": "Clear Green",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -3823,7 +3823,7 @@
     {
       "code": "X-26",
       "name": "Clear Orange",
-      "nameEn": "Clear Orange",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -3838,7 +3838,7 @@
     {
       "code": "X-27",
       "name": "Clear Red",
-      "nameEn": "Clear Red",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -3853,7 +3853,7 @@
     {
       "code": "X-28",
       "name": "Park Green",
-      "nameEn": "Park Green",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -3868,7 +3868,7 @@
     {
       "code": "X-31",
       "name": "Titanium Gold",
-      "nameEn": "Titanium Gold",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -3883,7 +3883,7 @@
     {
       "code": "X-32",
       "name": "Titanium Silver",
-      "nameEn": "Titanium Silver",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -3898,7 +3898,7 @@
     {
       "code": "X-33",
       "name": "Bronze",
-      "nameEn": "Bronze",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -3913,7 +3913,7 @@
     {
       "code": "X-34",
       "name": "Metallic Brown",
-      "nameEn": "Metallic Brown",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -3928,7 +3928,7 @@
     {
       "code": "XF-1",
       "name": "Flat Black",
-      "nameEn": "Flat Black",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -3943,7 +3943,7 @@
     {
       "code": "XF-2",
       "name": "Flat White",
-      "nameEn": "Flat White",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -3958,7 +3958,7 @@
     {
       "code": "XF-3",
       "name": "Flat Yellow",
-      "nameEn": "Flat Yellow",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -3973,7 +3973,7 @@
     {
       "code": "XF-4",
       "name": "Yellow Green",
-      "nameEn": "Yellow Green",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -3988,7 +3988,7 @@
     {
       "code": "XF-5",
       "name": "Flat Green",
-      "nameEn": "Flat Green",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4003,7 +4003,7 @@
     {
       "code": "XF-6",
       "name": "Copper",
-      "nameEn": "Copper",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4018,7 +4018,7 @@
     {
       "code": "XF-7",
       "name": "Flat Red",
-      "nameEn": "Flat Red",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4033,7 +4033,7 @@
     {
       "code": "XF-8",
       "name": "Flat Blue",
-      "nameEn": "Flat Blue",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4048,7 +4048,7 @@
     {
       "code": "XF-9",
       "name": "Hull Red",
-      "nameEn": "Hull Red",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4063,7 +4063,7 @@
     {
       "code": "XF-10",
       "name": "Flat Brown",
-      "nameEn": "Flat Brown",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4078,7 +4078,7 @@
     {
       "code": "XF-11",
       "name": "J.N. Green",
-      "nameEn": "J.N. Green",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4093,7 +4093,7 @@
     {
       "code": "XF-12",
       "name": "J.N. Grey",
-      "nameEn": "J.N. Grey",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4108,7 +4108,7 @@
     {
       "code": "XF-13",
       "name": "J.A. Green",
-      "nameEn": "J.A. Green",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4123,7 +4123,7 @@
     {
       "code": "XF-14",
       "name": "J.A. Grey",
-      "nameEn": "J.A. Grey",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4138,7 +4138,7 @@
     {
       "code": "XF-15",
       "name": "Flat Flesh",
-      "nameEn": "Flat Flesh",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4153,7 +4153,7 @@
     {
       "code": "XF-16",
       "name": "Flat Aluminum",
-      "nameEn": "Flat Aluminum",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4168,7 +4168,7 @@
     {
       "code": "XF-17",
       "name": "Sea Blue",
-      "nameEn": "Sea Blue",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4183,7 +4183,7 @@
     {
       "code": "XF-18",
       "name": "Medium Blue",
-      "nameEn": "Medium Blue",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4198,7 +4198,7 @@
     {
       "code": "XF-19",
       "name": "Sky Grey",
-      "nameEn": "Sky Grey",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4213,7 +4213,7 @@
     {
       "code": "XF-20",
       "name": "Medium Grey",
-      "nameEn": "Medium Grey",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4228,7 +4228,7 @@
     {
       "code": "XF-21",
       "name": "Sky",
-      "nameEn": "Sky",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4243,7 +4243,7 @@
     {
       "code": "XF-22",
       "name": "RLM Grey",
-      "nameEn": "RLM Grey",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4258,7 +4258,7 @@
     {
       "code": "XF-23",
       "name": "Light Blue",
-      "nameEn": "Light Blue",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4273,7 +4273,7 @@
     {
       "code": "XF-24",
       "name": "Dark Grey",
-      "nameEn": "Dark Grey",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4288,7 +4288,7 @@
     {
       "code": "XF-25",
       "name": "Light Sea Grey",
-      "nameEn": "Light Sea Grey",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4303,7 +4303,7 @@
     {
       "code": "XF-26",
       "name": "Deep Green",
-      "nameEn": "Deep Green",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4318,7 +4318,7 @@
     {
       "code": "XF-27",
       "name": "Black Green",
-      "nameEn": "Black Green",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4333,7 +4333,7 @@
     {
       "code": "XF-28",
       "name": "Dark Copper",
-      "nameEn": "Dark Copper",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4348,7 +4348,7 @@
     {
       "code": "XF-49",
       "name": "Khaki",
-      "nameEn": "Khaki",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4363,7 +4363,7 @@
     {
       "code": "XF-50",
       "name": "Field Blue",
-      "nameEn": "Field Blue",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4378,7 +4378,7 @@
     {
       "code": "XF-51",
       "name": "Khaki Drab",
-      "nameEn": "Khaki Drab",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4393,7 +4393,7 @@
     {
       "code": "XF-52",
       "name": "Flat Earth",
-      "nameEn": "Flat Earth",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4408,7 +4408,7 @@
     {
       "code": "XF-53",
       "name": "Neutral Grey",
-      "nameEn": "Neutral Grey",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4423,7 +4423,7 @@
     {
       "code": "XF-54",
       "name": "Dark Sea Grey",
-      "nameEn": "Dark Sea Grey",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4438,7 +4438,7 @@
     {
       "code": "XF-55",
       "name": "Deck Tan",
-      "nameEn": "Deck Tan",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4453,7 +4453,7 @@
     {
       "code": "XF-56",
       "name": "Metallic Grey",
-      "nameEn": "Metallic Grey",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4468,7 +4468,7 @@
     {
       "code": "XF-57",
       "name": "Buff",
-      "nameEn": "Buff",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4483,7 +4483,7 @@
     {
       "code": "XF-58",
       "name": "Olive Green",
-      "nameEn": "Olive Green",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4498,7 +4498,7 @@
     {
       "code": "XF-59",
       "name": "Desert Yellow",
-      "nameEn": "Desert Yellow",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4513,7 +4513,7 @@
     {
       "code": "XF-60",
       "name": "Dark Yellow",
-      "nameEn": "Dark Yellow",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4528,7 +4528,7 @@
     {
       "code": "XF-61",
       "name": "Dark Green",
-      "nameEn": "Dark Green",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4543,7 +4543,7 @@
     {
       "code": "XF-62",
       "name": "Olive Drab",
-      "nameEn": "Olive Drab",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4558,7 +4558,7 @@
     {
       "code": "XF-63",
       "name": "German Grey",
-      "nameEn": "German Grey",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4573,7 +4573,7 @@
     {
       "code": "XF-64",
       "name": "Red Brown",
-      "nameEn": "Red Brown",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4588,7 +4588,7 @@
     {
       "code": "XF-65",
       "name": "Field Grey",
-      "nameEn": "Field Grey",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4603,7 +4603,7 @@
     {
       "code": "XF-66",
       "name": "Light Grey",
-      "nameEn": "Light Grey",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4618,7 +4618,7 @@
     {
       "code": "XF-67",
       "name": "NATO Green",
-      "nameEn": "NATO Green",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4633,7 +4633,7 @@
     {
       "code": "XF-68",
       "name": "NATO Brown",
-      "nameEn": "NATO Brown",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4648,7 +4648,7 @@
     {
       "code": "XF-69",
       "name": "NATO Black",
-      "nameEn": "NATO Black",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4663,7 +4663,7 @@
     {
       "code": "XF-70",
       "name": "Dark Green 2 (IJN)",
-      "nameEn": "Dark Green 2 (IJN)",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4678,7 +4678,7 @@
     {
       "code": "XF-71",
       "name": "Cockpit Green (IJN)",
-      "nameEn": "Cockpit Green (IJN)",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4693,7 +4693,7 @@
     {
       "code": "XF-72",
       "name": "Brown (JGSDF)",
-      "nameEn": "Brown (JGSDF)",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4708,7 +4708,7 @@
     {
       "code": "XF-73",
       "name": "Dark Green (JGSDF)",
-      "nameEn": "Dark Green (JGSDF)",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4723,7 +4723,7 @@
     {
       "code": "XF-74",
       "name": "Olive Drab (JGSDF)",
-      "nameEn": "Olive Drab (JGSDF)",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4738,7 +4738,7 @@
     {
       "code": "XF-75",
       "name": "IJN Gray (Kure - Arsenal)",
-      "nameEn": "IJN Gray (Kure - Arsenal)",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4753,7 +4753,7 @@
     {
       "code": "XF-76",
       "name": "Gray Green (IJN)",
-      "nameEn": "Gray Green (IJN)",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4768,7 +4768,7 @@
     {
       "code": "XF-77",
       "name": "IJN Gray (Sasebo Arsenal)",
-      "nameEn": "IJN Gray (Sasebo Arsenal)",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4783,7 +4783,7 @@
     {
       "code": "XF-78",
       "name": "Wooden Deck Tan",
-      "nameEn": "Wooden Deck Tan",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4798,7 +4798,7 @@
     {
       "code": "XF-79",
       "name": "Linoleum Deck Brown",
-      "nameEn": "Linoleum Deck Brown",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4813,7 +4813,7 @@
     {
       "code": "XF-80",
       "name": "Royal Light Grey",
-      "nameEn": "Royal Light Grey",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4828,7 +4828,7 @@
     {
       "code": "XF-81",
       "name": "Dark Green 2 (RAF)",
-      "nameEn": "Dark Green 2 (RAF)",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4843,7 +4843,7 @@
     {
       "code": "XF-82",
       "name": "Ocean Grey 2 (RAF)",
-      "nameEn": "Ocean Grey 2 (RAF)",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4858,7 +4858,7 @@
     {
       "code": "XF-83",
       "name": "Medium Sea Grey 2 (RAF)",
-      "nameEn": "Medium Sea Grey 2 (RAF)",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4873,7 +4873,7 @@
     {
       "code": "XF-84",
       "name": "Dark Iron",
-      "nameEn": "Dark Iron",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4888,7 +4888,7 @@
     {
       "code": "XF-85",
       "name": "Rubber Black",
-      "nameEn": "Rubber Black",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4903,7 +4903,7 @@
     {
       "code": "XF-86",
       "name": "Flat Clear",
-      "nameEn": "Flat Clear",
+      "nameEn": null,
       "aliases": [],
       "line": "Acrylic",
       "brandLine": null,
@@ -4918,7 +4918,7 @@
     {
       "code": "AS-1",
       "name": "Dark Green (IJN)",
-      "nameEn": "Dark Green (IJN)",
+      "nameEn": null,
       "aliases": [
         "暗緑色"
       ],
@@ -4935,7 +4935,7 @@
     {
       "code": "AS-2",
       "name": "Light Gray (IJN)",
-      "nameEn": "Light Gray (IJN)",
+      "nameEn": null,
       "aliases": [
         "明灰白色"
       ],
@@ -4952,7 +4952,7 @@
     {
       "code": "AS-3",
       "name": "Gray Green (Luftwaffe)",
-      "nameEn": "Gray Green (Luftwaffe)",
+      "nameEn": null,
       "aliases": [
         "グレイグリーン(ドイツ空軍)"
       ],
@@ -4969,7 +4969,7 @@
     {
       "code": "AS-4",
       "name": "Gray Violet (Luftwaffe)",
-      "nameEn": "Gray Violet (Luftwaffe)",
+      "nameEn": null,
       "aliases": [
         "グレイバイオレット"
       ],
@@ -4986,7 +4986,7 @@
     {
       "code": "AS-5",
       "name": "Light Blue (WWII Luftwaffe)",
-      "nameEn": "Light Blue (WWII Luftwaffe)",
+      "nameEn": null,
       "aliases": [
         "ライトブルー"
       ],
@@ -5003,7 +5003,7 @@
     {
       "code": "AS-6",
       "name": "Olive Drab (WWII - USAAF)",
-      "nameEn": "Olive Drab (WWII - USAAF)",
+      "nameEn": null,
       "aliases": [
         "オリーブドラブ"
       ],
@@ -5020,7 +5020,7 @@
     {
       "code": "AS-7",
       "name": "Neutral Gray (WWII - USAAF)",
-      "nameEn": "Neutral Gray (WWII - USAAF)",
+      "nameEn": null,
       "aliases": [
         "ニュートラルグレイ"
       ],
@@ -5037,7 +5037,7 @@
     {
       "code": "AS-8",
       "name": "Navy Blue (US Navy)",
-      "nameEn": "Navy Blue (US Navy)",
+      "nameEn": null,
       "aliases": [
         "ネービーブルー"
       ],
@@ -5054,7 +5054,7 @@
     {
       "code": "AS-9",
       "name": "Dark Green (RAF)",
-      "nameEn": "Dark Green (RAF)",
+      "nameEn": null,
       "aliases": [
         "ダークグリーン"
       ],
@@ -5071,7 +5071,7 @@
     {
       "code": "AS-10",
       "name": "Ocean Grey (RAF)",
-      "nameEn": "Ocean Grey (RAF)",
+      "nameEn": null,
       "aliases": [
         "オーシャングレイ"
       ],
@@ -5088,7 +5088,7 @@
     {
       "code": "AS-11",
       "name": "Medium Sea Grey (RAF)",
-      "nameEn": "Medium Sea Grey (RAF)",
+      "nameEn": null,
       "aliases": [
         "ミディアムシーグレイ"
       ],
@@ -5105,7 +5105,7 @@
     {
       "code": "AS-12",
       "name": "Bare Metal Silver",
-      "nameEn": "Bare Metal Silver",
+      "nameEn": null,
       "aliases": [
         "シルバーメタル"
       ],
@@ -5122,7 +5122,7 @@
     {
       "code": "AS-13",
       "name": "Green (USAF in Vietnam)",
-      "nameEn": "Green (USAF in Vietnam)",
+      "nameEn": null,
       "aliases": [
         "グリーン(USAF)"
       ],
@@ -5139,7 +5139,7 @@
     {
       "code": "AS-14",
       "name": "Olive Green (USAF in Vietnam)",
-      "nameEn": "Olive Green (USAF in Vietnam)",
+      "nameEn": null,
       "aliases": [
         "オリーブグリーン"
       ],
@@ -5156,7 +5156,7 @@
     {
       "code": "AS-15",
       "name": "Tan (USAF in Vietnam)",
-      "nameEn": "Tan (USAF in Vietnam)",
+      "nameEn": null,
       "aliases": [
         "タン"
       ],
@@ -5173,7 +5173,7 @@
     {
       "code": "AS-16",
       "name": "Light Gray (USAF in Vietnam)",
-      "nameEn": "Light Gray (USAF in Vietnam)",
+      "nameEn": null,
       "aliases": [
         "ライトグレイ"
       ],
@@ -5190,7 +5190,7 @@
     {
       "code": "AS-17",
       "name": "Dark Green (IJA)",
-      "nameEn": "Dark Green (IJA)",
+      "nameEn": null,
       "aliases": [
         "濃緑色"
       ],
@@ -5207,7 +5207,7 @@
     {
       "code": "AS-18",
       "name": "Light Gray (IJA)",
-      "nameEn": "Light Gray (IJA)",
+      "nameEn": null,
       "aliases": [
         "明灰緑色"
       ],
@@ -5224,7 +5224,7 @@
     {
       "code": "AS-19",
       "name": "Intermediate Blue (US Navy)",
-      "nameEn": "Intermediate Blue (US Navy)",
+      "nameEn": null,
       "aliases": [
         "インターミディエイトブルー"
       ],
@@ -5241,7 +5241,7 @@
     {
       "code": "AS-20",
       "name": "Insignia White (US NAVY A/C)",
-      "nameEn": "Insignia White (US NAVY A/C)",
+      "nameEn": null,
       "aliases": [
         "インシグニアホワイト"
       ],
@@ -5258,7 +5258,7 @@
     {
       "code": "AS-21",
       "name": "Dark Green2 (IJN)",
-      "nameEn": "Dark Green2 (IJN)",
+      "nameEn": null,
       "aliases": [
         "暗緑色2(日本海軍)"
       ],
@@ -5275,7 +5275,7 @@
     {
       "code": "AS-22",
       "name": "Dark Earth (RAF)",
-      "nameEn": "Dark Earth (RAF)",
+      "nameEn": null,
       "aliases": [
         "ダークアース"
       ],
@@ -5292,7 +5292,7 @@
     {
       "code": "AS-23",
       "name": "Light Green (Luftwaffe)",
-      "nameEn": "Light Green (Luftwaffe)",
+      "nameEn": null,
       "aliases": [
         "ライトグリーン(ドイツ空軍)"
       ],
@@ -5309,7 +5309,7 @@
     {
       "code": "AS-24",
       "name": "Dark Green (Luftwaffe)",
-      "nameEn": "Dark Green (Luftwaffe)",
+      "nameEn": null,
       "aliases": [
         "ダークグリーン(ドイツ空軍)"
       ],
@@ -5326,7 +5326,7 @@
     {
       "code": "AS-25",
       "name": "Dark Ghost Gray (USAAF)",
-      "nameEn": "Dark Ghost Gray (USAAF)",
+      "nameEn": null,
       "aliases": [
         "ダークゴーストグレイ"
       ],
@@ -5343,7 +5343,7 @@
     {
       "code": "AS-26",
       "name": "Light Ghost Gray (USAF and JASDF)",
-      "nameEn": "Light Ghost Gray (USAF and JASDF)",
+      "nameEn": null,
       "aliases": [
         "ライトゴーストグレイ"
       ],
@@ -5360,7 +5360,7 @@
     {
       "code": "AS-27",
       "name": "Gunship Gray 2 (US modern)",
-      "nameEn": "Gunship Gray 2 (US modern)",
+      "nameEn": null,
       "aliases": [
         "ガンシップグレイ2"
       ],
@@ -5377,7 +5377,7 @@
     {
       "code": "AS-28",
       "name": "Medium Gray (USA modern)",
-      "nameEn": "Medium Gray (USA modern)",
+      "nameEn": null,
       "aliases": [
         "ミディアムグレイ"
       ],
@@ -5394,7 +5394,7 @@
     {
       "code": "AS-29",
       "name": "Gray Green (IJN)",
-      "nameEn": "Gray Green (IJN)",
+      "nameEn": null,
       "aliases": [
         "灰緑色(日本海軍)"
       ],
@@ -5411,7 +5411,7 @@
     {
       "code": "AS-30",
       "name": "Dark Green 2 (RAF)",
-      "nameEn": "Dark Green 2 (RAF)",
+      "nameEn": null,
       "aliases": [
         "ダークグリーン2(イギリス空軍)"
       ],
@@ -5428,7 +5428,7 @@
     {
       "code": "AS-31",
       "name": "Ocean Gray 2 (RAF)",
-      "nameEn": "Ocean Gray 2 (RAF)",
+      "nameEn": null,
       "aliases": [
         "オーシャングレイ2(イギリス空軍)"
       ],
@@ -5445,7 +5445,7 @@
     {
       "code": "AS-32",
       "name": "Medium Sea Gray 2 (RAF)",
-      "nameEn": "Medium Sea Gray 2 (RAF)",
+      "nameEn": null,
       "aliases": [
         "ミディアムシーグレイ2(イギリス空軍)"
       ],
@@ -5462,7 +5462,7 @@
     {
       "code": "PS-1",
       "name": "White",
-      "nameEn": "White",
+      "nameEn": null,
       "aliases": [
         "ホワイト"
       ],
@@ -5479,7 +5479,7 @@
     {
       "code": "PS-2",
       "name": "Red",
-      "nameEn": "Red",
+      "nameEn": null,
       "aliases": [
         "レッド"
       ],
@@ -5496,7 +5496,7 @@
     {
       "code": "PS-3",
       "name": "Light Blue",
-      "nameEn": "Light Blue",
+      "nameEn": null,
       "aliases": [
         "ライトブルー"
       ],
@@ -5513,7 +5513,7 @@
     {
       "code": "PS-4",
       "name": "Blue",
-      "nameEn": "Blue",
+      "nameEn": null,
       "aliases": [
         "ブルー"
       ],
@@ -5530,7 +5530,7 @@
     {
       "code": "PS-5",
       "name": "PS-5 Black",
-      "nameEn": "PS-5 Black",
+      "nameEn": null,
       "aliases": [
         "ブラック"
       ],
@@ -5547,7 +5547,7 @@
     {
       "code": "PS-6",
       "name": "Yellow",
-      "nameEn": "Yellow",
+      "nameEn": null,
       "aliases": [
         "イエロ"
       ],
@@ -5564,7 +5564,7 @@
     {
       "code": "PS-7",
       "name": "Orange",
-      "nameEn": "Orange",
+      "nameEn": null,
       "aliases": [
         "オレンジ"
       ],
@@ -5581,7 +5581,7 @@
     {
       "code": "PS-8",
       "name": "Light Green",
-      "nameEn": "Light Green",
+      "nameEn": null,
       "aliases": [
         "ライトグリーン"
       ],
@@ -5598,7 +5598,7 @@
     {
       "code": "PS-9",
       "name": "Green",
-      "nameEn": "Green",
+      "nameEn": null,
       "aliases": [
         "グリーン"
       ],
@@ -5615,7 +5615,7 @@
     {
       "code": "PS-10",
       "name": "Purple",
-      "nameEn": "Purple",
+      "nameEn": null,
       "aliases": [
         "パープル"
       ],
@@ -5632,7 +5632,7 @@
     {
       "code": "PS-11",
       "name": "Pink",
-      "nameEn": "Pink",
+      "nameEn": null,
       "aliases": [
         "ピンク"
       ],
@@ -5649,7 +5649,7 @@
     {
       "code": "PS-12",
       "name": "Silver",
-      "nameEn": "Silver",
+      "nameEn": null,
       "aliases": [
         "シルバ"
       ],
@@ -5666,7 +5666,7 @@
     {
       "code": "PS-13",
       "name": "Gold",
-      "nameEn": "Gold",
+      "nameEn": null,
       "aliases": [
         "ゴールド"
       ],
@@ -5683,7 +5683,7 @@
     {
       "code": "PS-14",
       "name": "Copper",
-      "nameEn": "Copper",
+      "nameEn": null,
       "aliases": [
         "コッパー"
       ],
@@ -5700,7 +5700,7 @@
     {
       "code": "PS-15",
       "name": "Metallic Red",
-      "nameEn": "Metallic Red",
+      "nameEn": null,
       "aliases": [
         "メタリックレッド"
       ],
@@ -5717,7 +5717,7 @@
     {
       "code": "PS-16",
       "name": "Metallic Blue",
-      "nameEn": "Metallic Blue",
+      "nameEn": null,
       "aliases": [
         "メタリックブルー"
       ],
@@ -5734,7 +5734,7 @@
     {
       "code": "PS-17",
       "name": "Metallic Green",
-      "nameEn": "Metallic Green",
+      "nameEn": null,
       "aliases": [
         "メタリックグリーン"
       ],
@@ -5751,7 +5751,7 @@
     {
       "code": "PS-18",
       "name": "Metallic Purple",
-      "nameEn": "Metallic Purple",
+      "nameEn": null,
       "aliases": [
         "メタリックパープル"
       ],
@@ -5768,7 +5768,7 @@
     {
       "code": "PS-19",
       "name": "Camel Yellow",
-      "nameEn": "Camel Yellow",
+      "nameEn": null,
       "aliases": [
         "キャメルイエロー"
       ],
@@ -5785,7 +5785,7 @@
     {
       "code": "PS-20",
       "name": "Fluorescent Red",
-      "nameEn": "Fluorescent Red",
+      "nameEn": null,
       "aliases": [
         "蛍光レッド"
       ],
@@ -5802,7 +5802,7 @@
     {
       "code": "PS-21",
       "name": "Park Green",
-      "nameEn": "Park Green",
+      "nameEn": null,
       "aliases": [
         "パークグリーン"
       ],
@@ -5819,7 +5819,7 @@
     {
       "code": "PS-22",
       "name": "Racing Green",
-      "nameEn": "Racing Green",
+      "nameEn": null,
       "aliases": [
         "レーシンググリーン"
       ],
@@ -5836,7 +5836,7 @@
     {
       "code": "PS-23",
       "name": "Gun Metal",
-      "nameEn": "Gun Metal",
+      "nameEn": null,
       "aliases": [
         "ガンメタル"
       ],
@@ -5853,7 +5853,7 @@
     {
       "code": "PS-24",
       "name": "Fluorescent Orange",
-      "nameEn": "Fluorescent Orange",
+      "nameEn": null,
       "aliases": [
         "蛍光オレンジ"
       ],
@@ -5870,7 +5870,7 @@
     {
       "code": "PS-25",
       "name": "Bright Green",
-      "nameEn": "Bright Green",
+      "nameEn": null,
       "aliases": [
         "ブライトグリーン"
       ],
@@ -5887,7 +5887,7 @@
     {
       "code": "PS-26",
       "name": "Protective Top Coat",
-      "nameEn": "Protective Top Coat",
+      "nameEn": null,
       "aliases": [],
       "line": "Spray (PS)",
       "brandLine": null,
@@ -5902,7 +5902,7 @@
     {
       "code": "PS-27",
       "name": "Fluorescent Yellow",
-      "nameEn": "Fluorescent Yellow",
+      "nameEn": null,
       "aliases": [
         "蛍光イエロー"
       ],
@@ -5919,7 +5919,7 @@
     {
       "code": "PS-28",
       "name": "Fluorescent Green",
-      "nameEn": "Fluorescent Green",
+      "nameEn": null,
       "aliases": [
         "蛍光グリーン"
       ],
@@ -5936,7 +5936,7 @@
     {
       "code": "PS-29",
       "name": "Fluorescent Pink",
-      "nameEn": "Fluorescent Pink",
+      "nameEn": null,
       "aliases": [
         "蛍光ピンク"
       ],
@@ -5953,7 +5953,7 @@
     {
       "code": "PS-30",
       "name": "Brilliant Blue",
-      "nameEn": "Brilliant Blue",
+      "nameEn": null,
       "aliases": [
         "ブリリアントブルー"
       ],
@@ -5970,7 +5970,7 @@
     {
       "code": "PS-31",
       "name": "Smoke",
-      "nameEn": "Smoke",
+      "nameEn": null,
       "aliases": [
         "スモーク"
       ],
@@ -5987,7 +5987,7 @@
     {
       "code": "PS-32",
       "name": "Corsa Gray",
-      "nameEn": "Corsa Gray",
+      "nameEn": null,
       "aliases": [
         "コルサグレイ"
       ],
@@ -6004,7 +6004,7 @@
     {
       "code": "PS-33",
       "name": "Cherry Red",
-      "nameEn": "Cherry Red",
+      "nameEn": null,
       "aliases": [
         "チェリーレッド"
       ],
@@ -6021,7 +6021,7 @@
     {
       "code": "PS-34",
       "name": "Bright Red",
-      "nameEn": "Bright Red",
+      "nameEn": null,
       "aliases": [
         "ブライトレッド"
       ],
@@ -6038,7 +6038,7 @@
     {
       "code": "PS-35",
       "name": "Violet Blue",
-      "nameEn": "Violet Blue",
+      "nameEn": null,
       "aliases": [
         "ブルーバイオレット"
       ],
@@ -6055,7 +6055,7 @@
     {
       "code": "PS-36",
       "name": "Translucent Silver",
-      "nameEn": "Translucent Silver",
+      "nameEn": null,
       "aliases": [
         "フロストシルバー"
       ],
@@ -6072,7 +6072,7 @@
     {
       "code": "PS-37",
       "name": "Translucent Red",
-      "nameEn": "Translucent Red",
+      "nameEn": null,
       "aliases": [
         "フロストレッド"
       ],
@@ -6089,7 +6089,7 @@
     {
       "code": "PS-38",
       "name": "Translucent Blue",
-      "nameEn": "Translucent Blue",
+      "nameEn": null,
       "aliases": [
         "フロストブルー"
       ],
@@ -6106,7 +6106,7 @@
     {
       "code": "PS-39",
       "name": "Translucent Light Blue",
-      "nameEn": "Translucent Light Blue",
+      "nameEn": null,
       "aliases": [
         "フロストライトブルー"
       ],
@@ -6123,7 +6123,7 @@
     {
       "code": "PS-40",
       "name": "Translucent Pink",
-      "nameEn": "Translucent Pink",
+      "nameEn": null,
       "aliases": [
         "フロストピンク"
       ],
@@ -6140,7 +6140,7 @@
     {
       "code": "PS-41",
       "name": "Bright Silver",
-      "nameEn": "Bright Silver",
+      "nameEn": null,
       "aliases": [
         "ブライトシルバー"
       ],
@@ -6157,7 +6157,7 @@
     {
       "code": "PS-42",
       "name": "Translucent Yellow",
-      "nameEn": "Translucent Yellow",
+      "nameEn": null,
       "aliases": [
         "フロストイエロー"
       ],
@@ -6174,7 +6174,7 @@
     {
       "code": "PS-43",
       "name": "Translucent Orange",
-      "nameEn": "Translucent Orange",
+      "nameEn": null,
       "aliases": [
         "フロストオレンジ"
       ],
@@ -6191,7 +6191,7 @@
     {
       "code": "PS-44",
       "name": "Translucent Green",
-      "nameEn": "Translucent Green",
+      "nameEn": null,
       "aliases": [
         "フロストグリーン"
       ],
@@ -6208,7 +6208,7 @@
     {
       "code": "PS-45",
       "name": "PS-45 Translucent Purple",
-      "nameEn": "PS-45 Translucent Purple",
+      "nameEn": null,
       "aliases": [
         "フロストパープル"
       ],
@@ -6225,7 +6225,7 @@
     {
       "code": "PS-46",
       "name": "Iridescent Purple/Green",
-      "nameEn": "Iridescent Purple/Green",
+      "nameEn": null,
       "aliases": [
         "偏光パープル/グリーン"
       ],
@@ -6242,7 +6242,7 @@
     {
       "code": "PS-47",
       "name": "Iridescent Pink/Gold",
-      "nameEn": "Iridescent Pink/Gold",
+      "nameEn": null,
       "aliases": [
         "偏光ピンク/ゴールド"
       ],
@@ -6259,7 +6259,7 @@
     {
       "code": "PS-48",
       "name": "Anodised Silver",
-      "nameEn": "Anodised Silver",
+      "nameEn": null,
       "aliases": [
         "サテンシルバーアルマイト"
       ],
@@ -6276,7 +6276,7 @@
     {
       "code": "PS-49",
       "name": "Anodised Blue",
-      "nameEn": "Anodised Blue",
+      "nameEn": null,
       "aliases": [
         "スカイブルーアルマイト"
       ],
@@ -6293,7 +6293,7 @@
     {
       "code": "PS-50",
       "name": "Anodised Pink",
-      "nameEn": "Anodised Pink",
+      "nameEn": null,
       "aliases": [
         "スパークルピンクアルマイト"
       ],
@@ -6310,7 +6310,7 @@
     {
       "code": "PS-51",
       "name": "Purple Anodised Aluminium",
-      "nameEn": "Purple Anodised Aluminium",
+      "nameEn": null,
       "aliases": [
         "パープルアルマイト"
       ],
@@ -6327,7 +6327,7 @@
     {
       "code": "PS-52",
       "name": "Champagne Gold Aluminium",
-      "nameEn": "Champagne Gold Aluminium",
+      "nameEn": null,
       "aliases": [
         "シャンパンゴールドアルマイト"
       ],
@@ -6344,7 +6344,7 @@
     {
       "code": "PS-53",
       "name": "Lame Flake",
-      "nameEn": "Lame Flake",
+      "nameEn": null,
       "aliases": [
         "ラメフレーク"
       ],
@@ -6361,7 +6361,7 @@
     {
       "code": "PS-54",
       "name": "Cobalt Green",
-      "nameEn": "Cobalt Green",
+      "nameEn": null,
       "aliases": [
         "コバルトグリーン"
       ],
@@ -6378,7 +6378,7 @@
     {
       "code": "PS-55",
       "name": "Flat Clear",
-      "nameEn": "Flat Clear",
+      "nameEn": null,
       "aliases": [
         "フラットクリヤー"
       ],
@@ -6395,7 +6395,7 @@
     {
       "code": "PS-56",
       "name": "Mustard Yellow",
-      "nameEn": "Mustard Yellow",
+      "nameEn": null,
       "aliases": [
         "マスタードイエロー"
       ],
@@ -6412,7 +6412,7 @@
     {
       "code": "PS-57",
       "name": "Pearl White",
-      "nameEn": "Pearl White",
+      "nameEn": null,
       "aliases": [
         "パールホワイト"
       ],
@@ -6429,7 +6429,7 @@
     {
       "code": "PS-58",
       "name": "Pearl Clear",
-      "nameEn": "Pearl Clear",
+      "nameEn": null,
       "aliases": [
         "パールクリヤー"
       ],
@@ -6446,7 +6446,7 @@
     {
       "code": "PS-59",
       "name": "Dark Metallic Blue",
-      "nameEn": "Dark Metallic Blue",
+      "nameEn": null,
       "aliases": [
         "ダークメタリックブルー"
       ],
@@ -6463,7 +6463,7 @@
     {
       "code": "PS-60",
       "name": "Bright Mica Red",
-      "nameEn": "Bright Mica Red",
+      "nameEn": null,
       "aliases": [
         "ブライトマイカレッド"
       ],
@@ -6480,7 +6480,7 @@
     {
       "code": "PS-61",
       "name": "Metallic Orange",
-      "nameEn": "Metallic Orange",
+      "nameEn": null,
       "aliases": [
         "メタリックオレンジ"
       ],
@@ -6497,7 +6497,7 @@
     {
       "code": "PS-62",
       "name": "Pure Orange",
-      "nameEn": "Pure Orange",
+      "nameEn": null,
       "aliases": [
         "ピュアーオレンジ"
       ],
@@ -6514,7 +6514,7 @@
     {
       "code": "PS-63",
       "name": "Bright Gun Metal",
-      "nameEn": "Bright Gun Metal",
+      "nameEn": null,
       "aliases": [
         "ブライトガンメタル"
       ],
@@ -6531,7 +6531,7 @@
     {
       "code": "TS-1",
       "name": "Red Brown",
-      "nameEn": "Red Brown",
+      "nameEn": null,
       "aliases": [
         "レッドブラウン"
       ],
@@ -6548,7 +6548,7 @@
     {
       "code": "TS-2",
       "name": "Dark Green",
-      "nameEn": "Dark Green",
+      "nameEn": null,
       "aliases": [
         "ダークグリーン"
       ],
@@ -6565,7 +6565,7 @@
     {
       "code": "TS-3",
       "name": "Dark Yellow",
-      "nameEn": "Dark Yellow",
+      "nameEn": null,
       "aliases": [
         "ダークイエロー"
       ],
@@ -6582,7 +6582,7 @@
     {
       "code": "TS-4",
       "name": "German Grey",
-      "nameEn": "German Grey",
+      "nameEn": null,
       "aliases": [
         "ジャーマングレイ"
       ],
@@ -6599,7 +6599,7 @@
     {
       "code": "TS-5",
       "name": "Olive Drab",
-      "nameEn": "Olive Drab",
+      "nameEn": null,
       "aliases": [
         "オリーブドラブ"
       ],
@@ -6616,7 +6616,7 @@
     {
       "code": "TS-6",
       "name": "Matt Black",
-      "nameEn": "Matt Black",
+      "nameEn": null,
       "aliases": [
         "マットブラック"
       ],
@@ -6633,7 +6633,7 @@
     {
       "code": "TS-7",
       "name": "Racing White",
-      "nameEn": "Racing White",
+      "nameEn": null,
       "aliases": [
         "レーシングホワイト"
       ],
@@ -6650,7 +6650,7 @@
     {
       "code": "TS-8",
       "name": "Italian Red",
-      "nameEn": "Italian Red",
+      "nameEn": null,
       "aliases": [
         "イタリアンレッド"
       ],
@@ -6667,7 +6667,7 @@
     {
       "code": "TS-9",
       "name": "British Green",
-      "nameEn": "British Green",
+      "nameEn": null,
       "aliases": [
         "ブリティッシュグリーン"
       ],
@@ -6684,7 +6684,7 @@
     {
       "code": "TS-10",
       "name": "French Blue",
-      "nameEn": "French Blue",
+      "nameEn": null,
       "aliases": [
         "フレンチブルー"
       ],
@@ -6701,7 +6701,7 @@
     {
       "code": "TS-11",
       "name": "Maroon",
-      "nameEn": "Maroon",
+      "nameEn": null,
       "aliases": [
         "マルーン"
       ],
@@ -6718,7 +6718,7 @@
     {
       "code": "TS-12",
       "name": "Orange",
-      "nameEn": "Orange",
+      "nameEn": null,
       "aliases": [
         "オレンジ"
       ],
@@ -6735,7 +6735,7 @@
     {
       "code": "TS-13",
       "name": "Clear",
-      "nameEn": "Clear",
+      "nameEn": null,
       "aliases": [
         "クリヤー"
       ],
@@ -6752,7 +6752,7 @@
     {
       "code": "TS-14",
       "name": "Black",
-      "nameEn": "Black",
+      "nameEn": null,
       "aliases": [
         "ブラック"
       ],
@@ -6769,7 +6769,7 @@
     {
       "code": "TS-15",
       "name": "Blue",
-      "nameEn": "Blue",
+      "nameEn": null,
       "aliases": [
         "ブルー"
       ],
@@ -6786,7 +6786,7 @@
     {
       "code": "TS-16",
       "name": "Yellow",
-      "nameEn": "Yellow",
+      "nameEn": null,
       "aliases": [
         "イエロー"
       ],
@@ -6803,7 +6803,7 @@
     {
       "code": "TS-17",
       "name": "Gloss Aluminium",
-      "nameEn": "Gloss Aluminium",
+      "nameEn": null,
       "aliases": [
         "アルミシルバー"
       ],
@@ -6820,7 +6820,7 @@
     {
       "code": "TS-18",
       "name": "Metallic Red",
-      "nameEn": "Metallic Red",
+      "nameEn": null,
       "aliases": [
         "メタリックレッド"
       ],
@@ -6837,7 +6837,7 @@
     {
       "code": "TS-19",
       "name": "Metallic Blue",
-      "nameEn": "Metallic Blue",
+      "nameEn": null,
       "aliases": [
         "メタリックブルー"
       ],
@@ -6854,7 +6854,7 @@
     {
       "code": "TS-20",
       "name": "Metallic Green",
-      "nameEn": "Metallic Green",
+      "nameEn": null,
       "aliases": [
         "メタリックグリーン"
       ],
@@ -6871,7 +6871,7 @@
     {
       "code": "TS-21",
       "name": "Gold",
-      "nameEn": "Gold",
+      "nameEn": null,
       "aliases": [
         "ゴールド"
       ],
@@ -6888,7 +6888,7 @@
     {
       "code": "TS-22",
       "name": "Light Green",
-      "nameEn": "Light Green",
+      "nameEn": null,
       "aliases": [
         "ライトグリーン"
       ],
@@ -6905,7 +6905,7 @@
     {
       "code": "TS-23",
       "name": "Light Blue",
-      "nameEn": "Light Blue",
+      "nameEn": null,
       "aliases": [
         "ライトブルー"
       ],
@@ -6922,7 +6922,7 @@
     {
       "code": "TS-24",
       "name": "Purple",
-      "nameEn": "Purple",
+      "nameEn": null,
       "aliases": [
         "パープル"
       ],
@@ -6939,7 +6939,7 @@
     {
       "code": "TS-25",
       "name": "Pink",
-      "nameEn": "Pink",
+      "nameEn": null,
       "aliases": [
         "ピンク"
       ],
@@ -6956,7 +6956,7 @@
     {
       "code": "TS-26",
       "name": "Pure White",
-      "nameEn": "Pure White",
+      "nameEn": null,
       "aliases": [
         "ピュアー ホワイト"
       ],
@@ -6973,7 +6973,7 @@
     {
       "code": "TS-27",
       "name": "Matt White",
-      "nameEn": "Matt White",
+      "nameEn": null,
       "aliases": [
         "マットホワイト"
       ],
@@ -6990,7 +6990,7 @@
     {
       "code": "TS-28",
       "name": "Olive Drab 2",
-      "nameEn": "Olive Drab 2",
+      "nameEn": null,
       "aliases": [
         "オリーブドラブ2"
       ],
@@ -7007,7 +7007,7 @@
     {
       "code": "TS-29",
       "name": "Semi Gloss Black",
-      "nameEn": "Semi Gloss Black",
+      "nameEn": null,
       "aliases": [
         "セミグロス ブラック"
       ],
@@ -7024,7 +7024,7 @@
     {
       "code": "TS-30",
       "name": "Silver Leaf",
-      "nameEn": "Silver Leaf",
+      "nameEn": null,
       "aliases": [
         "シルバーリーフ"
       ],
@@ -7041,7 +7041,7 @@
     {
       "code": "TS-31",
       "name": "Bright Orange",
-      "nameEn": "Bright Orange",
+      "nameEn": null,
       "aliases": [
         "ブライトオレンジ"
       ],
@@ -7058,7 +7058,7 @@
     {
       "code": "TS-32",
       "name": "Haze Grey",
-      "nameEn": "Haze Grey",
+      "nameEn": null,
       "aliases": [
         "ヘイズグレイ"
       ],
@@ -7075,7 +7075,7 @@
     {
       "code": "TS-33",
       "name": "Dull Red",
-      "nameEn": "Dull Red",
+      "nameEn": null,
       "aliases": [
         "ダルレッド"
       ],
@@ -7092,7 +7092,7 @@
     {
       "code": "TS-34",
       "name": "Camel Yellow",
-      "nameEn": "Camel Yellow",
+      "nameEn": null,
       "aliases": [
         "キャメルイエロー"
       ],
@@ -7109,7 +7109,7 @@
     {
       "code": "TS-35",
       "name": "Park Green",
-      "nameEn": "Park Green",
+      "nameEn": null,
       "aliases": [
         "パークグリーン"
       ],
@@ -7126,7 +7126,7 @@
     {
       "code": "TS-36",
       "name": "Fluorescent Red",
-      "nameEn": "Fluorescent Red",
+      "nameEn": null,
       "aliases": [
         "蛍光レッド"
       ],
@@ -7143,7 +7143,7 @@
     {
       "code": "TS-37",
       "name": "Lavender",
-      "nameEn": "Lavender",
+      "nameEn": null,
       "aliases": [
         "ラベンダー"
       ],
@@ -7160,7 +7160,7 @@
     {
       "code": "TS-38",
       "name": "Gun Metal",
-      "nameEn": "Gun Metal",
+      "nameEn": null,
       "aliases": [
         "ガンメタル"
       ],
@@ -7177,7 +7177,7 @@
     {
       "code": "TS-39",
       "name": "Mica Red",
-      "nameEn": "Mica Red",
+      "nameEn": null,
       "aliases": [
         "マイカレッド"
       ],
@@ -7194,7 +7194,7 @@
     {
       "code": "TS-40",
       "name": "Metallic Black",
-      "nameEn": "Metallic Black",
+      "nameEn": null,
       "aliases": [
         "メタリックブラック"
       ],
@@ -7211,7 +7211,7 @@
     {
       "code": "TS-41",
       "name": "Coral Blue",
-      "nameEn": "Coral Blue",
+      "nameEn": null,
       "aliases": [
         "コーラルブルー"
       ],
@@ -7228,7 +7228,7 @@
     {
       "code": "TS-42",
       "name": "Light Gun Metal",
-      "nameEn": "Light Gun Metal",
+      "nameEn": null,
       "aliases": [
         "ライトガンメタル"
       ],
@@ -7245,7 +7245,7 @@
     {
       "code": "TS-43",
       "name": "Racing Green",
-      "nameEn": "Racing Green",
+      "nameEn": null,
       "aliases": [
         "レーシンググリーン"
       ],
@@ -7262,7 +7262,7 @@
     {
       "code": "TS-44",
       "name": "Brilliant Blue",
-      "nameEn": "Brilliant Blue",
+      "nameEn": null,
       "aliases": [
         "ブリリアントブルー"
       ],
@@ -7279,7 +7279,7 @@
     {
       "code": "TS-45",
       "name": "Pearl White",
-      "nameEn": "Pearl White",
+      "nameEn": null,
       "aliases": [
         "パールホワイト"
       ],
@@ -7296,7 +7296,7 @@
     {
       "code": "TS-46",
       "name": "Light Sand",
-      "nameEn": "Light Sand",
+      "nameEn": null,
       "aliases": [
         "ライトサンド"
       ],
@@ -7313,7 +7313,7 @@
     {
       "code": "TS-47",
       "name": "Chrome Yellow",
-      "nameEn": "Chrome Yellow",
+      "nameEn": null,
       "aliases": [
         "クロームイエロー"
       ],
@@ -7330,7 +7330,7 @@
     {
       "code": "TS-48",
       "name": "Gunship Grey",
-      "nameEn": "Gunship Grey",
+      "nameEn": null,
       "aliases": [
         "ガンシップグレイ"
       ],
@@ -7347,7 +7347,7 @@
     {
       "code": "TS-49",
       "name": "Bright Red",
-      "nameEn": "Bright Red",
+      "nameEn": null,
       "aliases": [
         "ブライトレッド"
       ],
@@ -7364,7 +7364,7 @@
     {
       "code": "TS-50",
       "name": "Mica Blue",
-      "nameEn": "Mica Blue",
+      "nameEn": null,
       "aliases": [
         "マイカブルー"
       ],
@@ -7381,7 +7381,7 @@
     {
       "code": "TS-51",
       "name": "Racing Blue",
-      "nameEn": "Racing Blue",
+      "nameEn": null,
       "aliases": [
         "レーシングブルー"
       ],
@@ -7398,7 +7398,7 @@
     {
       "code": "TS-52",
       "name": "Candy Lime Green",
-      "nameEn": "Candy Lime Green",
+      "nameEn": null,
       "aliases": [
         "キャンディーライムグリーン"
       ],
@@ -7415,7 +7415,7 @@
     {
       "code": "TS-53",
       "name": "Deep Metallic Blue",
-      "nameEn": "Deep Metallic Blue",
+      "nameEn": null,
       "aliases": [
         "ディープメタリックブルー"
       ],
@@ -7432,7 +7432,7 @@
     {
       "code": "TS-54",
       "name": "Light Metallic Blue",
-      "nameEn": "Light Metallic Blue",
+      "nameEn": null,
       "aliases": [
         "ライトメタリックブルー"
       ],
@@ -7449,7 +7449,7 @@
     {
       "code": "TS-55",
       "name": "Dark Blue",
-      "nameEn": "Dark Blue",
+      "nameEn": null,
       "aliases": [
         "ダークブルー"
       ],
@@ -7466,7 +7466,7 @@
     {
       "code": "TS-56",
       "name": "Brilliant Orange",
-      "nameEn": "Brilliant Orange",
+      "nameEn": null,
       "aliases": [
         "ブリリアントオレンジ"
       ],
@@ -7483,7 +7483,7 @@
     {
       "code": "TS-57",
       "name": "Blue Violet",
-      "nameEn": "Blue Violet",
+      "nameEn": null,
       "aliases": [
         "ブルーバイオレット"
       ],
@@ -7500,7 +7500,7 @@
     {
       "code": "TS-58",
       "name": "Pearl Light Blue",
-      "nameEn": "Pearl Light Blue",
+      "nameEn": null,
       "aliases": [
         "パールライトブルー"
       ],
@@ -7517,7 +7517,7 @@
     {
       "code": "TS-59",
       "name": "Pearl Light Red",
-      "nameEn": "Pearl Light Red",
+      "nameEn": null,
       "aliases": [
         "パールライトレッド"
       ],
@@ -7534,7 +7534,7 @@
     {
       "code": "TS-60",
       "name": "Pearl Green",
-      "nameEn": "Pearl Green",
+      "nameEn": null,
       "aliases": [
         "パールグリーン"
       ],
@@ -7551,7 +7551,7 @@
     {
       "code": "TS-61",
       "name": "NATO Green",
-      "nameEn": "NATO Green",
+      "nameEn": null,
       "aliases": [
         "NATOグリーン"
       ],
@@ -7568,7 +7568,7 @@
     {
       "code": "TS-62",
       "name": "NATO Brown",
-      "nameEn": "NATO Brown",
+      "nameEn": null,
       "aliases": [
         "NATOブラウン"
       ],
@@ -7585,7 +7585,7 @@
     {
       "code": "TS-63",
       "name": "NATO Black",
-      "nameEn": "NATO Black",
+      "nameEn": null,
       "aliases": [
         "NATOブラック"
       ],
@@ -7602,7 +7602,7 @@
     {
       "code": "TS-64",
       "name": "Dark Mica Blue",
-      "nameEn": "Dark Mica Blue",
+      "nameEn": null,
       "aliases": [
         "ダークマイカブルー"
       ],
@@ -7619,7 +7619,7 @@
     {
       "code": "TS-65",
       "name": "Pearl Clear",
-      "nameEn": "Pearl Clear",
+      "nameEn": null,
       "aliases": [
         "パールクリヤー"
       ],
@@ -7636,7 +7636,7 @@
     {
       "code": "TS-66",
       "name": "IJN Gray (Kure Arsenal)",
-      "nameEn": "IJN Gray (Kure Arsenal)",
+      "nameEn": null,
       "aliases": [
         "呉海軍工廠グレイ"
       ],
@@ -7653,7 +7653,7 @@
     {
       "code": "TS-67",
       "name": "IJN Gray (Sasebo Arsenal)",
-      "nameEn": "IJN Gray (Sasebo Arsenal)",
+      "nameEn": null,
       "aliases": [
         "佐世保海軍工廠グレイ"
       ],
@@ -7670,7 +7670,7 @@
     {
       "code": "TS-68",
       "name": "Wooden Deck Tan",
-      "nameEn": "Wooden Deck Tan",
+      "nameEn": null,
       "aliases": [
         "木甲板色"
       ],
@@ -7687,7 +7687,7 @@
     {
       "code": "TS-69",
       "name": "Linoleum Deck Brown",
-      "nameEn": "Linoleum Deck Brown",
+      "nameEn": null,
       "aliases": [
         "リノリウム甲板色"
       ],
@@ -7704,7 +7704,7 @@
     {
       "code": "TS-70",
       "name": "Olive Drab (JGSDF)",
-      "nameEn": "Olive Drab (JGSDF)",
+      "nameEn": null,
       "aliases": [
         "OD色(陸上自衛隊)"
       ],
@@ -7721,7 +7721,7 @@
     {
       "code": "TS-71",
       "name": "Smoke",
-      "nameEn": "Smoke",
+      "nameEn": null,
       "aliases": [
         "スモーク"
       ],
@@ -7738,7 +7738,7 @@
     {
       "code": "TS-72",
       "name": "Clear Blue",
-      "nameEn": "Clear Blue",
+      "nameEn": null,
       "aliases": [
         "クリヤーブルー"
       ],
@@ -7755,7 +7755,7 @@
     {
       "code": "TS-73",
       "name": "Clear Orange",
-      "nameEn": "Clear Orange",
+      "nameEn": null,
       "aliases": [
         "クリヤーオレンジ"
       ],
@@ -7772,7 +7772,7 @@
     {
       "code": "TS-74",
       "name": "Clear Red",
-      "nameEn": "Clear Red",
+      "nameEn": null,
       "aliases": [
         "クリヤーレッド"
       ],
@@ -7789,7 +7789,7 @@
     {
       "code": "TS-75",
       "name": "Champagne Gold",
-      "nameEn": "Champagne Gold",
+      "nameEn": null,
       "aliases": [
         "シャンパンゴールド"
       ],
@@ -7806,7 +7806,7 @@
     {
       "code": "TS-76",
       "name": "Mica Silver",
-      "nameEn": "Mica Silver",
+      "nameEn": null,
       "aliases": [
         "マイカシルバー"
       ],
@@ -7823,7 +7823,7 @@
     {
       "code": "TS-77",
       "name": "Flat Flesh",
-      "nameEn": "Flat Flesh",
+      "nameEn": null,
       "aliases": [
         "フラットフレッシュ"
       ],
@@ -7840,7 +7840,7 @@
     {
       "code": "TS-78",
       "name": "Field Grey",
-      "nameEn": "Field Grey",
+      "nameEn": null,
       "aliases": [
         "フィールドグレイ"
       ],
@@ -7857,7 +7857,7 @@
     {
       "code": "TS-79",
       "name": "Semi Gloss Clear",
-      "nameEn": "Semi Gloss Clear",
+      "nameEn": null,
       "aliases": [
         "セミグロスクリヤー"
       ],
@@ -7874,7 +7874,7 @@
     {
       "code": "TS-80",
       "name": "Flat Clear",
-      "nameEn": "Flat Clear",
+      "nameEn": null,
       "aliases": [
         "フラットクリヤー"
       ],
@@ -7891,7 +7891,7 @@
     {
       "code": "TS-81",
       "name": "Royal Light Grey",
-      "nameEn": "Royal Light Grey",
+      "nameEn": null,
       "aliases": [
         "ロイヤルライトグレイ"
       ],
@@ -7908,7 +7908,7 @@
     {
       "code": "TS-82",
       "name": "Rubber Black",
-      "nameEn": "Rubber Black",
+      "nameEn": null,
       "aliases": [
         "ラバーブラック"
       ],
@@ -7925,7 +7925,7 @@
     {
       "code": "TS-83",
       "name": "Metallic Silver",
-      "nameEn": "Metallic Silver",
+      "nameEn": null,
       "aliases": [
         "メタルシルバー"
       ],
@@ -7942,7 +7942,7 @@
     {
       "code": "TS-84",
       "name": "Metallic Gold",
-      "nameEn": "Metallic Gold",
+      "nameEn": null,
       "aliases": [
         "メタルゴールド"
       ],
@@ -7959,7 +7959,7 @@
     {
       "code": "TS-85",
       "name": "Bright Mica Red",
-      "nameEn": "Bright Mica Red",
+      "nameEn": null,
       "aliases": [
         "ブライトマイカレッド"
       ],
@@ -7976,7 +7976,7 @@
     {
       "code": "TS-86",
       "name": "Brilliant Red (Pure Red)",
-      "nameEn": "Brilliant Red (Pure Red)",
+      "nameEn": null,
       "aliases": [
         "ピュアーレッド"
       ],
@@ -7993,7 +7993,7 @@
     {
       "code": "TS-87",
       "name": "Titanium Gold",
-      "nameEn": "Titanium Gold",
+      "nameEn": null,
       "aliases": [
         "チタンゴールド"
       ],
@@ -8010,7 +8010,7 @@
     {
       "code": "TS-88",
       "name": "Titanium Silver",
-      "nameEn": "Titanium Silver",
+      "nameEn": null,
       "aliases": [
         "チタンシルバー"
       ],
@@ -8027,7 +8027,7 @@
     {
       "code": "TS-89",
       "name": "Pearl Blue",
-      "nameEn": "Pearl Blue",
+      "nameEn": null,
       "aliases": [
         "パールブルー"
       ],
@@ -8044,7 +8044,7 @@
     {
       "code": "TS-90",
       "name": "Brown (JGSDF)",
-      "nameEn": "Brown (JGSDF)",
+      "nameEn": null,
       "aliases": [
         "茶色(陸上自衛隊)"
       ],
@@ -8061,7 +8061,7 @@
     {
       "code": "TS-91",
       "name": "Dark Green (JGSDF)",
-      "nameEn": "Dark Green (JGSDF)",
+      "nameEn": null,
       "aliases": [
         "濃緑色(陸上自衛隊)"
       ],
@@ -8078,7 +8078,7 @@
     {
       "code": "TS-92",
       "name": "Metallic Orange",
-      "nameEn": "Metallic Orange",
+      "nameEn": null,
       "aliases": [
         "メタリックオレンジ"
       ],
@@ -8095,7 +8095,7 @@
     {
       "code": "TS-93",
       "name": "Pure Blue",
-      "nameEn": "Pure Blue",
+      "nameEn": null,
       "aliases": [
         "ピュアーブルー"
       ],
@@ -8112,7 +8112,7 @@
     {
       "code": "TS-94",
       "name": "Metallic Gray",
-      "nameEn": "Metallic Gray",
+      "nameEn": null,
       "aliases": [
         "メタリックグレイ"
       ],
@@ -8129,7 +8129,7 @@
     {
       "code": "TS-95",
       "name": "Pure Metallic Red",
-      "nameEn": "Pure Metallic Red",
+      "nameEn": null,
       "aliases": [
         "ピュアーメタリックレッド"
       ],
@@ -8146,7 +8146,7 @@
     {
       "code": "TS-96",
       "name": "Fluorescent Orange",
-      "nameEn": "Fluorescent Orange",
+      "nameEn": null,
       "aliases": [
         "蛍光オレンジ"
       ],
@@ -8163,7 +8163,7 @@
     {
       "code": "TS-97",
       "name": "Pearl Yellow",
-      "nameEn": "Pearl Yellow",
+      "nameEn": null,
       "aliases": [
         "パールイエロー"
       ],
@@ -8180,7 +8180,7 @@
     {
       "code": "TS-98",
       "name": "Pure orange",
-      "nameEn": "Pure orange",
+      "nameEn": null,
       "aliases": [
         "ピュアーオレンジ"
       ],
@@ -8197,7 +8197,7 @@
     {
       "code": "TS-99",
       "name": "IJN Gray (Maizuru Arsenal)",
-      "nameEn": "IJN Gray (Maizuru Arsenal)",
+      "nameEn": null,
       "aliases": [
         "舞鶴海軍工廠グレイ (日本海軍)"
       ],
@@ -8214,7 +8214,7 @@
     {
       "code": "TS-100",
       "name": "Semi-Gloss Bright Gun Metal",
-      "nameEn": "Semi-Gloss Bright Gun Metal",
+      "nameEn": null,
       "aliases": [
         "ブライトガンメタル"
       ],
@@ -8231,7 +8231,7 @@
     {
       "code": "TS-101",
       "name": "Base white",
-      "nameEn": "Base white",
+      "nameEn": null,
       "aliases": [
         "ベースホワイト"
       ],
@@ -8248,7 +8248,7 @@
     {
       "code": "TS-102",
       "name": "Cobalt Green",
-      "nameEn": "Cobalt Green",
+      "nameEn": null,
       "aliases": [
         "コバルトグリーン"
       ],
@@ -8265,7 +8265,7 @@
     {
       "code": "LP-1",
       "name": "Black",
-      "nameEn": "Black",
+      "nameEn": null,
       "aliases": [
         "ブラック"
       ],
@@ -8282,7 +8282,7 @@
     {
       "code": "LP-2",
       "name": "White",
-      "nameEn": "White",
+      "nameEn": null,
       "aliases": [
         "ホワイト"
       ],
@@ -8299,7 +8299,7 @@
     {
       "code": "LP-3",
       "name": "Flat Black",
-      "nameEn": "Flat Black",
+      "nameEn": null,
       "aliases": [
         "フラットブラック"
       ],
@@ -8316,7 +8316,7 @@
     {
       "code": "LP-4",
       "name": "Flat White",
-      "nameEn": "Flat White",
+      "nameEn": null,
       "aliases": [
         "フラットホワイト"
       ],
@@ -8333,7 +8333,7 @@
     {
       "code": "LP-5",
       "name": "Semi Gloss Black",
-      "nameEn": "Semi Gloss Black",
+      "nameEn": null,
       "aliases": [
         "セミグロスブラック"
       ],
@@ -8350,7 +8350,7 @@
     {
       "code": "LP-6",
       "name": "Pure Blue",
-      "nameEn": "Pure Blue",
+      "nameEn": null,
       "aliases": [
         "ピュアーブルー"
       ],
@@ -8367,7 +8367,7 @@
     {
       "code": "LP-7",
       "name": "Pure Red",
-      "nameEn": "Pure Red",
+      "nameEn": null,
       "aliases": [
         "ピュアーレッド"
       ],
@@ -8384,7 +8384,7 @@
     {
       "code": "LP-8",
       "name": "Pure Yellow",
-      "nameEn": "Pure Yellow",
+      "nameEn": null,
       "aliases": [
         "ピュアーイエロー"
       ],
@@ -8401,7 +8401,7 @@
     {
       "code": "LP-9",
       "name": "Clear",
-      "nameEn": "Clear",
+      "nameEn": null,
       "aliases": [
         "クリヤー"
       ],
@@ -8418,7 +8418,7 @@
     {
       "code": "LP-11",
       "name": "Silver",
-      "nameEn": "Silver",
+      "nameEn": null,
       "aliases": [
         "シルバー"
       ],
@@ -8435,7 +8435,7 @@
     {
       "code": "LP-12",
       "name": "IJN Gray (Kure Arsenal)",
-      "nameEn": "IJN Gray (Kure Arsenal)",
+      "nameEn": null,
       "aliases": [
         "呉海軍工廠グレイ(日本海軍)"
       ],
@@ -8452,7 +8452,7 @@
     {
       "code": "LP-13",
       "name": "IJN Gray (Sasebo Arsenal)",
-      "nameEn": "IJN Gray (Sasebo Arsenal)",
+      "nameEn": null,
       "aliases": [
         "佐世保海軍工廠グレイ(日本海軍)"
       ],
@@ -8469,7 +8469,7 @@
     {
       "code": "LP-14",
       "name": "IJN Gray (Maizuru Arsenal)",
-      "nameEn": "IJN Gray (Maizuru Arsenal)",
+      "nameEn": null,
       "aliases": [
         "舞鶴海軍工廠グレイ (日本海軍)"
       ],
@@ -8486,7 +8486,7 @@
     {
       "code": "LP-15",
       "name": "IJN Gray (Yokosuka Arsenal)",
-      "nameEn": "IJN Gray (Yokosuka Arsenal)",
+      "nameEn": null,
       "aliases": [
         "横須賀海軍工廠グレイ (日本海軍)"
       ],
@@ -8503,7 +8503,7 @@
     {
       "code": "LP-16",
       "name": "Wooden Deck Tan",
-      "nameEn": "Wooden Deck Tan",
+      "nameEn": null,
       "aliases": [
         "木甲板色"
       ],
@@ -8520,7 +8520,7 @@
     {
       "code": "LP-17",
       "name": "Linoleum Deck Brown",
-      "nameEn": "Linoleum Deck Brown",
+      "nameEn": null,
       "aliases": [
         "リノリウム甲板色"
       ],
@@ -8537,7 +8537,7 @@
     {
       "code": "LP-18",
       "name": "Dull Red",
-      "nameEn": "Dull Red",
+      "nameEn": null,
       "aliases": [
         "ダルレッド"
       ],
@@ -8554,7 +8554,7 @@
     {
       "code": "LP-19",
       "name": "Gun Metal",
-      "nameEn": "Gun Metal",
+      "nameEn": null,
       "aliases": [
         "ガンメタル"
       ],
@@ -8571,7 +8571,7 @@
     {
       "code": "LP-20",
       "name": "Light Gun Metal",
-      "nameEn": "Light Gun Metal",
+      "nameEn": null,
       "aliases": [
         "ライトガンメタル"
       ],
@@ -8588,7 +8588,7 @@
     {
       "code": "LP-21",
       "name": "Italian Red",
-      "nameEn": "Italian Red",
+      "nameEn": null,
       "aliases": [
         "イタリアンレッド"
       ],
@@ -8605,7 +8605,7 @@
     {
       "code": "LP-22",
       "name": "Flat Base",
-      "nameEn": "Flat Base",
+      "nameEn": null,
       "aliases": [
         "フラットベース"
       ],
@@ -8622,7 +8622,7 @@
     {
       "code": "LP-23",
       "name": "Flat Clear",
-      "nameEn": "Flat Clear",
+      "nameEn": null,
       "aliases": [
         "フラットクリヤー"
       ],
@@ -8639,7 +8639,7 @@
     {
       "code": "LP-24",
       "name": "Semi Gloss Clear",
-      "nameEn": "Semi Gloss Clear",
+      "nameEn": null,
       "aliases": [
         "セミグロスクリヤー"
       ],
@@ -8656,7 +8656,7 @@
     {
       "code": "LP-25",
       "name": "Brown (JGSDF)",
-      "nameEn": "Brown (JGSDF)",
+      "nameEn": null,
       "aliases": [
         "茶色(陸上自衛隊)"
       ],
@@ -8673,7 +8673,7 @@
     {
       "code": "LP-26",
       "name": "Dark Green (JGSDF)",
-      "nameEn": "Dark Green (JGSDF)",
+      "nameEn": null,
       "aliases": [
         "濃緑色(陸上自衛隊)"
       ],
@@ -8690,7 +8690,7 @@
     {
       "code": "LP-27",
       "name": "German Gray",
-      "nameEn": "German Gray",
+      "nameEn": null,
       "aliases": [
         "ジャーマングレイ"
       ],
@@ -8707,7 +8707,7 @@
     {
       "code": "LP-28",
       "name": "Olive Drab",
-      "nameEn": "Olive Drab",
+      "nameEn": null,
       "aliases": [
         "オリーブドラブ"
       ],
@@ -8724,7 +8724,7 @@
     {
       "code": "LP-29",
       "name": "Olive Drab 2",
-      "nameEn": "Olive Drab 2",
+      "nameEn": null,
       "aliases": [
         "オリーブドラブ2"
       ],
@@ -8741,7 +8741,7 @@
     {
       "code": "LP-30",
       "name": "Light Sand",
-      "nameEn": "Light Sand",
+      "nameEn": null,
       "aliases": [
         "ライトサンド"
       ],
@@ -8758,7 +8758,7 @@
     {
       "code": "LP-31",
       "name": "Dark Green 2 (IJN)",
-      "nameEn": "Dark Green 2 (IJN)",
+      "nameEn": null,
       "aliases": [
         "暗緑色2(日本海軍)"
       ],
@@ -8775,7 +8775,7 @@
     {
       "code": "LP-32",
       "name": "Light Gray (IJN)",
-      "nameEn": "Light Gray (IJN)",
+      "nameEn": null,
       "aliases": [
         "明灰白色(日本海軍)"
       ],
@@ -8792,7 +8792,7 @@
     {
       "code": "LP-33",
       "name": "Grey Green (IJN)",
-      "nameEn": "Grey Green (IJN)",
+      "nameEn": null,
       "aliases": [
         "灰緑色(日本海軍)"
       ],
@@ -8809,7 +8809,7 @@
     {
       "code": "LP-34",
       "name": "Light Gray",
-      "nameEn": "Light Gray",
+      "nameEn": null,
       "aliases": [
         "ライトグレー"
       ],
@@ -8826,7 +8826,7 @@
     {
       "code": "LP-35",
       "name": "Insignia White",
-      "nameEn": "Insignia White",
+      "nameEn": null,
       "aliases": [
         "インシグニアホワイト"
       ],
@@ -8843,7 +8843,7 @@
     {
       "code": "LP-36",
       "name": "Dark Ghost Gray",
-      "nameEn": "Dark Ghost Gray",
+      "nameEn": null,
       "aliases": [
         "ダークゴーストグレイ"
       ],
@@ -8860,7 +8860,7 @@
     {
       "code": "LP-37",
       "name": "Light Ghost Gray",
-      "nameEn": "Light Ghost Gray",
+      "nameEn": null,
       "aliases": [
         "ライトゴーストグレイ"
       ],
@@ -8877,7 +8877,7 @@
     {
       "code": "LP-38",
       "name": "Flat Aluminum",
-      "nameEn": "Flat Aluminum",
+      "nameEn": null,
       "aliases": [
         "フラットアルミ"
       ],
@@ -8894,7 +8894,7 @@
     {
       "code": "LP-39",
       "name": "Racing White",
-      "nameEn": "Racing White",
+      "nameEn": null,
       "aliases": [
         "レーシングホワイト"
       ],
@@ -8911,7 +8911,7 @@
     {
       "code": "LP-40",
       "name": "Metallic Black",
-      "nameEn": "Metallic Black",
+      "nameEn": null,
       "aliases": [
         "メタリックブラック"
       ],
@@ -8928,7 +8928,7 @@
     {
       "code": "LP-41",
       "name": "Mica Blue",
-      "nameEn": "Mica Blue",
+      "nameEn": null,
       "aliases": [
         "マイカブルー"
       ],
@@ -8945,7 +8945,7 @@
     {
       "code": "LP-42",
       "name": "Mica Red",
-      "nameEn": "Mica Red",
+      "nameEn": null,
       "aliases": [
         "マイカレッド"
       ],
@@ -8962,7 +8962,7 @@
     {
       "code": "LP-43",
       "name": "Pearl White",
-      "nameEn": "Pearl White",
+      "nameEn": null,
       "aliases": [
         "パールホワイト"
       ],
@@ -8979,7 +8979,7 @@
     {
       "code": "LP-44",
       "name": "Metallic Orange",
-      "nameEn": "Metallic Orange",
+      "nameEn": null,
       "aliases": [
         "メタリックオレンジ"
       ],
@@ -8996,7 +8996,7 @@
     {
       "code": "LP-45",
       "name": "Racing Blue",
-      "nameEn": "Racing Blue",
+      "nameEn": null,
       "aliases": [
         "レーシングブルー"
       ],
@@ -9013,7 +9013,7 @@
     {
       "code": "LP-46",
       "name": "Pure Metallic Red",
-      "nameEn": "Pure Metallic Red",
+      "nameEn": null,
       "aliases": [
         "ピュアーメタリックレッド"
       ],
@@ -9030,7 +9030,7 @@
     {
       "code": "LP-47",
       "name": "Pearl Blue",
-      "nameEn": "Pearl Blue",
+      "nameEn": null,
       "aliases": [
         "パールブルー"
       ],
@@ -9047,7 +9047,7 @@
     {
       "code": "LP-48",
       "name": "Sparkling Silver",
-      "nameEn": "Sparkling Silver",
+      "nameEn": null,
       "aliases": [
         "スパークリングシルバー"
       ],
@@ -9064,7 +9064,7 @@
     {
       "code": "LP-49",
       "name": "Pearl Clear",
-      "nameEn": "Pearl Clear",
+      "nameEn": null,
       "aliases": [
         "パールクリヤー"
       ],
@@ -9081,7 +9081,7 @@
     {
       "code": "LP-50",
       "name": "Bright Red",
-      "nameEn": "Bright Red",
+      "nameEn": null,
       "aliases": [
         "ブライトレッド"
       ],
@@ -9098,7 +9098,7 @@
     {
       "code": "LP-51",
       "name": "Pure Orange",
-      "nameEn": "Pure Orange",
+      "nameEn": null,
       "aliases": [
         "ピュアーオレンジ"
       ],
@@ -9115,7 +9115,7 @@
     {
       "code": "LP-52",
       "name": "Clear Red",
-      "nameEn": "Clear Red",
+      "nameEn": null,
       "aliases": [
         "クリヤーレッド"
       ],
@@ -9132,7 +9132,7 @@
     {
       "code": "LP-53",
       "name": "Clear Orange",
-      "nameEn": "Clear Orange",
+      "nameEn": null,
       "aliases": [
         "クリヤーオレンジ"
       ],
@@ -9149,7 +9149,7 @@
     {
       "code": "LP-54",
       "name": "Dark Iron",
-      "nameEn": "Dark Iron",
+      "nameEn": null,
       "aliases": [
         "ダークアイアン(履帯色)"
       ],
@@ -9166,7 +9166,7 @@
     {
       "code": "LP-55",
       "name": "Dark Yellow 2",
-      "nameEn": "Dark Yellow 2",
+      "nameEn": null,
       "aliases": [
         "ダークイエロー2(ドイツ陸軍)"
       ],
@@ -9183,7 +9183,7 @@
     {
       "code": "LP-56",
       "name": "Dark Green 2",
-      "nameEn": "Dark Green 2",
+      "nameEn": null,
       "aliases": [
         "ダークグリーン2(ドイツ陸軍)"
       ],
@@ -9200,7 +9200,7 @@
     {
       "code": "LP-57",
       "name": "Red Brown 2",
-      "nameEn": "Red Brown 2",
+      "nameEn": null,
       "aliases": [
         "レッドブラウン2(ドイツ陸軍)"
       ],
@@ -9217,7 +9217,7 @@
     {
       "code": "LP-58",
       "name": "Nato Green",
-      "nameEn": "Nato Green",
+      "nameEn": null,
       "aliases": [
         "NATOグリーン"
       ],
@@ -9234,7 +9234,7 @@
     {
       "code": "LP-59",
       "name": "Nato Brown",
-      "nameEn": "Nato Brown",
+      "nameEn": null,
       "aliases": [
         "NATOブラウン"
       ],
@@ -9251,7 +9251,7 @@
     {
       "code": "LP-60",
       "name": "Nato Black",
-      "nameEn": "Nato Black",
+      "nameEn": null,
       "aliases": [
         "NATOブラック"
       ],
@@ -9268,7 +9268,7 @@
     {
       "code": "LP-61",
       "name": "Metallic Gray",
-      "nameEn": "Metallic Gray",
+      "nameEn": null,
       "aliases": [
         "メタリックグレイ"
       ],
@@ -9285,7 +9285,7 @@
     {
       "code": "LP-62",
       "name": "Titanium Gold",
-      "nameEn": "Titanium Gold",
+      "nameEn": null,
       "aliases": [
         "チタンゴールド"
       ],
@@ -9302,7 +9302,7 @@
     {
       "code": "LP-63",
       "name": "Titanium Silver",
-      "nameEn": "Titanium Silver",
+      "nameEn": null,
       "aliases": [
         "チタンシルバー"
       ],
@@ -9319,7 +9319,7 @@
     {
       "code": "LP-64",
       "name": "Olive Drab (JGSDF)",
-      "nameEn": "Olive Drab (JGSDF)",
+      "nameEn": null,
       "aliases": [
         "OD色(陸上自衛隊)"
       ],
@@ -9336,7 +9336,7 @@
     {
       "code": "LP-66",
       "name": "Flat Flesh",
-      "nameEn": "Flat Flesh",
+      "nameEn": null,
       "aliases": [
         "フラットフレッシュ"
       ],
@@ -9353,7 +9353,7 @@
     {
       "code": "LP-67",
       "name": "Smoke",
-      "nameEn": "Smoke",
+      "nameEn": null,
       "aliases": [
         "スモーク"
       ],
@@ -9370,7 +9370,7 @@
     {
       "code": "LP-68",
       "name": "Clear Blue",
-      "nameEn": "Clear Blue",
+      "nameEn": null,
       "aliases": [
         "クリヤーブルー"
       ],
@@ -9387,7 +9387,7 @@
     {
       "code": "LP-69",
       "name": "Clear Yellow",
-      "nameEn": "Clear Yellow",
+      "nameEn": null,
       "aliases": [
         "クリヤーイエロー"
       ],
@@ -9404,7 +9404,7 @@
     {
       "code": "LP-70",
       "name": "Gloss Aluminium",
-      "nameEn": "Gloss Aluminium",
+      "nameEn": null,
       "aliases": [
         "アルミシルバー"
       ],
@@ -9421,7 +9421,7 @@
     {
       "code": "LP-71",
       "name": "Champagne Gold",
-      "nameEn": "Champagne Gold",
+      "nameEn": null,
       "aliases": [
         "シャンパンゴールド"
       ],
@@ -9438,7 +9438,7 @@
     {
       "code": "LP-72",
       "name": "Mica Silver",
-      "nameEn": "Mica Silver",
+      "nameEn": null,
       "aliases": [
         "マイカシルバー"
       ],
@@ -9455,7 +9455,7 @@
     {
       "code": "LP-73",
       "name": "Khaki",
-      "nameEn": "Khaki",
+      "nameEn": null,
       "aliases": [
         "カーキ"
       ],
@@ -9472,7 +9472,7 @@
     {
       "code": "LP-74",
       "name": "Flat Earth",
-      "nameEn": "Flat Earth",
+      "nameEn": null,
       "aliases": [
         "フラットアース"
       ],
@@ -9489,7 +9489,7 @@
     {
       "code": "LP-75",
       "name": "Buff",
-      "nameEn": "Buff",
+      "nameEn": null,
       "aliases": [
         "バフ"
       ],
@@ -9506,7 +9506,7 @@
     {
       "code": "LP-76",
       "name": "Yellow-Brown (DAK 1941)",
-      "nameEn": "Yellow-Brown (DAK 1941)",
+      "nameEn": null,
       "aliases": [
         "イエローブラウン(DAK 1941～)"
       ],
@@ -9523,7 +9523,7 @@
     {
       "code": "LP-77",
       "name": "Light Brown (DAK 1941)",
-      "nameEn": "Light Brown (DAK 1941)",
+      "nameEn": null,
       "aliases": [
         "ライトブラウン (DAK 1942～)"
       ],
@@ -9540,7 +9540,7 @@
     {
       "code": "LP-78",
       "name": "Flat Blue",
-      "nameEn": "Flat Blue",
+      "nameEn": null,
       "aliases": [
         "フラットブルー"
       ],
@@ -9557,7 +9557,7 @@
     {
       "code": "LP-79",
       "name": "Flat Red",
-      "nameEn": "Flat Red",
+      "nameEn": null,
       "aliases": [
         "フラットレッド"
       ],
@@ -9574,7 +9574,7 @@
     {
       "code": "LP-80",
       "name": "Flat Yellow",
-      "nameEn": "Flat Yellow",
+      "nameEn": null,
       "aliases": [
         "フラットイエロー"
       ],
@@ -9591,7 +9591,7 @@
     {
       "code": "LP-81",
       "name": "Mixing blue",
-      "nameEn": "Mixing blue",
+      "nameEn": null,
       "aliases": [
         "調色用ブルー"
       ],
@@ -9608,7 +9608,7 @@
     {
       "code": "LP-82",
       "name": "Mixing Red",
-      "nameEn": "Mixing Red",
+      "nameEn": null,
       "aliases": [
         "調色用レッド"
       ],
@@ -9625,7 +9625,7 @@
     {
       "code": "LP-83",
       "name": "Mixing Yellow",
-      "nameEn": "Mixing Yellow",
+      "nameEn": null,
       "aliases": [
         "調色用イエロー"
       ],
@@ -9642,7 +9642,7 @@
     {
       "code": "LP-84",
       "name": "Camouflage Grey",
-      "nameEn": "Camouflage Grey",
+      "nameEn": null,
       "aliases": [
         "カモフラージュグレイ"
       ],
@@ -9659,7 +9659,7 @@
     {
       "code": "LP-85",
       "name": "Medium Air Grey",
-      "nameEn": "Medium Air Grey",
+      "nameEn": null,
       "aliases": [
         "ミディアムエアーグレイ"
       ],

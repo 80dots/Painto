@@ -47,6 +47,16 @@ https://docs.expo.dev/versions/v57.0.0/ 의 해당 버전 문서를 확인할 �
 
 - DB 가 아니라 번들에 들고 다닌다. 브랜드를 추가해도 마이그레이션이 필요 없다.
 - 새 브랜드는 같은 모양의 JSON 을 만들고 `catalog.ts` 의 `CATALOG_FILES` 에 넣는다.
+  **형식은 `npm run check:catalog` 로 확인한다.** 키 구성·순서, enum 값,
+  색상값 표기(`#RRGGBB` 대문자), 바코드 숫자, (line, code) 중복까지 본다.
+  `CatalogFile` 타입에는 `?` 를 붙이지 않아, 키가 빠지면 타입 검사에서도 걸린다.
+- 이름 세 칸은 이렇게 나눠 쓴다. 브랜드마다 다르게 쓰면 검색이 새는 곳이 생긴다.
+  - `name` — 그 브랜드가 파는 표기 그대로 (모모델링 한국어, 타미야·GSI 영어,
+    가이아·피니셔스 일본어)
+  - `nameEn` — 영문 이름. `name` 과 같으면 `null` (같은 문자열을 두 번 두지 않는다)
+  - `aliases` — 그 밖의 표기(일본어 이름 등). 없으면 빈 배열
+- 값이 없으면 빈 문자열이 아니라 `null` 이다. 빈 문자열은 `??` 를 그냥 지나가서
+  카탈로그 `id` 가 겹치는 식으로 조용히 깨진다.
 - `type` / `finish` 값은 `src/db/schema.ts` 의 `PAINT_TYPES` / `PAINT_FINISHES` 와 같아야 한다.
   (틀린 값은 `other` / `none` 으로 떨어진다.)
 - 브랜드는 저장할 때 `ensureBrand()` 로 만들어 붙이므로 `brands` 테이블에 미리 없어도 된다.

@@ -11,7 +11,7 @@
     "gunze"
   ],
   "country": "JP",
-  "updatedAt": "2026-09-07",
+  "updatedAt": "2026-09-09",
   "sources": [
     "https://www.scalemates.com/colors/mr-color--657",
     "https://www.scalemates.com/colors/mrcolor-lascivus--1053",
@@ -22,7 +22,7 @@
     {
       "code": "C1",
       "name": "White",
-      "nameEn": "White",
+      "nameEn": null,
       "aliases": [
         "ホワイト(白"
       ],
@@ -39,7 +39,7 @@
     {
       "code": "C2",
       "name": "Black",
-      "nameEn": "Black",
+      "nameEn": null,
       "aliases": [
         "ブラック(黒"
       ],
@@ -56,7 +56,7 @@
     {
       "code": "C3",
       "name": "Red",
-      "nameEn": "Red",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -71,7 +71,7 @@
     {
       "code": "C4",
       "name": "Yellow",
-      "nameEn": "Yellow",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -86,7 +86,7 @@
     {
       "code": "C5",
       "name": "Blue",
-      "nameEn": "Blue",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -101,7 +101,7 @@
     {
       "code": "C6",
       "name": "Green",
-      "nameEn": "Green",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -116,7 +116,7 @@
     {
       "code": "C7",
       "name": "Brown",
-      "nameEn": "Brown",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -131,7 +131,7 @@
     {
       "code": "C8",
       "name": "Silver",
-      "nameEn": "Silver",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -146,7 +146,7 @@
     {
       "code": "C9",
       "name": "Gold",
-      "nameEn": "Gold",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -161,7 +161,7 @@
     {
       "code": "C10",
       "name": "Copper",
-      "nameEn": "Copper",
+      "nameEn": null,
       "aliases": [
         "カッパー(銅"
       ],
@@ -178,7 +178,7 @@
     {
       "code": "C11",
       "name": "Light Gull Gray",
-      "nameEn": "Light Gull Gray",
+      "nameEn": null,
       "aliases": [
         "ガルグレー"
       ],
@@ -195,7 +195,7 @@
     {
       "code": "C12",
       "name": "Olive Drab 1",
-      "nameEn": "Olive Drab 1",
+      "nameEn": null,
       "aliases": [
         "オリーブドラブ(1"
       ],
@@ -212,7 +212,7 @@
     {
       "code": "C13",
       "name": "Neutral Gray",
-      "nameEn": "Neutral Gray",
+      "nameEn": null,
       "aliases": [
         "ニュートラルグレー"
       ],
@@ -229,7 +229,7 @@
     {
       "code": "C14",
       "name": "Navy Blue",
-      "nameEn": "Navy Blue",
+      "nameEn": null,
       "aliases": [
         "ネービーブルー"
       ],
@@ -246,7 +246,7 @@
     {
       "code": "C15",
       "name": "IJN Green (Nakajima)",
-      "nameEn": "IJN Green (Nakajima)",
+      "nameEn": null,
       "aliases": [
         "暗緑色(中島系)(濃緑色1"
       ],
@@ -263,7 +263,7 @@
     {
       "code": "C16",
       "name": "IJA Green",
-      "nameEn": "IJA Green",
+      "nameEn": null,
       "aliases": [
         "濃緑色"
       ],
@@ -280,7 +280,7 @@
     {
       "code": "C17",
       "name": "RLM71 Dark Green",
-      "nameEn": "RLM71 Dark Green",
+      "nameEn": null,
       "aliases": [
         "RLM71ダークグリーン"
       ],
@@ -297,7 +297,7 @@
     {
       "code": "C18",
       "name": "RLM70 Black Green",
-      "nameEn": "RLM70 Black Green",
+      "nameEn": null,
       "aliases": [
         "RLM70ブラックグリーン"
       ],
@@ -314,7 +314,7 @@
     {
       "code": "C19",
       "name": "Sandy Brown",
-      "nameEn": "Sandy Brown",
+      "nameEn": null,
       "aliases": [
         "サンディブラウン"
       ],
@@ -331,7 +331,7 @@
     {
       "code": "C20",
       "name": "Light Blue",
-      "nameEn": "Light Blue",
+      "nameEn": null,
       "aliases": [
         "ライトブルー"
       ],
@@ -348,7 +348,7 @@
     {
       "code": "C21",
       "name": "Middle Stone",
-      "nameEn": "Middle Stone",
+      "nameEn": null,
       "aliases": [
         "ミドルストーン"
       ],
@@ -365,7 +365,7 @@
     {
       "code": "C22",
       "name": "Dark Earth",
-      "nameEn": "Dark Earth",
+      "nameEn": null,
       "aliases": [
         "ダークアース"
       ],
@@ -382,7 +382,7 @@
     {
       "code": "C23",
       "name": "Dark Green (2)",
-      "nameEn": "Dark Green (2)",
+      "nameEn": null,
       "aliases": [
         "ダークグリーン (2"
       ],
@@ -399,7 +399,7 @@
     {
       "code": "C25",
       "name": "Dark Seagray",
-      "nameEn": "Dark Seagray",
+      "nameEn": null,
       "aliases": [
         "ダークシーグレー"
       ],
@@ -416,7 +416,7 @@
     {
       "code": "C26",
       "name": "Duck Egg Green",
-      "nameEn": "Duck Egg Green",
+      "nameEn": null,
       "aliases": [
         "ダックエッググリーン"
       ],
@@ -433,7 +433,7 @@
     {
       "code": "C27",
       "name": "Interior Green",
-      "nameEn": "Interior Green",
+      "nameEn": null,
       "aliases": [
         "機体内部色"
       ],
@@ -450,7 +450,7 @@
     {
       "code": "C28",
       "name": "Steel",
-      "nameEn": "Steel",
+      "nameEn": null,
       "aliases": [
         "黒鉄色"
       ],
@@ -467,7 +467,7 @@
     {
       "code": "C29",
       "name": "Hull Red",
-      "nameEn": "Hull Red",
+      "nameEn": null,
       "aliases": [
         "艦底色"
       ],
@@ -484,7 +484,7 @@
     {
       "code": "C30",
       "name": "Flat Base",
-      "nameEn": "Flat Base",
+      "nameEn": null,
       "aliases": [
         "フラットベース"
       ],
@@ -501,7 +501,7 @@
     {
       "code": "C31",
       "name": "Dark Gray (1)",
-      "nameEn": "Dark Gray (1)",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -516,7 +516,7 @@
     {
       "code": "C32",
       "name": "Dark Gray (2)",
-      "nameEn": "Dark Gray (2)",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -531,7 +531,7 @@
     {
       "code": "C33",
       "name": "Flat Black",
-      "nameEn": "Flat Black",
+      "nameEn": null,
       "aliases": [
         "つや消しブラック"
       ],
@@ -548,7 +548,7 @@
     {
       "code": "C34",
       "name": "Sky Blue",
-      "nameEn": "Sky Blue",
+      "nameEn": null,
       "aliases": [
         "スカイブルー"
       ],
@@ -565,7 +565,7 @@
     {
       "code": "C35",
       "name": "IJN Gray (Mitsubishi)",
-      "nameEn": "IJN Gray (Mitsubishi)",
+      "nameEn": null,
       "aliases": [
         "明灰白色1"
       ],
@@ -582,7 +582,7 @@
     {
       "code": "C36",
       "name": "RLM 74 Gray Green",
-      "nameEn": "RLM 74 Gray Green",
+      "nameEn": null,
       "aliases": [
         "RLM74グレーグリーン"
       ],
@@ -599,7 +599,7 @@
     {
       "code": "C37",
       "name": "RLM 75 Gray Violet",
-      "nameEn": "RLM 75 Gray Violet",
+      "nameEn": null,
       "aliases": [
         "RLM75グレーバイオレット"
       ],
@@ -616,7 +616,7 @@
     {
       "code": "C38",
       "name": "Olive Drab 2",
-      "nameEn": "Olive Drab 2",
+      "nameEn": null,
       "aliases": [
         "オリーブドラブ (2"
       ],
@@ -633,7 +633,7 @@
     {
       "code": "C39",
       "name": "Dark Yellow (Sandy Yellow)",
-      "nameEn": "Dark Yellow (Sandy Yellow)",
+      "nameEn": null,
       "aliases": [
         "ダークイエロー"
       ],
@@ -650,7 +650,7 @@
     {
       "code": "C41",
       "name": "Red Brown",
-      "nameEn": "Red Brown",
+      "nameEn": null,
       "aliases": [
         "レッドブラウン"
       ],
@@ -667,7 +667,7 @@
     {
       "code": "C42",
       "name": "Mahogany",
-      "nameEn": "Mahogany",
+      "nameEn": null,
       "aliases": [
         "マホガニー"
       ],
@@ -684,7 +684,7 @@
     {
       "code": "C43",
       "name": "Wood Brown",
-      "nameEn": "Wood Brown",
+      "nameEn": null,
       "aliases": [
         "ウッドブラウン"
       ],
@@ -701,7 +701,7 @@
     {
       "code": "C44",
       "name": "Tan",
-      "nameEn": "Tan",
+      "nameEn": null,
       "aliases": [
         "タン"
       ],
@@ -718,7 +718,7 @@
     {
       "code": "C45",
       "name": "Sail Color",
-      "nameEn": "Sail Color",
+      "nameEn": null,
       "aliases": [
         "セールカラー"
       ],
@@ -735,7 +735,7 @@
     {
       "code": "C46",
       "name": "Clear",
-      "nameEn": "Clear",
+      "nameEn": null,
       "aliases": [
         "クリアー（透明"
       ],
@@ -752,7 +752,7 @@
     {
       "code": "C47",
       "name": "Clear Red",
-      "nameEn": "Clear Red",
+      "nameEn": null,
       "aliases": [
         "クリアーレッド"
       ],
@@ -769,7 +769,7 @@
     {
       "code": "C48",
       "name": "Clear Yellow",
-      "nameEn": "Clear Yellow",
+      "nameEn": null,
       "aliases": [
         "クリアーイエロー"
       ],
@@ -786,7 +786,7 @@
     {
       "code": "C49",
       "name": "Clear Orange",
-      "nameEn": "Clear Orange",
+      "nameEn": null,
       "aliases": [
         "クリアーオレンジ"
       ],
@@ -803,7 +803,7 @@
     {
       "code": "C50",
       "name": "Clear Blue",
-      "nameEn": "Clear Blue",
+      "nameEn": null,
       "aliases": [
         "クリアーブルー"
       ],
@@ -820,7 +820,7 @@
     {
       "code": "C51",
       "name": "Flesh",
-      "nameEn": "Flesh",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -835,7 +835,7 @@
     {
       "code": "C52",
       "name": "Field Gray 2",
-      "nameEn": "Field Gray 2",
+      "nameEn": null,
       "aliases": [
         "フィールドグレー (2"
       ],
@@ -852,7 +852,7 @@
     {
       "code": "C54",
       "name": "Khaki Green",
-      "nameEn": "Khaki Green",
+      "nameEn": null,
       "aliases": [
         "カーキグリーン"
       ],
@@ -869,7 +869,7 @@
     {
       "code": "C55",
       "name": "Khaki",
-      "nameEn": "Khaki",
+      "nameEn": null,
       "aliases": [
         "カーキ"
       ],
@@ -886,7 +886,7 @@
     {
       "code": "C56",
       "name": "IJN Gray Green (Nakajima)",
-      "nameEn": "IJN Gray Green (Nakajima)",
+      "nameEn": null,
       "aliases": [
         "明灰緑色 (中島系"
       ],
@@ -903,7 +903,7 @@
     {
       "code": "C57",
       "name": "Metallic Blue Green",
-      "nameEn": "Metallic Blue Green",
+      "nameEn": null,
       "aliases": [
         "青竹色"
       ],
@@ -920,7 +920,7 @@
     {
       "code": "C58",
       "name": "Orange Yellow (IJA/IJN Aircraft)",
-      "nameEn": "Orange Yellow (IJA/IJN Aircraft)",
+      "nameEn": null,
       "aliases": [
         "黄橙色"
       ],
@@ -937,7 +937,7 @@
     {
       "code": "C59",
       "name": "Orange",
-      "nameEn": "Orange",
+      "nameEn": null,
       "aliases": [
         "オレンジ（橙"
       ],
@@ -954,7 +954,7 @@
     {
       "code": "C60",
       "name": "RLM 02 Gray",
-      "nameEn": "RLM 02 Gray",
+      "nameEn": null,
       "aliases": [
         "RLM02グレー"
       ],
@@ -971,7 +971,7 @@
     {
       "code": "C61",
       "name": "Burnt Iron",
-      "nameEn": "Burnt Iron",
+      "nameEn": null,
       "aliases": [
         "焼鉄色"
       ],
@@ -988,7 +988,7 @@
     {
       "code": "C62",
       "name": "Flat White",
-      "nameEn": "Flat White",
+      "nameEn": null,
       "aliases": [
         "つや消しホワイト"
       ],
@@ -1005,7 +1005,7 @@
     {
       "code": "C63",
       "name": "Pink",
-      "nameEn": "Pink",
+      "nameEn": null,
       "aliases": [
         "ピンク（桃"
       ],
@@ -1022,7 +1022,7 @@
     {
       "code": "C64",
       "name": "Yellow Green",
-      "nameEn": "Yellow Green",
+      "nameEn": null,
       "aliases": [
         "ルマングリーン (黄緑"
       ],
@@ -1039,7 +1039,7 @@
     {
       "code": "C65",
       "name": "Bright Blue",
-      "nameEn": "Bright Blue",
+      "nameEn": null,
       "aliases": [
         "インディーブルー"
       ],
@@ -1056,7 +1056,7 @@
     {
       "code": "C66",
       "name": "Bright Green",
-      "nameEn": "Bright Green",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -1071,7 +1071,7 @@
     {
       "code": "C67",
       "name": "Purple",
-      "nameEn": "Purple",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -1086,7 +1086,7 @@
     {
       "code": "C68",
       "name": "Madder Red",
-      "nameEn": "Madder Red",
+      "nameEn": null,
       "aliases": [
         "モンザレッド"
       ],
@@ -1103,7 +1103,7 @@
     {
       "code": "C69",
       "name": "Off White",
-      "nameEn": "Off White",
+      "nameEn": null,
       "aliases": [
         "グランプリホワイト"
       ],
@@ -1120,7 +1120,7 @@
     {
       "code": "C70",
       "name": "Dark Green",
-      "nameEn": "Dark Green",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -1135,7 +1135,7 @@
     {
       "code": "C71",
       "name": "Midnight Blue",
-      "nameEn": "Midnight Blue",
+      "nameEn": null,
       "aliases": [
         "ミッドナイトブルー"
       ],
@@ -1152,7 +1152,7 @@
     {
       "code": "C72",
       "name": "Intermediate Blue",
-      "nameEn": "Intermediate Blue",
+      "nameEn": null,
       "aliases": [
         "ミディアムブルー"
       ],
@@ -1169,7 +1169,7 @@
     {
       "code": "C73",
       "name": "Aircraft Gray",
-      "nameEn": "Aircraft Gray",
+      "nameEn": null,
       "aliases": [
         "エアクラフトグレー"
       ],
@@ -1186,7 +1186,7 @@
     {
       "code": "C74",
       "name": "Air Superiority Blue",
-      "nameEn": "Air Superiority Blue",
+      "nameEn": null,
       "aliases": [
         "エアスペリオリティーブルー"
       ],
@@ -1203,7 +1203,7 @@
     {
       "code": "C75",
       "name": "Metallic Red",
-      "nameEn": "Metallic Red",
+      "nameEn": null,
       "aliases": [
         "メタリックレッド"
       ],
@@ -1220,7 +1220,7 @@
     {
       "code": "C76",
       "name": "Metallic Blue",
-      "nameEn": "Metallic Blue",
+      "nameEn": null,
       "aliases": [
         "メタリックブルー"
       ],
@@ -1237,7 +1237,7 @@
     {
       "code": "C77",
       "name": "Metallic Green",
-      "nameEn": "Metallic Green",
+      "nameEn": null,
       "aliases": [
         "メタリックグリーン"
       ],
@@ -1254,7 +1254,7 @@
     {
       "code": "C78",
       "name": "Metallic Black",
-      "nameEn": "Metallic Black",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -1269,7 +1269,7 @@
     {
       "code": "C79",
       "name": "Shine Red",
-      "nameEn": "Shine Red",
+      "nameEn": null,
       "aliases": [
         "シャインレッド"
       ],
@@ -1286,7 +1286,7 @@
     {
       "code": "C80",
       "name": "Cobalt Blue",
-      "nameEn": "Cobalt Blue",
+      "nameEn": null,
       "aliases": [
         "コバルトブルー"
       ],
@@ -1303,7 +1303,7 @@
     {
       "code": "C81",
       "name": "Russet",
-      "nameEn": "Russet",
+      "nameEn": null,
       "aliases": [
         "あずき色"
       ],
@@ -1320,7 +1320,7 @@
     {
       "code": "C90",
       "name": "Shine Silver",
-      "nameEn": "Shine Silver",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -1335,7 +1335,7 @@
     {
       "code": "C92",
       "name": "Semi-Gloss Black",
-      "nameEn": "Semi-Gloss Black",
+      "nameEn": null,
       "aliases": [
         "セミグロスブラック"
       ],
@@ -1352,7 +1352,7 @@
     {
       "code": "C97",
       "name": "Light Gray",
-      "nameEn": "Light Gray",
+      "nameEn": null,
       "aliases": [
         "灰色9号"
       ],
@@ -1369,7 +1369,7 @@
     {
       "code": "C100",
       "name": "Wine Red",
-      "nameEn": "Wine Red",
+      "nameEn": null,
       "aliases": [
         "マルーン"
       ],
@@ -1386,7 +1386,7 @@
     {
       "code": "C101",
       "name": "Smoke Gray",
-      "nameEn": "Smoke Gray",
+      "nameEn": null,
       "aliases": [
         "スモークグレー"
       ],
@@ -1403,7 +1403,7 @@
     {
       "code": "C104",
       "name": "Gun Chrome",
-      "nameEn": "Gun Chrome",
+      "nameEn": null,
       "aliases": [
         "ガンクローム"
       ],
@@ -1420,7 +1420,7 @@
     {
       "code": "C107",
       "name": "Character White",
-      "nameEn": "Character White",
+      "nameEn": null,
       "aliases": [
         "キャラクターホワイト"
       ],
@@ -1437,7 +1437,7 @@
     {
       "code": "C108",
       "name": "Character Red",
-      "nameEn": "Character Red",
+      "nameEn": null,
       "aliases": [
         "キャラクターレッド"
       ],
@@ -1454,7 +1454,7 @@
     {
       "code": "C109",
       "name": "Character Yellow",
-      "nameEn": "Character Yellow",
+      "nameEn": null,
       "aliases": [
         "キャラクターイエロー"
       ],
@@ -1471,7 +1471,7 @@
     {
       "code": "C110",
       "name": "Character Blue",
-      "nameEn": "Character Blue",
+      "nameEn": null,
       "aliases": [
         "キャラクターブルー"
       ],
@@ -1488,7 +1488,7 @@
     {
       "code": "C111",
       "name": "Character Flesh 1",
-      "nameEn": "Character Flesh 1",
+      "nameEn": null,
       "aliases": [
         "キャラクターフレッシュ（1"
       ],
@@ -1505,7 +1505,7 @@
     {
       "code": "C112",
       "name": "Character Flesh 2",
-      "nameEn": "Character Flesh 2",
+      "nameEn": null,
       "aliases": [
         "キャラクターフレッシュ (2"
       ],
@@ -1522,7 +1522,7 @@
     {
       "code": "C113",
       "name": "RLM04 Yellow",
-      "nameEn": "RLM04 Yellow",
+      "nameEn": null,
       "aliases": [
         "RLM04イエロー"
       ],
@@ -1539,7 +1539,7 @@
     {
       "code": "C114",
       "name": "RLM 23 Red",
-      "nameEn": "RLM 23 Red",
+      "nameEn": null,
       "aliases": [
         "RLM23レッド"
       ],
@@ -1556,7 +1556,7 @@
     {
       "code": "C115",
       "name": "RLM65 Light Blue",
-      "nameEn": "RLM65 Light Blue",
+      "nameEn": null,
       "aliases": [
         "RLM65ライトブルー"
       ],
@@ -1573,7 +1573,7 @@
     {
       "code": "C116",
       "name": "RLM 66 Black Gray",
-      "nameEn": "RLM 66 Black Gray",
+      "nameEn": null,
       "aliases": [
         "RLM66ブラックグレー"
       ],
@@ -1590,7 +1590,7 @@
     {
       "code": "C117",
       "name": "RLM76 Light blue",
-      "nameEn": "RLM76 Light blue",
+      "nameEn": null,
       "aliases": [
         "RLM76ライトブルー"
       ],
@@ -1607,7 +1607,7 @@
     {
       "code": "C118",
       "name": "RLM 78 Light Blue",
-      "nameEn": "RLM 78 Light Blue",
+      "nameEn": null,
       "aliases": [
         "RLM78ライトブルー"
       ],
@@ -1624,7 +1624,7 @@
     {
       "code": "C119",
       "name": "RLM 79 Sand Yellow",
-      "nameEn": "RLM 79 Sand Yellow",
+      "nameEn": null,
       "aliases": [
         "RLM79サンドイエロー"
       ],
@@ -1641,7 +1641,7 @@
     {
       "code": "C120",
       "name": "RLM 80 Olive Green",
-      "nameEn": "RLM 80 Olive Green",
+      "nameEn": null,
       "aliases": [
         "RLM80オリーブグリーン"
       ],
@@ -1658,7 +1658,7 @@
     {
       "code": "C121",
       "name": "RLM 81 Brown Violet",
-      "nameEn": "RLM 81 Brown Violet",
+      "nameEn": null,
       "aliases": [
         "RLM81ブラウンバイオレット"
       ],
@@ -1675,7 +1675,7 @@
     {
       "code": "C122",
       "name": "RLM 82 Light Green",
-      "nameEn": "RLM 82 Light Green",
+      "nameEn": null,
       "aliases": [
         "RLM82ライトグリーン"
       ],
@@ -1692,7 +1692,7 @@
     {
       "code": "C123",
       "name": "RLM 83 Dark Green",
-      "nameEn": "RLM 83 Dark Green",
+      "nameEn": null,
       "aliases": [
         "RLM83ダークグリーン"
       ],
@@ -1709,7 +1709,7 @@
     {
       "code": "C124",
       "name": "Dark Green (Mitsubishi)",
-      "nameEn": "Dark Green (Mitsubishi)",
+      "nameEn": null,
       "aliases": [
         "暗緑色（三菱系"
       ],
@@ -1726,7 +1726,7 @@
     {
       "code": "C125",
       "name": "Cowling Color",
-      "nameEn": "Cowling Color",
+      "nameEn": null,
       "aliases": [
         "カウリング色"
       ],
@@ -1743,7 +1743,7 @@
     {
       "code": "C126",
       "name": "Cockpit Color (Mitsubishi)",
-      "nameEn": "Cockpit Color (Mitsubishi)",
+      "nameEn": null,
       "aliases": [
         "コクピット色 (三菱系"
       ],
@@ -1760,7 +1760,7 @@
     {
       "code": "C127",
       "name": "Cockpit Color (Nakajima)",
-      "nameEn": "Cockpit Color (Nakajima)",
+      "nameEn": null,
       "aliases": [
         "コクピット色 (中島系"
       ],
@@ -1777,7 +1777,7 @@
     {
       "code": "C128",
       "name": "Gray green",
-      "nameEn": "Gray green",
+      "nameEn": null,
       "aliases": [
         "灰緑色"
       ],
@@ -1794,7 +1794,7 @@
     {
       "code": "C129",
       "name": "Dark Green (Nakajima)",
-      "nameEn": "Dark Green (Nakajima)",
+      "nameEn": null,
       "aliases": [
         "濃緑色 (中島系) Mr.カラー"
       ],
@@ -1811,7 +1811,7 @@
     {
       "code": "C130",
       "name": "Dark Green (Kawasaki)",
-      "nameEn": "Dark Green (Kawasaki)",
+      "nameEn": null,
       "aliases": [
         "濃緑色 (川崎系"
       ],
@@ -1828,7 +1828,7 @@
     {
       "code": "C131",
       "name": "Propeller Color",
-      "nameEn": "Propeller Color",
+      "nameEn": null,
       "aliases": [
         "赤褐色"
       ],
@@ -1845,7 +1845,7 @@
     {
       "code": "C132",
       "name": "Earth Green",
-      "nameEn": "Earth Green",
+      "nameEn": null,
       "aliases": [
         "土草色"
       ],
@@ -1862,7 +1862,7 @@
     {
       "code": "C133",
       "name": "Earth",
-      "nameEn": "Earth",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -1877,7 +1877,7 @@
     {
       "code": "C135",
       "name": "Russian Green 1",
-      "nameEn": "Russian Green 1",
+      "nameEn": null,
       "aliases": [
         "ロシアングリーン (1"
       ],
@@ -1894,7 +1894,7 @@
     {
       "code": "C136",
       "name": "Russian Green 2",
-      "nameEn": "Russian Green 2",
+      "nameEn": null,
       "aliases": [
         "ロシアングリーン (2"
       ],
@@ -1911,7 +1911,7 @@
     {
       "code": "C137",
       "name": "Tire Black",
-      "nameEn": "Tire Black",
+      "nameEn": null,
       "aliases": [
         "タイヤブラック"
       ],
@@ -1928,7 +1928,7 @@
     {
       "code": "C138",
       "name": "Clear Green",
-      "nameEn": "Clear Green",
+      "nameEn": null,
       "aliases": [
         "クリアーグリーン"
       ],
@@ -1945,7 +1945,7 @@
     {
       "code": "C151",
       "name": "White Pearl",
-      "nameEn": "White Pearl",
+      "nameEn": null,
       "aliases": [
         "ホワイトパール"
       ],
@@ -1962,7 +1962,7 @@
     {
       "code": "C155",
       "name": "Super Clear",
-      "nameEn": "Super Clear",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -1977,7 +1977,7 @@
     {
       "code": "C156",
       "name": "Super White IV",
-      "nameEn": "Super White IV",
+      "nameEn": null,
       "aliases": [
         "スーパーホワイト"
       ],
@@ -1994,7 +1994,7 @@
     {
       "code": "C158",
       "name": "Super Italian Red",
-      "nameEn": "Super Italian Red",
+      "nameEn": null,
       "aliases": [
         "スーパーイタリアンレッド"
       ],
@@ -2011,7 +2011,7 @@
     {
       "code": "C159",
       "name": "Super Silver",
-      "nameEn": "Super Silver",
+      "nameEn": null,
       "aliases": [
         "スーパーシルバー"
       ],
@@ -2028,7 +2028,7 @@
     {
       "code": "C171",
       "name": "Fluorescent Red",
-      "nameEn": "Fluorescent Red",
+      "nameEn": null,
       "aliases": [
         "蛍光レッド"
       ],
@@ -2045,7 +2045,7 @@
     {
       "code": "C172",
       "name": "Fluorescent Yellow",
-      "nameEn": "Fluorescent Yellow",
+      "nameEn": null,
       "aliases": [
         "蛍光イエロー"
       ],
@@ -2062,7 +2062,7 @@
     {
       "code": "C173",
       "name": "Fluorescent Orange",
-      "nameEn": "Fluorescent Orange",
+      "nameEn": null,
       "aliases": [
         "蛍光オレンジ"
       ],
@@ -2079,7 +2079,7 @@
     {
       "code": "C174",
       "name": "Fluorescent Pink",
-      "nameEn": "Fluorescent Pink",
+      "nameEn": null,
       "aliases": [
         "蛍光ピンク"
       ],
@@ -2096,7 +2096,7 @@
     {
       "code": "C175",
       "name": "Fluoroscent Green",
-      "nameEn": "Fluoroscent Green",
+      "nameEn": null,
       "aliases": [
         "蛍光グリーン"
       ],
@@ -2113,7 +2113,7 @@
     {
       "code": "C181",
       "name": "Semi-Gloss Super Clear",
-      "nameEn": "Semi-Gloss Super Clear",
+      "nameEn": null,
       "aliases": [
         "スーパークリアー半光沢"
       ],
@@ -2130,7 +2130,7 @@
     {
       "code": "C182",
       "name": "Flat Clear",
-      "nameEn": "Flat Clear",
+      "nameEn": null,
       "aliases": [
         "スーパークリア(つや消し"
       ],
@@ -2147,7 +2147,7 @@
     {
       "code": "C183",
       "name": "Super Clear Gray Tone",
-      "nameEn": "Super Clear Gray Tone",
+      "nameEn": null,
       "aliases": [
         "スーパークリアーグレートーン"
       ],
@@ -2164,7 +2164,7 @@
     {
       "code": "C188",
       "name": "Flat Base Rough",
-      "nameEn": "Flat Base Rough",
+      "nameEn": null,
       "aliases": [
         "フラットベース「あらめ・ラフ」"
       ],
@@ -2181,7 +2181,7 @@
     {
       "code": "C189",
       "name": "Flat Base Smooth",
-      "nameEn": "Flat Base Smooth",
+      "nameEn": null,
       "aliases": [
         "フラットベース「なめらか・スムース」"
       ],
@@ -2198,7 +2198,7 @@
     {
       "code": "C207",
       "name": "Fluorescent Green, Primary",
-      "nameEn": "Fluorescent Green, Primary",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -2213,7 +2213,7 @@
     {
       "code": "211",
       "name": "MR.METAL COLOR Chrome Silver",
-      "nameEn": "MR.METAL COLOR Chrome Silver",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -2228,7 +2228,7 @@
     {
       "code": "212",
       "name": "MR.METAL COLOR Iron",
-      "nameEn": "MR.METAL COLOR Iron",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -2243,7 +2243,7 @@
     {
       "code": "213",
       "name": "MR.METAL COLOR Stainless",
-      "nameEn": "MR.METAL COLOR Stainless",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -2258,7 +2258,7 @@
     {
       "code": "214",
       "name": "MR.METAL COLOR Dark Iron",
-      "nameEn": "MR.METAL COLOR Dark Iron",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -2273,7 +2273,7 @@
     {
       "code": "218",
       "name": "Mr Metal Color Aluminium",
-      "nameEn": "Mr Metal Color Aluminium",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -2288,7 +2288,7 @@
     {
       "code": "C301",
       "name": "Gray FS36081",
-      "nameEn": "Gray FS36081",
+      "nameEn": null,
       "aliases": [
         "グレーFS36081"
       ],
@@ -2305,7 +2305,7 @@
     {
       "code": "C302",
       "name": "Green - FS34092",
-      "nameEn": "Green - FS34092",
+      "nameEn": null,
       "aliases": [
         "グリーンFS34092"
       ],
@@ -2322,7 +2322,7 @@
     {
       "code": "C303",
       "name": "Green FS34102",
-      "nameEn": "Green FS34102",
+      "nameEn": null,
       "aliases": [
         "グリーンFS34102"
       ],
@@ -2339,7 +2339,7 @@
     {
       "code": "C304",
       "name": "Olive Drab FS34087",
-      "nameEn": "Olive Drab FS34087",
+      "nameEn": null,
       "aliases": [
         "オリーブドラブFS34087"
       ],
@@ -2356,7 +2356,7 @@
     {
       "code": "C305",
       "name": "Gray FS36118",
-      "nameEn": "Gray FS36118",
+      "nameEn": null,
       "aliases": [
         "グレーFS36118"
       ],
@@ -2373,7 +2373,7 @@
     {
       "code": "C306",
       "name": "Gray FS36270",
-      "nameEn": "Gray FS36270",
+      "nameEn": null,
       "aliases": [
         "グレーFS36270"
       ],
@@ -2390,7 +2390,7 @@
     {
       "code": "C307",
       "name": "Gray FS36320",
-      "nameEn": "Gray FS36320",
+      "nameEn": null,
       "aliases": [
         "グレーFS36320"
       ],
@@ -2407,7 +2407,7 @@
     {
       "code": "C308",
       "name": "Gray FS36375",
-      "nameEn": "Gray FS36375",
+      "nameEn": null,
       "aliases": [
         "グレーFS36375"
       ],
@@ -2424,7 +2424,7 @@
     {
       "code": "C309",
       "name": "Green FS34079",
-      "nameEn": "Green FS34079",
+      "nameEn": null,
       "aliases": [
         "グリーンFS34079"
       ],
@@ -2441,7 +2441,7 @@
     {
       "code": "C310",
       "name": "FS 30219 Brown",
-      "nameEn": "FS 30219 Brown",
+      "nameEn": null,
       "aliases": [
         "ブラウンFS30219"
       ],
@@ -2458,7 +2458,7 @@
     {
       "code": "C311",
       "name": "Gray FS36622",
-      "nameEn": "Gray FS36622",
+      "nameEn": null,
       "aliases": [
         "グレーFS36622"
       ],
@@ -2475,7 +2475,7 @@
     {
       "code": "C312",
       "name": "Green FS34227",
-      "nameEn": "Green FS34227",
+      "nameEn": null,
       "aliases": [
         "グリーンFS34227"
       ],
@@ -2492,7 +2492,7 @@
     {
       "code": "C313",
       "name": "Yellow FS33531",
-      "nameEn": "Yellow FS33531",
+      "nameEn": null,
       "aliases": [
         "イエローFS33531"
       ],
@@ -2509,7 +2509,7 @@
     {
       "code": "C314",
       "name": "Blue FS35622 (Israeli Kfir, C2, etc.)",
-      "nameEn": "Blue FS35622 (Israeli Kfir, C2, etc.)",
+      "nameEn": null,
       "aliases": [
         "ブルーFS35622"
       ],
@@ -2526,7 +2526,7 @@
     {
       "code": "C315",
       "name": "Gray FS16440 (Light Gull Gray)",
-      "nameEn": "Gray FS16440 (Light Gull Gray)",
+      "nameEn": null,
       "aliases": [
         "グレーFS16440"
       ],
@@ -2543,7 +2543,7 @@
     {
       "code": "C316",
       "name": "WHITE FS17875",
-      "nameEn": "WHITE FS17875",
+      "nameEn": null,
       "aliases": [
         "ホワイトFS17875"
       ],
@@ -2560,7 +2560,7 @@
     {
       "code": "C317",
       "name": "Gray FS36231",
-      "nameEn": "Gray FS36231",
+      "nameEn": null,
       "aliases": [
         "グレーFS36231"
       ],
@@ -2577,7 +2577,7 @@
     {
       "code": "C318",
       "name": "Radome",
-      "nameEn": "Radome",
+      "nameEn": null,
       "aliases": [
         "レドーム"
       ],
@@ -2594,7 +2594,7 @@
     {
       "code": "C319",
       "name": "Light Green (JASDF F-1)",
-      "nameEn": "Light Green (JASDF F-1)",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -2609,7 +2609,7 @@
     {
       "code": "C320",
       "name": "Dark Green (JASDF F-1)",
-      "nameEn": "Dark Green (JASDF F-1)",
+      "nameEn": null,
       "aliases": [
         "濃松葉色"
       ],
@@ -2626,7 +2626,7 @@
     {
       "code": "C321",
       "name": "Light Brown",
-      "nameEn": "Light Brown",
+      "nameEn": null,
       "aliases": [
         "黄土色"
       ],
@@ -2643,7 +2643,7 @@
     {
       "code": "C322",
       "name": "Phthalo Cyanne Blue (JASDF Blue Impulse)",
-      "nameEn": "Phthalo Cyanne Blue (JASDF Blue Impulse)",
+      "nameEn": null,
       "aliases": [
         "フタロシアニンブルー"
       ],
@@ -2660,7 +2660,7 @@
     {
       "code": "C323",
       "name": "Light Blue (JASDF Blue Impulse)",
-      "nameEn": "Light Blue (JASDF Blue Impulse)",
+      "nameEn": null,
       "aliases": [
         "ライトブルー"
       ],
@@ -2677,7 +2677,7 @@
     {
       "code": "C324",
       "name": "Light Gray (JASDF Cockpit)",
-      "nameEn": "Light Gray (JASDF Cockpit)",
+      "nameEn": null,
       "aliases": [
         "ライトグレー"
       ],
@@ -2694,7 +2694,7 @@
     {
       "code": "C325",
       "name": "Gray FS26440",
-      "nameEn": "Gray FS26440",
+      "nameEn": null,
       "aliases": [
         "グレーFS26440"
       ],
@@ -2711,7 +2711,7 @@
     {
       "code": "C326",
       "name": "Blue FS15044 (USAF Thunderbirds Blue)",
-      "nameEn": "Blue FS15044 (USAF Thunderbirds Blue)",
+      "nameEn": null,
       "aliases": [
         "ブルーFS15044"
       ],
@@ -2728,7 +2728,7 @@
     {
       "code": "C327",
       "name": "Red FS11136 (USAF Thunderbirds)",
-      "nameEn": "Red FS11136 (USAF Thunderbirds)",
+      "nameEn": null,
       "aliases": [
         "レッドFS11136"
       ],
@@ -2745,7 +2745,7 @@
     {
       "code": "C328",
       "name": "Blue FS15050 (US Navy Blue Angels)",
-      "nameEn": "Blue FS15050 (US Navy Blue Angels)",
+      "nameEn": null,
       "aliases": [
         "ブルーFS15050"
       ],
@@ -2762,7 +2762,7 @@
     {
       "code": "C329",
       "name": "Yellow FS13538 (US Navy Blue Angels)",
-      "nameEn": "Yellow FS13538 (US Navy Blue Angels)",
+      "nameEn": null,
       "aliases": [
         "イエローFS13538"
       ],
@@ -2779,7 +2779,7 @@
     {
       "code": "C330",
       "name": "Dark Green BSC381C/641 (RAF Harrier, Jaguar)",
-      "nameEn": "Dark Green BSC381C/641 (RAF Harrier, Jaguar)",
+      "nameEn": null,
       "aliases": [
         "ダークグリーンFS381C/641"
       ],
@@ -2796,7 +2796,7 @@
     {
       "code": "C331",
       "name": "Dark Seagray BS381C/638 (RAF Harrier, Jaguar)",
-      "nameEn": "Dark Seagray BS381C/638 (RAF Harrier, Jaguar)",
+      "nameEn": null,
       "aliases": [
         "ダークシーグレーBS381C/638"
       ],
@@ -2813,7 +2813,7 @@
     {
       "code": "C332",
       "name": "Light Aircraft Gray BS381C/627 (RAF Harrier, Jaguar)",
-      "nameEn": "Light Aircraft Gray BS381C/627 (RAF Harrier, Jaguar)",
+      "nameEn": null,
       "aliases": [
         "ライトエアクラフトグレーBS381C/627"
       ],
@@ -2830,7 +2830,7 @@
     {
       "code": "C333",
       "name": "Extra Dark Sea Gray BS381C/640 (Royal Navy Sea Harrier)",
-      "nameEn": "Extra Dark Sea Gray BS381C/640 (Royal Navy Sea Harrier)",
+      "nameEn": null,
       "aliases": [
         "エクストラダークシーグレーBS381C/640"
       ],
@@ -2847,7 +2847,7 @@
     {
       "code": "C334",
       "name": "Barley Gray BS4800/18B21 (RAF F-4)",
-      "nameEn": "Barley Gray BS4800/18B21 (RAF F-4)",
+      "nameEn": null,
       "aliases": [
         "バーリーグレーBS4800/18B21"
       ],
@@ -2864,7 +2864,7 @@
     {
       "code": "C335",
       "name": "Medium Seagray BSC381C/637 (RAF Balkan)",
-      "nameEn": "Medium Seagray BSC381C/637 (RAF Balkan)",
+      "nameEn": null,
       "aliases": [
         "ミディアムシーグレーBS381C/637"
       ],
@@ -2881,7 +2881,7 @@
     {
       "code": "C336",
       "name": "Hemp BS4800/10B21 (RAF Nimrod) rgb(104, 142, 107)",
-      "nameEn": "Hemp BS4800/10B21 (RAF Nimrod) rgb(104, 142, 107)",
+      "nameEn": null,
       "aliases": [
         "ヘンプBS4800/10B21"
       ],
@@ -2898,7 +2898,7 @@
     {
       "code": "C337",
       "name": "Grayish Blue FS35237 (US NAVY F-14, F-4)",
-      "nameEn": "Grayish Blue FS35237 (US NAVY F-14, F-4)",
+      "nameEn": null,
       "aliases": [
         "グレイッシュブルーFS35237"
       ],
@@ -2915,7 +2915,7 @@
     {
       "code": "C338",
       "name": "Light Gray FS36495 (US MARINE F-18)",
-      "nameEn": "Light Gray FS36495 (US MARINE F-18)",
+      "nameEn": null,
       "aliases": [
         "ライトグレーFS36495"
       ],
@@ -2932,7 +2932,7 @@
     {
       "code": "C339",
       "name": "Engine Gray FS16081 (US NAVY SEA SPRITE)",
-      "nameEn": "Engine Gray FS16081 (US NAVY SEA SPRITE)",
+      "nameEn": null,
       "aliases": [
         "エンジングレーFS16081"
       ],
@@ -2949,7 +2949,7 @@
     {
       "code": "C340",
       "name": "Field Green FS34097 (US MARINE Cobra)",
-      "nameEn": "Field Green FS34097 (US MARINE Cobra)",
+      "nameEn": null,
       "aliases": [
         "フィールドグリーンFS34097"
       ],
@@ -2966,7 +2966,7 @@
     {
       "code": "C351",
       "name": "Zinc-Chromate Type1 FS34151",
-      "nameEn": "Zinc-Chromate Type1 FS34151",
+      "nameEn": null,
       "aliases": [
         "ジンク・クロメイト タイプI FS34151"
       ],
@@ -2983,7 +2983,7 @@
     {
       "code": "C352",
       "name": "Chromate Yellow Primer FS33481",
-      "nameEn": "Chromate Yellow Primer FS33481",
+      "nameEn": null,
       "aliases": [
         "クロメイトイエロープライマー FS33481"
       ],
@@ -3000,7 +3000,7 @@
     {
       "code": "C361",
       "name": "Dark Green BS641",
-      "nameEn": "Dark Green BS641",
+      "nameEn": null,
       "aliases": [
         "ダークグリーンBS641"
       ],
@@ -3017,7 +3017,7 @@
     {
       "code": "C362",
       "name": "Ocean Gray",
-      "nameEn": "Ocean Gray",
+      "nameEn": null,
       "aliases": [
         "オーシャングレー"
       ],
@@ -3034,7 +3034,7 @@
     {
       "code": "C363",
       "name": "Medium Seagray BS637",
-      "nameEn": "Medium Seagray BS637",
+      "nameEn": null,
       "aliases": [
         "ミディアムシーグレー BS637"
       ],
@@ -3051,7 +3051,7 @@
     {
       "code": "C364",
       "name": "Aircraft Grey Green BS283",
-      "nameEn": "Aircraft Grey Green BS283",
+      "nameEn": null,
       "aliases": [
         "エアクラフトグレーグリーンBS283"
       ],
@@ -3068,7 +3068,7 @@
     {
       "code": "C365",
       "name": "Gloss Sea Blue FS15042",
-      "nameEn": "Gloss Sea Blue FS15042",
+      "nameEn": null,
       "aliases": [
         "グロスシーブルーFS15042"
       ],
@@ -3085,7 +3085,7 @@
     {
       "code": "C366",
       "name": "Intermediate Blue FS35164",
-      "nameEn": "Intermediate Blue FS35164",
+      "nameEn": null,
       "aliases": [
         "インターミディエートブルーFS35164"
       ],
@@ -3102,7 +3102,7 @@
     {
       "code": "C367",
       "name": "Blue Gray FS35189",
-      "nameEn": "Blue Gray FS35189",
+      "nameEn": null,
       "aliases": [
         "ブルーグレーFS35189"
       ],
@@ -3119,7 +3119,7 @@
     {
       "code": "C368",
       "name": "Sky BS381C/210",
-      "nameEn": "Sky BS381C/210",
+      "nameEn": null,
       "aliases": [
         "スカイ BS381C/210"
       ],
@@ -3136,7 +3136,7 @@
     {
       "code": "C369",
       "name": "Dark Earth BS381C/450",
-      "nameEn": "Dark Earth BS381C/450",
+      "nameEn": null,
       "aliases": [
         "ダークアース BS381C/450"
       ],
@@ -3153,7 +3153,7 @@
     {
       "code": "C370",
       "name": "Azure Blue",
-      "nameEn": "Azure Blue",
+      "nameEn": null,
       "aliases": [
         "エイザーブルー"
       ],
@@ -3170,7 +3170,7 @@
     {
       "code": "C374",
       "name": "Shallow Ocean Blue",
-      "nameEn": "Shallow Ocean Blue",
+      "nameEn": null,
       "aliases": [
         "シャロウオーシャンブルー"
       ],
@@ -3187,7 +3187,7 @@
     {
       "code": "C375",
       "name": "Deep Ocean Blue",
-      "nameEn": "Deep Ocean Blue",
+      "nameEn": null,
       "aliases": [
         "ディープオーシャンブルー"
       ],
@@ -3204,7 +3204,7 @@
     {
       "code": "C376",
       "name": "Radome Gray",
-      "nameEn": "Radome Gray",
+      "nameEn": null,
       "aliases": [
         "レドームグレー"
       ],
@@ -3221,7 +3221,7 @@
     {
       "code": "C377",
       "name": "Aluminized Silver FS17178",
-      "nameEn": "Aluminized Silver FS17178",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -3236,7 +3236,7 @@
     {
       "code": "C378",
       "name": "JASDF Landing Gear White",
-      "nameEn": "JASDF Landing Gear White",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -3251,7 +3251,7 @@
     {
       "code": "C379",
       "name": "JASDF Cockpit Dark Gull Gray",
-      "nameEn": "JASDF Cockpit Dark Gull Gray",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -3266,7 +3266,7 @@
     {
       "code": "C380",
       "name": "Blue FS15180",
-      "nameEn": "Blue FS15180",
+      "nameEn": null,
       "aliases": [
         "15180 青"
       ],
@@ -3283,7 +3283,7 @@
     {
       "code": "C381",
       "name": "Insignia White FS17925",
-      "nameEn": "Insignia White FS17925",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -3298,7 +3298,7 @@
     {
       "code": "C382",
       "name": "Light Gull Gray FS36440",
-      "nameEn": "Light Gull Gray FS36440",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -3313,7 +3313,7 @@
     {
       "code": "C383",
       "name": "Dark Green (Kawanishi)",
-      "nameEn": "Dark Green (Kawanishi)",
+      "nameEn": null,
       "aliases": [
         "暗緑色(川西系"
       ],
@@ -3330,7 +3330,7 @@
     {
       "code": "C384",
       "name": "Cockpit Color (Kawanishi)",
-      "nameEn": "Cockpit Color (Kawanishi)",
+      "nameEn": null,
       "aliases": [
         "コクピット色（川西系"
       ],
@@ -3347,7 +3347,7 @@
     {
       "code": "C385",
       "name": "Red (IJN Marking)",
-      "nameEn": "Red (IJN Marking)",
+      "nameEn": null,
       "aliases": [
         "紅色(日本海軍機用"
       ],
@@ -3364,7 +3364,7 @@
     {
       "code": "C391",
       "name": "Interior Turquoise Green/Soviet",
-      "nameEn": "Interior Turquoise Green/Soviet",
+      "nameEn": null,
       "aliases": [
         "機体内部色ターコイズグリーン(ソビエト"
       ],
@@ -3381,7 +3381,7 @@
     {
       "code": "C392",
       "name": "Interior Blue/Soviet",
-      "nameEn": "Interior Blue/Soviet",
+      "nameEn": null,
       "aliases": [
         "機体内部色ブルー(ソビエト"
       ],
@@ -3398,7 +3398,7 @@
     {
       "code": "C393",
       "name": "Russian Aircraft Blue II",
-      "nameEn": "Russian Aircraft Blue II",
+      "nameEn": null,
       "aliases": [
         "ロシアンエアクラフトブルー(2"
       ],
@@ -3415,7 +3415,7 @@
     {
       "code": "C411",
       "name": "Classic Silver",
-      "nameEn": "Classic Silver",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -3430,7 +3430,7 @@
     {
       "code": "C412",
       "name": "Brass",
-      "nameEn": "Brass",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -3445,7 +3445,7 @@
     {
       "code": "C511",
       "name": "Russian Green &quot;4BO”",
-      "nameEn": "Russian Green &quot;4BO”",
+      "nameEn": null,
       "aliases": [
         "ロシアングリーン 4BO"
       ],
@@ -3462,7 +3462,7 @@
     {
       "code": "C512",
       "name": "Russian Green &quot;4BO” 1947-",
-      "nameEn": "Russian Green &quot;4BO” 1947-",
+      "nameEn": null,
       "aliases": [
         "ロシアングリーン 4BO 1947-"
       ],
@@ -3479,7 +3479,7 @@
     {
       "code": "C513",
       "name": "Dark Grey DunkelGrau",
-      "nameEn": "Dark Grey DunkelGrau",
+      "nameEn": null,
       "aliases": [
         "ジャーマングレー ドゥンケルグラウ"
       ],
@@ -3496,7 +3496,7 @@
     {
       "code": "C514",
       "name": "Gray ”Grau”",
-      "nameEn": "Gray ”Grau”",
+      "nameEn": null,
       "aliases": [
         "ジャーマングレー グラウ"
       ],
@@ -3513,7 +3513,7 @@
     {
       "code": "C515",
       "name": "Faded Gray ”Blassgrau”",
-      "nameEn": "Faded Gray ”Blassgrau”",
+      "nameEn": null,
       "aliases": [
         "ジャーマングレー グラウ(退色時"
       ],
@@ -3530,7 +3530,7 @@
     {
       "code": "C516",
       "name": "Dark Green 3414",
-      "nameEn": "Dark Green 3414",
+      "nameEn": null,
       "aliases": [
         "濃緑色3414"
       ],
@@ -3547,7 +3547,7 @@
     {
       "code": "C517",
       "name": "Brown 3606",
-      "nameEn": "Brown 3606",
+      "nameEn": null,
       "aliases": [
         "茶色3606"
       ],
@@ -3564,7 +3564,7 @@
     {
       "code": "C518",
       "name": "Olive Drab 2314",
-      "nameEn": "Olive Drab 2314",
+      "nameEn": null,
       "aliases": [
         "OD色2314"
       ],
@@ -3581,7 +3581,7 @@
     {
       "code": "C519",
       "name": "Bronzegrun",
-      "nameEn": "Bronzegrun",
+      "nameEn": null,
       "aliases": [
         "ブロンセグリュンRAL6031"
       ],
@@ -3598,7 +3598,7 @@
     {
       "code": "C520",
       "name": "Lederbraun",
-      "nameEn": "Lederbraun",
+      "nameEn": null,
       "aliases": [
         "レーダァブラオンRAL8027"
       ],
@@ -3615,7 +3615,7 @@
     {
       "code": "C521",
       "name": "Teerschwarz - RAL9021 (NATO Black)",
-      "nameEn": "Teerschwarz - RAL9021 (NATO Black)",
+      "nameEn": null,
       "aliases": [
         "テーアシュバルツRAL9021"
       ],
@@ -3632,7 +3632,7 @@
     {
       "code": "C522",
       "name": "Ground Color",
-      "nameEn": "Ground Color",
+      "nameEn": null,
       "aliases": [
         "土地色"
       ],
@@ -3649,7 +3649,7 @@
     {
       "code": "C523",
       "name": "Grass Color",
-      "nameEn": "Grass Color",
+      "nameEn": null,
       "aliases": [
         "草色"
       ],
@@ -3666,7 +3666,7 @@
     {
       "code": "C524",
       "name": "Hay Color",
-      "nameEn": "Hay Color",
+      "nameEn": null,
       "aliases": [
         "枯草色"
       ],
@@ -3683,7 +3683,7 @@
     {
       "code": "C525",
       "name": "Green (Japanese Green)",
-      "nameEn": "Green (Japanese Green)",
+      "nameEn": null,
       "aliases": [
         "緑色"
       ],
@@ -3700,7 +3700,7 @@
     {
       "code": "C526",
       "name": "Brown (Japanese Brown)",
-      "nameEn": "Brown (Japanese Brown)",
+      "nameEn": null,
       "aliases": [
         "茶色"
       ],
@@ -3717,7 +3717,7 @@
     {
       "code": "C527",
       "name": "Khaki (Japanese Khaki)",
-      "nameEn": "Khaki (Japanese Khaki)",
+      "nameEn": null,
       "aliases": [
         "陸軍カーキ"
       ],
@@ -3734,7 +3734,7 @@
     {
       "code": "C528",
       "name": "IDF Gray 1 (-1981 Sinai)",
-      "nameEn": "IDF Gray 1 (-1981 Sinai)",
+      "nameEn": null,
       "aliases": [
         "IDFグレー1(-1981シナイ半島"
       ],
@@ -3751,7 +3751,7 @@
     {
       "code": "C529",
       "name": "IDF Gray 2 (-1981 Golan)",
-      "nameEn": "IDF Gray 2 (-1981 Golan)",
+      "nameEn": null,
       "aliases": [
         "IDFグレー2(-1981ゴラン高原"
       ],
@@ -3768,7 +3768,7 @@
     {
       "code": "C530",
       "name": "IDF Gray 3 (Modern)",
-      "nameEn": "IDF Gray 3 (Modern)",
+      "nameEn": null,
       "aliases": [
         "IDFグレー3(現用"
       ],
@@ -3785,7 +3785,7 @@
     {
       "code": "C601",
       "name": "IJN Hull Color/Kure",
-      "nameEn": "IJN Hull Color/Kure",
+      "nameEn": null,
       "aliases": [
         "呉海軍工廠標準色"
       ],
@@ -3802,7 +3802,7 @@
     {
       "code": "C602",
       "name": "IJN Hull Color/Sasebo",
-      "nameEn": "IJN Hull Color/Sasebo",
+      "nameEn": null,
       "aliases": [
         "佐世保海軍工廠標準色"
       ],
@@ -3819,7 +3819,7 @@
     {
       "code": "C603",
       "name": "IJN Hull Color/Maizuru",
-      "nameEn": "IJN Hull Color/Maizuru",
+      "nameEn": null,
       "aliases": [
         "舞鶴海軍工廠標準色"
       ],
@@ -3836,7 +3836,7 @@
     {
       "code": "C604",
       "name": "IJN Type 21 Camouflage Color",
-      "nameEn": "IJN Type 21 Camouflage Color",
+      "nameEn": null,
       "aliases": [
         "外舷21号色"
       ],
@@ -3853,7 +3853,7 @@
     {
       "code": "C605",
       "name": "IJN Type 22 Camouflage Color",
-      "nameEn": "IJN Type 22 Camouflage Color",
+      "nameEn": null,
       "aliases": [
         "外舷22号色"
       ],
@@ -3870,7 +3870,7 @@
     {
       "code": "C606",
       "name": "IJN Linoleum Deck Color",
-      "nameEn": "IJN Linoleum Deck Color",
+      "nameEn": null,
       "aliases": [
         "リノリウム色"
       ],
@@ -3887,7 +3887,7 @@
     {
       "code": "C607",
       "name": "JMSDF 2704 Gray N5",
-      "nameEn": "JMSDF 2704 Gray N5",
+      "nameEn": null,
       "aliases": [
         "灰色2704(N5"
       ],
@@ -3904,7 +3904,7 @@
     {
       "code": "C608",
       "name": "JMSDF 2705 Dark Gray N4",
-      "nameEn": "JMSDF 2705 Dark Gray N4",
+      "nameEn": null,
       "aliases": [
         "暗灰色2705(N4"
       ],
@@ -3921,7 +3921,7 @@
     {
       "code": "C609",
       "name": "JMSDF Cleated Deck Color",
-      "nameEn": "JMSDF Cleated Deck Color",
+      "nameEn": null,
       "aliases": [
         "滑り止め塗装部色"
       ],
@@ -3938,7 +3938,7 @@
     {
       "code": "AC05",
       "name": "Stealth Blue",
-      "nameEn": "Stealth Blue",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -3953,7 +3953,7 @@
     {
       "code": "AC06",
       "name": "Dominant Blue",
-      "nameEn": "Dominant Blue",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -3968,7 +3968,7 @@
     {
       "code": "AC07",
       "name": "Flat Surface Blue",
-      "nameEn": "Flat Surface Blue",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -3983,7 +3983,7 @@
     {
       "code": "40",
       "name": "German Gray",
-      "nameEn": "German Gray",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -3998,7 +3998,7 @@
     {
       "code": "CK1",
       "name": "Stone Wall",
-      "nameEn": "Stone Wall",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -4013,7 +4013,7 @@
     {
       "code": "CK2",
       "name": "Roof Tile",
-      "nameEn": "Roof Tile",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -4028,7 +4028,7 @@
     {
       "code": "CK3",
       "name": "The Plaster",
-      "nameEn": "The Plaster",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -4043,7 +4043,7 @@
     {
       "code": "CK4",
       "name": "Wood Floor-Pillar",
-      "nameEn": "Wood Floor-Pillar",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -4058,7 +4058,7 @@
     {
       "code": "MC211",
       "name": "Chrome Silver",
-      "nameEn": "Chrome Silver",
+      "nameEn": null,
       "aliases": [
         "Mr.メタルカラー クロームシルバー"
       ],
@@ -4075,7 +4075,7 @@
     {
       "code": "MC212",
       "name": "Iron",
-      "nameEn": "Iron",
+      "nameEn": null,
       "aliases": [
         "Mr.メタルカラー アイアン"
       ],
@@ -4092,7 +4092,7 @@
     {
       "code": "MC213",
       "name": "Stainless",
-      "nameEn": "Stainless",
+      "nameEn": null,
       "aliases": [
         "Mr.メタルカラー ステンレス"
       ],
@@ -4109,7 +4109,7 @@
     {
       "code": "MC214",
       "name": "Dark Iron",
-      "nameEn": "Dark Iron",
+      "nameEn": null,
       "aliases": [
         "Mr.メタルカラー ダークアイアン"
       ],
@@ -4126,7 +4126,7 @@
     {
       "code": "MC215",
       "name": "Copper",
-      "nameEn": "Copper",
+      "nameEn": null,
       "aliases": [
         "Mr.メタルカラー カッパー"
       ],
@@ -4143,7 +4143,7 @@
     {
       "code": "MC216",
       "name": "Bronze",
-      "nameEn": "Bronze",
+      "nameEn": null,
       "aliases": [
         "Mr.メタルカラー ブロンズ"
       ],
@@ -4160,7 +4160,7 @@
     {
       "code": "MC217",
       "name": "Gold",
-      "nameEn": "Gold",
+      "nameEn": null,
       "aliases": [
         "Mr.メタルカラー ゴールド"
       ],
@@ -4177,7 +4177,7 @@
     {
       "code": "MC218",
       "name": "Aluminum",
-      "nameEn": "Aluminum",
+      "nameEn": null,
       "aliases": [
         "Mr.メタルカラー アルミ"
       ],
@@ -4194,7 +4194,7 @@
     {
       "code": "MC219",
       "name": "Mr Metal Color Brass",
-      "nameEn": "Mr Metal Color Brass",
+      "nameEn": null,
       "aliases": [
         "Mr.メタルカラー ブラス"
       ],
@@ -4211,7 +4211,7 @@
     {
       "code": "SC01",
       "name": "Hull color/Kure",
-      "nameEn": "Hull color/Kure",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -4226,7 +4226,7 @@
     {
       "code": "SC02",
       "name": "Hull Color/Sasebo",
-      "nameEn": "Hull Color/Sasebo",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -4241,7 +4241,7 @@
     {
       "code": "SC03",
       "name": "Hull color/Maizuru",
-      "nameEn": "Hull color/Maizuru",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -4256,7 +4256,7 @@
     {
       "code": "SC04",
       "name": "Type 21 Camouflage Color IJN",
-      "nameEn": "Type 21 Camouflage Color IJN",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -4271,7 +4271,7 @@
     {
       "code": "SC05",
       "name": "Type 22 Camouflage Color IJN",
-      "nameEn": "Type 22 Camouflage Color IJN",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -4286,7 +4286,7 @@
     {
       "code": "SC06",
       "name": "Linoleum Deck Color",
-      "nameEn": "Linoleum Deck Color",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -4301,7 +4301,7 @@
     {
       "code": "SC11",
       "name": "Haze Gray (5-H)",
-      "nameEn": "Haze Gray (5-H)",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -4316,7 +4316,7 @@
     {
       "code": "SC12",
       "name": "Ocean Grey (5-O)",
-      "nameEn": "Ocean Grey (5-O)",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -4331,7 +4331,7 @@
     {
       "code": "SC13",
       "name": "Sea Blue (5-S)",
-      "nameEn": "Sea Blue (5-S)",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -4346,7 +4346,7 @@
     {
       "code": "SC15",
       "name": "Flight Deck Stain (#21)",
-      "nameEn": "Flight Deck Stain (#21)",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -4361,7 +4361,7 @@
     {
       "code": "SC16",
       "name": "Light Gray (5-L)",
-      "nameEn": "Light Gray (5-L)",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -4376,7 +4376,7 @@
     {
       "code": "TC07",
       "name": "Dark Green 3414",
-      "nameEn": "Dark Green 3414",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -4391,7 +4391,7 @@
     {
       "code": "TC08",
       "name": "Brown 3606",
-      "nameEn": "Brown 3606",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -4406,7 +4406,7 @@
     {
       "code": "TC09",
       "name": "Olive Drab 2314",
-      "nameEn": "Olive Drab 2314",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -4421,7 +4421,7 @@
     {
       "code": "TC10",
       "name": "NATO Bronzegrün RAL 6031 (Green)",
-      "nameEn": "NATO Bronzegrün RAL 6031 (Green)",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -4436,7 +4436,7 @@
     {
       "code": "TC11",
       "name": "NATO Lederbraun RAL 8027 (Brown)",
-      "nameEn": "NATO Lederbraun RAL 8027 (Brown)",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -4451,7 +4451,7 @@
     {
       "code": "TC12",
       "name": "NATO Teerschwarz RAL 9021 (Black)",
-      "nameEn": "NATO Teerschwarz RAL 9021 (Black)",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -4466,7 +4466,7 @@
     {
       "code": "TC13",
       "name": "Ground Color",
-      "nameEn": "Ground Color",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -4481,7 +4481,7 @@
     {
       "code": "TC14",
       "name": "Grass Color",
-      "nameEn": "Grass Color",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -4496,7 +4496,7 @@
     {
       "code": "TC15",
       "name": "Hay Color",
-      "nameEn": "Hay Color",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -4511,7 +4511,7 @@
     {
       "code": "TC16",
       "name": "Green",
-      "nameEn": "Green",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -4526,7 +4526,7 @@
     {
       "code": "TC17",
       "name": "Brown",
-      "nameEn": "Brown",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -4541,7 +4541,7 @@
     {
       "code": "TC18",
       "name": "Army Khaki",
-      "nameEn": "Army Khaki",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -4556,7 +4556,7 @@
     {
       "code": "UG01",
       "name": "Gundam Color MS White",
-      "nameEn": "Gundam Color MS White",
+      "nameEn": null,
       "aliases": [
         "ガンダムカラー MSホワイト"
       ],
@@ -4573,7 +4573,7 @@
     {
       "code": "UG02",
       "name": "Gundam Color MS Blue",
-      "nameEn": "Gundam Color MS Blue",
+      "nameEn": null,
       "aliases": [
         "ガンダムカラー MSブルー"
       ],
@@ -4590,7 +4590,7 @@
     {
       "code": "UG03",
       "name": "Gundam Color MS Yellow",
-      "nameEn": "Gundam Color MS Yellow",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -4605,7 +4605,7 @@
     {
       "code": "UG04",
       "name": "Gundam Color MS Red",
-      "nameEn": "Gundam Color MS Red",
+      "nameEn": null,
       "aliases": [
         "ガンダムカラー MSレッド"
       ],
@@ -4622,7 +4622,7 @@
     {
       "code": "UG05",
       "name": "Gundam Color U.N.T.'s MS Grey",
-      "nameEn": "Gundam Color U.N.T.'s MS Grey",
+      "nameEn": null,
       "aliases": [
         "ガンダムカラー MSグレー連邦系"
       ],
@@ -4639,7 +4639,7 @@
     {
       "code": "UG06",
       "name": "Gundam Color MS Green",
-      "nameEn": "Gundam Color MS Green",
+      "nameEn": null,
       "aliases": [
         "ガンダムカラー MSグリーン"
       ],
@@ -4656,7 +4656,7 @@
     {
       "code": "UG07",
       "name": "Gundam Color MS DEEP GREEN",
-      "nameEn": "Gundam Color MS DEEP GREEN",
+      "nameEn": null,
       "aliases": [
         "ガンダムカラー MSディープグリーン"
       ],
@@ -4673,7 +4673,7 @@
     {
       "code": "UG08",
       "name": "Gundam Color MS Purple",
-      "nameEn": "Gundam Color MS Purple",
+      "nameEn": null,
       "aliases": [
         "ガンダムカラー MSパープル"
       ],
@@ -4690,7 +4690,7 @@
     {
       "code": "UG12",
       "name": "Gundam Color MS SAZABI RED",
-      "nameEn": "Gundam Color MS SAZABI RED",
+      "nameEn": null,
       "aliases": [
         "ガンダムカラー サザビーレッド"
       ],
@@ -4707,7 +4707,7 @@
     {
       "code": "UG13",
       "name": "GUNDAM COLOR A.E.U.G.'s MS BLUE",
-      "nameEn": "GUNDAM COLOR A.E.U.G.'s MS BLUE",
+      "nameEn": null,
       "aliases": [
         "ガンダムカラー MSブルーZ系"
       ],
@@ -4724,7 +4724,7 @@
     {
       "code": "UG14",
       "name": "Gundam Color MS Light Blue",
-      "nameEn": "Gundam Color MS Light Blue",
+      "nameEn": null,
       "aliases": [
         "ガンダムカラー MSライトブルー"
       ],
@@ -4741,7 +4741,7 @@
     {
       "code": "UG15",
       "name": "Gundam Color MS Phantom Grey",
-      "nameEn": "Gundam Color MS Phantom Grey",
+      "nameEn": null,
       "aliases": [
         "ガンダムカラー MSファントムグレー"
       ],
@@ -4758,7 +4758,7 @@
     {
       "code": "UG16",
       "name": "Gundam Color TITANS BLUE 1",
-      "nameEn": "Gundam Color TITANS BLUE 1",
+      "nameEn": null,
       "aliases": [
         "ガンダムカラー ティターンズブルー1"
       ],
@@ -4775,7 +4775,7 @@
     {
       "code": "UG17",
       "name": "Gundam Color MS Titans Blue 2",
-      "nameEn": "Gundam Color MS Titans Blue 2",
+      "nameEn": null,
       "aliases": [
         "ガンダムカラー ティターンズブルー2"
       ],
@@ -4792,7 +4792,7 @@
     {
       "code": "UG18",
       "name": "Gundam Color for Builders RX-78 WHITE Ver. ANIME",
-      "nameEn": "Gundam Color for Builders RX-78 WHITE Ver. ANIME",
+      "nameEn": null,
       "aliases": [
         "ガンダムカラー RX-78ホワイト Ver.アニメカラー"
       ],
@@ -4809,7 +4809,7 @@
     {
       "code": "UG19",
       "name": "Gundam Color for Builders RX-78 BLUE Ver. ANIME",
-      "nameEn": "Gundam Color for Builders RX-78 BLUE Ver. ANIME",
+      "nameEn": null,
       "aliases": [
         "ガンダムカラー RX-78ブルー Ver.アニメカラー"
       ],
@@ -4826,7 +4826,7 @@
     {
       "code": "UG20",
       "name": "RX-78 RED Ver. ANIME",
-      "nameEn": "RX-78 RED Ver. ANIME",
+      "nameEn": null,
       "aliases": [
         "ガンダムカラー RX-78レッド Ver.アニメカラー"
       ],
@@ -4843,7 +4843,7 @@
     {
       "code": "UG21",
       "name": "Gundam Color for Builders RX-78 YELLOW Ver. ANIME",
-      "nameEn": "Gundam Color for Builders RX-78 YELLOW Ver. ANIME",
+      "nameEn": null,
       "aliases": [
         "ガンダムカラー RX-78イエロー Ver.アニメカラー"
       ],
@@ -4860,7 +4860,7 @@
     {
       "code": "UG22",
       "name": "GUNDAM COLOR FOR BUILDERS MS-06S RED Ver ANIME",
-      "nameEn": "GUNDAM COLOR FOR BUILDERS MS-06S RED Ver ANIME",
+      "nameEn": null,
       "aliases": [
         "ガンダムカラー MS-06Sレッド Ver.アニメカラー"
       ],
@@ -4877,7 +4877,7 @@
     {
       "code": "UG23",
       "name": "GUNDAM COLOR FOR BUILDERS MS-06S PINK Ver ANIME",
-      "nameEn": "GUNDAM COLOR FOR BUILDERS MS-06S PINK Ver ANIME",
+      "nameEn": null,
       "aliases": [
         "ガンダムカラー MS-06Sピンク Ver.アニメカラー"
       ],
@@ -4894,7 +4894,7 @@
     {
       "code": "UM01",
       "name": "Ultra Metallic Ultra Silver",
-      "nameEn": "Ultra Metallic Ultra Silver",
+      "nameEn": null,
       "aliases": [
         "Mr.カラー ウルトラメタリック ウルトラシルバー"
       ],
@@ -4911,7 +4911,7 @@
     {
       "code": "UM02",
       "name": "Ultra Metallic Ultra Gold",
-      "nameEn": "Ultra Metallic Ultra Gold",
+      "nameEn": null,
       "aliases": [
         "Mr.カラー ウルトラメタリック ウルトラゴールド"
       ],
@@ -4928,7 +4928,7 @@
     {
       "code": "YC03",
       "name": "Yamato Blue1",
-      "nameEn": "Yamato Blue1",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -4943,7 +4943,7 @@
     {
       "code": "YC07",
       "name": "Garmillas Green 1",
-      "nameEn": "Garmillas Green 1",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -4958,7 +4958,7 @@
     {
       "code": "YC08",
       "name": "Garmillas Green 2",
-      "nameEn": "Garmillas Green 2",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -4973,7 +4973,7 @@
     {
       "code": "YC09",
       "name": "Garmillas Green 3",
-      "nameEn": "Garmillas Green 3",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -4988,7 +4988,7 @@
     {
       "code": "YC16",
       "name": "Carmillas Red 1",
-      "nameEn": "Carmillas Red 1",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -5003,7 +5003,7 @@
     {
       "code": "YC17",
       "name": "Carmillas Red 2",
-      "nameEn": "Carmillas Red 2",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -5018,7 +5018,7 @@
     {
       "code": "YC18",
       "name": "Carmillas Red 3",
-      "nameEn": "Carmillas Red 3",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -5033,7 +5033,7 @@
     {
       "code": "YC19",
       "name": "Carmillas Blue 1",
-      "nameEn": "Carmillas Blue 1",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -5048,7 +5048,7 @@
     {
       "code": "YC20",
       "name": "Carmillas Green 5",
-      "nameEn": "Carmillas Green 5",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -5063,7 +5063,7 @@
     {
       "code": "YC21",
       "name": "Carmillas Red 4",
-      "nameEn": "Carmillas Red 4",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -5078,7 +5078,7 @@
     {
       "code": "CMC01",
       "name": "OD Highlight 1",
-      "nameEn": "OD Highlight 1",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -5093,7 +5093,7 @@
     {
       "code": "CMC02",
       "name": "OD Highlight 2",
-      "nameEn": "OD Highlight 2",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -5108,7 +5108,7 @@
     {
       "code": "CMC03",
       "name": "OD Shadow",
-      "nameEn": "OD Shadow",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -5123,7 +5123,7 @@
     {
       "code": "CMC04",
       "name": "DY Highlight 1",
-      "nameEn": "DY Highlight 1",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -5138,7 +5138,7 @@
     {
       "code": "CMC05",
       "name": "DY Highlight 2",
-      "nameEn": "DY Highlight 2",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -5153,7 +5153,7 @@
     {
       "code": "CMC06",
       "name": "DY Shadow",
-      "nameEn": "DY Shadow",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -5168,7 +5168,7 @@
     {
       "code": "CMC07",
       "name": "GG Highlight 1",
-      "nameEn": "GG Highlight 1",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -5183,7 +5183,7 @@
     {
       "code": "CMC08",
       "name": "GG Highlight 2",
-      "nameEn": "GG Highlight 2",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -5198,7 +5198,7 @@
     {
       "code": "CMC09",
       "name": "GG Shadow",
-      "nameEn": "GG Shadow",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -5213,7 +5213,7 @@
     {
       "code": "CMC10",
       "name": "RG CM Base",
-      "nameEn": "RG CM Base",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -5228,7 +5228,7 @@
     {
       "code": "CMC11",
       "name": "RG Highlight 1",
-      "nameEn": "RG Highlight 1",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -5243,7 +5243,7 @@
     {
       "code": "CMC12",
       "name": "RG Highlight 2",
-      "nameEn": "RG Highlight 2",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -5258,7 +5258,7 @@
     {
       "code": "CMC13",
       "name": "RG Shadow",
-      "nameEn": "RG Shadow",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -5273,7 +5273,7 @@
     {
       "code": "CR2",
       "name": "Magenta",
-      "nameEn": "Magenta",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -5288,7 +5288,7 @@
     {
       "code": "CRE03",
       "name": "Revival British Green",
-      "nameEn": "Revival British Green",
+      "nameEn": null,
       "aliases": [
         "ブリティシュグリーン"
       ],
@@ -5305,7 +5305,7 @@
     {
       "code": "CV01",
       "name": "Velvet Red",
-      "nameEn": "Velvet Red",
+      "nameEn": null,
       "aliases": [
         "ベルベット レッド"
       ],
@@ -5322,7 +5322,7 @@
     {
       "code": "CV02",
       "name": "Velvet Blue",
-      "nameEn": "Velvet Blue",
+      "nameEn": null,
       "aliases": [
         "ベルベット ブルー"
       ],
@@ -5339,7 +5339,7 @@
     {
       "code": "CV03",
       "name": "Velvet Green",
-      "nameEn": "Velvet Green",
+      "nameEn": null,
       "aliases": [
         "ベルベット グリーン"
       ],
@@ -5356,7 +5356,7 @@
     {
       "code": "GX1",
       "name": "Cool White",
-      "nameEn": "Cool White",
+      "nameEn": null,
       "aliases": [
         "クールホワイト"
       ],
@@ -5373,7 +5373,7 @@
     {
       "code": "GX2",
       "name": "Ueno Black",
-      "nameEn": "Ueno Black",
+      "nameEn": null,
       "aliases": [
         "ウイノーブラック"
       ],
@@ -5390,7 +5390,7 @@
     {
       "code": "GX4",
       "name": "Chiara Yellow",
-      "nameEn": "Chiara Yellow",
+      "nameEn": null,
       "aliases": [
         "キアライエロー"
       ],
@@ -5407,7 +5407,7 @@
     {
       "code": "GX5",
       "name": "Susie Blue",
-      "nameEn": "Susie Blue",
+      "nameEn": null,
       "aliases": [
         "スージーブルー"
       ],
@@ -5424,7 +5424,7 @@
     {
       "code": "GX6",
       "name": "Morrie Green",
-      "nameEn": "Morrie Green",
+      "nameEn": null,
       "aliases": [
         "モウリーグリーン"
       ],
@@ -5441,7 +5441,7 @@
     {
       "code": "GX100",
       "name": "Super Clear III",
-      "nameEn": "Super Clear III",
+      "nameEn": null,
       "aliases": [
         "スーパークリアー3"
       ],
@@ -5458,7 +5458,7 @@
     {
       "code": "GX102",
       "name": "GX Deep Clear Red",
-      "nameEn": "GX Deep Clear Red",
+      "nameEn": null,
       "aliases": [
         "GXデープクリアレッド"
       ],
@@ -5475,7 +5475,7 @@
     {
       "code": "GX103",
       "name": "GX Deep Clear Blue",
-      "nameEn": "GX Deep Clear Blue",
+      "nameEn": null,
       "aliases": [
         "GXディープクリアブルー"
       ],
@@ -5492,7 +5492,7 @@
     {
       "code": "GX104",
       "name": "GX Clear Green",
-      "nameEn": "GX Clear Green",
+      "nameEn": null,
       "aliases": [
         "GXクリアグリーン"
       ],
@@ -5509,7 +5509,7 @@
     {
       "code": "GX106",
       "name": "GX Clear Orange",
-      "nameEn": "GX Clear Orange",
+      "nameEn": null,
       "aliases": [
         "GXクリアオレンジ"
       ],
@@ -5526,7 +5526,7 @@
     {
       "code": "GX107",
       "name": "GX Clear Purple",
-      "nameEn": "GX Clear Purple",
+      "nameEn": null,
       "aliases": [
         "GXクリアパープル"
       ],
@@ -5543,7 +5543,7 @@
     {
       "code": "GX108",
       "name": "GX Clear Violet",
-      "nameEn": "GX Clear Violet",
+      "nameEn": null,
       "aliases": [
         "GXクリアバイオレット"
       ],
@@ -5560,7 +5560,7 @@
     {
       "code": "GX111",
       "name": "GX Clear Gold",
-      "nameEn": "GX Clear Gold",
+      "nameEn": null,
       "aliases": [
         "GXクリアゴールド"
       ],
@@ -5577,7 +5577,7 @@
     {
       "code": "GX112",
       "name": "Super Clear III UV Cut",
-      "nameEn": "Super Clear III UV Cut",
+      "nameEn": null,
       "aliases": [
         "スーパークリア3UVカット 光沢"
       ],
@@ -5594,7 +5594,7 @@
     {
       "code": "GX113",
       "name": "Super Clear III UV Cut Flat",
-      "nameEn": "Super Clear III UV Cut Flat",
+      "nameEn": null,
       "aliases": [
         "スーパークリア3UVカット つや消し"
       ],
@@ -5611,7 +5611,7 @@
     {
       "code": "GX114",
       "name": "Flat Super Smooth Clear",
-      "nameEn": "Flat Super Smooth Clear",
+      "nameEn": null,
       "aliases": [
         "スーパースムースクリアー つや消し"
       ],
@@ -5628,7 +5628,7 @@
     {
       "code": "GX121",
       "name": "GX Clear Rouge",
-      "nameEn": "GX Clear Rouge",
+      "nameEn": null,
       "aliases": [
         "クリアルージュ"
       ],
@@ -5645,7 +5645,7 @@
     {
       "code": "GX122",
       "name": "GX Clear Peacock Green",
-      "nameEn": "GX Clear Peacock Green",
+      "nameEn": null,
       "aliases": [
         "GXクリアピーコックグリーン"
       ],
@@ -5662,7 +5662,7 @@
     {
       "code": "GX201",
       "name": "GX Metal Black",
-      "nameEn": "GX Metal Black",
+      "nameEn": null,
       "aliases": [
         "GXメタルブラック"
       ],
@@ -5679,7 +5679,7 @@
     {
       "code": "GX202",
       "name": "GX Metal Red",
-      "nameEn": "GX Metal Red",
+      "nameEn": null,
       "aliases": [
         "GXメタルレッド"
       ],
@@ -5696,7 +5696,7 @@
     {
       "code": "GX203",
       "name": "GX Metal Yellow",
-      "nameEn": "GX Metal Yellow",
+      "nameEn": null,
       "aliases": [
         "GXメタルイエロー"
       ],
@@ -5713,7 +5713,7 @@
     {
       "code": "GX204",
       "name": "GX Metal Blue",
-      "nameEn": "GX Metal Blue",
+      "nameEn": null,
       "aliases": [
         "GXメタルブルー"
       ],
@@ -5730,7 +5730,7 @@
     {
       "code": "GX205",
       "name": "GX Metal Green",
-      "nameEn": "GX Metal Green",
+      "nameEn": null,
       "aliases": [
         "GXメタルグリーン"
       ],
@@ -5747,7 +5747,7 @@
     {
       "code": "GX206",
       "name": "GX metal Purple",
-      "nameEn": "GX metal Purple",
+      "nameEn": null,
       "aliases": [
         "GXメタルパープル"
       ],
@@ -5764,7 +5764,7 @@
     {
       "code": "GX207",
       "name": "GX Metal Violet",
-      "nameEn": "GX Metal Violet",
+      "nameEn": null,
       "aliases": [
         "GXメタルバイオレット"
       ],
@@ -5781,7 +5781,7 @@
     {
       "code": "GX209",
       "name": "GX Red Gold",
-      "nameEn": "GX Red Gold",
+      "nameEn": null,
       "aliases": [
         "GXレッドゴールド"
       ],
@@ -5798,7 +5798,7 @@
     {
       "code": "GX210",
       "name": "GX Blue Gold",
-      "nameEn": "GX Blue Gold",
+      "nameEn": null,
       "aliases": [
         "GXブルーゴールド"
       ],
@@ -5815,7 +5815,7 @@
     {
       "code": "GX211",
       "name": "GX Metal Yellow Green",
-      "nameEn": "GX Metal Yellow Green",
+      "nameEn": null,
       "aliases": [
         "GXメタルイエローグリーン"
       ],
@@ -5832,7 +5832,7 @@
     {
       "code": "GX212",
       "name": "GX Metal Peach",
-      "nameEn": "GX Metal Peach",
+      "nameEn": null,
       "aliases": [
         "GXメタルピーチ"
       ],
@@ -5849,7 +5849,7 @@
     {
       "code": "GX213",
       "name": "GX White Silver",
-      "nameEn": "GX White Silver",
+      "nameEn": null,
       "aliases": [
         "GXホワイトシルバー"
       ],
@@ -5866,7 +5866,7 @@
     {
       "code": "GX214",
       "name": "GX Ice Silver",
-      "nameEn": "GX Ice Silver",
+      "nameEn": null,
       "aliases": [
         "GXアイスシルバー"
       ],
@@ -5883,7 +5883,7 @@
     {
       "code": "GX215",
       "name": "Metal Bloody Red",
-      "nameEn": "Metal Bloody Red",
+      "nameEn": null,
       "aliases": [
         "GXメタルブラッディレッド"
       ],
@@ -5900,7 +5900,7 @@
     {
       "code": "GX216",
       "name": "metal Dark Blue",
-      "nameEn": "metal Dark Blue",
+      "nameEn": null,
       "aliases": [
         "GXメタルダークブルー"
       ],
@@ -5917,7 +5917,7 @@
     {
       "code": "GX217",
       "name": "GX Rough Gold",
-      "nameEn": "GX Rough Gold",
+      "nameEn": null,
       "aliases": [
         "GXラフゴールド"
       ],
@@ -5934,7 +5934,7 @@
     {
       "code": "GX218",
       "name": "Graphite Black",
-      "nameEn": "Graphite Black",
+      "nameEn": null,
       "aliases": [
         "GXグラファイトブラック"
       ],
@@ -5951,7 +5951,7 @@
     {
       "code": "LAC102",
       "name": "Parker Gun Metallic",
-      "nameEn": "Parker Gun Metallic",
+      "nameEn": null,
       "aliases": [
         "パーカーガンメタリック"
       ],
@@ -5968,7 +5968,7 @@
     {
       "code": "SC10",
       "name": "Deck Blue (20-8)",
-      "nameEn": "Deck Blue (20-8)",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -5983,7 +5983,7 @@
     {
       "code": "XC01",
       "name": "Mr. Crystal Color Diamond Silver",
-      "nameEn": "Mr. Crystal Color Diamond Silver",
+      "nameEn": null,
       "aliases": [
         "ダイヤモンドシルバー"
       ],
@@ -6000,7 +6000,7 @@
     {
       "code": "XC02",
       "name": "Topaz Gold",
-      "nameEn": "Topaz Gold",
+      "nameEn": null,
       "aliases": [
         "トパーズゴールド"
       ],
@@ -6017,7 +6017,7 @@
     {
       "code": "XC03",
       "name": "Mr. Crystal Color Ruby Red",
-      "nameEn": "Mr. Crystal Color Ruby Red",
+      "nameEn": null,
       "aliases": [
         "ルビーレッド"
       ],
@@ -6034,7 +6034,7 @@
     {
       "code": "XC04",
       "name": "Mr. Crystal Color Amethyst Purple",
-      "nameEn": "Mr. Crystal Color Amethyst Purple",
+      "nameEn": null,
       "aliases": [
         "アメジストパープル"
       ],
@@ -6051,7 +6051,7 @@
     {
       "code": "XC05",
       "name": "Mr. Crystal Color Saphire Blue",
-      "nameEn": "Mr. Crystal Color Saphire Blue",
+      "nameEn": null,
       "aliases": [
         "サファイアブルー"
       ],
@@ -6068,7 +6068,7 @@
     {
       "code": "XC06",
       "name": "Mr. Crystal Color Tourmaline Green",
-      "nameEn": "Mr. Crystal Color Tourmaline Green",
+      "nameEn": null,
       "aliases": [
         "トルマリングリーン"
       ],
@@ -6085,7 +6085,7 @@
     {
       "code": "XC07",
       "name": "Mr. Crystal Color Turquoise Green",
-      "nameEn": "Mr. Crystal Color Turquoise Green",
+      "nameEn": null,
       "aliases": [
         "ターコイズグリーン"
       ],
@@ -6102,7 +6102,7 @@
     {
       "code": "XC08",
       "name": "Mr. Crystal Color Moonstone Pearl",
-      "nameEn": "Mr. Crystal Color Moonstone Pearl",
+      "nameEn": null,
       "aliases": [
         "ムーンストーンパール"
       ],
@@ -6119,7 +6119,7 @@
     {
       "code": "YC22",
       "name": "Carmillas Purple 3",
-      "nameEn": "Carmillas Purple 3",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -6134,7 +6134,7 @@
     {
       "code": "YC23",
       "name": "Carmillas Green 6",
-      "nameEn": "Carmillas Green 6",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -6149,7 +6149,7 @@
     {
       "code": "YC24",
       "name": "Caemillas Gray 1",
-      "nameEn": "Caemillas Gray 1",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -6164,7 +6164,7 @@
     {
       "code": "B504",
       "name": "Mr. Metal Primer-R",
-      "nameEn": "Mr. Metal Primer-R",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -6179,7 +6179,7 @@
     {
       "code": "MP242",
       "name": "Mr. Metal Primer-R",
-      "nameEn": "Mr. Metal Primer-R",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -6194,7 +6194,7 @@
     {
       "code": "RP261",
       "name": "Mr. Resin Primer Surfacer",
-      "nameEn": "Mr. Resin Primer Surfacer",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -6209,7 +6209,7 @@
     {
       "code": "SF242",
       "name": "Mr. Metal Primer",
-      "nameEn": "Mr. Metal Primer",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -6224,7 +6224,7 @@
     {
       "code": "SF281",
       "name": "Mr. Surfacer 1000",
-      "nameEn": "Mr. Surfacer 1000",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -6239,7 +6239,7 @@
     {
       "code": "SF283",
       "name": "Mr. Base White 1000",
-      "nameEn": "Mr. Base White 1000",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -6254,7 +6254,7 @@
     {
       "code": "SF285",
       "name": "Mr. Surfacer 500",
-      "nameEn": "Mr. Surfacer 500",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -6269,7 +6269,7 @@
     {
       "code": "SF286",
       "name": "Mr. Surfacer 1200",
-      "nameEn": "Mr. Surfacer 1200",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -6284,7 +6284,7 @@
     {
       "code": "SF287",
       "name": "Mr. Primer Surfacer 1000",
-      "nameEn": "Mr. Primer Surfacer 1000",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -6299,7 +6299,7 @@
     {
       "code": "SF288",
       "name": "Mr. Finishing Surfacer 1500 Black",
-      "nameEn": "Mr. Finishing Surfacer 1500 Black",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -6314,7 +6314,7 @@
     {
       "code": "SF289",
       "name": "Mr. Finishing Surfacer 1500 Gray",
-      "nameEn": "Mr. Finishing Surfacer 1500 Gray",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -6329,7 +6329,7 @@
     {
       "code": "SF290",
       "name": "Mr. Mahogany Surfacer 1000",
-      "nameEn": "Mr. Mahogany Surfacer 1000",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -6344,7 +6344,7 @@
     {
       "code": "SF291",
       "name": "Mr. Finishing Surfacer 1500 White",
-      "nameEn": "Mr. Finishing Surfacer 1500 White",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -6359,7 +6359,7 @@
     {
       "code": "SF292",
       "name": "Mr. Finishing Surfacer 1500 Pink",
-      "nameEn": "Mr. Finishing Surfacer 1500 Pink",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -6374,7 +6374,7 @@
     {
       "code": "SF294",
       "name": "Mr. Primer Surfacer 1000 - Dark Gray",
-      "nameEn": "Mr. Primer Surfacer 1000 - Dark Gray",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -6389,7 +6389,7 @@
     {
       "code": "S1",
       "name": "White",
-      "nameEn": "White",
+      "nameEn": null,
       "aliases": [
         "ホワイト(白"
       ],
@@ -6406,7 +6406,7 @@
     {
       "code": "S2",
       "name": "Black",
-      "nameEn": "Black",
+      "nameEn": null,
       "aliases": [
         "ブラック(黒"
       ],
@@ -6423,7 +6423,7 @@
     {
       "code": "S3",
       "name": "Red",
-      "nameEn": "Red",
+      "nameEn": null,
       "aliases": [
         "レッド"
       ],
@@ -6440,7 +6440,7 @@
     {
       "code": "S4",
       "name": "Yellow",
-      "nameEn": "Yellow",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラースプレー",
       "brandLine": "Mr.COLOR",
@@ -6455,7 +6455,7 @@
     {
       "code": "S5",
       "name": "Blue",
-      "nameEn": "Blue",
+      "nameEn": null,
       "aliases": [
         "ブルー"
       ],
@@ -6472,7 +6472,7 @@
     {
       "code": "S6",
       "name": "Green",
-      "nameEn": "Green",
+      "nameEn": null,
       "aliases": [
         "グリーン"
       ],
@@ -6489,7 +6489,7 @@
     {
       "code": "S8",
       "name": "Silver",
-      "nameEn": "Silver",
+      "nameEn": null,
       "aliases": [
         "シルバー(銀"
       ],
@@ -6506,7 +6506,7 @@
     {
       "code": "S9",
       "name": "Gold",
-      "nameEn": "Gold",
+      "nameEn": null,
       "aliases": [
         "ゴールド(金"
       ],
@@ -6523,7 +6523,7 @@
     {
       "code": "S11",
       "name": "Light Gull Gray",
-      "nameEn": "Light Gull Gray",
+      "nameEn": null,
       "aliases": [
         "ガルグレー"
       ],
@@ -6540,7 +6540,7 @@
     {
       "code": "S12",
       "name": "Olive Drab",
-      "nameEn": "Olive Drab",
+      "nameEn": null,
       "aliases": [
         "オリーブドラブ(1"
       ],
@@ -6557,7 +6557,7 @@
     {
       "code": "S13",
       "name": "Neutral Gray",
-      "nameEn": "Neutral Gray",
+      "nameEn": null,
       "aliases": [
         "ニュートラルグレー"
       ],
@@ -6574,7 +6574,7 @@
     {
       "code": "S14",
       "name": "Navy Blue",
-      "nameEn": "Navy Blue",
+      "nameEn": null,
       "aliases": [
         "ネービーブルー"
       ],
@@ -6591,7 +6591,7 @@
     {
       "code": "S15",
       "name": "IJN Green (Nakajima)",
-      "nameEn": "IJN Green (Nakajima)",
+      "nameEn": null,
       "aliases": [
         "暗緑色(中島系"
       ],
@@ -6608,7 +6608,7 @@
     {
       "code": "S16",
       "name": "IJA Green",
-      "nameEn": "IJA Green",
+      "nameEn": null,
       "aliases": [
         "濃緑色"
       ],
@@ -6625,7 +6625,7 @@
     {
       "code": "S28",
       "name": "Steel",
-      "nameEn": "Steel",
+      "nameEn": null,
       "aliases": [
         "黒鉄色"
       ],
@@ -6642,7 +6642,7 @@
     {
       "code": "S29",
       "name": "Hull Red",
-      "nameEn": "Hull Red",
+      "nameEn": null,
       "aliases": [
         "艦艇色"
       ],
@@ -6659,7 +6659,7 @@
     {
       "code": "S30",
       "name": "Flat Clear",
-      "nameEn": "Flat Clear",
+      "nameEn": null,
       "aliases": [
         "つや消しクリアー"
       ],
@@ -6676,7 +6676,7 @@
     {
       "code": "S31",
       "name": "Dark Gray (1)",
-      "nameEn": "Dark Gray (1)",
+      "nameEn": null,
       "aliases": [
         "軍艦色(1"
       ],
@@ -6693,7 +6693,7 @@
     {
       "code": "S32",
       "name": "Dark Grey (2)",
-      "nameEn": "Dark Grey (2)",
+      "nameEn": null,
       "aliases": [
         "軍艦色(2"
       ],
@@ -6710,7 +6710,7 @@
     {
       "code": "S33",
       "name": "Flat Black",
-      "nameEn": "Flat Black",
+      "nameEn": null,
       "aliases": [
         "つや消しブラック"
       ],
@@ -6727,7 +6727,7 @@
     {
       "code": "S34",
       "name": "Sky Blue",
-      "nameEn": "Sky Blue",
+      "nameEn": null,
       "aliases": [
         "スカイブルー"
       ],
@@ -6744,7 +6744,7 @@
     {
       "code": "S35",
       "name": "IJN Gray (Mitsubishi)",
-      "nameEn": "IJN Gray (Mitsubishi)",
+      "nameEn": null,
       "aliases": [
         "明灰白色(三菱系"
       ],
@@ -6761,7 +6761,7 @@
     {
       "code": "S38",
       "name": "OLIVE DRAB(2)",
-      "nameEn": "OLIVE DRAB(2)",
+      "nameEn": null,
       "aliases": [
         "オリーブドラブ2"
       ],
@@ -6778,7 +6778,7 @@
     {
       "code": "S39",
       "name": "Dark Yellow",
-      "nameEn": "Dark Yellow",
+      "nameEn": null,
       "aliases": [
         "ダークイエロー"
       ],
@@ -6795,7 +6795,7 @@
     {
       "code": "S40",
       "name": "German Gray (3/4 flat)",
-      "nameEn": "German Gray (3/4 flat)",
+      "nameEn": null,
       "aliases": [
         "ジャーマングレー"
       ],
@@ -6812,7 +6812,7 @@
     {
       "code": "S41",
       "name": "Red Brown (3/4 flat)",
-      "nameEn": "Red Brown (3/4 flat)",
+      "nameEn": null,
       "aliases": [
         "レッドブラウン"
       ],
@@ -6829,7 +6829,7 @@
     {
       "code": "S42",
       "name": "Mahogany",
-      "nameEn": "Mahogany",
+      "nameEn": null,
       "aliases": [
         "マホガニー"
       ],
@@ -6846,7 +6846,7 @@
     {
       "code": "S43",
       "name": "Wood Brown",
-      "nameEn": "Wood Brown",
+      "nameEn": null,
       "aliases": [
         "ウッドブラウン"
       ],
@@ -6863,7 +6863,7 @@
     {
       "code": "S44",
       "name": "Tan",
-      "nameEn": "Tan",
+      "nameEn": null,
       "aliases": [
         "タン"
       ],
@@ -6880,7 +6880,7 @@
     {
       "code": "S46",
       "name": "Gloss Clear",
-      "nameEn": "Gloss Clear",
+      "nameEn": null,
       "aliases": [
         "クリアー(透明"
       ],
@@ -6897,7 +6897,7 @@
     {
       "code": "S47",
       "name": "Clear Red",
-      "nameEn": "Clear Red",
+      "nameEn": null,
       "aliases": [
         "クリアーレッド"
       ],
@@ -6914,7 +6914,7 @@
     {
       "code": "S48",
       "name": "Clear Yellow",
-      "nameEn": "Clear Yellow",
+      "nameEn": null,
       "aliases": [
         "クリアーイエロー"
       ],
@@ -6931,7 +6931,7 @@
     {
       "code": "S49",
       "name": "Clear Orange",
-      "nameEn": "Clear Orange",
+      "nameEn": null,
       "aliases": [
         "クリアーオレンジ"
       ],
@@ -6948,7 +6948,7 @@
     {
       "code": "S50",
       "name": "Clear Blue",
-      "nameEn": "Clear Blue",
+      "nameEn": null,
       "aliases": [
         "クリアーブルー"
       ],
@@ -6965,7 +6965,7 @@
     {
       "code": "S58",
       "name": "Orange Yellow",
-      "nameEn": "Orange Yellow",
+      "nameEn": null,
       "aliases": [
         "黄橙色"
       ],
@@ -6982,7 +6982,7 @@
     {
       "code": "S62",
       "name": "Flat White",
-      "nameEn": "Flat White",
+      "nameEn": null,
       "aliases": [
         "つや消しホワイト"
       ],
@@ -6999,7 +6999,7 @@
     {
       "code": "S63",
       "name": "Pink",
-      "nameEn": "Pink",
+      "nameEn": null,
       "aliases": [
         "ピンク(桃"
       ],
@@ -7016,7 +7016,7 @@
     {
       "code": "S64",
       "name": "Yellow Green",
-      "nameEn": "Yellow Green",
+      "nameEn": null,
       "aliases": [
         "ルマングリーン(黄緑"
       ],
@@ -7033,7 +7033,7 @@
     {
       "code": "S65",
       "name": "Bright Blue",
-      "nameEn": "Bright Blue",
+      "nameEn": null,
       "aliases": [
         "インディブルー"
       ],
@@ -7050,7 +7050,7 @@
     {
       "code": "S66",
       "name": "Bright Green",
-      "nameEn": "Bright Green",
+      "nameEn": null,
       "aliases": [
         "デイトナグリーン"
       ],
@@ -7067,7 +7067,7 @@
     {
       "code": "S67",
       "name": "Purple",
-      "nameEn": "Purple",
+      "nameEn": null,
       "aliases": [
         "パープル(紫"
       ],
@@ -7084,7 +7084,7 @@
     {
       "code": "S68",
       "name": "Red Madder",
-      "nameEn": "Red Madder",
+      "nameEn": null,
       "aliases": [
         "モンザレッド"
       ],
@@ -7101,7 +7101,7 @@
     {
       "code": "S69",
       "name": "Off White",
-      "nameEn": "Off White",
+      "nameEn": null,
       "aliases": [
         "グランプリホワイト"
       ],
@@ -7118,7 +7118,7 @@
     {
       "code": "S70",
       "name": "Dark Green (3/4 Flat)",
-      "nameEn": "Dark Green (3/4 Flat)",
+      "nameEn": null,
       "aliases": [
         "ダークグリーン"
       ],
@@ -7135,7 +7135,7 @@
     {
       "code": "S75",
       "name": "Metallic Red",
-      "nameEn": "Metallic Red",
+      "nameEn": null,
       "aliases": [
         "メタリックレッド"
       ],
@@ -7152,7 +7152,7 @@
     {
       "code": "S76",
       "name": "Metallic Blue",
-      "nameEn": "Metallic Blue",
+      "nameEn": null,
       "aliases": [
         "メタリックブルー"
       ],
@@ -7169,7 +7169,7 @@
     {
       "code": "S77",
       "name": "Metallic Green",
-      "nameEn": "Metallic Green",
+      "nameEn": null,
       "aliases": [
         "メタリックグリーン"
       ],
@@ -7186,7 +7186,7 @@
     {
       "code": "S78",
       "name": "Metallic Black",
-      "nameEn": "Metallic Black",
+      "nameEn": null,
       "aliases": [
         "メタルブラック"
       ],
@@ -7203,7 +7203,7 @@
     {
       "code": "S79",
       "name": "Shine Red",
-      "nameEn": "Shine Red",
+      "nameEn": null,
       "aliases": [
         "シャインレッド"
       ],
@@ -7220,7 +7220,7 @@
     {
       "code": "S80",
       "name": "Cobalt Blue",
-      "nameEn": "Cobalt Blue",
+      "nameEn": null,
       "aliases": [
         "コバルトブルー"
       ],
@@ -7237,7 +7237,7 @@
     {
       "code": "S81",
       "name": "Russet",
-      "nameEn": "Russet",
+      "nameEn": null,
       "aliases": [
         "赤2号(あずき色"
       ],
@@ -7254,7 +7254,7 @@
     {
       "code": "S82",
       "name": "Scarlet",
-      "nameEn": "Scarlet",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラースプレー",
       "brandLine": "Mr.COLOR",
@@ -7269,7 +7269,7 @@
     {
       "code": "GSIJ084",
       "name": "Sepia",
-      "nameEn": "Sepia",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラースプレー",
       "brandLine": "Mr.COLOR",
@@ -7284,7 +7284,7 @@
     {
       "code": "S90",
       "name": "Shine Silver",
-      "nameEn": "Shine Silver",
+      "nameEn": null,
       "aliases": [
         "シャインシルバー"
       ],
@@ -7301,7 +7301,7 @@
     {
       "code": "S92",
       "name": "Semi Gloss Black",
-      "nameEn": "Semi Gloss Black",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラースプレー",
       "brandLine": "Mr.COLOR",
@@ -7316,7 +7316,7 @@
     {
       "code": "S97",
       "name": "Light Gray",
-      "nameEn": "Light Gray",
+      "nameEn": null,
       "aliases": [
         "灰色9号"
       ],
@@ -7333,7 +7333,7 @@
     {
       "code": "S101",
       "name": "Smoke Gray",
-      "nameEn": "Smoke Gray",
+      "nameEn": null,
       "aliases": [
         "スモークグレー"
       ],
@@ -7350,7 +7350,7 @@
     {
       "code": "S107",
       "name": "Character White",
-      "nameEn": "Character White",
+      "nameEn": null,
       "aliases": [
         "キャラクターホワイト"
       ],
@@ -7367,7 +7367,7 @@
     {
       "code": "S108",
       "name": "Character Red",
-      "nameEn": "Character Red",
+      "nameEn": null,
       "aliases": [
         "キャラクターレッド"
       ],
@@ -7384,7 +7384,7 @@
     {
       "code": "S109",
       "name": "Character Yellow",
-      "nameEn": "Character Yellow",
+      "nameEn": null,
       "aliases": [
         "キャラクターイエロー"
       ],
@@ -7401,7 +7401,7 @@
     {
       "code": "S110",
       "name": "Character Blue",
-      "nameEn": "Character Blue",
+      "nameEn": null,
       "aliases": [
         "キャラクターブルー"
       ],
@@ -7418,7 +7418,7 @@
     {
       "code": "S111",
       "name": "Character Flesh 1",
-      "nameEn": "Character Flesh 1",
+      "nameEn": null,
       "aliases": [
         "キャラクターフレッシュ(1"
       ],
@@ -7435,7 +7435,7 @@
     {
       "code": "S112",
       "name": "Character Flesh 2",
-      "nameEn": "Character Flesh 2",
+      "nameEn": null,
       "aliases": [
         "キャラクターフレッシュ(2"
       ],
@@ -7452,7 +7452,7 @@
     {
       "code": "S115",
       "name": "RLM65 Light Blue",
-      "nameEn": "RLM65 Light Blue",
+      "nameEn": null,
       "aliases": [
         "RLM65ライトブルー"
       ],
@@ -7469,7 +7469,7 @@
     {
       "code": "S117",
       "name": "RLM76 Light Blue",
-      "nameEn": "RLM76 Light Blue",
+      "nameEn": null,
       "aliases": [
         "RLM76ライトブルー"
       ],
@@ -7486,7 +7486,7 @@
     {
       "code": "S124",
       "name": "Dark Green (Mitsubishi)",
-      "nameEn": "Dark Green (Mitsubishi)",
+      "nameEn": null,
       "aliases": [
         "暗緑色(三菱系"
       ],
@@ -7503,7 +7503,7 @@
     {
       "code": "S129",
       "name": "Dark Green (Nakajima)",
-      "nameEn": "Dark Green (Nakajima)",
+      "nameEn": null,
       "aliases": [
         "濃緑色(中島系"
       ],
@@ -7520,7 +7520,7 @@
     {
       "code": "S151",
       "name": "White Pearl",
-      "nameEn": "White Pearl",
+      "nameEn": null,
       "aliases": [
         "ホワイトパール"
       ],
@@ -7537,7 +7537,7 @@
     {
       "code": "B505",
       "name": "Mr. Surfacer 1000",
-      "nameEn": "Mr. Surfacer 1000",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラースプレー",
       "brandLine": "Mr.COLOR",
@@ -7552,7 +7552,7 @@
     {
       "code": "B506",
       "name": "Mr. Surfacer 500 Spray",
-      "nameEn": "Mr. Surfacer 500 Spray",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラースプレー",
       "brandLine": "Mr.COLOR",
@@ -7567,7 +7567,7 @@
     {
       "code": "SG11",
       "name": "Gundam Color MS MS Char Red",
-      "nameEn": "Gundam Color MS MS Char Red",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラースプレー",
       "brandLine": "Mr.COLOR",
@@ -7582,7 +7582,7 @@
     {
       "code": "SJ01",
       "name": "Kure Naval Arsenal (3/4 Flat)",
-      "nameEn": "Kure Naval Arsenal (3/4 Flat)",
+      "nameEn": null,
       "aliases": [
         "呉海軍工廠標準色"
       ],
@@ -7599,7 +7599,7 @@
     {
       "code": "SJ02",
       "name": "Sasebo Naval Arsenal (3/4 Flat)",
-      "nameEn": "Sasebo Naval Arsenal (3/4 Flat)",
+      "nameEn": null,
       "aliases": [
         "佐世保海軍工廠標準色"
       ],
@@ -7616,7 +7616,7 @@
     {
       "code": "YS01",
       "name": "Space Battleship Yamato Gray",
-      "nameEn": "Space Battleship Yamato Gray",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラースプレー",
       "brandLine": "Mr.COLOR",
@@ -7631,7 +7631,7 @@
     {
       "code": "YS02",
       "name": "Space Battleship Yamato Red",
-      "nameEn": "Space Battleship Yamato Red",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラースプレー",
       "brandLine": "Mr.COLOR",
@@ -7646,7 +7646,7 @@
     {
       "code": "B511",
       "name": "Mr. White Surfacer 1000",
-      "nameEn": "Mr. White Surfacer 1000",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラースプレー",
       "brandLine": "Mr.COLOR",
@@ -7661,7 +7661,7 @@
     {
       "code": "B513",
       "name": "Mr. Super Clear Gloss",
-      "nameEn": "Mr. Super Clear Gloss",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラースプレー",
       "brandLine": "Mr.COLOR",
@@ -7676,7 +7676,7 @@
     {
       "code": "B514",
       "name": "Mr. Super Clear Flat",
-      "nameEn": "Mr. Super Clear Flat",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラースプレー",
       "brandLine": "Mr.COLOR",
@@ -7691,7 +7691,7 @@
     {
       "code": "B515",
       "name": "Mr. Surfacer 1200",
-      "nameEn": "Mr. Surfacer 1200",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラースプレー",
       "brandLine": "Mr.COLOR",
@@ -7706,7 +7706,7 @@
     {
       "code": "B516",
       "name": "Mr. Super Clear Semi-Gloss",
-      "nameEn": "Mr. Super Clear Semi-Gloss",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラースプレー",
       "brandLine": "Mr.COLOR",
@@ -7721,7 +7721,7 @@
     {
       "code": "B519",
       "name": "Mr. Surfacer 1000",
-      "nameEn": "Mr. Surfacer 1000",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラースプレー",
       "brandLine": "Mr.COLOR",
@@ -7736,7 +7736,7 @@
     {
       "code": "B522",
       "name": "Mr. Super Clear Gloss UV Cut",
-      "nameEn": "Mr. Super Clear Gloss UV Cut",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラースプレー",
       "brandLine": "Mr.COLOR",
@@ -7751,7 +7751,7 @@
     {
       "code": "B523",
       "name": "Mr. Super Clear Flat",
-      "nameEn": "Mr. Super Clear Flat",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラースプレー",
       "brandLine": "Mr.COLOR",
@@ -7766,7 +7766,7 @@
     {
       "code": "B525",
       "name": "Mr. Oxide Red Surfacer 1000",
-      "nameEn": "Mr. Oxide Red Surfacer 1000",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラースプレー",
       "brandLine": "Mr.COLOR",
@@ -7781,7 +7781,7 @@
     {
       "code": "B527",
       "name": "Mr. Finishing Surfacer 1500 Gray",
-      "nameEn": "Mr. Finishing Surfacer 1500 Gray",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラースプレー",
       "brandLine": "Mr.COLOR",
@@ -7796,7 +7796,7 @@
     {
       "code": "B528",
       "name": "Mr. Mahogany Surfacer 1000",
-      "nameEn": "Mr. Mahogany Surfacer 1000",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラースプレー",
       "brandLine": "Mr.COLOR",
@@ -7811,7 +7811,7 @@
     {
       "code": "B529",
       "name": "Mr. Finishing Surfacer 1500 White",
-      "nameEn": "Mr. Finishing Surfacer 1500 White",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラースプレー",
       "brandLine": "Mr.COLOR",
@@ -7826,7 +7826,7 @@
     {
       "code": "B530",
       "name": "Mr Super Smooth Clear",
-      "nameEn": "Mr Super Smooth Clear",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラースプレー",
       "brandLine": "Mr.COLOR",
@@ -7841,7 +7841,7 @@
     {
       "code": "SM201",
       "name": "Super Metallic 2 - Super Fine Silver",
-      "nameEn": "Super Metallic 2 - Super Fine Silver",
+      "nameEn": null,
       "aliases": [
         "スーパーファインシルバー2"
       ],
@@ -7858,7 +7858,7 @@
     {
       "code": "SM202",
       "name": "Super Metallic 2 - Super Gold",
-      "nameEn": "Super Metallic 2 - Super Gold",
+      "nameEn": null,
       "aliases": [
         "スーパーゴールド2"
       ],
@@ -7875,7 +7875,7 @@
     {
       "code": "SM203",
       "name": "Super Metallic 2 - Super Iron",
-      "nameEn": "Super Metallic 2 - Super Iron",
+      "nameEn": null,
       "aliases": [
         "スーパーアイアン2"
       ],
@@ -7892,7 +7892,7 @@
     {
       "code": "SM204",
       "name": "Super Metallic 2 - Super Stainless",
-      "nameEn": "Super Metallic 2 - Super Stainless",
+      "nameEn": null,
       "aliases": [
         "スーパーステンレス2"
       ],
@@ -7909,7 +7909,7 @@
     {
       "code": "SM205",
       "name": "Super Metallic 2 - Super Titanum",
-      "nameEn": "Super Metallic 2 - Super Titanum",
+      "nameEn": null,
       "aliases": [
         "スーパーチタン2"
       ],
@@ -7926,7 +7926,7 @@
     {
       "code": "SM206",
       "name": "Super Metallic 2 - Super Chrome Silver",
-      "nameEn": "Super Metallic 2 - Super Chrome Silver",
+      "nameEn": null,
       "aliases": [
         "スーパークロームシルバー2"
       ],
@@ -7943,7 +7943,7 @@
     {
       "code": "SM207",
       "name": "Super Metallic 2 - Super Rich Gold",
-      "nameEn": "Super Metallic 2 - Super Rich Gold",
+      "nameEn": null,
       "aliases": [
         "スーパーリッチゴールド"
       ],
@@ -7960,7 +7960,7 @@
     {
       "code": "SM208",
       "name": "Super Metallic 2 - Super Duraluminum",
-      "nameEn": "Super Metallic 2 - Super Duraluminum",
+      "nameEn": null,
       "aliases": [
         "スーパージュラルミン"
       ],
@@ -7977,7 +7977,7 @@
     {
       "code": "SM209",
       "name": "Super Metallic 2 - Super Copper",
-      "nameEn": "Super Metallic 2 - Super Copper",
+      "nameEn": null,
       "aliases": [
         "スーパーカッパー"
       ],
@@ -7994,7 +7994,7 @@
     {
       "code": "SM210",
       "name": "Super Metallic 2 Super Pink Gold",
-      "nameEn": "Super Metallic 2 Super Pink Gold",
+      "nameEn": null,
       "aliases": [
         "スーパーピンクゴールド"
       ],
@@ -8011,7 +8011,7 @@
     {
       "code": "SM211",
       "name": "Super Metallic 2 Super Red Gold",
-      "nameEn": "Super Metallic 2 Super Red Gold",
+      "nameEn": null,
       "aliases": [
         "スーパーレッドゴールド"
       ],
@@ -8028,7 +8028,7 @@
     {
       "code": "SM212",
       "name": "Super Metallic 2 Super Matt Aluminium",
-      "nameEn": "Super Metallic 2 Super Matt Aluminium",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -8043,7 +8043,7 @@
     {
       "code": "SM01",
       "name": "Super Fine Silver",
-      "nameEn": "Super Fine Silver",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -8058,7 +8058,7 @@
     {
       "code": "SM02",
       "name": "Super Gold",
-      "nameEn": "Super Gold",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -8073,7 +8073,7 @@
     {
       "code": "SM04",
       "name": "Super Stainless",
-      "nameEn": "Super Stainless",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -8088,7 +8088,7 @@
     {
       "code": "SM06",
       "name": "Chrome Silver",
-      "nameEn": "Chrome Silver",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -8103,7 +8103,7 @@
     {
       "code": "SM08",
       "name": "Super Metallic PLATE SILVER",
-      "nameEn": "Super Metallic PLATE SILVER",
+      "nameEn": null,
       "aliases": [],
       "line": "Mr.カラー",
       "brandLine": "Mr.COLOR",
@@ -8118,7 +8118,7 @@
     {
       "code": "CL03",
       "name": "Pale Clear Red",
-      "nameEn": "Pale Clear Red",
+      "nameEn": null,
       "aliases": [
         "ラスキウス クリアーペールレッド"
       ],
@@ -8135,7 +8135,7 @@
     {
       "code": "CL04",
       "name": "Pale Clear Orange",
-      "nameEn": "Pale Clear Orange",
+      "nameEn": null,
       "aliases": [
         "ラスキウス クリアーペールオレンジ"
       ],
@@ -8152,7 +8152,7 @@
     {
       "code": "CL05",
       "name": "Pale Clear Brown",
-      "nameEn": "Pale Clear Brown",
+      "nameEn": null,
       "aliases": [
         "ラスキウス クリアーペールブラウン"
       ],
@@ -8169,7 +8169,7 @@
     {
       "code": "CL101",
       "name": "Aura Blond",
-      "nameEn": "Aura Blond",
+      "nameEn": null,
       "aliases": [
         "Mr.カラー LASCIVUS Aura (ラスキウス アウラ）ブロンド"
       ],
@@ -8186,7 +8186,7 @@
     {
       "code": "CL102",
       "name": "Aura Copper Brown",
-      "nameEn": "Aura Copper Brown",
+      "nameEn": null,
       "aliases": [
         "Mr.カラー LASCIVUS Aura (ラスキウス アウラ）栗毛"
       ],
@@ -8203,7 +8203,7 @@
     {
       "code": "CL103",
       "name": "Aura Black Hair",
-      "nameEn": "Aura Black Hair",
+      "nameEn": null,
       "aliases": [
         "Mr.カラー LASCIVUS Aura (ラスキウス アウラ）濡烏"
       ],
@@ -8220,7 +8220,7 @@
     {
       "code": "CL104",
       "name": "Aura Pink Purple",
-      "nameEn": "Aura Pink Purple",
+      "nameEn": null,
       "aliases": [
         "Mr.カラー LASCIVUS Aura (ラスキウス アウラ）ピンクパール"
       ],
@@ -8237,7 +8237,7 @@
     {
       "code": "CL105",
       "name": "Aura Lilac",
-      "nameEn": "Aura Lilac",
+      "nameEn": null,
       "aliases": [
         "Mr.カラー LASCIVUS Aura (ラスキウス アウラ）ライラック"
       ],
@@ -8254,7 +8254,7 @@
     {
       "code": "CL106",
       "name": "Aura Icy White",
-      "nameEn": "Aura Icy White",
+      "nameEn": null,
       "aliases": [
         "Mr.カラー LASCIVUS Aura (ラスキウス アウラ) 白雪色"
       ],
@@ -8271,7 +8271,7 @@
     {
       "code": "CL107",
       "name": "Aura Flaxen",
-      "nameEn": "Aura Flaxen",
+      "nameEn": null,
       "aliases": [
         "Mr.カラー LASCIVUS Aura (ラスキウス アウラ) 亜麻色"
       ],
@@ -8288,7 +8288,7 @@
     {
       "code": "CL108",
       "name": "Aura Pale Blue-Green",
-      "nameEn": "Aura Pale Blue-Green",
+      "nameEn": null,
       "aliases": [
         "Mr.カラー LASCIVUS Aura (ラスキウス アウラ) 浅葱色"
       ],
@@ -8305,7 +8305,7 @@
     {
       "code": "CL109",
       "name": "Aura Lime Green",
-      "nameEn": "Aura Lime Green",
+      "nameEn": null,
       "aliases": [
         "Mr.カラー LASCIVUS Aura (ラスキウス アウラ) ライムグリーン"
       ],
@@ -8322,7 +8322,7 @@
     {
       "code": "CL110",
       "name": "Aura Scarlet",
-      "nameEn": "Aura Scarlet",
+      "nameEn": null,
       "aliases": [
         "Mr.カラー LASCIVUS Aura (ラスキウス アウラ) 緋色"
       ],
@@ -8339,7 +8339,7 @@
     {
       "code": "CL111",
       "name": "Aura Azure",
-      "nameEn": "Aura Azure",
+      "nameEn": null,
       "aliases": [
         "Mr.カラー LASCIVUS Aura (ラスキウス アウラ) 空色"
       ],
@@ -8356,7 +8356,7 @@
     {
       "code": "CL01",
       "name": "White Peach",
-      "nameEn": "White Peach",
+      "nameEn": null,
       "aliases": [
         "ラスキウス ホワイトピーチ"
       ],
@@ -8373,7 +8373,7 @@
     {
       "code": "CL02",
       "name": "Cocoa Milk",
-      "nameEn": "Cocoa Milk",
+      "nameEn": null,
       "aliases": [
         "ラスキウス ココアミルク"
       ],
@@ -8390,7 +8390,7 @@
     {
       "code": "CL06",
       "name": "Clear White",
-      "nameEn": "Clear White",
+      "nameEn": null,
       "aliases": [
         "ラスキウス クリアーホワイト"
       ],
@@ -8407,7 +8407,7 @@
     {
       "code": "CL07",
       "name": "Rosy Peach",
-      "nameEn": "Rosy Peach",
+      "nameEn": null,
       "aliases": [
         "Mr.カラー LASCIVUS (ラスキウス) 鴇羽色"
       ],
@@ -8424,7 +8424,7 @@
     {
       "code": "CL08",
       "name": "Nuts White",
-      "nameEn": "Nuts White",
+      "nameEn": null,
       "aliases": [
         "Mr.カラー LASCIVUS (ラスキウス) ナッツホワイト"
       ],
@@ -8441,7 +8441,7 @@
     {
       "code": "CL09",
       "name": "Smooth Pearl Coat",
-      "nameEn": "Smooth Pearl Coat",
+      "nameEn": null,
       "aliases": [
         "Mr.カラー LASCIVUS (ラスキウス) スムースパールコート"
       ],
