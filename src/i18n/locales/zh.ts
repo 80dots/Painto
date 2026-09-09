@@ -327,6 +327,7 @@ export const zh: Translation = {
     acrylic: '丙烯漆',
     water: '水性漆',
     primer: '底漆',
+    surfacer: '补土',
     clear: '透明漆',
     weathering: '旧化',
     other: '其他',

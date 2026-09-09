@@ -330,6 +330,7 @@ export const es: Translation = {
     acrylic: 'Acrílico',
     water: 'Al agua',
     primer: 'Imprimación',
+    surfacer: 'Aparejo',
     clear: 'Barniz',
     weathering: 'Envejecido',
     other: 'Otro',

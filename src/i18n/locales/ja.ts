@@ -328,6 +328,7 @@ export const ja: Translation = {
     acrylic: 'アクリル',
     water: '水性',
     primer: 'プライマー',
+    surfacer: 'サーフェイサー',
     clear: 'クリアー',
     weathering: 'ウェザリング',
     other: 'その他',

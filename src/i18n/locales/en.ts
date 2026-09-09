@@ -329,6 +329,7 @@ export const en: Translation = {
     acrylic: 'Acrylic',
     water: 'Water-based',
     primer: 'Primer',
+    surfacer: 'Surfacer',
     clear: 'Clear',
     weathering: 'Weathering',
     other: 'Other',

@@ -330,6 +330,7 @@ export const ko = {
     acrylic: '아크릴',
     water: '수성',
     primer: '프라이머',
+    surfacer: '서페이서',
     clear: '클리어',
     weathering: '웨더링',
     other: '기타',

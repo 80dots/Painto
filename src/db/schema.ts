@@ -31,7 +31,8 @@ export const PAINT_TYPES = [
   'enamel', // 에나멜
   'acrylic', // 아크릴
   'water', // 수성
-  'primer', // 프라이머/서페이서
+  'primer', // 프라이머 (금속·레진용 밀착 프라이머)
+  'surfacer', // 서페이서 (표면 정리용 하도, 사포질 가능)
   'clear', // 클리어/탑코트
   'weathering', // 웨더링 (피그먼트, 워싱)
   'other',

@@ -332,6 +332,7 @@ export const fr: Translation = {
     acrylic: 'Acrylique',
     water: 'À l’eau',
     primer: 'Apprêt',
+    surfacer: 'Surfacer',
     clear: 'Vernis',
     weathering: 'Vieillissement',
     other: 'Autre',
