@@ -65,6 +65,9 @@ type PaintForm = {
   isFavorite: boolean;
 };
 
+/** 색상을 모를 때 쓰는 기본값 */
+const DEFAULT_COLOR_HEX = '#FFFFFF';
+
 const EMPTY_FORM: PaintForm = {
   name: '',
   code: '',
@@ -75,7 +78,7 @@ const EMPTY_FORM: PaintForm = {
   catalogBrand: null,
   type: 'lacquer',
   finish: 'none',
-  colorHex: '',
+  colorHex: DEFAULT_COLOR_HEX,
   volumeMl: '',
   thinnerPaint: '',
   thinnerSolvent: '',
@@ -107,7 +110,7 @@ function fillFromCatalog(
     catalogBrand: { name: item.brand, line: item.brandLine, country: item.country },
     type: item.type,
     finish: item.finish,
-    colorHex: item.colorHex ?? '',
+    colorHex: item.colorHex ?? DEFAULT_COLOR_HEX,
     volumeMl: item.volumeMl ? String(item.volumeMl) : '',
     thinnerPaint: ratio.paint,
     thinnerSolvent: ratio.solvent,
@@ -495,7 +498,7 @@ export default function PaintDetailScreen() {
               <Input
                 value={form.colorHex}
                 onChangeText={(value) => update('colorHex', value)}
-                placeholder="#1A1A1A"
+                placeholder={DEFAULT_COLOR_HEX}
                 autoCapitalize="characters"
               />
             </Field>
