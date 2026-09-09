@@ -113,13 +113,16 @@ export const CATALOG_PAINTS: CatalogPaint[] = CATALOG_FILES.flatMap((file) =>
   })),
 );
 
-/** 내장 카탈로그가 있는 브랜드 (브랜드를 만들 때 쓴다) */
-export const CATALOG_BRANDS = CATALOG_FILES.map((file) => ({
-  name: file.brand,
-  country: file.country,
-  updatedAt: file.updatedAt,
-  count: file.paints.length,
-}));
+/**
+ * 내장 카탈로그가 있는 브랜드 목록. 브랜드 선택 목록에는 이것만 남긴다.
+ * 같은 브랜드라도 계열(`brandLine`)이 다르면 따로 센다
+ * (타미야 아크릴 / 에나멜 / 락카 / 스프레이).
+ */
+export const CATALOG_BRANDS: { name: string; line: string | null; country: string | null }[] =
+  CATALOG_FILES.flatMap((file) => {
+    const lines = new Set(file.paints.map((paint) => paint.brandLine ?? null));
+    return [...lines].map((line) => ({ name: file.brand, line, country: file.country }));
+  });
 
 /**
  * 이름·품번으로 카탈로그를 찾는다.

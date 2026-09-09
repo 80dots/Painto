@@ -1,6 +1,8 @@
 import { count, eq } from 'drizzle-orm';
 
 import { db } from './client';
+
+import { CATALOG_BRANDS } from '@/features/paints/catalog';
 import {
   brands,
   paints,
@@ -12,46 +14,50 @@ import {
   type NewBrand,
 } from './schema';
 
-/** 앱 최초 실행 시 채워 넣는 기본 도료 제조사 목록 */
-const BUILT_IN_BRANDS: NewBrand[] = [
-  { name: 'GSI Creos', line: 'Mr.COLOR', country: 'JP', isBuiltIn: true },
-  { name: 'GSI Creos', line: '수성 호비컬러', country: 'JP', isBuiltIn: true },
-  { name: 'GSI Creos', line: '아크리시온', country: 'JP', isBuiltIn: true },
-  { name: '타미야', line: '락카', country: 'JP', isBuiltIn: true },
-  { name: '타미야', line: '아크릴', country: 'JP', isBuiltIn: true },
-  { name: '타미야', line: '에나멜', country: 'JP', isBuiltIn: true },
-  { name: 'Vallejo', line: 'Model Color', country: 'ES', isBuiltIn: true },
-  { name: 'Vallejo', line: 'Model Air', country: 'ES', isBuiltIn: true },
-  { name: 'AK Interactive', line: 'Real Colors', country: 'ES', isBuiltIn: true },
-  { name: 'AK Interactive', line: '3rd Generation', country: 'ES', isBuiltIn: true },
-  { name: 'AMMO by Mig', line: 'Acrylic', country: 'ES', isBuiltIn: true },
-  { name: 'Citadel', line: 'Base', country: 'UK', isBuiltIn: true },
-  { name: 'Citadel', line: 'Layer', country: 'UK', isBuiltIn: true },
-  { name: 'Mr.Paint', line: 'MRP', country: 'SK', isBuiltIn: true },
-  { name: 'Hataka', line: 'Red Line', country: 'PL', isBuiltIn: true },
-  { name: '타미야', line: '스프레이', country: 'JP', isBuiltIn: true },
-  // 내장 도료 카탈로그가 있는 브랜드 (src/data/paint-catalog)
-  { name: '모모델링', country: 'KR', isBuiltIn: true },
-  { name: '가이아노츠', country: 'JP', isBuiltIn: true },
-  { name: '피니셔스', country: 'JP', isBuiltIn: true },
-];
+/** 브랜드 한 줄(이름 + 계열)을 가리키는 열쇠. */
+const brandKey = (name: string, line?: string | null) => JSON.stringify([name, line ?? null]);
 
-/** 기본 브랜드를 한 번만 채운다. 이미 있으면 아무것도 하지 않는다. */
-export async function seedBuiltInBrands() {
-  const [{ value }] = await db.select({ value: count() }).from(brands);
-  if (value > 0) return;
-  await db.insert(brands).values(BUILT_IN_BRANDS);
+/**
+ * 기본 브랜드 목록을 내장 도료 카탈로그에 맞춘다. 앱을 켤 때마다 돈다.
+ *
+ * - 카탈로그에 있는 브랜드가 아직 없으면 만든다.
+ * - 카탈로그가 없는 기본 브랜드는 지운다. 골라 봐야 채워 줄 도료 목록이 없다.
+ *   단 이미 등록해 둔 도료가 붙어 있으면 남긴다 (사용자 데이터를 끊지 않는다).
+ */
+export async function syncBuiltInBrands() {
+  const rows = await db.select().from(brands);
+  const wanted = new Map(CATALOG_BRANDS.map((brand) => [brandKey(brand.name, brand.line), brand]));
+
+  const missing: NewBrand[] = [];
+  for (const [key, brand] of wanted) {
+    if (rows.some((row) => brandKey(row.name, row.line) === key)) continue;
+    missing.push({ name: brand.name, line: brand.line, country: brand.country, isBuiltIn: true });
+  }
+  if (missing.length > 0) {
+    await db.insert(brands).values(missing);
+  }
+
+  const stale = rows.filter((row) => row.isBuiltIn && !wanted.has(brandKey(row.name, row.line)));
+  for (const brand of stale) {
+    const [{ value }] = await db
+      .select({ value: count() })
+      .from(paints)
+      .where(eq(paints.brandId, brand.id));
+    if (value === 0) {
+      await db.delete(brands).where(eq(brands.id, brand.id));
+    }
+  }
 }
 
 /** 설정 화면에서 넣는 예시 데이터 (기능 확인용) */
 export async function insertSampleData() {
   const brandRows = await db.select().from(brands);
-  const findBrand = (name: string, line: string) =>
-    brandRows.find((b) => b.name === name && b.line === line)?.id ?? null;
+  const findBrand = (name: string, line?: string | null) =>
+    brandRows.find((b) => b.name === name && b.line === (line ?? null))?.id ?? null;
 
   const mrColor = findBrand('GSI Creos', 'Mr.COLOR');
   const tamiyaEnamel = findBrand('타미야', '에나멜');
-  const vallejoAir = findBrand('Vallejo', 'Model Air');
+  const momodeling = findBrand('모모델링');
 
   const insertedPaints = await db
     .insert(paints)
@@ -106,13 +112,13 @@ export async function insertSampleData() {
         notes: '먹선용',
       },
       {
-        brandId: vallejoAir,
-        code: '71.003',
-        name: 'Red RLM23',
-        colorHex: '#A32B26',
-        type: 'acrylic',
-        finish: 'flat',
-        volumeMl: 17,
+        brandId: momodeling,
+        code: 'BC-002',
+        name: '퓨어레드',
+        colorHex: '#D51F2A',
+        type: 'lacquer',
+        finish: 'gloss',
+        volumeMl: 30,
         quantity: 1,
         minQuantity: 1,
         location: 'B박스',

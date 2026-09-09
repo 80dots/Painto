@@ -4,7 +4,7 @@ import { ActivityIndicator, View } from 'react-native';
 
 import migrations from '../../drizzle/migrations';
 import { db } from './client';
-import { seedBuiltInBrands } from './seed';
+import { syncBuiltInBrands } from './seed';
 
 import { Text } from '@/components/ui/text';
 import { standaloneT } from '@/features/settings/provider';
@@ -20,7 +20,7 @@ export function DatabaseProvider({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     if (!success) return;
-    seedBuiltInBrands()
+    syncBuiltInBrands()
       .then(() => setSeeded(true))
       .catch((e: Error) => setSeedError(e));
   }, [success]);
