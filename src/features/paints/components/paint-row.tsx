@@ -1,13 +1,12 @@
 import { Minus, Plus, Star } from 'lucide-react-native';
 import { Pressable, View } from 'react-native';
 
-import { Badge } from '@/components/ui/badge';
 import { Text } from '@/components/ui/text';
 import { ColorSwatch } from '@/features/paints/components/color-swatch';
 import type { PaintListItem } from '@/features/paints/queries';
 import { useT } from '@/features/settings/provider';
 import { useTheme } from '@/hooks/use-theme';
-import { formatQuantity } from '@/lib/utils';
+import { cn, formatQuantity } from '@/lib/utils';
 
 export type PaintRowProps = {
   item: PaintListItem;
@@ -30,24 +29,38 @@ export function PaintRow({ item, onPress, onAdjust, showBrand = true }: PaintRow
       onPress={onPress}
       className="flex-row items-center gap-3 border-b border-border px-4 py-3 active:bg-muted"
     >
-      <ColorSwatch color={item.colorHex} photoUri={item.photoUri} fallbackText={item.code} />
+      {/* 재고가 모자라면 썸네일에 뱃지를 달아 준다 */}
+      <View>
+        <ColorSwatch color={item.colorHex} photoUri={item.photoUri} fallbackText={item.code} />
+        {isOut || isLow ? (
+          <View
+            accessibilityLabel={isOut ? t('common.outOfStock') : t('common.lowStock')}
+            className={cn(
+              'absolute -right-1.5 -top-1.5 h-[18px] w-[18px] items-center justify-center rounded-full border-2 border-background',
+              isOut ? 'bg-destructive' : 'bg-warning',
+            )}
+          >
+            <Text
+              className={cn(
+                'text-[11px] font-bold',
+                isOut ? 'text-destructive-foreground' : 'text-white',
+              )}
+            >
+              !
+            </Text>
+          </View>
+        ) : null}
+      </View>
 
       <View className="flex-1 gap-1">
         <View className="flex-row items-center gap-1.5">
           <Text className="flex-1 text-base font-semibold text-foreground" numberOfLines={1}>
-            {item.code ? `${item.code} ` : ''}
             {item.name}
           </Text>
           {item.isFavorite ? <Star size={14} color={colors.warning} fill={colors.warning} /> : null}
         </View>
 
-        <View className="flex-row flex-wrap items-center gap-1.5">
-          {showBrand && brandLabel ? <Text variant="small">{brandLabel}</Text> : null}
-          <Badge label={t(`paintType.${item.type}`)} />
-          {item.finish !== 'none' ? <Badge label={t(`paintFinish.${item.finish}`)} /> : null}
-          {isOut ? <Badge label={t('common.outOfStock')} variant="destructive" /> : null}
-          {isLow ? <Badge label={t('common.lowStock')} variant="warning" /> : null}
-        </View>
+        {showBrand && brandLabel ? <Text variant="small">{brandLabel}</Text> : null}
       </View>
 
       <View className="flex-row items-center gap-1">

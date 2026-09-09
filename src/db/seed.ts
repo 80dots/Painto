@@ -1,4 +1,4 @@
-import { count, eq } from 'drizzle-orm';
+import { eq, inArray } from 'drizzle-orm';
 
 import { db } from './client';
 
@@ -22,7 +22,7 @@ const brandKey = (name: string, line?: string | null) => JSON.stringify([name, l
  *
  * - 카탈로그에 있는 브랜드가 아직 없으면 만든다.
  * - 카탈로그가 없는 기본 브랜드는 지운다. 골라 봐야 채워 줄 도료 목록이 없다.
- *   단 이미 등록해 둔 도료가 붙어 있으면 남긴다 (사용자 데이터를 끊지 않는다).
+ *   붙어 있던 도료는 `paints.brand_id` 가 NULL 이 되어 "브랜드 없음"으로 남는다.
  */
 export async function syncBuiltInBrands() {
   const rows = await db.select().from(brands);
@@ -37,15 +37,11 @@ export async function syncBuiltInBrands() {
     await db.insert(brands).values(missing);
   }
 
-  const stale = rows.filter((row) => row.isBuiltIn && !wanted.has(brandKey(row.name, row.line)));
-  for (const brand of stale) {
-    const [{ value }] = await db
-      .select({ value: count() })
-      .from(paints)
-      .where(eq(paints.brandId, brand.id));
-    if (value === 0) {
-      await db.delete(brands).where(eq(brands.id, brand.id));
-    }
+  const stale = rows
+    .filter((row) => row.isBuiltIn && !wanted.has(brandKey(row.name, row.line)))
+    .map((row) => row.id);
+  if (stale.length > 0) {
+    await db.delete(brands).where(inArray(brands.id, stale));
   }
 }
 
@@ -56,7 +52,7 @@ export async function insertSampleData() {
     brandRows.find((b) => b.name === name && b.line === (line ?? null))?.id ?? null;
 
   const mrColor = findBrand('GSI Creos', 'Mr.COLOR');
-  const tamiyaEnamel = findBrand('타미야', '에나멜');
+  const tamiya = findBrand('타미야');
   const momodeling = findBrand('모모델링');
 
   const insertedPaints = await db
@@ -99,7 +95,7 @@ export async function insertSampleData() {
         location: 'A박스 2칸',
       },
       {
-        brandId: tamiyaEnamel,
+        brandId: tamiya,
         code: 'XF-1',
         name: '플랫 블랙',
         colorHex: '#22201F',
